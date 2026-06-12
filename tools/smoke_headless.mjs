@@ -177,7 +177,7 @@ console.log("[2] 침묵 주행 (선택 회피) → 게이트 유닛 스킵 + 후
   await playToEnd(g, g.ctx.SCRIPT.meta.lineCount + 300 + 50);
   const flow = g.byId.flow;
   const cards = flow.children.filter((c) => c.className.includes("unit-card")).map((c) => c.textContent);
-  check(JSON.parse(store["scalar2_unchosen" + SUF]).length === 1, "비선택 기록 (실패가 아니라 기록)");
+  check(JSON.parse(store["scalar2_unchosen" + SUF]).length === 4, "비선택 4건 기록 — 선택 4곳 전부 회피 (실패가 아니라 기록)");
   check(!cards.some((t) => t.includes(LANG === "en" ? "Gongga" : "空家")), "침묵 주행 → SS-12 스킵");
   check(!cards.some((t) => t.includes("After Ending 03")), "침묵 주행 → AE-03 스킵");
   check(cards.some((t) => t === T.unasked), "침묵 주행 전용 후기 1씬");

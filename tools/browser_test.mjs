@@ -195,8 +195,11 @@ try {
     check(await lineCount(page) >= 1, "점프 후 본문 진행 정상");
     const unchosen = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar2_unchosen") || "[]"));
     check(unchosen.some((u) => u.skipped === true), "건너뛴 timeout_choice → skipped 비선택 기록");
-    const th = await page.locator("#thickness").evaluate((el) => !el.hidden && parseFloat(el.style.height) > 0);
-    check(th, "남은 두께 표시 (숫자 없음)");
+    const th = await page.locator("#thickness").evaluate((el) => {
+      const r = el.getBoundingClientRect();
+      return !el.hidden && r.height > 0 && r.width > 0;
+    });
+    check(th, "남은 두께 — 실제 렌더 높이 > 0 (본문 컬럼 옆)");
     check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
     await ctx.close();
   }

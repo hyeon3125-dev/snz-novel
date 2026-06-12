@@ -37,12 +37,15 @@ body {
   transition: opacity 0.4s;
 }
 
-/* ── 남은 두께 — 오른손에 남은 페이지의 물성. 숫자 없음 ── */
+/* ── 남은 두께 — 오른손에 남은 페이지의 물성. 숫자 없음.
+ * 본문 컬럼 바로 옆 (화면 가장자리 X — 직관성): 좁은 화면에선 우측 여백 안쪽으로 ── */
 #thickness {
-  position: fixed; top: 0; right: 0;
-  width: 2px; z-index: 4; pointer-events: none;
-  background: linear-gradient(to bottom, #3a3d42, #24262a);
-  opacity: 0.55; transition: height 1.2s ease;
+  position: fixed; top: 3.4rem;
+  right: max(0.45rem, calc(50vw - var(--measure) / 2 - 1.5rem));
+  width: 3px; z-index: 4; pointer-events: none;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, #51565e, #2b2e33);
+  opacity: 0.85; transition: height 1.2s ease;
 }
 
 /* ── 본문 흐름 ── */

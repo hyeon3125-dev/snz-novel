@@ -411,7 +411,10 @@ window.STAGE = (function () {
     if (!$thickness) return;
     const on = window.STATE.getSettings().thickness !== false && remainRatio !== null;
     $thickness.hidden = !on;
-    if (on) $thickness.style.height = (Math.max(0, Math.min(1, remainRatio)) * 100).toFixed(2) + "%";
+    if (on) {
+      const r = Math.max(0, Math.min(1, remainRatio));
+      $thickness.style.height = "calc((100vh - 4.8rem) * " + r.toFixed(4) + ")";
+    }
   }
 
   /* ════════════════ 목차 (§v2.1 3-1) — 방문 표시 없음: 게임은 독자를 판단하지 않는다 ════════════════ */

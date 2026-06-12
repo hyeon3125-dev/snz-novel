@@ -128,7 +128,83 @@
   },
   "ba01_s04": {
    "type": "shake"
-  }
+  },
+  "_doc_expansion": "인터랙션 확대(2026-06-12, L0 승인 '많을수록 좋다') — 전 항목 본문 근거 명시. reach_rules 재조정: 선택 4건 기준 silentUnchosenMin 3 / fullUnchosenMax 1.",
+  "v01_c005_s03": {
+   "type": "silence",
+   "seconds": 4,
+   "at": "end"
+  },
+  "_v01_c005_s03": "근거: 「도희는 대답하지 않았다. 대답이었다.」 — 집행관이시죠? 에 대한 침묵",
+  "v07_c056_s02": {
+   "type": "silence",
+   "seconds": 4,
+   "at": "end"
+  },
+  "_v07_c056_s02": "근거: 「침묵이 있었다. 민시우가 반박하지 않았다. 반박할 수 없었다.」",
+  "v10_c091_s03": {
+   "type": "silence",
+   "seconds": 4,
+   "at": "end"
+  },
+  "_v10_c091_s03": "근거: 씬 종지 「침묵이 있었다.」",
+  "v11_c115_s02": {
+   "type": "silence",
+   "seconds": 5,
+   "at": "end"
+  },
+  "_v11_c115_s02": "근거: 씬 종지 「침묵이 길었다.」 — 4s보다 긴 5s",
+  "v08_c069_s05": {
+   "type": "hold",
+   "seconds": 2.5
+  },
+  "_v08_c069_s05": "근거: 「그래도 렌즈는 놓지 않았다.」 — 민시우의 손",
+  "v10_c103_s04": {
+   "type": "hold",
+   "seconds": 2.5
+  },
+  "_v10_c103_s04": "근거: 「한결이 잡고 있었다.」 — Seat의 당김을 버티는 손",
+  "co01_s02": {
+   "type": "release"
+  },
+  "_co01_s02": "근거: 「티코가 놓지 않았다」→「티코가 놓았다. 놓는 손이 흔들리지 않았다」 — 누른 채 시작, 놓아야 끝",
+  "v04_c023_s01": {
+   "type": "trace",
+   "at": "end"
+  },
+  "_v04_c023_s01": "근거: 「손가락으로 훑었다. 한결의 손이 한 지점에서 멈췄다.」 — 닳은 자리를 따라",
+  "v02_c009_s05": {
+   "type": "timeout_choice",
+   "at": "end",
+   "choices": [
+    "Together",
+    "Apart"
+   ],
+   "timeoutMs": 8000,
+   "flag": "c009_together"
+  },
+  "_v02_c009_s05": "근거: 「함께 있으면 추적이 늘었고 떨어지면 직관을 잃었는데, 어느 쪽이 더 위험한지」 — 두 사람 다 답을 몰랐다",
+  "v04_c020_s05": {
+   "type": "timeout_choice",
+   "choices": [
+    "Right",
+    "Left"
+   ],
+   "timeoutMs": 8000,
+   "flag": "c020_fork"
+  },
+  "_v04_c020_s05": "근거: 「오른쪽으로 꺾이는 방향 / 왼쪽으로 내려가는 계단. 도희는 어느 쪽인지 판단했다. 근거 없이.」 — 독자도 근거 없이",
+  "v04_c025_s05": {
+   "type": "timeout_choice",
+   "at": "end",
+   "choices": [
+    "A manipulated choice",
+    "A decided outcome"
+   ],
+   "timeoutMs": 8000,
+   "flag": "c025_fear"
+  },
+  "_v04_c025_s05": "근거: 「선택이 조작된 것이거나, 선택이 진짜인데 그 결과가 정해져 있었거나.」 — 결정론 서사의 자기지시"
  },
  "sound": {
   "v07_c053": {
@@ -320,7 +396,7 @@
  },
  "reach_rules": {
   "fullSeedsMin": 16,
-  "fullUnchosenMax": 0,
-  "silentUnchosenMin": 1
+  "fullUnchosenMax": 1,
+  "silentUnchosenMin": 3
  }
 }
