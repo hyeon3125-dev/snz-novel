@@ -19,8 +19,19 @@
   <div id="gesture-hint" hidden></div>
   <div id="choice-box" hidden data-no-advance></div>
 
+  <!-- 언어 결정 → 각본 데이터 선택 로드 (빌드 없음 원칙: document.write 동기 삽입으로 로드 순서 보존) -->
+  <script>
+    (function () {
+      var lang = null;
+      try { lang = JSON.parse(localStorage.getItem("scalar2_lang")); } catch (e) {}
+      if (lang !== "ko" && lang !== "en") {
+        lang = ((navigator.language || "ko").toLowerCase().indexOf("ko") === 0) ? "ko" : "en";
+      }
+      window.LANG = lang;
+      document.write('<script src="script' + (lang === "en" ? ".en" : "") + '.js"><\/script>');
+    })();
+  </script>
   <!-- 로드 순서 고정: script → state → director → stage → input → main (§2) -->
-  <script src="script.js"></script>
   <script src="state.js"></script>
   <script src="director.js"></script>
   <script src="stage.js"></script>

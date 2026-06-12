@@ -19,7 +19,7 @@
 
 ### ▶ 지금 바로 플레이 · Play now
 **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)**
-설치 없음 · 회원가입 없음 · 폰/PC 브라우저면 충분 — *no install, no signup, just a browser*
+설치 없음 · 회원가입 없음 · 폰/PC 브라우저면 충분 · **한국어/English** — *no install, no signup, just a browser — Korean & English*
 
 </div>
 
@@ -41,11 +41,11 @@ The full manuscript ships in this repo — read it as markdown, or play it.
 
 ## Read / Play · 읽기 / 플레이
 
-**🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it.
-**게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
+**🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it. Language (한국어/English) is selectable on the title screen; progress is kept separately per language.
+**게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 타이틀 화면에서 언어(한국어/English)를 고를 수 있고, 진행 상태는 언어별로 따로 저장됩니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
 
-**📖 As a novel** — read the markdown three-parter in [`manuscript/`](manuscript/) directly.
-**원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다.
+**📖 As a novel** — read the markdown three-parters in [`manuscript/`](manuscript/) directly (Korean original `SNZ_Final_*` and English edition `SNZ_EN_*`).
+**원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다 (한국어 원본 `SNZ_Final_*` · 영어판 `SNZ_EN_*`).
 
 **🛠 For developers** — static files; clone and serve locally, fully offline-capable.
 **개발자용** — 정적 파일이라 클론 후 아무 웹서버로나 열리고, 오프라인에서도 동작합니다.

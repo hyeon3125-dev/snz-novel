@@ -13,20 +13,30 @@ jobs:
         with:
           node-version: 20
 
-      - name: 원문 무결성 (원고 ↔ 각본 데이터 양방향 전수 대조)
+      - name: 원문 무결성 KO (원고 ↔ 각본 데이터 양방향 전수 대조)
         run: |
           python3 tools/verify_integrity.py game/script.js \
             manuscript/SNZ_Final_Part1.md manuscript/SNZ_Final_Part2.md manuscript/SNZ_Final_Part3.md \
             -a tools/annotations/all.json
 
-      - name: 씬 그래프 검증 (도달성·고아·순환)
-        run: node tools/validate_graph.mjs game/script.js
+      - name: 원문 무결성 EN
+        run: |
+          python3 tools/verify_integrity.py game/script.en.js \
+            manuscript/SNZ_EN_Part1.md manuscript/SNZ_EN_Part2.md manuscript/SNZ_EN_Part3.md \
+            -a tools/annotations/en.json
+
+      - name: 씬 그래프 검증 (도달성·고아·순환) — KO/EN
+        run: |
+          node tools/validate_graph.mjs game/script.js
+          node tools/validate_graph.mjs game/script.en.js
 
       - name: 봉인 비누설 검사
         run: python3 tools/check_seals.py
 
-      - name: 헤드리스 회귀 (완주·게이트·인터랙션·저장)
-        run: node tools/smoke_headless.mjs
+      - name: 헤드리스 회귀 (완주·게이트·인터랙션·저장) — KO/EN
+        run: |
+          node tools/smoke_headless.mjs
+          SNZ_LANG=en node tools/smoke_headless.mjs
 
       - name: 구문 검사
         run: |

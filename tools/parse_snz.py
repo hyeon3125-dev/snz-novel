@@ -34,24 +34,30 @@ EDITORIAL_PATTERNS = [
     ("next_teaser", re.compile(r"^\*다음: .*\*$")),
     ("vol_close_note", re.compile(r"^\*Vol\.\d+ — .*(종료|완결)\*$")),
     ("paren_note", re.compile(r"^\*\(.*\)\*$")),  # 전체 괄호 이탤릭 = 작가 주석
+    ("end_marker_en", re.compile(r"^\*.{0,80}— ?end\*$")),
+    ("vol_close_en", re.compile(r"^\*\*?— ?(Volume|Part) \d+ end ?—\*\*?$")),
+    ("placement_meta_en", re.compile(r"^\*(Placement|Insertion point|Insert position|POV|Viewpoint|Event|Setting)\s*[::].*\*$")),
+    ("next_teaser_en", re.compile(r"^\*Next: .*\*$")),
+    ("vol_close_note_en", re.compile(r"^\*(Vol\.\d+|All 16 volumes).*— ?complete\*$")),
 ]
 
 # ──────────────── 헤더 분류 ────────────────
 # 챕터: "## Vol.1 Ch.1 — Observation" / "## Vol.4 Ch.19 「이탈」" / "## Vol.6 — Ch.43 「기록원」 [전면판]"
 RE_CHAPTER = re.compile(r"^## Vol\.(\d+)\s*(?:—\s*)?Ch\.(\d+)\s*(?:—\s*)?(.*)$")
-RE_PROLOGUE = re.compile(r"^## Prologue\s*—\s*「(.+)」")
+RE_PROLOGUE = re.compile(r"^## Prologue\s*—\s*[「“](.+)[」”]")
 RE_VOLUME = re.compile(r"^# Volume (\d+)\b")
 RE_DIAMOND = re.compile(r"^## ◆ (.+)$")  # 서브 문서 배너 헤더
 # 권 내장 인터루드: "## Archive-01 — 「기록」" 등
-RE_INLINE_SUB = re.compile(r"^## (Archive|Observation|Calculation|Order|Deletion)-(\d+)\s*—\s*「(.+)」")
+RE_INLINE_SUB = re.compile(r"^## (Archive|Observation|Calculation|Order|Deletion)-(\d+)\s*—\s*[「“](.+)[」”]")
 # Fragment: "## Fragment — 「보류」" / "## Fragment-01 — 「방향」"
-RE_FRAGMENT = re.compile(r"^## Fragment(?:-(\d+))?\s*—\s*「(.+)」")
+RE_FRAGMENT = re.compile(r"^## Fragment(?:-(\d+))?\s*—\s*[「“](.+)[」”]")
 # ◆ 배너 내부의 실제 시작 헤더: "## BA-01 「서안의 눈」" / "## DL-01 「물어본 적」— 한결·도희"
 RE_INNER_SUB = re.compile(r"^## (BA|DL|SS|IN|AE)-(\d+)\b")
 RE_CH_RANGE = re.compile(r"^## Ch\.[\d~]+(\s+v\d+)?\s*$")  # "## Ch.53~62 v2" (권 부배너)
 # Part2~3 변형: "## Interlude-03 「잠시」" / "## Interlude 04 — 「몇 분」" / "## After Ending 01 — 「Seat 이후」"
 RE_INTERLUDE = re.compile(r"^## Interlude[- ](\d+)\b")
 RE_AFTER_ENDING = re.compile(r"^## After Ending (\d+)\b")
+RE_SUB_STANDALONE = re.compile(r"^## (Battle Archive|Daily Log|Side Story) (\d+)\b")
 RE_SUB_RANGE = re.compile(r"^## (?:BA|DL|SS|IN|AE)-\d+\s*[~+]")  # "## AE-01 ~ AE-04 + ..." (그룹 배너)
 
 INLINE_PREFIX = {
@@ -80,7 +86,8 @@ def apply_drops(text, ranges):
 
 
 class Parser:
-    def __init__(self):
+    def __init__(self, unit_aliases=None):
+        self.unit_aliases = unit_aliases or {}  # 헤더 제목 → 강제 uid (예: EN Cold Open)
         self.units = []          # [{id, label, kind, vol, ch}]
         self.unit_ids = set()
         self.cur_unit = None     # 현재 unit dict
@@ -155,12 +162,25 @@ class Parser:
             if self.cur_unit and self.cur_unit["kind"] == "sub" and m.group(2) in self.cur_unit["label"]:
                 self.skip("header:inner_banner", lineno, line)
                 return True
-            if m.group(1):  # Fragment-01 (권 내장)
+            if m.group(2) in self.unit_aliases:  # 제목 별칭 (예: EN "Letting Go" → co01)
+                self.start_unit(self.unit_aliases[m.group(2)], line[3:].strip(), "sub")
+            elif m.group(1):  # Fragment-01 (권 내장)
                 self.start_unit(f"fr{int(m.group(1)):02d}", line[3:].strip(), "fragment")
             else:           # 무번호 FF (보류/칸/있었다)
                 self.ff_seq += 1
                 self.start_unit(f"ff{self.ff_seq:02d}", line[3:].strip(), "fragment")
             self.skip("header:fragment", lineno, line)
+            return True
+        m = RE_SUB_STANDALONE.match(line)
+        if m:
+            # ◆ 없는 단독 서브 헤더 (EN): "## Daily Log 13 — ..." 등
+            prefix = dict(DIAMOND_TYPES)[m.group(1)]
+            uid = f"{prefix}{int(m.group(2)):02d}"
+            if self.cur_unit and self.cur_unit["id"].startswith(uid):
+                self.skip("header:inner_banner", lineno, line)
+            else:
+                self.start_unit(uid, line[3:].strip(), "sub")
+                self.skip("header:sub_standalone", lineno, line)
             return True
         if RE_SUB_RANGE.match(line):  # "## AE-01 ~ AE-04 + ..." 그룹 배너 (INNER_SUB보다 먼저)
             self.skip("header:sub_range", lineno, line)
@@ -350,7 +370,7 @@ def main():
         annotations = json.loads(Path(args.annotations).read_text(encoding="utf-8"))
 
     drop_ranges = annotations.get("drop_ranges", {})
-    parser = Parser()
+    parser = Parser(unit_aliases=annotations.get("unit_aliases", {}))
     src_hashes = []
     labels = []
     for src in args.sources:

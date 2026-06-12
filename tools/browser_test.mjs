@@ -142,8 +142,34 @@ try {
     await ctx.close();
   }
 
-  // ════ 6. 루트 리다이렉트 ════
-  console.log("[6] 루트 → game/ 리다이렉트");
+  // ════ 6. 언어 전환 — 토글 → EN 각본 로드 → 진행 상태 분리 ════
+  console.log("[6] 언어 선택: 한국어 ↔ English");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    await page.goto(BASE + "/game/");
+    await page.evaluate(() => localStorage.clear());
+    await page.reload();
+    check(await page.locator(".lang-btn.active", { hasText: "한국어" }).count() === 1, "기본 언어 한국어 (활성 표시)");
+    await page.locator(".lang-btn", { hasText: "English" }).click();
+    await page.waitForLoadState("load");
+    await sleep(400);
+    check(await page.getByText("Begin").isVisible(), "전환 후 EN 타이틀 (Begin)");
+    check(await page.evaluate(() => window.LANG) === "en", "window.LANG=en + script.en.js 로드");
+    await page.getByText("Begin").click();
+    await sleep(300);
+    for (let i = 0; i < 3; i++) { await page.mouse.click(300, 400); await sleep(70); }
+    const enLine = await page.locator("#flow .line").first().textContent();
+    check(/[A-Za-z]/.test(enLine) && !/[가-힣]/.test(enLine), `EN 본문 출력: "${enLine.slice(0, 40)}"`);
+    const keys = await page.evaluate(() => Object.keys(localStorage));
+    check(keys.includes("scalar2_progress_en"), "EN 진행 상태 분리 저장 (scalar2_progress_en)");
+    // 다시 한국어로 — KO 진행과 독립
+    await page.locator(".lang-btn", { hasText: "한국어" }).click().catch(() => {});
+    check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
+
+  // ════ 7. 루트 리다이렉트 ════
+  console.log("[7] 루트 → game/ 리다이렉트");
   {
     const { ctx, page } = await freshPage(browser);
     await page.goto(BASE + "/");

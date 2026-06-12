@@ -26,7 +26,8 @@ FORBIDDEN = [
 SCAN_FILES = (
     [ROOT / "game" / f for f in
      ["state.js", "director.js", "stage.js", "input.js", "main.js", "index.html", "style.css"]]
-    + [ROOT / "tools" / "annotations" / "all.json", ROOT / "README.md", ROOT / "GUIDE.md"]
+    + [ROOT / "tools" / "annotations" / "all.json", ROOT / "tools" / "annotations" / "en.json",
+       ROOT / "README.md", ROOT / "GUIDE.md"]
 )
 
 
@@ -47,6 +48,9 @@ def main():
     targets = [(p, p.read_text(encoding="utf-8")) for p in SCAN_FILES if p.exists()]
     targets.append((ROOT / "game" / "script.js (본문 외 표면)",
                     script_new_surfaces(ROOT / "game" / "script.js")))
+    if (ROOT / "game" / "script.en.js").exists():
+        targets.append((ROOT / "game" / "script.en.js (본문 외 표면)",
+                        script_new_surfaces(ROOT / "game" / "script.en.js")))
     for path, text in targets:
         for pat in FORBIDDEN:
             for m in re.finditer(pat, text):

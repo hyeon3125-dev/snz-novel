@@ -5,6 +5,25 @@
  */
 "use strict";
 
+/* UI 시스템 문언 (작품 외부 톤, 최소한 — §8). 서사 텍스트는 전부 각본 데이터에서. */
+window.STR = (window.LANG === "en") ? {
+  titleSub: "A Deterministic Interactive Novel",
+  begin: "Begin", resume: "Continue", restart: "From the Beginning",
+  legacyNotice: "Save data from the old version (scalar_*) was found. This edition does not use it.",
+  end: "End",
+  reach: { full: "Full Recall", standard: "Standard", silent: "Silent Run" },
+  unasked: "The Unasked",
+  gesture: { hold: "press and hold", release: "let go", silence: "", shake: "shake", trace: "trace it", timeout_choice: "" },
+} : {
+  titleSub: "결정론적 인터랙티브 노벨",
+  begin: "읽기 시작", resume: "이어서 읽기", restart: "처음부터",
+  legacyNotice: "이전 버전(scalar_*)의 진행 기록이 발견되었습니다. 새 판은 그 기록을 사용하지 않습니다.",
+  end: "끝",
+  reach: { full: "완전 회수", standard: "표준", silent: "침묵 주행" },
+  unasked: "묻지 않은 것들",
+  gesture: { hold: "누르고 있기", release: "놓기", silence: "", shake: "흔들기", trace: "따라 긋기", timeout_choice: "" },
+};
+
 window.STAGE = (function () {
   let $flow, $viewport, $hud, $title, $crack, $gesture, $choices;
   let lossQueue = [];      // 다음 진행 시 소실될 라인 요소들
@@ -296,12 +315,12 @@ window.STAGE = (function () {
     wrap.className = "end-card";
     const t = document.createElement("div");
     t.className = "end-title";
-    t.textContent = "끝";
+    t.textContent = window.STR.end;
     wrap.appendChild(t);
     if (payload) {
       const r = document.createElement("div");
       r.className = "end-reach";
-      const name = { full: "완전 회수", standard: "표준", silent: "침묵 주행" }[payload.reach] || "";
+      const name = window.STR.reach[payload.reach] || "";
       r.textContent = name + " — " + payload.seedsOwned + "/" + payload.seedTotal;
       wrap.appendChild(r);
     }
@@ -314,7 +333,7 @@ window.STAGE = (function () {
     renderSceneBreak(false);
     const h = document.createElement("div");
     h.className = "unit-card";
-    h.textContent = "묻지 않은 것들";
+    h.textContent = window.STR.unasked;
     $flow.appendChild(h);
     unchosen.forEach(() => {
       const p = document.createElement("p");
@@ -328,12 +347,8 @@ window.STAGE = (function () {
   }
 
   /* 제스처 표시 — 최소한의 UI 문언 (§8: 작품 외부 톤) */
-  const GESTURE_HINT = {
-    hold: "누르고 있기", release: "놓기", silence: "", shake: "흔들기",
-    trace: "따라 긋기", timeout_choice: "",
-  };
   function showGesture(type) {
-    $gesture.textContent = GESTURE_HINT[type] || "";
+    $gesture.textContent = window.STR.gesture[type] || "";
     $gesture.setAttribute("data-type", type);
     $gesture.hidden = false;
   }
@@ -368,7 +383,7 @@ window.STAGE = (function () {
     h.textContent = "SCALAR: NODE ZERO";
     const sub = document.createElement("div");
     sub.className = "title-sub";
-    sub.textContent = "결정론적 인터랙티브 노벨";
+    sub.textContent = window.STR.titleSub;
     $title.appendChild(h); $title.appendChild(sub);
     const mkBtn = (text, fn) => {
       const b = document.createElement("button");
@@ -377,12 +392,30 @@ window.STAGE = (function () {
       b.addEventListener("click", (e) => { e.stopPropagation(); fn(); });
       $title.appendChild(b);
     };
-    if (opts.canContinue) mkBtn("이어서 읽기", opts.onContinue);
-    mkBtn(opts.canContinue ? "처음부터" : "읽기 시작", opts.onStart);
+    if (opts.canContinue) mkBtn(window.STR.resume, opts.onContinue);
+    mkBtn(opts.canContinue ? window.STR.restart : window.STR.begin, opts.onStart);
+
+    /* 언어 선택 — 진행 상태는 언어판별 분리 보존 */
+    const langRow = document.createElement("div");
+    langRow.className = "title-lang";
+    [["ko", "한국어"], ["en", "English"]].forEach(([code, label]) => {
+      const b = document.createElement("button");
+      b.className = "lang-btn" + (window.LANG === code ? " active" : "");
+      b.textContent = label;
+      b.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (window.LANG === code) return;
+        window.STATE.setLang(code);
+        location.reload();
+      });
+      langRow.appendChild(b);
+    });
+    $title.appendChild(langRow);
+
     if (opts.legacyNotice) {
       const n = document.createElement("div");
       n.className = "title-notice";
-      n.textContent = "이전 버전(scalar_*)의 진행 기록이 발견되었습니다. 새 판은 그 기록을 사용하지 않습니다.";
+      n.textContent = window.STR.legacyNotice;
       $title.appendChild(n);
     }
     $title.hidden = false;

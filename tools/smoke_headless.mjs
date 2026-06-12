@@ -8,7 +8,13 @@ import { readFileSync } from "node:fs";
 import vm from "node:vm";
 
 const GAME = new URL("../game/", import.meta.url).pathname;
-const FILES = ["script.js", "state.js", "director.js", "stage.js", "input.js", "main.js"];
+const LANG = process.env.SNZ_LANG === "en" ? "en" : "ko";   // SNZ_LANG=en 으로 영어판 회귀
+const SUF = LANG === "en" ? "_en" : "";
+const SCRIPT_FILE = LANG === "en" ? "script.en.js" : "script.js";
+const T = LANG === "en"
+  ? { begin: "Begin", resume: "Continue", reach: "Full Recall", silent: "Silent Run", unasked: "The Unasked", choice: "Answer" }
+  : { begin: "읽기 시작", resume: "이어서 읽기", reach: "완전 회수", silent: "침묵 주행", unasked: "묻지 않은 것들", choice: "답" };
+const FILES = [SCRIPT_FILE, "state.js", "director.js", "stage.js", "input.js", "main.js"];
 
 // ── 최소 DOM 스텁 ──
 function makeElement(tag) {
@@ -81,6 +87,7 @@ function bootGame(backing) {
   const FakeDate = class extends Date {};
   FakeDate.now = () => RealNow() + timeOffset;
   const sandbox = {
+    LANG,
     document,
     localStorage: makeStorage(backing),
     matchMedia: () => ({ matches: false }),
@@ -128,7 +135,7 @@ console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
 {
   const store = { scalar2_settings: settingsPreset({}) };
   const g = bootGame(store);
-  g.byId["title-screen"].children.filter((c) => c.tag === "button")[0].click();
+  g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   const S = g.ctx.SCRIPT;
   const taps = await playToEnd(g, S.meta.lineCount + 300 + 50);
   const flow = g.byId.flow;
@@ -139,16 +146,18 @@ console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
   check(lines >= S.meta.lineCount - 1 && lines <= S.meta.lineCount,
         `라인 전수 출력: ${lines}/${S.meta.lineCount} (loss 소실 ≤1)`);
   check(cards.length === Object.keys(S.units).length, `유닛 카드 전수: ${cards.length}/${Object.keys(S.units).length}`);
-  const seeds = JSON.parse(store.scalar2_seeds || "{}");
+  const seeds = JSON.parse(store["scalar2_seeds" + SUF] || "{}");
   check(Object.keys(seeds).length === 16, `복선 16건 전량 마킹 (실제 ${Object.keys(seeds).length})`);
-  check(JSON.parse(store.scalar2_flags || "{}").in05_answer === "답", "timeout_choice 응답 플래그 기록");
+  check(JSON.parse(store["scalar2_flags" + SUF] || "{}").in05_answer === T.choice, "timeout_choice 응답 플래그 기록");
   const endReach = flow.children.find((c) => c.className.includes("end-card"))
     .children.find((c) => c.className === "end-reach");
-  check(endReach && endReach.textContent.startsWith("완전 회수"), `도달 상태: ${endReach && endReach.textContent}`);
+  check(endReach && endReach.textContent.startsWith(T.reach), `도달 상태: ${endReach && endReach.textContent}`);
   const resonant = cards.filter((c) => c.className.includes("resonant")).map((c) => c.textContent);
-  check(resonant.length === 17, `회수 공명 17유닛 (gate 어노테이션 전량): 실제 ${resonant.length}`);
-  check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
-  check(cards.some((c) => c.textContent.includes("空家")), "완전 회수 → SS-12 「空家」 개방");
+  // EN은 BA-01이 Part1 말미 배치 → v06_c051 게이트 의도적 제외 (16게이트)
+  const expGates = LANG === "en" ? 16 : 17;
+  check(resonant.length === expGates, `회수 공명 ${expGates}유닛 (gate 어노테이션 전량): 실제 ${resonant.length}`);
+  if (LANG === "ko") check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
+  check(cards.some((c) => c.textContent.includes(LANG === "en" ? "Gongga" : "空家")), "완전 회수 → SS-12 「空家」 개방");
   check(g.ctx.STATE.getCracks() >= 1, "crack 누적 기록 (영구)");
 }
 
@@ -157,17 +166,17 @@ console.log("[2] 침묵 주행 (선택 회피) → 게이트 유닛 스킵 + 후
 {
   const store = { scalar2_settings: settingsPreset({ autoSkipChoices: true }) };
   const g = bootGame(store);
-  g.byId["title-screen"].children.filter((c) => c.tag === "button")[0].click();
+  g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   await playToEnd(g, g.ctx.SCRIPT.meta.lineCount + 300 + 50);
   const flow = g.byId.flow;
   const cards = flow.children.filter((c) => c.className.includes("unit-card")).map((c) => c.textContent);
-  check(JSON.parse(store.scalar2_unchosen).length === 1, "비선택 기록 (실패가 아니라 기록)");
-  check(!cards.some((t) => t.includes("空家")), "침묵 주행 → SS-12 스킵");
+  check(JSON.parse(store["scalar2_unchosen" + SUF]).length === 1, "비선택 기록 (실패가 아니라 기록)");
+  check(!cards.some((t) => t.includes(LANG === "en" ? "Gongga" : "空家")), "침묵 주행 → SS-12 스킵");
   check(!cards.some((t) => t.includes("After Ending 03")), "침묵 주행 → AE-03 스킵");
-  check(cards.some((t) => t === "묻지 않은 것들"), "침묵 주행 전용 후기 1씬");
+  check(cards.some((t) => t === T.unasked), "침묵 주행 전용 후기 1씬");
   const endReach = flow.children.find((c) => c.className.includes("end-card"))
     .children.find((c) => c.className === "end-reach");
-  check(endReach && endReach.textContent.startsWith("침묵 주행"), `도달 상태: ${endReach && endReach.textContent}`);
+  check(endReach && endReach.textContent.startsWith(T.silent), `도달 상태: ${endReach && endReach.textContent}`);
 }
 
 // ════ 3. 회수 게이트 묵음 — seed 미보유 시 fx 억제 (director 단위) ════
@@ -196,13 +205,13 @@ console.log("[4] 중간 이탈 → 이어읽기");
 {
   const store = { scalar2_settings: settingsPreset({}) };
   let g = bootGame(store);
-  g.byId["title-screen"].children.filter((c) => c.tag === "button")[0].click();
+  g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   for (let i = 0; i < 137; i++) { g.document.dispatch("click", tapEvent); g.ctx._tick(2000); await tick(); }
-  const saved = JSON.parse(store.scalar2_progress);
+  const saved = JSON.parse(store["scalar2_progress" + SUF]);
   check(saved && saved.lineIdx > 0, `진행 자동 저장: ${saved.sceneId} @${saved.lineIdx}`);
   g = bootGame(store);
-  const btns = g.byId["title-screen"].children.filter((c) => c.tag === "button");
-  check(btns.length === 2 && btns[0].textContent === "이어서 읽기", "이어서 읽기 노출");
+  const btns = g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"));
+  check(btns.length === 2 && btns[0].textContent === T.resume, "이어서 읽기 노출");
   btns[0].click();
   const restored = g.byId.flow.children.filter((c) => c.className.includes("line")).length;
   check(restored === saved.lineIdx, `맥락 복원 ${saved.lineIdx}줄`);
@@ -221,5 +230,5 @@ console.log("[5] 구버전 scalar_* 키 안내");
   check(!g.byId["title-screen"].children.some((c) => c.className === "title-notice"), "재안내 없음");
 }
 
-console.log(failures ? `\n스모크 실패 — ${failures}건` : "\n스모크 전부 통과");
+console.log(`[lang=${LANG}] `, failures ? `\n스모크 실패 — ${failures}건` : "\n스모크 전부 통과");
 process.exit(failures ? 1 : 0);

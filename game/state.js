@@ -5,14 +5,19 @@
 "use strict";
 
 window.STATE = (function () {
+  /* 진행 상태는 언어판별로 분리 (씬 ID 체계는 같아도 진행 위치·읽은 맥락이 다름).
+   * 설정·구버전 안내·언어 선택은 공유. */
+  const SUF = window.LANG === "en" ? "_en" : "";
   const K = {
-    progress: "scalar2_progress",
-    seeds: "scalar2_seeds",
-    unchosen: "scalar2_unchosen",
-    cracks: "scalar2_cracks",
+    progress: "scalar2_progress" + SUF,
+    seeds: "scalar2_seeds" + SUF,
+    unchosen: "scalar2_unchosen" + SUF,
+    cracks: "scalar2_cracks" + SUF,
+    save: "scalar2_save" + SUF,
+    flags: "scalar2_flags" + SUF,
     settings: "scalar2_settings",
-    save: "scalar2_save",
     legacyNotified: "scalar2_legacy_notified",
+    lang: "scalar2_lang",
   };
 
   function read(key, fallback) {
@@ -78,14 +83,18 @@ window.STATE = (function () {
 
     /* 선택 기록 (timeout_choice 응답 등) */
     setFlag(key, value) {
-      st.flags = st.flags || read("scalar2_flags", {});
+      st.flags = st.flags || read(K.flags, {});
       st.flags[key] = value;
-      write("scalar2_flags", st.flags);
+      write(K.flags, st.flags);
     },
     getFlag(key) {
-      st.flags = st.flags || read("scalar2_flags", {});
+      st.flags = st.flags || read(K.flags, {});
       return st.flags[key];
     },
+
+    /* 언어 선택 (공유 키) — 변경 후 새로고침으로 해당 각본 로드 */
+    setLang(lang) { write(K.lang, lang); },
+    getLang() { return window.LANG || "ko"; },
 
     /* 비선택 기록 (M3) — 실패가 아니라 기록 (불변식 5) */
     addUnchosen(sceneId) {

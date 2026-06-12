@@ -243,6 +243,16 @@ body.fx-light { background-color: #1a1410; transition: background-color 30s line
   margin-top: 2.4rem; max-width: 26rem;
   font-size: 0.74rem; line-height: 1.7; color: var(--ink-dim);
 }
+.title-lang { margin-top: 2.2rem; display: flex; gap: 1.6rem; }
+.lang-btn {
+  font: inherit; font-size: 0.74rem; letter-spacing: 0.12em;
+  color: var(--ink-dim); background: none; border: none;
+  padding: 0.3rem 0.2rem; cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+.lang-btn:hover { color: var(--ink); }
+.lang-btn.active { color: var(--ink); border-bottom-color: var(--ink-dim); cursor: default; }
 
 /* ════════ 접근성 (§5-4) ════════ */
 @media (prefers-reduced-motion: reduce) {
