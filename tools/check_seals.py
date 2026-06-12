@@ -26,7 +26,7 @@ FORBIDDEN = [
 SCAN_FILES = (
     [ROOT / "game" / f for f in
      ["state.js", "director.js", "stage.js", "input.js", "main.js", "index.html", "style.css"]]
-    + [ROOT / "tools" / "annotations" / "all.json", ROOT / "README.md"]
+    + [ROOT / "tools" / "annotations" / "all.json", ROOT / "README.md", ROOT / "GUIDE.md"]
 )
 
 

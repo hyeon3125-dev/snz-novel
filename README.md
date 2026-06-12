@@ -15,6 +15,12 @@
 [![](https://img.shields.io/badge/Code-MIT-F37021?style=flat-square&labelColor=111111)](LICENSE)
 [![verify](https://github.com/hyeon3125-dev/snz-novel/actions/workflows/verify.yml/badge.svg)](https://github.com/hyeon3125-dev/snz-novel/actions/workflows/verify.yml)
 
+<br/>
+
+### ▶ 지금 바로 플레이 · Play now
+**[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)**
+설치 없음 · 회원가입 없음 · 폰/PC 브라우저면 충분 — *no install, no signup, just a browser*
+
 </div>
 
 ---
@@ -35,11 +41,14 @@ The full manuscript ships in this repo — read it as markdown, or play it.
 
 ## Read / Play · 읽기 / 플레이
 
+**🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it.
+**게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
+
 **📖 As a novel** — read the markdown three-parter in [`manuscript/`](manuscript/) directly.
 **원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다.
 
-**🎮 As a game** — static files; any web server works, fully offline-capable.
-**게임으로** — 정적 파일이라 아무 웹서버로나 열리고, 오프라인에서도 동작합니다.
+**🛠 For developers** — static files; clone and serve locally, fully offline-capable.
+**개발자용** — 정적 파일이라 클론 후 아무 웹서버로나 열리고, 오프라인에서도 동작합니다.
 
 ```bash
 git clone git@github.com:hyeon3125-dev/snz-novel.git
@@ -54,6 +63,9 @@ python3 -m http.server 4100        # or npx serve, nginx, GitHub Pages …
 | **Interactions** | Hold · release · stay silent · shake · trace. Not choosing is also recorded as a choice | 길게 누르기·놓기·침묵·흔들기·따라 긋기. 선택하지 않는 것도 선택으로 기록 |
 | **Save** | Automatic (localStorage) — reopen and continue | 자동 저장 — 닫았다 열면 읽던 곳에서 |
 | **Accessibility** | Respects reduced-motion; every gesture has a tap fallback | 움직임 축소 존중, 모든 제스처에 탭 대체 경로 |
+
+> **🛠 "나도 이런 걸 만들어 보고 싶다"** — 내 소설로 이런 게임을 만들고 싶거나, 이런 아키텍처를 직접 만들어 보고 싶다면: **[만들기 가이드 → GUIDE.md](GUIDE.md)**. 코딩을 몰라도 따라올 수 있게 썼고, 전 과정이 무료입니다.
+> *Want to make your own? See the [maker's guide](GUIDE.md) — written for non-developers too, every step free.*
 
 ---
 
