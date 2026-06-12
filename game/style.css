@@ -12,6 +12,9 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html, body { height: 100%; }
 
+/* hidden 속성은 display 지정(flex 등)보다 항상 우선 — 타이틀/선택지 토글의 단일 권위 */
+[hidden] { display: none !important; }
+
 body {
   background: var(--bg);
   color: var(--ink);

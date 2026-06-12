@@ -1,0 +1,14 @@
+{
+  "name": "snz-novel-devtools",
+  "private": true,
+  "description": "개발·테스트 전용 도구 의존성 — 게임 런타임 의존성은 0 (game/ 은 정적 파일만)",
+  "license": "MIT",
+  "scripts": {
+    "test:browser": "node tools/browser_test.mjs",
+    "test:smoke": "node tools/smoke_headless.mjs",
+    "test:graph": "node tools/validate_graph.mjs game/script.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

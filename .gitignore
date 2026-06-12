@@ -2,3 +2,5 @@ __pycache__/
 .DS_Store
 # 변환 리포트 — 원고 편집 주석을 인용하므로 비공개
 tools/skip_report*.txt
+node_modules/
+package-lock.json
