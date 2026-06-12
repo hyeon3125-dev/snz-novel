@@ -25,6 +25,12 @@ jobs:
             manuscript/SNZ_EN_Part1.md manuscript/SNZ_EN_Part2.md manuscript/SNZ_EN_Part3.md \
             -a tools/annotations/en.json
 
+      - name: 언어판 구조 패리티 (KO 정본 1:1) — 전 언어판 자동
+        run: |
+          for f in game/script.*.js; do
+            python3 tools/verify_parity.py "$f"
+          done
+
       - name: 씬 그래프 검증 (도달성·고아·순환) — KO/EN
         run: |
           node tools/validate_graph.mjs game/script.js

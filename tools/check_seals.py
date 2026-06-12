@@ -26,8 +26,8 @@ FORBIDDEN = [
 SCAN_FILES = (
     [ROOT / "game" / f for f in
      ["state.js", "director.js", "stage.js", "input.js", "main.js", "index.html", "style.css"]]
-    + [ROOT / "tools" / "annotations" / "all.json", ROOT / "tools" / "annotations" / "en.json",
-       ROOT / "README.md", ROOT / "GUIDE.md"]
+    + sorted((ROOT / "tools" / "annotations").glob("*.json"))   # 언어판 추가 시 자동 포함
+    + [ROOT / "README.md", ROOT / "GUIDE.md", ROOT / "tools" / "LOCALIZATION.md"]
 )
 
 
@@ -46,11 +46,8 @@ def script_new_surfaces(path):
 def main():
     errors = 0
     targets = [(p, p.read_text(encoding="utf-8")) for p in SCAN_FILES if p.exists()]
-    targets.append((ROOT / "game" / "script.js (본문 외 표면)",
-                    script_new_surfaces(ROOT / "game" / "script.js")))
-    if (ROOT / "game" / "script.en.js").exists():
-        targets.append((ROOT / "game" / "script.en.js (본문 외 표면)",
-                        script_new_surfaces(ROOT / "game" / "script.en.js")))
+    for sjs in sorted((ROOT / "game").glob("script*.js")):   # 언어판 추가 시 자동 포함
+        targets.append((f"{sjs} (본문 외 표면)", script_new_surfaces(sjs)))
     for path, text in targets:
         for pat in FORBIDDEN:
             for m in re.finditer(pat, text):

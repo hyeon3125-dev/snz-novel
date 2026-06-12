@@ -66,6 +66,8 @@ python3 -m http.server 4100        # or npx serve, nginx, GitHub Pages …
 
 > **🛠 "나도 이런 걸 만들어 보고 싶다"** — 내 소설로 이런 게임을 만들고 싶거나, 이런 아키텍처를 직접 만들어 보고 싶다면: **[만들기 가이드 → GUIDE.md](GUIDE.md)**. 코딩을 몰라도 따라올 수 있게 썼고, 전 과정이 무료입니다.
 > *Want to make your own? See the [maker's guide](GUIDE.md) — written for non-developers too, every step free.*
+> 번역판을 만들고 싶다면(일본어·중국어판 준비 중): **[언어판 절차서 → tools/LOCALIZATION.md](tools/LOCALIZATION.md)** — KO 구조 정본과의 1:1 패리티를 `verify_parity.py`가 자동 검증합니다.
+> *Translations (Japanese & Chinese editions planned): see the [localization guide](tools/LOCALIZATION.md) — structural parity with the Korean canon is machine-verified.*
 
 ---
 
