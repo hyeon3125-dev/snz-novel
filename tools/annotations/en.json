@@ -1,313 +1,304 @@
 {
-  "_doc": "EN판 어노테이션 — all.json(KO)에서 파생. 유닛 ID는 KO와 동일 체계, fx/인터랙션은 EN 본문 앵커로 재지정.",
-  "unit_aliases": {
-    "Letting Go": "co01",
-    "The Hand": "co02"
+ "_doc": "EN판 어노테이션 — all.json(KO)에서 파생. 유닛 ID는 KO와 동일 체계, fx/인터랙션은 EN 본문 앵커로 재지정. EN 원고는 en_restructure.py로 KO 물리 배치와 일치 교정 완료(유닛 순서·구조 1:1) — 게이트 16건 전부 KO와 동일.",
+ "unit_aliases": {
+  "Letting Go": "co01",
+  "The Hand": "co02"
+ },
+ "faction": {
+  "ba01": "hwagam",
+  "ba02": "geumhwi",
+  "ba04": "hwagam",
+  "arch01": "hwagam",
+  "arch02": "hwagam",
+  "obs01": "eidos",
+  "obs02": "eidos",
+  "calc01": "altair",
+  "calc02": "altair",
+  "ord01": "geumhwi",
+  "ord02": "geumhwi",
+  "del01": "geumhwi",
+  "dl05": "altair",
+  "dl08": "geumhwi",
+  "dl09": "eidos",
+  "dl11": "altair",
+  "dl13": "hwagam",
+  "dl14": "hwagam",
+  "ss01": "hwagam",
+  "ss02": "eidos",
+  "ss06": "geumhwi",
+  "ss07": "eidos",
+  "ss08": "altair",
+  "ss09": "hwagam",
+  "ss10": "eidos",
+  "ss11": "eidos",
+  "ss12": "gongga",
+  "ss13": "eidos",
+  "ff01": "geumhwi",
+  "ff02": "altair",
+  "fr01": "observer",
+  "co01": "eidos",
+  "ae04": "observer",
+  "vol:13": "geumhwi",
+  "vol:14": "altair"
+ },
+ "fx": {
+  "v07_c053_s03": {
+   "4": "echo"
   },
-  "drop_ranges": {
-    "_reason": "DL-01·DL-02·DL-09가 EN Part1에 번역 초고/개정본 2회씩 수록 — ◆ 배너본(후행, KO 씬 구조와 1:1 일치)을 채택. 선행 초고 + KO에 없는 잉여 비네트(Dawn 창문 수리) 드롭: [2905,2972]=DL-01 초고+잉여, [6995,7100]=DL-02 초고+DL-09 초고.",
-    "SNZ_EN_Part1.md": [
-      [
-        2905,
-        2972
-      ],
-      [
-        6995,
-        7100
-      ]
-    ]
+  "dl12_s01": {
+   "1": "light"
   },
-  "faction": {
-    "ba01": "hwagam",
-    "ba02": "geumhwi",
-    "ba04": "hwagam",
-    "arch01": "hwagam",
-    "arch02": "hwagam",
-    "obs01": "eidos",
-    "obs02": "eidos",
-    "calc01": "altair",
-    "calc02": "altair",
-    "ord01": "geumhwi",
-    "ord02": "geumhwi",
-    "del01": "geumhwi",
-    "dl05": "altair",
-    "dl08": "geumhwi",
-    "dl09": "eidos",
-    "dl11": "altair",
-    "dl13": "hwagam",
-    "dl14": "hwagam",
-    "ss01": "hwagam",
-    "ss02": "eidos",
-    "ss06": "geumhwi",
-    "ss07": "eidos",
-    "ss08": "altair",
-    "ss09": "hwagam",
-    "ss10": "eidos",
-    "ss11": "eidos",
-    "ss12": "gongga",
-    "ss13": "eidos",
-    "ff01": "geumhwi",
-    "ff02": "altair",
-    "fr01": "observer",
-    "co01": "eidos",
-    "ae04": "observer",
-    "vol:13": "geumhwi",
-    "vol:14": "altair"
+  "v16_c200_s05": {
+   "0": "light"
   },
-  "fx": {
-    "v07_c053_s03": {
-      "4": "echo"
-    },
-    "dl12_s01": {
-      "1": "light"
-    },
-    "v16_c200_s05": {
-      "0": "light"
-    },
-    "v01_c003_s06": {
-      "10": "loss"
-    },
-    "v13_c139_s02": {
-      "0": {
-        "tag": "blank",
-        "word": "blank"
-      }
-    },
-    "ss11_s01": {
-      "1": "crack"
-    },
-    "ba01_s03": {
-      "0": "shake_s"
-    },
-    "v16_c199_s01": {
-      "0": "seat"
-    }
+  "v01_c003_s06": {
+   "10": "loss"
   },
-  "auto_fx": {
-    "There was a pause.": "pause_b"
+  "v13_c139_s02": {
+   "0": {
+    "tag": "blank",
+    "word": "blank"
+   }
   },
-  "interaction": {
-    "v01_c003_s03": {
-      "type": "silence",
-      "seconds": 4,
-      "at": "end"
-    },
-    "in04_s06": {
-      "type": "silence",
-      "seconds": 5,
-      "at": "end"
-    },
-    "v12_c134_s05": {
-      "type": "release"
-    },
-    "v16_c199_s01": {
-      "type": "hold",
-      "seconds": 2.5
-    },
-    "ae04_s06": {
-      "type": "trace"
-    },
-    "in05_s02": {
-      "type": "timeout_choice",
-      "at": "end",
-      "choices": [
-        "Answer",
-        "ARIA"
-      ],
-      "timeoutMs": 8000,
-      "flag": "in05_answer"
-    },
-    "ba01_s04": {
-      "type": "shake"
-    }
+  "ss11_s01": {
+   "1": "crack"
   },
-  "sound": {
-    "v07_c053": {
-      "bgm": "core_inner"
-    },
-    "v07_c054": {
-      "bgm": "core_inner"
-    },
-    "v07_c055": {
-      "bgm": "core_inner"
-    },
-    "v07_c056": {
-      "bgm": "core_inner"
-    },
-    "v07_c057": {
-      "bgm": "core_inner"
-    },
-    "v07_c058": {
-      "bgm": "core_inner"
-    },
-    "v07_c059": {
-      "bgm": "core_inner"
-    },
-    "v07_c060": {
-      "bgm": "core_inner"
-    },
-    "v07_c061": {
-      "bgm": "core_inner"
-    },
-    "v07_c062": {
-      "bgm": "core_inner"
-    },
-    "in04": {
-      "bgm": "daily"
-    },
-    "in05": {
-      "bgm": "daily"
-    },
-    "in06": {
-      "bgm": "daily"
-    }
+  "ba01_s03": {
+   "0": "shake_s"
   },
-  "seeds": {
-    "pro": [
-      "s_again",
-      "s_alone"
-    ],
-    "ba01": [
-      "s_seoan"
-    ],
-    "v01_c001": [
-      "s_0003",
-      "s_774"
-    ],
-    "v03_c014": [
-      "s_cycle"
-    ],
-    "v03_c018": [
-      "s_pair"
-    ],
-    "v04_c024": [
-      "s_gongga"
-    ],
-    "v07_c055": [
-      "s_shoulder"
-    ],
-    "v08_c072": [
-      "s_ria"
-    ],
-    "v09_c088": [
-      "s_primus"
-    ],
-    "v12_c136": [
-      "s_seatwords"
-    ],
-    "v13_c139": [
-      "s_blank"
-    ],
-    "v14_c153": [
-      "s_3pct"
-    ],
-    "in04": [
-      "s_7min"
-    ],
-    "in05": [
-      "s_firstq"
-    ]
-  },
-  "gate": {
-    "v08_c072": {
-      "seeds": [
-        "s_0003"
-      ]
-    },
-    "v13_c146": {
-      "seeds": [
-        "s_blank"
-      ]
-    },
-    "v14_c161": {
-      "seeds": [
-        "s_3pct"
-      ]
-    },
-    "v14_c168": {
-      "seeds": [
-        "s_3pct"
-      ]
-    },
-    "v15_c171": {
-      "seeds": [
-        "s_primus"
-      ]
-    },
-    "v15_c173": {
-      "seeds": [
-        "s_seatwords"
-      ]
-    },
-    "v15_c179": {
-      "seeds": [
-        "s_shoulder"
-      ]
-    },
-    "v15_c183": {
-      "seeds": [
-        "s_firstq"
-      ]
-    },
-    "v16_c187": {
-      "seeds": [
-        "s_primus"
-      ]
-    },
-    "v16_c189": {
-      "seeds": [
-        "s_cycle"
-      ]
-    },
-    "v16_c194": {
-      "seeds": [
-        "s_again"
-      ]
-    },
-    "v16_c198": {
-      "seeds": [
-        "s_7min"
-      ]
-    },
-    "v16_c199": {
-      "seeds": [
-        "s_alone"
-      ]
-    },
-    "ae02": {
-      "seeds": [
-        "s_ria",
-        "s_alone"
-      ]
-    },
-    "ae04": {
-      "seeds": [
-        "s_774",
-        "s_pair",
-        "s_blank"
-      ]
-    },
-    "ss12": {
-      "seeds": [
-        "s_gongga"
-      ]
-    }
-  },
-  "_gate_note": "v06_c051(서안 흉터 회수) 게이트 제외 — EN은 BA-01이 Part1 말미 배치라 회수 시점에 seed 보유 불가(구조적). seed 자체는 유지(이후 게이트 무관).",
-  "unit_gates": {
-    "ae03": {
-      "reach": "full"
-    },
-    "ae04": {
-      "reach": "full"
-    },
-    "ss12": {
-      "reach": "full"
-    }
-  },
-  "reach_rules": {
-    "fullSeedsMin": 16,
-    "fullUnchosenMax": 0,
-    "silentUnchosenMin": 1
+  "v16_c199_s01": {
+   "0": "seat"
   }
+ },
+ "auto_fx": {
+  "There was a pause.": "pause_b"
+ },
+ "interaction": {
+  "v01_c003_s03": {
+   "type": "silence",
+   "seconds": 4,
+   "at": "end"
+  },
+  "in04_s06": {
+   "type": "silence",
+   "seconds": 5,
+   "at": "end"
+  },
+  "v12_c134_s05": {
+   "type": "release"
+  },
+  "v16_c199_s01": {
+   "type": "hold",
+   "seconds": 2.5
+  },
+  "ae04_s06": {
+   "type": "trace"
+  },
+  "in05_s02": {
+   "type": "timeout_choice",
+   "at": "end",
+   "choices": [
+    "Answer",
+    "ARIA"
+   ],
+   "timeoutMs": 8000,
+   "flag": "in05_answer"
+  },
+  "ba01_s04": {
+   "type": "shake"
+  }
+ },
+ "sound": {
+  "v07_c053": {
+   "bgm": "core_inner"
+  },
+  "v07_c054": {
+   "bgm": "core_inner"
+  },
+  "v07_c055": {
+   "bgm": "core_inner"
+  },
+  "v07_c056": {
+   "bgm": "core_inner"
+  },
+  "v07_c057": {
+   "bgm": "core_inner"
+  },
+  "v07_c058": {
+   "bgm": "core_inner"
+  },
+  "v07_c059": {
+   "bgm": "core_inner"
+  },
+  "v07_c060": {
+   "bgm": "core_inner"
+  },
+  "v07_c061": {
+   "bgm": "core_inner"
+  },
+  "v07_c062": {
+   "bgm": "core_inner"
+  },
+  "in04": {
+   "bgm": "daily"
+  },
+  "in05": {
+   "bgm": "daily"
+  },
+  "in06": {
+   "bgm": "daily"
+  }
+ },
+ "seeds": {
+  "pro": [
+   "s_again",
+   "s_alone"
+  ],
+  "ba01": [
+   "s_seoan"
+  ],
+  "v01_c001": [
+   "s_0003",
+   "s_774"
+  ],
+  "v03_c014": [
+   "s_cycle"
+  ],
+  "v03_c018": [
+   "s_pair"
+  ],
+  "v04_c024": [
+   "s_gongga"
+  ],
+  "v07_c055": [
+   "s_shoulder"
+  ],
+  "v08_c072": [
+   "s_ria"
+  ],
+  "v09_c088": [
+   "s_primus"
+  ],
+  "v12_c136": [
+   "s_seatwords"
+  ],
+  "v13_c139": [
+   "s_blank"
+  ],
+  "v14_c153": [
+   "s_3pct"
+  ],
+  "in04": [
+   "s_7min"
+  ],
+  "in05": [
+   "s_firstq"
+  ]
+ },
+ "gate": {
+  "v08_c072": {
+   "seeds": [
+    "s_0003"
+   ]
+  },
+  "v13_c146": {
+   "seeds": [
+    "s_blank"
+   ]
+  },
+  "v14_c161": {
+   "seeds": [
+    "s_3pct"
+   ]
+  },
+  "v14_c168": {
+   "seeds": [
+    "s_3pct"
+   ]
+  },
+  "v15_c171": {
+   "seeds": [
+    "s_primus"
+   ]
+  },
+  "v15_c173": {
+   "seeds": [
+    "s_seatwords"
+   ]
+  },
+  "v15_c179": {
+   "seeds": [
+    "s_shoulder"
+   ]
+  },
+  "v15_c183": {
+   "seeds": [
+    "s_firstq"
+   ]
+  },
+  "v16_c187": {
+   "seeds": [
+    "s_primus"
+   ]
+  },
+  "v16_c189": {
+   "seeds": [
+    "s_cycle"
+   ]
+  },
+  "v16_c194": {
+   "seeds": [
+    "s_again"
+   ]
+  },
+  "v16_c198": {
+   "seeds": [
+    "s_7min"
+   ]
+  },
+  "v16_c199": {
+   "seeds": [
+    "s_alone"
+   ]
+  },
+  "ae02": {
+   "seeds": [
+    "s_ria",
+    "s_alone"
+   ]
+  },
+  "ae04": {
+   "seeds": [
+    "s_774",
+    "s_pair",
+    "s_blank"
+   ]
+  },
+  "ss12": {
+   "seeds": [
+    "s_gongga"
+   ]
+  },
+  "v06_c051": {
+   "seeds": [
+    "s_seoan"
+   ]
+  }
+ },
+ "unit_gates": {
+  "ae03": {
+   "reach": "full"
+  },
+  "ae04": {
+   "reach": "full"
+  },
+  "ss12": {
+   "reach": "full"
+  }
+ },
+ "reach_rules": {
+  "fullSeedsMin": 16,
+  "fullUnchosenMax": 0,
+  "silentUnchosenMin": 1
+ }
 }

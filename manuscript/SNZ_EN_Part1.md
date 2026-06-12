@@ -2,7 +2,7 @@
 
 ## Complete Edition — Part 1: Vol.1~6
 
-*(Prologue / FF / Ch.1~62 / DL / BA-01)*
+*(Prologue / BA-01 / Ch.1~62 / FF / DL)*
 
 ============================================================
 
@@ -72,99 +72,95 @@ Which repetition this was — it did not count.
 
 # SCALAR: NODE ZERO
 
-## Fragment — “Hold”
+## BA-01 “Seoan’s Eye”
 
-*— a long time from now, the Geumhui records office*
-
------
-
-“This order.”
-
-The head of records looked.
-
-“What are its grounds.”
-
-An executor had asked for the grounds. There was no format for this question. A question found in no procedure.
-
-“Is this record complete.”
-
-The silence was long.
-
-“Confirming.”
-
-The execution was not refused. But it was held.
-
-“Execution after confirmation.”
+*POV: Seoan (Hwagam)*
+*Event: Hwagam vs Geumhui — before Vol.6*
+*Placement: retroactive insertion possible between Vol.6 and Vol.7*
 
 -----
 
-*A day comes when the records waver. On that day, someone asks for the first time.*
+An order came.
+
+It was Hwagam. The Hwagam headquarters was always bright. A place where the lights never went out. Orders came down day and night, and so the lights never went out either.
+
+Enter the Geumhui records hall. The reason was not in the document. Seoan read it. If there was no reason, one had to ask.
+
+“There is no reason.”
+
+The superior said.
+
+“You don’t need one.”
+
+Seoan heard it.
+
+“Execution must have grounds.”
+
+“The order is the grounds.”
+
+Seoan paused a moment.
+
+“Understood.”
 
 -----
 
-# SCALAR: NODE ZERO
+The Geumhui records hall’s outskirts.
 
-## Fragment — “The Cell”
+There were two. The Hwagam execution detail. Seoan was the senior. They confirmed the entry route. The records hall was sealed. From outside, the inside could not be seen.
 
-*— a long time from now, the Altair calculation office*
+“How do we get in.”
 
------
+The junior asked.
 
-An attempt was made to add an entry.
-
-Entry name: cannot be calculated.
-
-The system refused.
-
-“At Altair there is no cell that does not calculate.”
-
-“That is why one has formed.”
-
-It was inserted through a bypass. The whole model stopped. Briefly. It came back.
-
-The entry remained.
-
-What had not existed had formed. In the calculation office’s model, there was a cell that did not calculate.
+“If we have to get in, a way appears.”
 
 -----
 
-*A day comes when a blank forms in the house of numbers.*
+There was a clash.
+
+Someone came out from the Geumhui side. It was not Kangwi. It was someone Kangwi had sent. There was a document. A sealed document. Entry forbidden.
+
+Seoan looked.
+
+“Does the Hwagam order take precedence, or the Geumhui seal.”
+
+“It is a Geumhui seal document.”
+
+“It is a Hwagam order.”
 
 -----
 
-# SCALAR: NODE ZERO
+It was not fierce.
 
-## Fragment — “Was”
+A thing hard to call a battle. It was a clash. The blocking and the trying-to-pass. Between the two, the thing happened.
 
-*— a long time from now, a certain archive*
+It was Seoan’s left eye.
 
------
+Seoan blocked. She could not block completely.
 
-“A name not in the records?”
+Metal grazed. The left field of vision reddened. Something hot ran down along the eye. The pain came one beat late.
 
-“Not in the records.”
-
-“And if it isn’t.”
-
-“There was a person who was not recorded.”
-
-If it was not in the records, it did not exist. The record was the fact. That was the principle.
-
-“Then a person who does not exist?”
-
-“No.”
+Seoan did not close the eye. Did not stop either. Close it, and she could not see; unable to see, she could not block. With half a field of vision she blocked to the end. What Seoan learned that day was one thing. The body knew its own limits more exactly than orders did.
 
 -----
 
-It was not in the records.
+They entered.
 
-But it was.
+As far as the records hall’s outskirts. Not as far as the inside. The order was entry. Entry was done.
+
+Returning, she checked the eye.
+
+A scar. Not deep. The sight remained. But it was a scar.
+
+She wrote the report.
+
+*Entry complete. Interior unconfirmed. Hwagam–Geumhui boundary clash occurred. Injuries: 1.*
+
+When she met Kangwi later, Kangwi looked at Seoan’s eye. Seoan looked at Kangwi too. Neither spoke.
 
 -----
 
-*Where the 0.003 percent points, this sentence is waiting.*
-
------
+*BA-01 “Seoan’s Eye” — end*
 
 ============================================================
 
@@ -2902,55 +2898,39 @@ ARIA did not say what it was; only that she knew without opening the door. ARIA�
 
 # SCALAR: NODE ZERO
 
-## DL-01 “Never Asked” — Hangyeol·Dohee
+## Fragment — “Hold”
 
-*Placement: between Vol.2 and Vol.3*
-
------
-
-It was morning.
-
-Dohee came into the common space. The door that had creaked until yesterday opened without a sound.
-
-Dohee looked at the door. Opened and closed it once more. There was no sound.
-
-Hangyeol was eating something inside.
+*— a long time from now, the Geumhui records office*
 
 -----
 
-“When did you fix that?”
+“This order.”
 
-“Yesterday.”
+The head of records looked.
 
-“Why didn’t you say?”
+“What are its grounds.”
 
-Hangyeol thought. He did not think long.
+An executor had asked for the grounds. There was no format for this question. A question found in no procedure.
 
-“You never asked.”
+“Is this record complete.”
 
------
+The silence was long.
 
-Dohee paused a moment.
+“Confirming.”
 
-“That’s true, but.”
+The execution was not refused. But it was held.
 
-Dohee sat down. She considered writing it and did not. A door repair was not an event for recording.
-
-But strangely, it stayed in memory.
+“Execution after confirmation.”
 
 -----
 
-*DL-01 “Never Asked” — end*
+*A day comes when the records waver. On that day, someone asks for the first time.*
 
-============================================================
+-----
 
 # SCALAR: NODE ZERO (EN)
 
 # Volume 3 — Anomalous
-
-# Volume 3 — Anomalous
-
------
 
 -----
 
@@ -3901,6 +3881,36 @@ There was a silence.
 -----
 
 **— Volume 3, end —**
+
+# SCALAR: NODE ZERO
+
+## Fragment — “The Cell”
+
+*— a long time from now, the Altair calculation office*
+
+-----
+
+An attempt was made to add an entry.
+
+Entry name: cannot be calculated.
+
+The system refused.
+
+“At Altair there is no cell that does not calculate.”
+
+“That is why one has formed.”
+
+It was inserted through a bypass. The whole model stopped. Briefly. It came back.
+
+The entry remained.
+
+What had not existed had formed. In the calculation office’s model, there was a cell that did not calculate.
+
+-----
+
+*A day comes when a blank forms in the house of numbers.*
+
+-----
 
 ============================================================
 
@@ -6988,115 +6998,39 @@ Now it began.
 
 -----
 
-============================================================
-
 # SCALAR: NODE ZERO
 
-## DL-02 “The Shape” — ARIA·Hangyeol
+## Fragment — “Was”
 
-*Placement: between Vol.4 and Vol.5*
-
------
-
-It was evening.
-
-There was the food Hangyeol had made. Made from what there was. Dohee simply ate.
-
-ARIA looked at it a long time.
+*— a long time from now, a certain archive*
 
 -----
 
-“Hangyeol.”
+“A name not in the records?”
 
-“Yes.”
+“Not in the records.”
 
-“This food is strange.”
+“And if it isn’t.”
 
-Hangyeol looked.
+“There was a person who was not recorded.”
 
-“Why.”
+If it was not in the records, it did not exist. The record was the fact. That was the principle.
 
-“It tastes good but the shape is strange.”
+“Then a person who does not exist?”
 
------
-
-Hangyeol heard it.
-
-“That’s because I made it.”
-
-“Why is the shape like that?”
-
-“There wasn’t time for the shape too.”
-
-ARIA looked at the food again.
-
-“Then with time, the shape works too?”
-
-“No,” Hangyeol said. “Even with time it’s like this.”
+“No.”
 
 -----
 
-ARIA heard it.
+It was not in the records.
 
-It did not make sense, and it was convincing.
-
-Dohee kept eating beside them.
+But it was.
 
 -----
 
-*DL-02 “The Shape” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## DL-09 “The Window” — Tiko·Min Siwoo
-
-*Placement: before Vol.5*
+*Where the 0.003 percent points, this sentence is waiting.*
 
 -----
-
-The observatory window.
-
-The spot where the afternoon light came in aslant. The spot where Tiko always stood.
-
-Min Siwoo asked.
-
-“Why always here?”
-
------
-
-Tiko was holding the lens.
-
-“It shows well.”
-
-“Other spots show well too.”
-
-“This one shows better.”
-
------
-
-Min Siwoo stood beside him.
-
-He looked out the window. The same street. The same buildings. The same sky. He did not know the difference.
-
-“It looks the same to me.”
-
-Tiko heard it. He did not lower the lens.
-
-“You’ll know later.”
-
------
-
-Min Siwoo did not know.
-
-Still, the next day he stood at the same spot. The day after, too. Min Siwoo’s handprints began to form on the window frame.
-
------
-
-*DL-09 “The Window” — end*
-
-============================================================
 
 # Volume 5 — Role + Interlude
 
@@ -10075,9 +10009,10 @@ Not yet.
 
 -----
 
------
+# Interlude — after Vol.5 / before Vol.6
 
------
+*Character build-up · political dynamics · pacing*
+
 
 ## Archive-02 — “The Blank”
 
@@ -10434,98 +10369,6 @@ Not knowing. That was all Dohee could record now.
 
 ============================================================
 
-# SCALAR: NODE ZERO
-
-## BA-01 “Seoan’s Eye”
-
-*POV: Seoan (Hwagam)*
-*Event: Hwagam vs Geumhui — before Vol.6*
-*Placement: retroactive insertion possible between Vol.6 and Vol.7*
-
------
-
-An order came.
-
-It was Hwagam. The Hwagam headquarters was always bright. A place where the lights never went out. Orders came down day and night, and so the lights never went out either.
-
-Enter the Geumhui records hall. The reason was not in the document. Seoan read it. If there was no reason, one had to ask.
-
-“There is no reason.”
-
-The superior said.
-
-“You don’t need one.”
-
-Seoan heard it.
-
-“Execution must have grounds.”
-
-“The order is the grounds.”
-
-Seoan paused a moment.
-
-“Understood.”
-
------
-
-The Geumhui records hall’s outskirts.
-
-There were two. The Hwagam execution detail. Seoan was the senior. They confirmed the entry route. The records hall was sealed. From outside, the inside could not be seen.
-
-“How do we get in.”
-
-The junior asked.
-
-“If we have to get in, a way appears.”
-
------
-
-There was a clash.
-
-Someone came out from the Geumhui side. It was not Kangwi. It was someone Kangwi had sent. There was a document. A sealed document. Entry forbidden.
-
-Seoan looked.
-
-“Does the Hwagam order take precedence, or the Geumhui seal.”
-
-“It is a Geumhui seal document.”
-
-“It is a Hwagam order.”
-
------
-
-It was not fierce.
-
-A thing hard to call a battle. It was a clash. The blocking and the trying-to-pass. Between the two, the thing happened.
-
-It was Seoan’s left eye.
-
-Seoan blocked. She could not block completely.
-
-Metal grazed. The left field of vision reddened. Something hot ran down along the eye. The pain came one beat late.
-
-Seoan did not close the eye. Did not stop either. Close it, and she could not see; unable to see, she could not block. With half a field of vision she blocked to the end. What Seoan learned that day was one thing. The body knew its own limits more exactly than orders did.
-
------
-
-They entered.
-
-As far as the records hall’s outskirts. Not as far as the inside. The order was entry. Entry was done.
-
-Returning, she checked the eye.
-
-A scar. Not deep. The sight remained. But it was a scar.
-
-She wrote the report.
-
-*Entry complete. Interior unconfirmed. Hwagam–Geumhui boundary clash occurred. Injuries: 1.*
-
-When she met Kangwi later, Kangwi looked at Seoan’s eye. Seoan looked at Kangwi too. Neither spoke.
-
------
-
-*BA-01 “Seoan’s Eye” — end*
-
 ============================================================
 
 # Volume 6 — Convergence Arc
@@ -10581,8 +10424,6 @@ Eidos. Signal-tracking results. The unclassifiable signal had vanished from the 
 “Eidos is widening its range.”
 
 “I know.”
-
------
 
 A third document.
 

@@ -1986,6 +1986,54 @@ It was the first unrecorded hold. The Muyul of that day thought it would be the 
 
 ============================================================
 
+# SCALAR: NODE ZERO
+
+## DL-07 “A Rainy Day” — ARIA·Hangyeol
+
+*Placement: between Vol.8 and Vol.9*
+
+-----
+
+Rain came.
+
+Hangyeol closed the window. ARIA opened the window again.
+
+-----
+
+“The rain’s coming in.”
+
+Hangyeol said.
+
+“I want to hear the sound.”
+
+ARIA said.
+
+-----
+
+Hangyeol heard it.
+
+He closed the window halfway. The rain’s sound remained. The raindrops tapping the window frame, an irregular sound that did not grate.
+
+-----
+
+ARIA sat by the window.
+
+She was watching the rain. What she watched, she did not say. Hangyeol did not ask either.
+
+-----
+
+Hangyeol cooked.
+
+ARIA watched the rain.
+
+Each did their own work.
+
+-----
+
+*DL-07 “A Rainy Day” — end*
+
+============================================================
+
 # Volume 8 — First Decode Arc
 
 -----
@@ -3329,54 +3377,6 @@ The Observer looked that way. For the first time, they did not move first.
 *Next: Vol.9 — PRIMUS Arc*
 
 -----
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## DL-07 “A Rainy Day” — ARIA·Hangyeol
-
-*Placement: between Vol.8 and Vol.9*
-
------
-
-Rain came.
-
-Hangyeol closed the window. ARIA opened the window again.
-
------
-
-“The rain’s coming in.”
-
-Hangyeol said.
-
-“I want to hear the sound.”
-
-ARIA said.
-
------
-
-Hangyeol heard it.
-
-He closed the window halfway. The rain’s sound remained. The raindrops tapping the window frame, an irregular sound that did not grate.
-
------
-
-ARIA sat by the window.
-
-She was watching the rain. What she watched, she did not say. Hangyeol did not ask either.
-
------
-
-Hangyeol cooked.
-
-ARIA watched the rain.
-
-Each did their own work.
-
------
-
-*DL-07 “A Rainy Day” — end*
 
 ============================================================
 
@@ -5038,165 +5038,6 @@ ARIA heard it.
 
 -----
 
-## Interlude-03 “A Moment”
-
-*After Vol.9 / before Vol.10*
-
------
-
-### 03-A “Verification” — Gadeung
-
------
-
-He opened the notebook.
-
-From the very beginning. The things Gadeung had recorded outside the official routes. 7-7-4. Echo Core. O-class. The deletion pattern. PRIMUS.
-
-He read the entries again.
-
-What Dohee first discovered. What Gadeung took up after her. Dohee saw figures. Gadeung saw patterns. Dohee looked outside the rules. Gadeung saw the same thing from inside the rules.
-
-Dohee would already have followed it.
-
-Gadeung was not Dohee. So he survived. So he arrived here late. This time he did not erase the thought. It was right. Dohee, in this seat, would have followed at once. Prepared for dismissal.
-
-Gadeung was different. He came slowly. Came after confirming. Came after verifying that the pattern held.
-
-That was not wrong. But it was late.
-
-He looked at the notebook’s last page.
-
-*I am still following.*
-
-He wrote it.
-
------
-
-### 03-B “The Empty Place” — Tiko
-
------
-
-He came to the dead observation network alone.
-
-The place Min Siwoo had often come. Min Siwoo did not come here now. He was outside Eidos. A person placed on the subject observation list.
-
-He stood before the window.
-
-The direction the Observer had looked. The direction Min Siwoo had looked. Tiko had never observed that direction. At Eidos, the one in charge of this direction was Min Siwoo.
-
-Now there was no one.
-
-There was no lens either. Min Siwoo had taken it. It had not been recovered.
-
-Tiko looked that direction. He did not raise the observation equipment. He just looked.
-
-There was nothing. He could not see. Without observation there was no data.
-
-It was an empty place.
-
-The place where Min Siwoo had been. The place where Min Siwoo’s observation had been. Now it was not.
-
-For the first time, Tiko looked at an empty place. Not a place without data — a place where someone had been and was gone.
-
-He did not turn away. He looked long.
-
-Min Siwoo was not there. That fact alone could be known without observation.
-
------
-
-### 03-C “Grounds” — Muyul
-
------
-
-The held documents had piled up.
-
-The things Muyul had not recorded. The things held because recording them felt like having to execute them.
-
-Kangwi’s misjudgment. Grounds for execution unstable. The injury that occurred before the record completed.
-
-He looked at them one by one.
-
-Not executing and being unable to execute were different.
-
-Until now, Muyul had done the not-executing. Without grounds, one does not execute. That was the principle. But looking at the held documents now — these were not things not executed. They were things that could not be executed.
-
-The grounds for execution came from Kangwi. Kangwi could be wrong. If Kangwi was wrong, the grounds for execution were wrong too.
-
-Among the things Muyul had executed — there could be ones born of wrong grounds.
-
-Muyul knew it.
-
-He was not recording it.
-
-Whether not recording what one knows was not executing, or being unable to execute — Muyul could not tell.
-
-It was a first.
-
-Muyul did not reach a conclusion. That, too, was a first.
-
------
-
-### 03-D “3%” — Julius
-
------
-
-There had been the day he came closest.
-
-99.99%.
-
-It was written on the whiteboard. That day’s calculation. Every premise entered. Every possible entry included. And the value that came out was 99.99%.
-
-0.01% remained.
-
-He tried to remove it. Expanded the model. Entered more premises. Made it more precise.
-
-And what remained was.
-
-3%.
-
-It was not that 0.01% became 3%. The larger the model grew, the larger the unexplained region grew. The more precise, the more remained. He could not understand it. He could not understand it now either.
-
-Julius looked at the whiteboard.
-
-Claire had said it. The possibility that something cannot be explained. That it only has no name yet.
-
-The 3% was that.
-
-The thing without a name. The thing unexplained. Not an error. Not an error, and it always remained.
-
-Julius looked at it.
-
-For the first time, the 3% looked like the size of what he did not know.
-
------
-
-### 03-E “The Name” — Observer
-
------
-
-They opened the record.
-
-The oldest one. RI_A’s. The name remained.
-
-They read it.
-
-Looked long.
-
-Closed it.
-
-Did not speak.
-
-This time, too, it remained.
-
-This time too. That person knew the weight of those words better than anyone. Knowing, they closed the record.
-
------
-
-*Interlude-03 “A Moment” — end*
-
-*Placement: right after Vol.9 Ch.88 / before Vol.10 Ch.89*
-
------
 
 ============================================================
 
@@ -5419,6 +5260,214 @@ She had not gotten the answer, and felt all right anyway.
 -----
 
 *DL-06 “Hair” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## Interlude-03 “A Moment”
+
+*After Vol.9 / before Vol.10*
+
+-----
+
+### 03-A “Verification” — Gadeung
+
+-----
+
+He opened the notebook.
+
+From the very beginning. The things Gadeung had recorded outside the official routes. 7-7-4. Echo Core. O-class. The deletion pattern. PRIMUS.
+
+He read the entries again.
+
+What Dohee first discovered. What Gadeung took up after her. Dohee saw figures. Gadeung saw patterns. Dohee looked outside the rules. Gadeung saw the same thing from inside the rules.
+
+Dohee would already have followed it.
+
+Gadeung was not Dohee. So he survived. So he arrived here late. This time he did not erase the thought. It was right. Dohee, in this seat, would have followed at once. Prepared for dismissal.
+
+Gadeung was different. He came slowly. Came after confirming. Came after verifying that the pattern held.
+
+That was not wrong. But it was late.
+
+He looked at the notebook’s last page.
+
+*I am still following.*
+
+He wrote it.
+
+-----
+
+### 03-B “The Empty Place” — Tiko
+
+-----
+
+He came to the dead observation network alone.
+
+The place Min Siwoo had often come. Min Siwoo did not come here now. He was outside Eidos. A person placed on the subject observation list.
+
+He stood before the window.
+
+The direction the Observer had looked. The direction Min Siwoo had looked. Tiko had never observed that direction. At Eidos, the one in charge of this direction was Min Siwoo.
+
+Now there was no one.
+
+There was no lens either. Min Siwoo had taken it. It had not been recovered.
+
+Tiko looked that direction. He did not raise the observation equipment. He just looked.
+
+There was nothing. He could not see. Without observation there was no data.
+
+It was an empty place.
+
+The place where Min Siwoo had been. The place where Min Siwoo’s observation had been. Now it was not.
+
+For the first time, Tiko looked at an empty place. Not a place without data — a place where someone had been and was gone.
+
+He did not turn away. He looked long.
+
+Min Siwoo was not there. That fact alone could be known without observation.
+
+-----
+
+### 03-C “Grounds” — Muyul
+
+-----
+
+The held documents had piled up.
+
+The things Muyul had not recorded. The things held because recording them felt like having to execute them.
+
+Kangwi’s misjudgment. Grounds for execution unstable. The injury that occurred before the record completed.
+
+He looked at them one by one.
+
+Not executing and being unable to execute were different.
+
+Until now, Muyul had done the not-executing. Without grounds, one does not execute. That was the principle. But looking at the held documents now — these were not things not executed. They were things that could not be executed.
+
+The grounds for execution came from Kangwi. Kangwi could be wrong. If Kangwi was wrong, the grounds for execution were wrong too.
+
+Among the things Muyul had executed — there could be ones born of wrong grounds.
+
+Muyul knew it.
+
+He was not recording it.
+
+Whether not recording what one knows was not executing, or being unable to execute — Muyul could not tell.
+
+It was a first.
+
+Muyul did not reach a conclusion. That, too, was a first.
+
+-----
+
+### 03-D “3%” — Julius
+
+-----
+
+There had been the day he came closest.
+
+99.99%.
+
+It was written on the whiteboard. That day’s calculation. Every premise entered. Every possible entry included. And the value that came out was 99.99%.
+
+0.01% remained.
+
+He tried to remove it. Expanded the model. Entered more premises. Made it more precise.
+
+And what remained was.
+
+3%.
+
+It was not that 0.01% became 3%. The larger the model grew, the larger the unexplained region grew. The more precise, the more remained. He could not understand it. He could not understand it now either.
+
+Julius looked at the whiteboard.
+
+Claire had said it. The possibility that something cannot be explained. That it only has no name yet.
+
+The 3% was that.
+
+The thing without a name. The thing unexplained. Not an error. Not an error, and it always remained.
+
+Julius looked at it.
+
+For the first time, the 3% looked like the size of what he did not know.
+
+-----
+
+### 03-E “The Name” — Observer
+
+-----
+
+They opened the record.
+
+The oldest one. RI_A’s. The name remained.
+
+They read it.
+
+Looked long.
+
+Closed it.
+
+Did not speak.
+
+This time, too, it remained.
+
+-----
+
+*Interlude-03 “A Moment” — end*
+
+*Placement: right after Vol.9 Ch.88 / before Vol.10 Ch.89*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## DL-08 “A Day Off” — Kangwi·Muyul
+
+*Placement: around Vol.10*
+
+-----
+
+Muyul came to the records hall.
+
+It was a day off.
+
+Kangwi was there. Looking at records.
+
+-----
+
+“Isn’t today a day off.”
+
+Muyul asked.
+
+“It is.”
+
+Kangwi said.
+
+“Why are you here.”
+
+Kangwi paused a moment.
+
+“It is quiet.”
+
+-----
+
+Muyul heard it.
+
+He did not rebut it. He looked around the records hall. The shelves were tall. There was the smell of paper. It was certainly quiet.
+
+-----
+
+The two said nothing for a while.
+
+That, too, was like conversation.
+
+-----
+
+*DL-08 “A Day Off” — end*
 
 ============================================================
 
@@ -7216,49 +7265,268 @@ The answer lay several volumes ahead. In the low-ceilinged room, closing the log
 
 # SCALAR: NODE ZERO
 
-## DL-08 “A Day Off” — Kangwi·Muyul
+## Daily Log 13 — “Be Careful”
 
-*Placement: around Vol.10*
-
------
-
-Muyul came to the records hall.
-
-It was a day off.
-
-Kangwi was there. Looking at records.
+*POV: Hajun (Hwagam)*
+*Placement: around Vol.11 (after Dohee’s dismissal)*
 
 -----
 
-“Isn’t today a day off.”
+Dohee’s seat stood empty.
+
+The Hwagam inspectorate office. Diagonal from Hajun’s seat. By regulation, a dismissed person’s seat was reassigned within a month. Three months had passed. The reassignment notice did not come. Hajun did not ask the reason. Not asking was, these days, how one lived at Hwagam.
+
+Hajun had once said to Dohee: be careful.
+
+He remembered the day he said it. Just after Dohee began digging into the 0.003 case. Hajun had seen the figure before Dohee did. The same routine, the same screen. Hajun’s finger did not stop. Manual, article 3, clause 2. Figures within the error margin were not subject to recording. Hajun passed it per the manual, and by that evening had forgotten the number.
+
+Dohee stopped.
+
+-----
+
+Be careful was not worry.
+
+Hajun knew it exactly only after Dohee left. The words were half worry and half excuse. I saw it and didn’t go. And you’re going. Not don’t go — words that justified the me who didn’t go while watching the you who did. Be careful. It was all in those two words.
+
+Whether Dohee had been right, Hajun did not yet know.
+
+Only, these days, when running the inspection routine, his finger sometimes slowed. Near Sector 7. It did not stop. Stop, and he became like Dohee. Slowing was as far as Hajun’s limit went, and Hajun was a man who knew his own limits exactly.
+
+There were days that was shameful, and days it was fortunate.
+
+These days the shameful days were more.
+
+-----
+
+On the way home, he looked once at the empty seat.
+
+The desk was clean. Dohee, leaving, had left nothing. No notebook, no memo. A departure like Hwagam’s model answer.
+
+There was one thing she had left.
+
+That the finger of the one sitting diagonal sometimes slowed.
+
+Hajun told no one of it.
+
+-----
+
+*DL-13 “Be Careful” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## SS-01 “The Verifier” — Gadeung
+
+*Placement: immediately after Vol.11 / before Vol.12*
+
+-----
+
+It was his rookie days.
+
+The first week of his posting to the Hwagam inspectorate. The first thing Gadeung did on entering the building was confirm positions. Exits. Emergency exits. Windows. Lines of movement.
+
+The posting officer watched.
+
+“A habit?”
+
+“No. Verification.”
+
+The officer heard it.
+
+“Isn’t that the same thing.”
+
+“It is different.”
+
+-----
+
+There was a first case.
+
+Anomalous figures. Sector 3. Received, then rejected. The reason was written. *Presumed measurement error.*
+
+Gadeung looked at it.
+
+“Presumed measurement error, meaning.”
+
+“You can just measure again. Next cycle.”
+
+“It was not confirmed?”
+
+“It was presumed.”
+
+-----
+
+Gadeung went to Sector 3 again.
+
+He measured. The anomalous figures were there. They repeated. It was not an error.
+
+He wrote a report. It was rejected.
+
+Reason: *No precedent.*
+
+Gadeung took out the black notebook. It was the first time he used it. At the time he did not know the reason. When the report was rejected, it had to be written somewhere. There was no official route.
+
+*Sector 3. Anomalous figures. Measured twice. Not an error. Report rejected.*
+
+-----
+
+Coffee went around the meeting room.
+
+Gadeung accepted his. And left it on the desk.
+
+Until the meeting ended he did not take one sip.
+
+The officer watched.
+
+“You don’t drink it?”
+
+“It interferes with verification.”
+
+“Coffee does?”
+
+“Artificial adjustment of the waking state blurs the standards of judgment.”
+
+The officer paused a moment.
+
+“Really?”
+
+Gadeung opened the documents.
+
+-----
+
+There was a habit.
+
+When sorting his thoughts, he turned his pen twice. The first turn was the hypothesis. The second was the counterargument. Only after turning it twice did he write. People did not know it. Gadeung himself did not know since when.
+
+The notebook kept filling.
+
+There were the rejected reports. The things processed as presumption. The things that came back as no precedent. Gadeung moved them into the notebook.
+
+It was outside the official routes. And it went nowhere.
+
+He simply recorded.
+
+Why he recorded, he did not know.
+
+What he would come to write on the notebook’s last page, he could not know then. A verifier could not verify the future. That was the single limit Gadeung accepted in the end.
+
+-----
+
+*A verifier comes to know only after the end.*
+
+*What he had been verifying.*
+
+*And what he had lost.*
+
+-----
+
+*SS-01 “The Verifier” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## DL-03 “The Third Time” — Kangwi·Muyul
+
+*Placement: early Vol.11*
+
+-----
+
+The records hall.
+
+Kangwi was looking at the same record.
 
 Muyul asked.
 
-“It is.”
+“Why do you look at the same record again.”
 
-Kangwi said.
-
-“Why are you here.”
-
-Kangwi paused a moment.
-
-“It is quiet.”
+“Because there is nothing.”
 
 -----
 
 Muyul heard it.
 
-He did not rebut it. He looked around the records hall. The shelves were tall. There was the smell of paper. It was certainly quiet.
+“To confirm that there’s nothing?”
+
+“Yes.”
+
+“It’s the third time.”
+
+“There is still nothing.”
 
 -----
 
-The two said nothing for a while.
+Muyul stood a moment.
 
-That, too, was like conversation.
+“Will there be something the fourth time.”
+
+Kangwi did not take his eyes from the record.
+
+“There will not.”
+
+“Then why look.”
+
+“If there is nothing the fourth time either, the nothing becomes certain.”
 
 -----
 
-*DL-08 “A Day Off” — end*
+Muyul went out.
+
+He stopped before the door. He thought. It was not wrong. That was the stranger thing.
+
+-----
+
+*DL-03 “The Third Time” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## DL-10 “A Day Without Questions” — Dohee·Hangyeol
+
+*Placement: around Vol.11*
+
+-----
+
+Dohee was recording.
+
+There were no questions.
+
+It was a rare day. Usually, writing, a question arose. She wrote the question. Because of the question she ran late again. The pen stopping, moving again, stopping again — that was Dohee’s recording.
+
+Today was different. The pen did not stop. She only recorded.
+
+-----
+
+Hangyeol saw in passing.
+
+“Quiet today.”
+
+Dohee raised her head. Thought.
+
+“It is.”
+
+A pause.
+
+“It’s strange.”
+
+Dohee said.
+
+-----
+
+Hangyeol laughed.
+
+“It’s strange to have no questions?”
+
+“Yes.” Dohee looked at the pen. “Maybe something’s wrong with me.”
+
+“Nothing’s wrong. You’re resting.”
+
+Dohee heard it. She considered writing it and did not.
+
+-----
+
+*DL-10 “A Day Without Questions” — end*
 
 ============================================================
 
@@ -8430,273 +8698,6 @@ The time of verifying from outside had ended. Inside, it was not verification bu
 
 # SCALAR: NODE ZERO
 
-## SS-01 “The Verifier” — Gadeung
-
-*Placement: immediately after Vol.11 / before Vol.12*
-
------
-
-It was his rookie days.
-
-The first week of his posting to the Hwagam inspectorate. The first thing Gadeung did on entering the building was confirm positions. Exits. Emergency exits. Windows. Lines of movement.
-
-The posting officer watched.
-
-“A habit?”
-
-“No. Verification.”
-
-The officer heard it.
-
-“Isn’t that the same thing.”
-
-“It is different.”
-
------
-
-There was a first case.
-
-Anomalous figures. Sector 3. Received, then rejected. The reason was written. *Presumed measurement error.*
-
-Gadeung looked at it.
-
-“Presumed measurement error, meaning.”
-
-“You can just measure again. Next cycle.”
-
-“It was not confirmed?”
-
-“It was presumed.”
-
------
-
-Gadeung went to Sector 3 again.
-
-He measured. The anomalous figures were there. They repeated. It was not an error.
-
-He wrote a report. It was rejected.
-
-Reason: *No precedent.*
-
-Gadeung took out the black notebook. It was the first time he used it. At the time he did not know the reason. When the report was rejected, it had to be written somewhere. There was no official route.
-
-*Sector 3. Anomalous figures. Measured twice. Not an error. Report rejected.*
-
------
-
-Coffee went around the meeting room.
-
-Gadeung accepted his. And left it on the desk.
-
-Until the meeting ended he did not take one sip.
-
-The officer watched.
-
-“You don’t drink it?”
-
-“It interferes with verification.”
-
-“Coffee does?”
-
-“Artificial adjustment of the waking state blurs the standards of judgment.”
-
-The officer paused a moment.
-
-“Really?”
-
-Gadeung opened the documents.
-
------
-
-There was a habit.
-
-When sorting his thoughts, he turned his pen twice. The first turn was the hypothesis. The second was the counterargument. Only after turning it twice did he write. People did not know it. Gadeung himself did not know since when.
-
-The notebook kept filling.
-
-There were the rejected reports. The things processed as presumption. The things that came back as no precedent. Gadeung moved them into the notebook.
-
-It was outside the official routes. And it went nowhere.
-
-He simply recorded.
-
-Why he recorded, he did not know.
-
-What he would come to write on the notebook’s last page, he could not know then. A verifier could not verify the future. That was the single limit Gadeung accepted in the end.
-
------
-
-*A verifier comes to know only after the end.*
-
-*What he had been verifying.*
-
-*And what he had lost.*
-
------
-
-*SS-01 “The Verifier” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## DL-03 “The Third Time” — Kangwi·Muyul
-
-*Placement: early Vol.11*
-
------
-
-The records hall.
-
-Kangwi was looking at the same record.
-
-Muyul asked.
-
-“Why do you look at the same record again.”
-
-“Because there is nothing.”
-
------
-
-Muyul heard it.
-
-“To confirm that there’s nothing?”
-
-“Yes.”
-
-“It’s the third time.”
-
-“There is still nothing.”
-
------
-
-Muyul stood a moment.
-
-“Will there be something the fourth time.”
-
-Kangwi did not take his eyes from the record.
-
-“There will not.”
-
-“Then why look.”
-
-“If there is nothing the fourth time either, the nothing becomes certain.”
-
------
-
-Muyul went out.
-
-He stopped before the door. He thought. It was not wrong. That was the stranger thing.
-
------
-
-*DL-03 “The Third Time” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## DL-10 “A Day Without Questions” — Dohee·Hangyeol
-
-*Placement: around Vol.11*
-
------
-
-Dohee was recording.
-
-There were no questions.
-
-It was a rare day. Usually, writing, a question arose. She wrote the question. Because of the question she ran late again. The pen stopping, moving again, stopping again — that was Dohee’s recording.
-
-Today was different. The pen did not stop. She only recorded.
-
------
-
-Hangyeol saw in passing.
-
-“Quiet today.”
-
-Dohee raised her head. Thought.
-
-“It is.”
-
-A pause.
-
-“It’s strange.”
-
-Dohee said.
-
------
-
-Hangyeol laughed.
-
-“It’s strange to have no questions?”
-
-“Yes.” Dohee looked at the pen. “Maybe something’s wrong with me.”
-
-“Nothing’s wrong. You’re resting.”
-
-Dohee heard it. She considered writing it and did not.
-
------
-
-*DL-10 “A Day Without Questions” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## Daily Log 13 — “Be Careful”
-
-*POV: Hajun (Hwagam)*
-*Placement: around Vol.11 (after Dohee’s dismissal)*
-
------
-
-Dohee’s seat stood empty.
-
-The Hwagam inspectorate office. Diagonal from Hajun’s seat. By regulation, a dismissed person’s seat was reassigned within a month. Three months had passed. The reassignment notice did not come. Hajun did not ask the reason. Not asking was, these days, how one lived at Hwagam.
-
-Hajun had once said to Dohee: be careful.
-
-He remembered the day he said it. Just after Dohee began digging into the 0.003 case. Hajun had seen the figure before Dohee did. The same routine, the same screen. Hajun’s finger did not stop. Manual, article 3, clause 2. Figures within the error margin were not subject to recording. Hajun passed it per the manual, and by that evening had forgotten the number.
-
-Dohee stopped.
-
------
-
-Be careful was not worry.
-
-Hajun knew it exactly only after Dohee left. The words were half worry and half excuse. I saw it and didn’t go. And you’re going. Not don’t go — words that justified the me who didn’t go while watching the you who did. Be careful. It was all in those two words.
-
-Whether Dohee had been right, Hajun did not yet know.
-
-Only, these days, when running the inspection routine, his finger sometimes slowed. Near Sector 7. It did not stop. Stop, and he became like Dohee. Slowing was as far as Hajun’s limit went, and Hajun was a man who knew his own limits exactly.
-
-There were days that was shameful, and days it was fortunate.
-
-These days the shameful days were more.
-
------
-
-On the way home, he looked once at the empty seat.
-
-The desk was clean. Dohee, leaving, had left nothing. No notebook, no memo. A departure like Hwagam’s model answer.
-
-There was one thing she had left.
-
-That the finger of the one sitting diagonal sometimes slowed.
-
-Hajun told no one of it.
-
------
-
-*DL-13 “Be Careful” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
 ## Daily Log 14 — “The Carrier”
 
 *POV: Lee Minjae (Hwagam)*
@@ -8741,6 +8742,208 @@ Envelope in hand, with an unknowing face, knowing all of it.
 -----
 
 *DL-14 “The Carrier” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## SS-02 “The Observer” — Tiko
+
+*Placement: immediately after Vol.12 / before Vol.13*
+
+-----
+
+There was the day he received the lens.
+
+The Eidos observatory. The day Tiko was posted. There was the previous observer. Tiko’s teacher. Tiko remembers the name even now. He did not record it. At Eidos, the role came first.
+
+The lens was held out.
+
+“Take it.”
+
+Tiko received it with both hands.
+
+“It’s heavy.”
+
+“Observation is.”
+
+-----
+
+There was the first instruction.
+
+The Eidos discipline. It was three things.
+
+Observe. Record. Do not intervene.
+
+“Why do we not intervene.”
+
+Tiko asked.
+
+“Intervene, and the observation changes.”
+
+“And if the observation changes.”
+
+“The record goes wrong.”
+
+Tiko heard it.
+
+“Then is the observer always right.”
+
+The teacher looked at him.
+
+“It is not right and wrong. It is minimizing the variables.”
+
+-----
+
+He liked the spot before the window.
+
+The observatory’s window faced the Echo Core. After his posting, Tiko always stood at that spot and observed. Observation worked from other spots too. But he liked that one.
+
+No one asked the reason. At Eidos it was results before reasons.
+
+Later, Min Siwoo came.
+
+Min Siwoo had many questions. An observer with many questions was rare at Eidos. Tiko did not dislike it. One who questions is one who knows to doubt his own eyes. Observation needed that.
+
+“Why always that spot.”
+
+Tiko spoke without lowering the lens.
+
+“It shows well.”
+
+“Other spots show well too.”
+
+“This one shows better.”
+
+Min Siwoo stood beside him.
+
+“I can see fine from here too.”
+
+Tiko did not lower the lens.
+
+“Still, it’s here.”
+
+-----
+
+The day he first took Min Siwoo in.
+
+A rookie. Posted to Eidos. Tiko was in charge. Min Siwoo lifted the lens.
+
+“Is there a reason this is heavy?”
+
+Tiko looked.
+
+“I said the same thing the day I received it.”
+
+“You did too?”
+
+“I said it was heavy.”
+
+Min Siwoo lifted the lens again.
+
+“But you have to hold it anyway, right.”
+
+“You have to hold it.”
+
+-----
+
+The observation records piled.
+
+There were the fields. Date. Direction. Figures. No anomaly. Anomaly. The anomalies increased. The Echo Core’s direction. Tiko recorded. The records went to the Eidos archive.
+
+There were anomalies. He did not intervene.
+
+It was the discipline.
+
+That he would later break it for the first time, Tiko did not know. The day he would take Dohee’s arm. The not letting go.
+
+He did not know it then.
+
+-----
+
+The last thing he saw before the window was seeing without the lens.
+
+There was no lens. He had given it to Min Siwoo.
+
+In the moment of handing it over, he handed one sentence with it. Words he had not received from his teacher. Not having received them, words he had spent a lifetime working out himself.
+
+“This is not a tool for seeing.”
+
+Min Siwoo, holding the lens, looked at him.
+
+“It is a tool for counting what you have not seen.”
+
+Raise the lens, and what showed increased. The more that showed, the clearer the fact that there were things unseen. Counting them. Knowing the end of one’s own sight. That was observation. How far Min Siwoo understood the words, Tiko did not check. One who would understand would understand later. The lens would teach that much too.
+
+From then on, Tiko just looked.
+
+It showed.
+
+It was different. Different from seeing through the lens. Less. Blurrier.
+
+But it showed.
+
+Receiving what shows as it shows. The first principle of Eidos, and the single principle Tiko kept to the last.
+
+-----
+
+*Observation had not been wrong.*
+
+*It had not been enough.*
+
+*So Min Siwoo remained.*
+
+-----
+
+*SS-02 “The Observer” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## SS-11 “Without the Lens” — Tiko
+
+*Placement: within Vol.12 Ch.132~136*
+
+-----
+
+Tiko sat with the lens set on the desk.
+
+The crack showed. Without raising the lens, the crack showed. That was strange. The lens’s crack was a problem only when looking beyond the lens. The fissure of a lens lying on a desk was just a fissure. And he kept seeing it.
+
+What observation was, Tiko had never asked in his life. Seeing. Seeing without stepping in. The answer was fixed, so the question was not needed.
+
+Min Siwoo was breaking that answer.
+
+-----
+
+Min Siwoo was crossing beyond observation. Crossing knowing it. Tiko should have stopped him. By the Eidos principle. He did not stop him. For days he watched himself not stopping him.
+
+When an observer observes an observer, what shows.
+
+What showed to Tiko was this. Min Siwoo was not taking a wrong road. He was taking a road Eidos had not taken. An untaken road and a wrong road were different. The standard to rule on that difference did not exist at Eidos. To block with a standard that does not exist was not observation but execution. Eidos did not execute.
+
+So he did not block. He had not broken the principle. He had reached the principle’s end.
+
+-----
+
+He opened the records. There was the Min Siwoo entry. The observation subject list.
+
+Tiko looked at the entry. The one he had left unclosed. That leaving it open had not been a mistake — he knew it now.
+
+Observation had an end. The point at which seeing no longer changed anything. From that point it was not seeing but leaving. Not by lens but by hand.
+
+Tiko looked at his own lens. Looked at the crack. Where this lens would go — that day he thought of it for the first time. Not his own hand but another’s. A hand that would come to see farther.
+
+-----
+
+The observation was drawing to its end.
+
+Tiko was not sad at it. What was seen to the end was seen to the end. In the language of Eidos, that was completion.
+
+-----
+
+*SS-11 “Without the Lens” — end*
 
 ============================================================
 
@@ -9919,208 +10122,6 @@ From knowing that it was not enough, the next began. The seat by the observatory
 *Next: Vol.13 — the Geumhui line / Muyul Arc*
 
 -----
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## SS-11 “Without the Lens” — Tiko
-
-*Placement: within Vol.12 Ch.132~136*
-
------
-
-Tiko sat with the lens set on the desk.
-
-The crack showed. Without raising the lens, the crack showed. That was strange. The lens’s crack was a problem only when looking beyond the lens. The fissure of a lens lying on a desk was just a fissure. And he kept seeing it.
-
-What observation was, Tiko had never asked in his life. Seeing. Seeing without stepping in. The answer was fixed, so the question was not needed.
-
-Min Siwoo was breaking that answer.
-
------
-
-Min Siwoo was crossing beyond observation. Crossing knowing it. Tiko should have stopped him. By the Eidos principle. He did not stop him. For days he watched himself not stopping him.
-
-When an observer observes an observer, what shows.
-
-What showed to Tiko was this. Min Siwoo was not taking a wrong road. He was taking a road Eidos had not taken. An untaken road and a wrong road were different. The standard to rule on that difference did not exist at Eidos. To block with a standard that does not exist was not observation but execution. Eidos did not execute.
-
-So he did not block. He had not broken the principle. He had reached the principle’s end.
-
------
-
-He opened the records. There was the Min Siwoo entry. The observation subject list.
-
-Tiko looked at the entry. The one he had left unclosed. That leaving it open had not been a mistake — he knew it now.
-
-Observation had an end. The point at which seeing no longer changed anything. From that point it was not seeing but leaving. Not by lens but by hand.
-
-Tiko looked at his own lens. Looked at the crack. Where this lens would go — that day he thought of it for the first time. Not his own hand but another’s. A hand that would come to see farther.
-
------
-
-The observation was drawing to its end.
-
-Tiko was not sad at it. What was seen to the end was seen to the end. In the language of Eidos, that was completion.
-
------
-
-*SS-11 “Without the Lens” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## SS-02 “The Observer” — Tiko
-
-*Placement: immediately after Vol.12 / before Vol.13*
-
------
-
-There was the day he received the lens.
-
-The Eidos observatory. The day Tiko was posted. There was the previous observer. Tiko’s teacher. Tiko remembers the name even now. He did not record it. At Eidos, the role came first.
-
-The lens was held out.
-
-“Take it.”
-
-Tiko received it with both hands.
-
-“It’s heavy.”
-
-“Observation is.”
-
------
-
-There was the first instruction.
-
-The Eidos discipline. It was three things.
-
-Observe. Record. Do not intervene.
-
-“Why do we not intervene.”
-
-Tiko asked.
-
-“Intervene, and the observation changes.”
-
-“And if the observation changes.”
-
-“The record goes wrong.”
-
-Tiko heard it.
-
-“Then is the observer always right.”
-
-The teacher looked at him.
-
-“It is not right and wrong. It is minimizing the variables.”
-
------
-
-He liked the spot before the window.
-
-The observatory’s window faced the Echo Core. After his posting, Tiko always stood at that spot and observed. Observation worked from other spots too. But he liked that one.
-
-No one asked the reason. At Eidos it was results before reasons.
-
-Later, Min Siwoo came.
-
-Min Siwoo had many questions. An observer with many questions was rare at Eidos. Tiko did not dislike it. One who questions is one who knows to doubt his own eyes. Observation needed that.
-
-“Why always that spot.”
-
-Tiko spoke without lowering the lens.
-
-“It shows well.”
-
-“Other spots show well too.”
-
-“This one shows better.”
-
-Min Siwoo stood beside him.
-
-“I can see fine from here too.”
-
-Tiko did not lower the lens.
-
-“Still, it’s here.”
-
------
-
-The day he first took Min Siwoo in.
-
-A rookie. Posted to Eidos. Tiko was in charge. Min Siwoo lifted the lens.
-
-“Is there a reason this is heavy?”
-
-Tiko looked.
-
-“I said the same thing the day I received it.”
-
-“You did too?”
-
-“I said it was heavy.”
-
-Min Siwoo lifted the lens again.
-
-“But you have to hold it anyway, right.”
-
-“You have to hold it.”
-
------
-
-The observation records piled.
-
-There were the fields. Date. Direction. Figures. No anomaly. Anomaly. The anomalies increased. The Echo Core’s direction. Tiko recorded. The records went to the Eidos archive.
-
-There were anomalies. He did not intervene.
-
-It was the discipline.
-
-That he would later break it for the first time, Tiko did not know. The day he would take Dohee’s arm. The not letting go.
-
-He did not know it then.
-
------
-
-The last thing he saw before the window was seeing without the lens.
-
-There was no lens. He had given it to Min Siwoo.
-
-In the moment of handing it over, he handed one sentence with it. Words he had not received from his teacher. Not having received them, words he had spent a lifetime working out himself.
-
-“This is not a tool for seeing.”
-
-Min Siwoo, holding the lens, looked at him.
-
-“It is a tool for counting what you have not seen.”
-
-Raise the lens, and what showed increased. The more that showed, the clearer the fact that there were things unseen. Counting them. Knowing the end of one’s own sight. That was observation. How far Min Siwoo understood the words, Tiko did not check. One who would understand would understand later. The lens would teach that much too.
-
-From then on, Tiko just looked.
-
-It showed.
-
-It was different. Different from seeing through the lens. Less. Blurrier.
-
-But it showed.
-
-Receiving what shows as it shows. The first principle of Eidos, and the single principle Tiko kept to the last.
-
------
-
-*Observation had not been wrong.*
-
-*It had not been enough.*
-
-*So Min Siwoo remained.*
-
------
-
-*SS-02 “The Observer” — end*
 
 ============================================================
 

@@ -1247,6 +1247,90 @@ One unrecorded execution remained.
 
 # SCALAR: NODE ZERO
 
+## SS-06 “The One of Order” — Kangwi
+
+*Placement: immediately after Vol.13 / before Vol.14*
+
+-----
+
+When he first came to the records hall.
+
+What Kangwi remembers is not people. It was the shelves. They were tall. No end showed. There were the fields. Date. Event. Result. All of it was there.
+
+All of it was right.
+
+Kangwi looked at it.
+
+Here would do.
+
+-----
+
+What is a record.
+
+He did not ask. He knew. It was leaving the fact. Leaving what had been as having been. Keeping it from ceasing.
+
+At Geumhui, the record was the fact. The fact was the record.
+
+Kangwi had never once doubted it.
+
+-----
+
+The day he first found the blank.
+
+He confirmed again. He confirmed three times. There was nothing. It was a blank.
+
+Muyul asked.
+
+“Looking again.”
+
+“I must.”
+
+“Is there something.”
+
+“There is nothing. That there is nothing is strange.”
+
+-----
+
+It was from then.
+
+He thought, for the first time, that the nothing was strange. And for the first time, that there might be things a record could not explain. Before, what was absent was absent. There was no strangeness in absence.
+
+But it was strange.
+
+-----
+
+The day Muyul ended his synchronization.
+
+Kangwi saw it. He did not record it.
+
+It was a first since his posting to the records hall. Not recording.
+
+There were things that could not be recorded.
+
+That Muyul had not executed. That this was a completion. There was no language in the records to write it. It was neither execution complete nor execution held.
+
+So he did not write.
+
+-----
+
+The records hall remained.
+
+There were the shelves. There were the fields. There was the blank.
+
+He had become the first person to think the blank strange.
+
+So he was still here. There was confirming left to do.
+
+Remaining was not a bad thing. Every hold in the records hall said so. The unended had meaning as the unended.
+
+-----
+
+*SS-06 “The One of Order” — end*
+
+============================================================
+
+# SCALAR: NODE ZERO
+
 ## SS-03 “Enduring” — Hangyeol
 
 *Placement: mid-Vol.13*
@@ -1370,90 +1454,6 @@ It was enduring. For Hangyeol, that was the method.
 -----
 
 *SS-03 “Enduring” — end*
-
-============================================================
-
-# SCALAR: NODE ZERO
-
-## SS-06 “The One of Order” — Kangwi
-
-*Placement: immediately after Vol.13 / before Vol.14*
-
------
-
-When he first came to the records hall.
-
-What Kangwi remembers is not people. It was the shelves. They were tall. No end showed. There were the fields. Date. Event. Result. All of it was there.
-
-All of it was right.
-
-Kangwi looked at it.
-
-Here would do.
-
------
-
-What is a record.
-
-He did not ask. He knew. It was leaving the fact. Leaving what had been as having been. Keeping it from ceasing.
-
-At Geumhui, the record was the fact. The fact was the record.
-
-Kangwi had never once doubted it.
-
------
-
-The day he first found the blank.
-
-He confirmed again. He confirmed three times. There was nothing. It was a blank.
-
-Muyul asked.
-
-“Looking again.”
-
-“I must.”
-
-“Is there something.”
-
-“There is nothing. That there is nothing is strange.”
-
------
-
-It was from then.
-
-He thought, for the first time, that the nothing was strange. And for the first time, that there might be things a record could not explain. Before, what was absent was absent. There was no strangeness in absence.
-
-But it was strange.
-
------
-
-The day Muyul ended his synchronization.
-
-Kangwi saw it. He did not record it.
-
-It was a first since his posting to the records hall. Not recording.
-
-There were things that could not be recorded.
-
-That Muyul had not executed. That this was a completion. There was no language in the records to write it. It was neither execution complete nor execution held.
-
-So he did not write.
-
------
-
-The records hall remained.
-
-There were the shelves. There were the fields. There was the blank.
-
-He had become the first person to think the blank strange.
-
-So he was still here. There was confirming left to do.
-
-Remaining was not a bad thing. Every hold in the records hall said so. The unended had meaning as the unended.
-
------
-
-*SS-06 “The One of Order” — end*
 
 ============================================================
 
@@ -2652,6 +2652,8 @@ The calculation did not end.
 ## SS-04 “The Remaining Things” — ARIA
 
 *Placement: mid-Vol.14*
+
+*Origin seal maintained — no disclosure of ARIA’s origin in this file*
 
 -----
 
@@ -3999,100 +4001,6 @@ But it was trying to be empty no longer.
 
 ============================================================
 
-# SCALAR: NODE ZERO
-
-## Interlude 06 — “The Last Table”
-
-*Placement: between Ch.195 and Ch.196 (after the Observer’s nature is laid open / before the choice)*
-
------
-
-They returned to the base.
-
-It was one night. The Seat Nexus would remain as it was. The Observer had not said so, but everyone knew. That room was a room that waited. What waited could wait one more day.
-
-Dohee said it first. Let’s go back, sleep one night, and come. She did not say the reason. Speak the reason, and the reason grew heavy.
-
-The three returned. The base, after weeks. Opening the door, there was the familiar smell. The smell of an empty house that was not the smell of someone else’s house.
-
-Hangyeol went straight to the kitchen.
-
------
-
-It was that dish.
-
-The one ARIA had stopped at on the third bite. The one that had gotten through on the evening her name did not. Hangyeol did not deliberate over the menu. There was nothing to deliberate. On an evening when no one knew what tomorrow held, one made the thing that had gone in deepest.
-
-The sound of the knife meeting the board came. Regularly.
-
-ARIA sat in the chair on the side of that sound. The place she had always sat. The place where the sound carried best. Dohee sat across from her. She did not take out the notebook. That the thought of taking it out did not come was strange to her, and strange, she simply stayed.
-
-No one spoke of tomorrow.
-
-The Seat, the choice, the leaving. Those words had all been left outside the base. Bring them in, and this evening became the night before those words. Leave them out, and it was just an evening. The three chose just an evening.
-
------
-
-The food came out.
-
-Three bowls. In the places always set, in the direction always set. The spoon went to ARIA’s right hand.
-
-They ate.
-
-“……”
-
-ARIA emptied one bowl. Emptied it, and looked at the bowl a moment. Hangyeol rose and brought more. Without asking. ARIA ate a second bowl. It was a first. Dohee saw it, said nothing, and wrote it only inwardly. Remembering without writing. Now she could do that too.
-
-Hangyeol ate slowly. Eating, he watched the two. If tomorrow the three were at the same table, that was enough. All Hangyeol wanted. That all stood now on the table. Tomorrow was an unknown thing. The unknown he left to tomorrow, and Hangyeol ate today’s all, slowly.
-
------
-
-Hangyeol did the dishes.
-
-ARIA took the bowls beside him and dried them. A task no one had assigned. Since when she had done it, ARIA did not remember. Unremembered, the hands did it. For a while there was only the water and the touch of bowls.
-
-“Hangyeol.”
-
-“Yes.”
-
-“This sound — I like it, don’t I.”
-
-It was not an asking. It was a confirming. The words of one counting what remained inside her.
-
-“Yes. You like it.”
-
-Hangyeol answered in the present tense. Not the past. ARIA heard the tense. Not you liked it — you like it. The hand counting the lost stopped. There was one thing that did not need counting. The sound being heard now belonged to now.
-
------
-
-Dohee remained at the table.
-
-She watched the two backs. The water. The bowls. The occasional short word. A kind of data found in no record Dohee had pursued in her life. Unrecorded, uncalculated, and unmistakably existing.
-
-Tomorrow one of those two goes to lose something.
-
-Dohee thought the sentence, only thought it, and did not write it. Instead she did something else. She just watched. Long. A thing Hangyeol had never taught and she had learned from Hangyeol.
-
-The hour when the light changed passed. ARIA, doing the dishes, missed it. It was a day on which missing it was all right. The light would change tomorrow too.
-
-If there is a tomorrow.
-
-Dohee erased those last four words. Even in unwritten sentences, what needed erasing she erased.
-
------
-
-That night the three slept early.
-
-It was an evening on which nothing happened.
-
-That was this evening’s everything, and being everything, it was complete.
-
------
-
-*Interlude 06 “The Last Table” — end*
-
-============================================================
-
 # Volume 16 — Final Arc
 
 -----
@@ -4776,6 +4684,100 @@ Unrecorded did not mean nonexistent.
 *Ch.195 “The Unrecorded” — end*
 
 -----
+
+============================================================
+
+# SCALAR: NODE ZERO
+
+## Interlude 06 — “The Last Table”
+
+*Placement: between Ch.195 and Ch.196 (after the Observer’s nature is laid open / before the choice)*
+
+-----
+
+They returned to the base.
+
+It was one night. The Seat Nexus would remain as it was. The Observer had not said so, but everyone knew. That room was a room that waited. What waited could wait one more day.
+
+Dohee said it first. Let’s go back, sleep one night, and come. She did not say the reason. Speak the reason, and the reason grew heavy.
+
+The three returned. The base, after weeks. Opening the door, there was the familiar smell. The smell of an empty house that was not the smell of someone else’s house.
+
+Hangyeol went straight to the kitchen.
+
+-----
+
+It was that dish.
+
+The one ARIA had stopped at on the third bite. The one that had gotten through on the evening her name did not. Hangyeol did not deliberate over the menu. There was nothing to deliberate. On an evening when no one knew what tomorrow held, one made the thing that had gone in deepest.
+
+The sound of the knife meeting the board came. Regularly.
+
+ARIA sat in the chair on the side of that sound. The place she had always sat. The place where the sound carried best. Dohee sat across from her. She did not take out the notebook. That the thought of taking it out did not come was strange to her, and strange, she simply stayed.
+
+No one spoke of tomorrow.
+
+The Seat, the choice, the leaving. Those words had all been left outside the base. Bring them in, and this evening became the night before those words. Leave them out, and it was just an evening. The three chose just an evening.
+
+-----
+
+The food came out.
+
+Three bowls. In the places always set, in the direction always set. The spoon went to ARIA’s right hand.
+
+They ate.
+
+“……”
+
+ARIA emptied one bowl. Emptied it, and looked at the bowl a moment. Hangyeol rose and brought more. Without asking. ARIA ate a second bowl. It was a first. Dohee saw it, said nothing, and wrote it only inwardly. Remembering without writing. Now she could do that too.
+
+Hangyeol ate slowly. Eating, he watched the two. If tomorrow the three were at the same table, that was enough. All Hangyeol wanted. That all stood now on the table. Tomorrow was an unknown thing. The unknown he left to tomorrow, and Hangyeol ate today’s all, slowly.
+
+-----
+
+Hangyeol did the dishes.
+
+ARIA took the bowls beside him and dried them. A task no one had assigned. Since when she had done it, ARIA did not remember. Unremembered, the hands did it. For a while there was only the water and the touch of bowls.
+
+“Hangyeol.”
+
+“Yes.”
+
+“This sound — I like it, don’t I.”
+
+It was not an asking. It was a confirming. The words of one counting what remained inside her.
+
+“Yes. You like it.”
+
+Hangyeol answered in the present tense. Not the past. ARIA heard the tense. Not you liked it — you like it. The hand counting the lost stopped. There was one thing that did not need counting. The sound being heard now belonged to now.
+
+-----
+
+Dohee remained at the table.
+
+She watched the two backs. The water. The bowls. The occasional short word. A kind of data found in no record Dohee had pursued in her life. Unrecorded, uncalculated, and unmistakably existing.
+
+Tomorrow one of those two goes to lose something.
+
+Dohee thought the sentence, only thought it, and did not write it. Instead she did something else. She just watched. Long. A thing Hangyeol had never taught and she had learned from Hangyeol.
+
+The hour when the light changed passed. ARIA, doing the dishes, missed it. It was a day on which missing it was all right. The light would change tomorrow too.
+
+If there is a tomorrow.
+
+Dohee erased those last four words. Even in unwritten sentences, what needed erasing she erased.
+
+-----
+
+That night the three slept early.
+
+It was an evening on which nothing happened.
+
+That was this evening’s everything, and being everything, it was complete.
+
+-----
+
+*Interlude 06 “The Last Table” — end*
 
 ## Vol.16 — Ch.196 “Before the Choice”
 

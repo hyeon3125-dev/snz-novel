@@ -153,10 +153,10 @@ console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
     .children.find((c) => c.className === "end-reach");
   check(endReach && endReach.textContent.startsWith(T.reach), `도달 상태: ${endReach && endReach.textContent}`);
   const resonant = cards.filter((c) => c.className.includes("resonant")).map((c) => c.textContent);
-  // EN은 BA-01이 Part1 말미 배치 → v06_c051 게이트 의도적 제외 (16게이트)
-  const expGates = LANG === "en" ? 16 : 17;
+  // KO/EN 동일 17게이트 — EN 원고 구조 교정(BA-01 → Prologue 직후)으로 v06_c051 복원
+  const expGates = 17;
   check(resonant.length === expGates, `회수 공명 ${expGates}유닛 (gate 어노테이션 전량): 실제 ${resonant.length}`);
-  if (LANG === "ko") check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
+  check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
   check(cards.some((c) => c.textContent.includes(LANG === "en" ? "Gongga" : "空家")), "완전 회수 → SS-12 「空家」 개방");
   check(g.ctx.STATE.getCracks() >= 1, "crack 누적 기록 (영구)");
 }

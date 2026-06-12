@@ -34,11 +34,13 @@ EDITORIAL_PATTERNS = [
     ("next_teaser", re.compile(r"^\*다음: .*\*$")),
     ("vol_close_note", re.compile(r"^\*Vol\.\d+ — .*(종료|완결)\*$")),
     ("paren_note", re.compile(r"^\*\(.*\)\*$")),  # 전체 괄호 이탤릭 = 작가 주석
-    ("end_marker_en", re.compile(r"^\*.{0,80}— ?end\*$")),
-    ("vol_close_en", re.compile(r"^\*\*?— ?(Volume|Part) \d+ end ?—\*\*?$")),
+    # Block 종료 표지는 KO가 본문으로 렌더(*Vol.13 Block 1 [전면판] 종료* 등) — EN도 동일 취급, 스킵 제외
+    ("end_marker_en", re.compile(r"^\*(?!Vol\.\d+ Block \d).{0,80}— ?end\*$")),
+    ("vol_close_en", re.compile(r"^\*\*?— ?(Volume|Part) \d+,? end ?—\*\*?$")),
     ("placement_meta_en", re.compile(r"^\*(Placement|Insertion point|Insert position|POV|Viewpoint|Event|Setting)\s*[::].*\*$")),
     ("next_teaser_en", re.compile(r"^\*Next: .*\*$")),
-    ("vol_close_note_en", re.compile(r"^\*(Vol\.\d+|All 16 volumes).*— ?complete\*$")),
+    # 완결 선언(*All 16 volumes ... — complete*)은 KO가 본문으로 렌더(*全 16卷 ... 完結*) — 스킵 제외
+    ("vol_close_note_en", re.compile(r"^\*Vol\.\d+ .*— ?complete\*$")),
 ]
 
 # ──────────────── 헤더 분류 ────────────────
