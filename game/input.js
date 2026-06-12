@@ -41,7 +41,60 @@ window.INPUT = (function () {
   function init() {
     document.addEventListener("click", (e) => { emit("any", {}); onTap(e); });
     document.addEventListener("keydown", onKey);
-    document.addEventListener("pointerdown", () => emit("any", {}));
+    document.addEventListener("pointerdown", (e) => { emit("any", {}); markPressStart(e); });
+    document.addEventListener("pointermove", markPressMove);
+    document.addEventListener("pointerup", markPressEnd);
+    document.addEventListener("pointercancel", markPressEnd);
+  }
+
+  /* ── 밑줄 (길게 누르기) — 독자가 남기는 기록. 제스처 중·진행 락 중엔 비활성 ── */
+  let press = null;  // {el, x, y, timer}
+  function markPressStart(e) {
+    if (!e || gesture || !enabled) return;
+    const el = e.target && e.target.closest && e.target.closest(".line");
+    if (!el) return;
+    press = {
+      el, x: e.clientX, y: e.clientY,
+      timer: setTimeout(() => {
+        emit("mark", { el });
+        lockUntil = Math.max(lockUntil, now() + 450);  // 손을 떼며 생기는 탭 진행 흡수
+        press = null;
+      }, 600),
+    };
+  }
+  function markPressMove(e) {
+    if (press && Math.hypot(e.clientX - press.x, e.clientY - press.y) > 12) markPressEnd();
+  }
+  function markPressEnd() {
+    if (press) { clearTimeout(press.timer); press = null; }
+  }
+
+  /* ── Easter egg shake (§v2.1 2-1) — 안내·차단·기록 없음, 응답만. disarm 함수 반환 ── */
+  function armShakeEgg(onShake) {
+    let last = null, energy = 0, lastX = null, sw = 0, fired = false;
+    const fire = () => { if (!fired) { fired = true; onShake(); } };
+    const onMotion = (e) => {
+      const a = e.accelerationIncludingGravity;
+      if (!a) return;
+      if (last) energy += Math.abs(a.x - last.x) + Math.abs(a.y - last.y);
+      last = { x: a.x, y: a.y };
+      if (energy > 60) fire();
+    };
+    const onMove = (e) => {
+      if (lastX !== null && Math.abs(e.clientX - lastX) > 24) sw++;
+      lastX = e.clientX;
+      if (sw > 14) fire();
+    };
+    if (typeof window.addEventListener === "function") {
+      window.addEventListener("devicemotion", onMotion);
+      document.addEventListener("pointermove", onMove);
+    }
+    return () => {
+      if (typeof window.removeEventListener === "function") {
+        window.removeEventListener("devicemotion", onMotion);
+        document.removeEventListener("pointermove", onMove);
+      }
+    };
   }
 
   /* ── 제스처 공통 ── */
@@ -111,14 +164,14 @@ window.INPUT = (function () {
         }
         case "silence": {  // 아무것도 안 해야 — 침묵이 답
           const need = (spec.seconds || 4) * 1000;
-          let t0 = now();
-          const reset = () => { t0 = now(); };
+          let t0 = now(), resets = 0;
+          const reset = () => { t0 = now(); resets++; };  // 동요 횟수 — 판정의 침묵 결 (§v2.1 2-2)
           handlers.any.push(reset);
           gesture.cleanups.push(() => {
             handlers.any.splice(handlers.any.indexOf(reset), 1);
           });
           gesture.interval = setInterval(() => {
-            if (now() - t0 >= need) finishGesture({});
+            if (now() - t0 >= need) finishGesture({ silenceResets: resets });
           }, 200);
           break;
         }
@@ -131,23 +184,7 @@ window.INPUT = (function () {
           gesture.cleanups.push(() => ui.hideChoices());
           break;
         }
-        case "shake": {  // 진동을 받는 게 아니라 만드는 쪽
-          let last = null, energy = 0;
-          listen(window, "devicemotion", (e) => {
-            const a = e.accelerationIncludingGravity;
-            if (!a) return;
-            if (last) energy += Math.abs(a.x - last.x) + Math.abs(a.y - last.y);
-            last = { x: a.x, y: a.y };
-            if (energy > 60) finishGesture({});
-          });
-          let lastX = null, sw = 0;
-          listen(document, "pointermove", (e) => {  // 데스크톱: 빠른 왕복
-            if (lastX !== null && Math.abs(e.clientX - lastX) > 24) sw++;
-            lastX = e.clientX;
-            if (sw > 14) finishGesture({});
-          });
-          break;
-        }
+        // shake는 Easter egg로 강등 (§v2.1 2-1) — 차단형 제스처에서 제외, armShakeEgg 참조
         case "trace": {  // 흐린 자국을 따라 — 본 사람만 봄
           let dist = 0, lastP = null, down = false;
           listen(document, "pointerdown", () => { down = true; lastP = null; });
@@ -174,6 +211,8 @@ window.INPUT = (function () {
     on(name, fn) { (handlers[name] = handlers[name] || []).push(fn); },
     lock(ms) { lockUntil = Math.max(lockUntil, now() + ms); },  // pause_b/seat 강제 박자
     requestGesture,
+    cancelGesture() { if (gesture) finishGesture({ cancelled: true }); },  // 점프 시 진행 중 제스처 해제
+    armShakeEgg,
     gestureActive() { return !!gesture; },
   };
 })();

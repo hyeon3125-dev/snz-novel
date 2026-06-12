@@ -5,7 +5,8 @@
  */
 "use strict";
 
-/* UI 시스템 문언 (작품 외부 톤, 최소한 — §8). 서사 텍스트는 전부 각본 데이터에서. */
+/* UI 시스템 문언 (작품 외부 톤, 최소한 — §8). 서사 텍스트는 전부 각본 데이터에서.
+ * 가문 문양 묘사(sigils)는 L0 확정 텍스트 (§v2.1 2-3) — 봉인 비접촉 검수 완료. */
 window.STR = (window.LANG === "en") ? {
   titleSub: "A Deterministic Interactive Novel",
   begin: "Begin", resume: "Continue", restart: "From the Beginning",
@@ -13,7 +14,22 @@ window.STR = (window.LANG === "en") ? {
   end: "End",
   reach: { full: "Full Recall", standard: "Standard", silent: "Silent Run" },
   unasked: "The Unasked",
-  gesture: { hold: "press and hold", release: "let go", silence: "", shake: "shake", trace: "trace it", timeout_choice: "" },
+  gesture: { hold: "press and hold", release: "let go", silence: "", trace: "trace it", timeout_choice: "" },
+  toc: "Contents", tocBack: "Back", tocClose: "Close", tocMarks: "Underlined",
+  tocPrelude: "Prelude", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
+  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  thicknessToggle: "Remaining thickness",
+  judgeRead: (f) => "You read in the way of " + f + ".",
+  judgeSeeds: (o, t) => "Recall " + o + "/" + t,
+  judgePace: { slow: "the kind that lingers", fast: "the kind that moves on" },
+  judgeDays: (n) => "Read across " + n + (n === 1 ? " day." : " days."),
+  factionNames: { hwagam: "Hwagam", eidos: "Eidos", altair: "Altair", geumhwi: "Geumhwi" },
+  sigils: {
+    hwagam: "A flame inside a mirror. Whether it is reflected or confined, there is no telling.",
+    eidos: "A circle within a circle. The inner circle's edge is slightly off.",
+    altair: "A grid. One cell is empty. It looks as if it had been empty from the start.",
+    geumhwi: "Five vertical lines. The spacing is not even. The last line stands a little farther.",
+  },
 } : {
   titleSub: "결정론적 인터랙티브 노벨",
   begin: "읽기 시작", resume: "이어서 읽기", restart: "처음부터",
@@ -21,11 +37,26 @@ window.STR = (window.LANG === "en") ? {
   end: "끝",
   reach: { full: "완전 회수", standard: "표준", silent: "침묵 주행" },
   unasked: "묻지 않은 것들",
-  gesture: { hold: "누르고 있기", release: "놓기", silence: "", shake: "흔들기", trace: "따라 긋기", timeout_choice: "" },
+  gesture: { hold: "누르고 있기", release: "놓기", silence: "", trace: "따라 긋기", timeout_choice: "" },
+  toc: "목차", tocBack: "뒤로", tocClose: "닫기", tocMarks: "밑줄 친 곳",
+  tocPrelude: "序", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
+  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  thicknessToggle: "남은 두께 표시",
+  judgeRead: (f) => f + "의 방식으로 읽었습니다.",
+  judgeSeeds: (o, t) => "회수 " + o + "/" + t,
+  judgePace: { slow: "오래 머무는 쪽", fast: "앞으로 가는 쪽" },
+  judgeDays: (n) => n + "일에 걸쳐 읽었습니다.",
+  factionNames: { hwagam: "화감", eidos: "에이도스", altair: "알타이르", geumhwi: "금휘" },
+  sigils: {
+    hwagam: "불꽃이 거울 안에 있다. 비추는 것인지 갇힌 것인지 알 수 없다.",
+    eidos: "원 안에 원. 안쪽 원의 가장자리가 조금 어긋나 있다.",
+    altair: "격자. 한 칸이 비어있다. 처음부터 비어있었던 것처럼 보인다.",
+    geumhwi: "세로선 다섯 개. 간격이 같지 않다. 마지막 선이 조금 더 멀다.",
+  },
 };
 
 window.STAGE = (function () {
-  let $flow, $viewport, $hud, $title, $crack, $gesture, $choices;
+  let $flow, $viewport, $hud, $title, $crack, $gesture, $choices, $toc, $thickness;
   let lossQueue = [];      // 다음 진행 시 소실될 라인 요소들
   let crackLevel = 0;
 
@@ -147,6 +178,8 @@ window.STAGE = (function () {
     $crack = document.getElementById("crack-overlay");
     $gesture = document.getElementById("gesture-hint");
     $choices = document.getElementById("choice-box");
+    $toc = document.getElementById("toc");
+    $thickness = document.getElementById("thickness");
     crackLevel = window.STATE.getCracks();
     applyCrack();
     document.addEventListener("click", Sound.resume, { once: true });
@@ -178,7 +211,7 @@ window.STAGE = (function () {
     }
   }
 
-  function renderLine(t, fx, instant) {
+  function renderLine(t, fx, instant, ref) {
     flushLoss();  // 직전 loss 라인은 다음 출력 순간 소실 — 독자도 잃는다
     const p = document.createElement("p");
     p.className = "line" + (instant ? " instant" : "");
@@ -189,6 +222,11 @@ window.STAGE = (function () {
         '<span class="fx-blank" aria-label="공백"></span>');
     } else {
       p.innerHTML = emphasize(t);
+    }
+    if (ref) {  // 밑줄 좌표 — 독자의 기록 복원
+      p.setAttribute("data-sid", ref.sceneId);
+      p.setAttribute("data-li", String(ref.lineIdx));
+      if (window.STATE.isMarked(ref.sceneId, ref.lineIdx)) p.classList.add("marked");
     }
     decorate(p, t);
     $flow.appendChild(p);
@@ -346,6 +384,112 @@ window.STAGE = (function () {
     scrollToEnd();
   }
 
+  /* ════════════════ 완독 판정 화면 (§v2.1 2-3) — 책의 판권면 위치 ════════════════ */
+  function renderJudgement(j) {
+    const S = window.STR;
+    const wrap = document.createElement("div");
+    wrap.className = "judge-card";
+    const read = document.createElement("div");
+    read.className = "judge-read";
+    read.textContent = S.judgeRead(S.factionNames[j.faction] || j.faction);
+    wrap.appendChild(read);
+    const sig = document.createElement("div");
+    sig.className = "judge-sigil";
+    sig.textContent = S.sigils[j.faction] || "";
+    wrap.appendChild(sig);
+    const stats = document.createElement("div");
+    stats.className = "judge-stats";
+    stats.textContent = S.judgeSeeds(j.seedsOwned, j.seedTotal)
+      + " · " + S.judgePace[j.pace] + " · " + S.judgeDays(j.days);
+    wrap.appendChild(stats);
+    $flow.appendChild(wrap);
+    scrollToEnd();
+  }
+
+  /* ════════════════ 남은 두께 — 숫자 없이, 오른손에 남은 페이지의 물성 ════════════════ */
+  function setThickness(remainRatio) {
+    if (!$thickness) return;
+    const on = window.STATE.getSettings().thickness !== false && remainRatio !== null;
+    $thickness.hidden = !on;
+    if (on) $thickness.style.height = (Math.max(0, Math.min(1, remainRatio)) * 100).toFixed(2) + "%";
+  }
+
+  /* ════════════════ 목차 (§v2.1 3-1) — 방문 표시 없음: 게임은 독자를 판단하지 않는다 ════════════════ */
+  function tocBtn(text, cls, fn) {
+    const b = document.createElement("button");
+    b.className = cls;
+    b.textContent = text;
+    b.addEventListener("click", (e) => { e.stopPropagation(); fn(); });
+    return b;
+  }
+  function showToc(model, handlers) {
+    renderTocLevel({ kind: "root" }, model, handlers);
+    $toc.hidden = false;
+  }
+  function hideToc() { if ($toc) { $toc.hidden = true; $toc.innerHTML = ""; } }
+  function renderTocLevel(level, model, handlers) {
+    const S = window.STR;
+    $toc.innerHTML = "";
+    const list = document.createElement("div");
+    list.className = "toc-list";
+
+    if (level.kind === "root") {
+      model.groups.forEach((grp) => {
+        list.appendChild(tocBtn(grp.label, "toc-item", () => {
+          if (grp.vols.length === 1) renderTocLevel({ kind: "units", units: grp.vols[0].units, back: { kind: "root" } }, model, handlers);
+          else renderTocLevel({ kind: "vols", grp, back: { kind: "root" } }, model, handlers);
+        }));
+      });
+      if (model.marks.length) {
+        list.appendChild(tocBtn(S.tocMarks, "toc-item toc-marks", () => {
+          renderTocLevel({ kind: "marks", back: { kind: "root" } }, model, handlers);
+        }));
+      }
+    } else if (level.kind === "vols") {
+      level.grp.vols.forEach((v) => {
+        list.appendChild(tocBtn(v.label, "toc-item", () => {
+          renderTocLevel({ kind: "units", units: v.units, back: level }, model, handlers);
+        }));
+      });
+    } else if (level.kind === "units") {
+      level.units.forEach((u) => {
+        list.appendChild(tocBtn(u.label, "toc-item", () => { hideToc(); handlers.onJump(u.uid); }));
+      });
+    } else if (level.kind === "marks") {
+      model.marks.forEach((m) => {
+        list.appendChild(tocBtn(m.text, "toc-item toc-mark-line", () => {
+          hideToc(); handlers.onJumpMark(m.sceneId, m.lineIdx);
+        }));
+      });
+    }
+    $toc.appendChild(list);
+
+    const foot = document.createElement("div");
+    foot.className = "toc-foot";
+    if (level.back) foot.appendChild(tocBtn(S.tocBack, "toc-foot-btn", () => renderTocLevel(level.back, model, handlers)));
+    if (level.kind === "root") {
+      const on = window.STATE.getSettings().thickness !== false;
+      const t = tocBtn(S.thicknessToggle, "toc-foot-btn" + (on ? " active" : ""), () => {
+        window.STATE.setSetting("thickness", !(window.STATE.getSettings().thickness !== false));
+        handlers.onThickness();
+        renderTocLevel(level, model, handlers);
+      });
+      foot.appendChild(t);
+    }
+    foot.appendChild(tocBtn(S.tocClose, "toc-foot-btn", hideToc));
+    $toc.appendChild(foot);
+  }
+  function tocVisible() { return !!($toc && !$toc.hidden); }
+
+  /* 밑줄 토글 시각 반영 + Easter egg shake (§v2.1 2-1: 안내 없음, 기록 없음) */
+  function setMarked(el, on) { if (on) el.classList.add("marked"); else el.classList.remove("marked"); }
+  function easterShake() {
+    if (reduced()) return;
+    $viewport.classList.add("fx-shake-s");
+    setTimeout(() => $viewport.classList.remove("fx-shake-s"), 500);
+    if (navigator.vibrate) navigator.vibrate(20);
+  }
+
   /* 제스처 표시 — 최소한의 UI 문언 (§8: 작품 외부 톤) */
   function showGesture(type) {
     $gesture.textContent = window.STR.gesture[type] || "";
@@ -424,6 +568,7 @@ window.STAGE = (function () {
 
   return {
     init, renderLine, renderSceneBreak, renderUnitCard, renderEnd, renderSilentEpilogue,
+    renderJudgement, setThickness, showToc, hideToc, tocVisible, setMarked, easterShake,
     setFaction, setSound, setHud, clearFlow, showTitle, hideTitle,
     showGesture, hideGesture, holdProgress, traceProgress, showChoices, hideChoices,
     setVolume: Sound.setVolume,

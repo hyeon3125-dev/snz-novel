@@ -177,6 +177,60 @@ try {
     check(page.url().includes("/game/"), "메타 리프레시 동작");
     await ctx.close();
   }
+
+  // ════ 8. 목차 네비게이션 (§v2.1 3-1) — HUD 탭 → Arc → Vol → 챕터 점프 (조용히) ════
+  console.log("[8] 목차: HUD → Arc 6 → Vol.16 → Ch.196 점프 + skipped 기록");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    await setProgress(page, "v09_c088_s01", 0);   // in05(timeout_choice) 이전 지점
+    await page.locator("#hud").click();
+    check(await page.locator("#toc").isVisible(), "HUD 탭 → 목차 표시");
+    await page.locator(".toc-item", { hasText: "Arc 6" }).click();
+    await page.locator(".toc-item", { hasText: "Vol.16" }).click();
+    await page.locator(".toc-item", { hasText: "Ch.196" }).click();
+    await sleep(400);
+    check(await page.locator("#toc").isHidden(), "점프 후 목차 닫힘 (안내 문구 없음)");
+    check((await page.locator("#hud").textContent()).includes("Ch.196"), "점프 도착: HUD = Ch.196");
+    await page.mouse.click(300, 400); await sleep(120);
+    check(await lineCount(page) >= 1, "점프 후 본문 진행 정상");
+    const unchosen = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar2_unchosen") || "[]"));
+    check(unchosen.some((u) => u.skipped === true), "건너뛴 timeout_choice → skipped 비선택 기록");
+    const th = await page.locator("#thickness").evaluate((el) => !el.hidden && parseFloat(el.style.height) > 0);
+    check(th, "남은 두께 표시 (숫자 없음)");
+    check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
+
+  // ════ 9. 밑줄 (길게 누르기) — 독자의 기록, 재방문 유지 ════
+  console.log("[9] 밑줄: long-press → 표시 → 새로고침 후 유지 → 목차 목록");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    await page.goto(BASE + "/game/");
+    await page.evaluate(() => localStorage.clear());
+    await page.reload();
+    await page.getByText("읽기 시작").click();
+    await sleep(300);
+    for (let i = 0; i < 4; i++) { await page.mouse.click(300, 400); await sleep(80); }
+    const line = page.locator("#flow .line").first();
+    const box = await line.boundingBox();
+    await page.mouse.move(box.x + 40, box.y + 8);
+    await page.mouse.down(); await sleep(800); await page.mouse.up();
+    await sleep(200);
+    check(await line.evaluate((el) => el.classList.contains("marked")), "long-press → 밑줄 표시");
+    const before = await lineCount(page);
+    await sleep(500);
+    check(await lineCount(page) === before, "밑줄 직후 탭 진행 흡수 (오발 진행 없음)");
+    await page.reload();
+    await page.getByText("이어서 읽기").click();
+    await sleep(300);
+    check(await page.locator("#flow .line.marked").count() >= 1, "새로고침 후 밑줄 유지");
+    await page.locator("#hud").click();
+    check(await page.locator(".toc-item", { hasText: "밑줄 친 곳" }).count() === 1, "목차에 밑줄 목록 노출");
+    await page.locator(".toc-item", { hasText: "밑줄 친 곳" }).click();
+    check(await page.locator(".toc-mark-line").count() >= 1, "밑줄 친 문장 목록");
+    check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
 } finally {
   await browser.close();
   server.kill();

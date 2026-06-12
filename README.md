@@ -62,6 +62,8 @@ python3 -m http.server 4100        # or npx serve, nginx, GitHub Pages …
 | **Advance** | Tap / click / space — the pace belongs to the reader | 탭/클릭/스페이스 — 읽는 속도는 전적으로 독자의 것 |
 | **Interactions** | Hold · release · stay silent · shake · trace. Not choosing is also recorded as a choice | 길게 누르기·놓기·침묵·흔들기·따라 긋기. 선택하지 않는 것도 선택으로 기록 |
 | **Save** | Automatic (localStorage) — reopen and continue | 자동 저장 — 닫았다 열면 읽던 곳에서 |
+| **Contents** | Tap the top of the screen — Arc → Vol → chapter. No "visited" marks: the game does not judge how far you've read | 화면 상단을 탭 — Arc → Vol → 챕터 점프. 방문 표시 없음: 게임은 독자를 판단하지 않는다 |
+| **Underline** | Long-press a paragraph to leave your own mark; find them again in the contents | 문단을 길게 누르면 밑줄 — 독자가 남기는 기록. 목차에서 다시 찾아갈 수 있다 |
 | **Accessibility** | Respects reduced-motion; every gesture has a tap fallback | 움직임 축소 존중, 모든 제스처에 탭 대체 경로 |
 
 > **🛠 "나도 이런 걸 만들어 보고 싶다"** — 내 소설로 이런 게임을 만들고 싶거나, 이런 아키텍처를 직접 만들어 보고 싶다면: **[만들기 가이드 → GUIDE.md](GUIDE.md)**. 코딩을 몰라도 따라올 수 있게 썼고, 전 과정이 무료입니다.

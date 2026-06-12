@@ -159,6 +159,13 @@ console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
   check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
   check(cards.some((c) => c.textContent.includes(LANG === "en" ? "Gongga" : "空家")), "완전 회수 → SS-12 「空家」 개방");
   check(g.ctx.STATE.getCracks() >= 1, "crack 누적 기록 (영구)");
+  // §v2.1: 완독 판정 — Ch.200 통과 시 1회 생성, 판정 화면 출력
+  const judge = JSON.parse(store["scalar2_judgement" + SUF] || "null");
+  check(judge && judge.triggered && ["hwagam", "eidos", "altair", "geumhwi"].includes(judge.faction),
+        `완독 판정 1회 생성: ${judge && judge.faction} (공가 제외 — 불변식 10)`);
+  check(flow.children.some((c) => c.className === "judge-card"), "판정 화면 (판권면 자리) 출력");
+  const tel = JSON.parse(store["scalar2_telemetry" + SUF] || "{}");
+  check(tel.scenes > 1300 && tel.choiceOffered >= 1, `읽기 결 집계: 씬 ${tel.scenes} · 선택 제시 ${tel.choiceOffered}`);
 }
 
 // ════ 2. 침묵 주행 — 선택 회피 → ae03/ae04/ss12 스킵 + 후기 ════
@@ -218,6 +225,25 @@ console.log("[4] 중간 이탈 → 이어읽기");
   g.document.dispatch("click", tapEvent); g.ctx._tick(2000); await tick();
   const lineEls = g.byId.flow.children.filter((c) => c.className.includes("line"));
   check(lineEls.length === restored + 1, "재개 후 진행 정상");
+}
+
+// ════ 4.5 점프 스킵 비선택(skipped)은 도달 상태에 불산입 (§v2.1 3-1) ════
+console.log("[4.5] skipped 비선택 → 침묵 주행 불산입");
+{
+  const skipped = [1, 2, 3].map((i) => ({ sceneId: "in05_s02", ts: i, skipped: true }));
+  const store = {
+    scalar2_settings: settingsPreset({}),
+    ["scalar2_unchosen" + SUF]: JSON.stringify(skipped),
+    ["scalar2_progress" + SUF]: JSON.stringify({ sceneId: "ss08_s01", lineIdx: 0, ts: 1 }),
+  };
+  const g = bootGame(store);
+  g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
+  await playToEnd(g, 800);
+  const endReach = g.byId.flow.children.find((c) => c.className.includes("end-card"))
+    .children.find((c) => c.className === "end-reach");
+  check(endReach && !endReach.textContent.startsWith(T.silent),
+        `skipped ×3은 침묵 판정 아님: ${endReach && endReach.textContent}`);
+  check(g.ctx.STATE.getUnchosenAsked().length === 0, "제시받은 비선택 0건 유지");
 }
 
 // ════ 5. 구버전 키 안내 (기존 회귀) ════
