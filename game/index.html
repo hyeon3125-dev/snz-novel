@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>SCALAR: NODE ZERO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-faction="trio">
+  <div id="title-screen" hidden></div>
+  <div id="crack-overlay" data-level="0" aria-hidden="true"></div>
+  <header id="hud"></header>
+  <main id="viewport">
+    <div id="lens-mask" aria-hidden="true"></div>
+    <div id="flow"></div>
+    <div id="tap-space" aria-hidden="true"></div>
+  </main>
+  <div id="gesture-hint" hidden></div>
+  <div id="choice-box" hidden data-no-advance></div>
+
+  <!-- 로드 순서 고정: script → state → director → stage → input → main (§2) -->
+  <script src="script.js"></script>
+  <script src="state.js"></script>
+  <script src="director.js"></script>
+  <script src="stage.js"></script>
+  <script src="input.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
