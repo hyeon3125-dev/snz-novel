@@ -46,6 +46,6 @@ jobs:
 
       - name: 구문 검사
         run: |
-          for f in game/state.js game/director.js game/stage.js game/input.js game/main.js; do
+          for f in game/state.js game/director.js game/stage.js game/input.js game/main.js game/analytics.js; do
             node --check "$f"
           done

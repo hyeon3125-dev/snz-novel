@@ -14,6 +14,19 @@
   const ORDER_IDX = {};
   if (S && S.order) S.order.forEach((sid, i) => { ORDER_IDX[sid] = i; });
 
+  /* ── 읽기 결 이벤트 (선택적 분석 — 없거나 비활성이면 무동작) ──
+   * 페이지뷰가 아니라 '얼마나 깊이 읽는가'를 본다: 시작·권 도달·체류 분·완독. */
+  let aMaxVol = 0;
+  let aTimers = [];
+  function track(name) { if (window.ANALYTICS && window.ANALYTICS.event) window.ANALYTICS.event(name); }
+  function armReadingTimers() {
+    aTimers.forEach(clearTimeout); aTimers = [];
+    [[5, "05"], [20, "20"], [60, "60"]].forEach(([min, tag]) => {
+      aTimers.push(setTimeout(() => track("read/min/" + tag), min * 60000));
+    });
+  }
+  function clearReadingTimers() { aTimers.forEach(clearTimeout); aTimers = []; }
+
   function unitOf(sceneId) { return S.scenes[sceneId].unit; }
   function unitLabel(sceneId) { return S.units[unitOf(sceneId)].label; }
   function currentSceneId() {
@@ -100,6 +113,8 @@
           window.STAGE.setHud(op.label);
           armEgg();
           updateThickness();
+          const uv = S.units[op.unit] && S.units[op.unit].vol;  // 권 도달 깊이 (1회씩)
+          if (uv && uv > aMaxVol) { aMaxVol = uv; track("read/vol/" + (uv < 10 ? "0" : "") + uv); }
           return;
         }
         case "interaction":
@@ -107,6 +122,7 @@
           return;
         case "judgement":  // 완독 판정 (§v2.1 2-3) — 판권면의 자리. 닫으면(탭) AE로
           window.STAGE.renderJudgement(op.judgement);
+          track("read/judge/" + op.judgement.faction);
           return;
         case "scene-break":
           window.STAGE.renderSceneBreak();
@@ -116,6 +132,8 @@
         case "end": {
           ended = true;
           closeMeter();
+          clearReadingTimers();
+          track("read/end");
           if (op.reach === "silent") {
             // 후기는 제시받고 고르지 않은 것만 — 점프로 마주치지 않은 것은 묻지 않은 것이 아니다
             window.STAGE.renderSilentEpilogue(window.STATE.getUnchosenAsked());
@@ -234,6 +252,8 @@
     window.STAGE.clearFlow();
     ended = false;
     started = true;
+    track(progress ? "read/resume" : "read/start");
+    armReadingTimers();
     if (progress) {
       restoreContext(progress.sceneId, progress.lineIdx);
       window.DIRECTOR.start(progress.sceneId, progress.lineIdx);

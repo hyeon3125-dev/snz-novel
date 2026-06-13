@@ -178,6 +178,29 @@ try {
     await ctx.close();
   }
 
+  // ════ 9.5 분석 — 기본 비활성: 외부 네트워크 0, 엔진 무영향 (0-dep 불변식) ════
+  console.log("[9.5] 분석 비활성 기본값: 외부 호출 0 · window.ANALYTICS.enabled=false");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    const ext = [];
+    page.on("request", (r) => {
+      const u = r.url();
+      if (!u.startsWith(BASE) && !u.startsWith("data:") && !u.startsWith("blob:")) ext.push(u);
+    });
+    await page.goto(BASE + "/game/");
+    await page.evaluate(() => localStorage.clear());
+    await page.reload();
+    await page.getByText("읽기 시작").click();
+    await sleep(300);
+    for (let i = 0; i < 4; i++) { await page.mouse.click(300, 400); await sleep(60); }
+    check(await page.evaluate(() => window.ANALYTICS && window.ANALYTICS.enabled === false),
+          "ENDPOINT 비어 있음 → ANALYTICS.enabled=false");
+    check(ext.length === 0, `외부(서드파티) 네트워크 요청 0건${ext.length ? " — " + ext[0] : ""}`);
+    check(await lineCount(page) >= 3, "분석 비활성에도 읽기 정상 진행");
+    check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
+
   // ════ 8. 목차 네비게이션 (§v2.1 3-1) — HUD 탭 → Arc → Vol → 챕터 점프 (조용히) ════
   console.log("[8] 목차: HUD → Arc 6 → Vol.16 → Ch.196 점프 + skipped 기록");
   {

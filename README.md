@@ -134,6 +134,14 @@ node smoke_headless.mjs                                    # 26 headless regress
 
 ---
 
+## 프라이버시 · Privacy
+
+The reading **engine** has zero dependencies and works fully offline. The hosted page *may* additionally load a **cookieless, no-PII analytics beacon** (loaded outside the engine, deferred, fails silently): it counts visits and a few reading-depth signals (started / volume reached / minutes spent / finished) to tell whether the work is actually being read — **no cookies, no personal data, Do-Not-Track honoured**, and it is **off by default** in this source (see [`game/analytics.js`](game/analytics.js)). If it never loads — offline, blocked, or disabled — the story reads identically.
+
+읽기 **엔진**은 의존성 0이고 오프라인에서도 완전히 동작합니다. 호스팅된 페이지는 *선택적으로* **쿠키 없는·개인정보 없는 분석 비콘**을 추가로 불러올 수 있습니다(엔진 밖에서 지연 로드, 실패 시 조용히 무시): 방문 수와 몇 가지 읽기 깊이 신호(시작 / 도달한 권 / 머문 시간 / 완독)만 세어 작품이 실제로 읽히는지 봅니다 — **쿠키 없음, 개인정보 없음, Do-Not-Track 존중**, 그리고 소스에서는 **기본 비활성**입니다. 비콘이 안 떠도(오프라인·차단·비활성) 이야기는 한 글자도 다르지 않게 읽힙니다. → [`PRIVACY.md`](PRIVACY.md)
+
+---
+
 ## 라이선스 · License
 
 | | License | Terms |

@@ -25,7 +25,7 @@ FORBIDDEN = [
 
 SCAN_FILES = (
     [ROOT / "game" / f for f in
-     ["state.js", "director.js", "stage.js", "input.js", "main.js", "index.html", "style.css"]]
+     ["state.js", "director.js", "stage.js", "input.js", "main.js", "analytics.js", "index.html", "style.css"]]
     + sorted((ROOT / "tools" / "annotations").glob("*.json"))   # 언어판 추가 시 자동 포함
     + [ROOT / "README.md", ROOT / "GUIDE.md", ROOT / "tools" / "LOCALIZATION.md"]
 )
