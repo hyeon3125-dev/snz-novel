@@ -7,7 +7,7 @@
 window.STATE = (function () {
   /* 진행 상태는 언어판별로 분리 (씬 ID 체계는 같아도 진행 위치·읽은 맥락이 다름).
    * 설정·구버전 안내·언어 선택은 공유. */
-  const SUF = window.LANG === "en" ? "_en" : "";
+  const SUF = window.LANG === "en" ? "_en" : (window.LANG === "jp" ? "_jp" : "");
   const K = {
     progress: "scalar2_progress" + SUF,
     seeds: "scalar2_seeds" + SUF,

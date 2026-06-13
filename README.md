@@ -19,7 +19,7 @@
 
 ### ▶ 지금 바로 플레이 · Play now
 **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)**
-설치 없음 · 회원가입 없음 · 폰/PC 브라우저면 충분 · **한국어/English** — *no install, no signup, just a browser — Korean & English*
+설치 없음 · 회원가입 없음 · 폰/PC 브라우저면 충분 · **한국어/English/日本語** — *no install, no signup, just a browser — Korean, English & Japanese*
 
 </div>
 
@@ -41,11 +41,11 @@ The full manuscript ships in this repo — read it as markdown, or play it.
 
 ## Read / Play · 읽기 / 플레이
 
-**🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it. Language (한국어/English) is selectable on the title screen; progress is kept separately per language.
-**게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 타이틀 화면에서 언어(한국어/English)를 고를 수 있고, 진행 상태는 언어별로 따로 저장됩니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
+**🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it. Language (한국어/English/日本語) is selectable on the title screen; progress is kept separately per language.
+**게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 타이틀 화면에서 언어(한국어/English/日本語)를 고를 수 있고, 진행 상태는 언어별로 따로 저장됩니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
 
-**📖 As a novel** — read the markdown three-parters in [`manuscript/`](manuscript/) directly (Korean original `SNZ_Final_*` and English edition `SNZ_EN_*`).
-**원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다 (한국어 원본 `SNZ_Final_*` · 영어판 `SNZ_EN_*`).
+**📖 As a novel** — read the markdown three-parters in [`manuscript/`](manuscript/) directly (Korean original `SNZ_Final_*`, English `SNZ_EN_*`, and Japanese `SNZ_JP_*`).
+**원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다 (한국어 원본 `SNZ_Final_*` · 영어판 `SNZ_EN_*` · 일본어판 `SNZ_JP_*`).
 
 **🛠 For developers** — static files; clone and serve locally, fully offline-capable.
 **개발자용** — 정적 파일이라 클론 후 아무 웹서버로나 열리고, 오프라인에서도 동작합니다.
@@ -68,7 +68,7 @@ python3 -m http.server 4100        # or npx serve, nginx, GitHub Pages …
 
 > **🛠 "나도 이런 걸 만들어 보고 싶다"** — 내 소설로 이런 게임을 만들고 싶거나, 이런 아키텍처를 직접 만들어 보고 싶다면: **[만들기 가이드 → GUIDE.md](GUIDE.md)**. 코딩을 몰라도 따라올 수 있게 썼고, 전 과정이 무료입니다.
 > *Want to make your own? See the [maker's guide](GUIDE.md) — written for non-developers too, every step free.*
-> 번역판을 만들고 싶다면(일본어·중국어판 준비 중): **[언어판 절차서 → tools/LOCALIZATION.md](tools/LOCALIZATION.md)** — KO 구조 정본과의 1:1 패리티를 `verify_parity.py`가 자동 검증합니다.
+> 번역판을 만들고 싶다면(일본어판 완료 · 중국어판 준비 중): **[언어판 절차서 → tools/LOCALIZATION.md](tools/LOCALIZATION.md)** — KO 구조 정본과의 1:1 패리티를 `verify_parity.py`가 자동 검증합니다.
 > *Translations (Japanese & Chinese editions planned): see the [localization guide](tools/LOCALIZATION.md) — structural parity with the Korean canon is machine-verified.*
 
 ---

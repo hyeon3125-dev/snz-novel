@@ -54,6 +54,30 @@ window.STR = (window.LANG === "en") ? {
     geumhwi: "세로선 다섯 개. 간격이 같지 않다. 마지막 선이 조금 더 멀다.",
   },
 };
+if (window.LANG === "jp") window.STR = {
+  titleSub: "決定論的インタラクティブノベル",
+  begin: "読みはじめる", resume: "続きを読む", restart: "最初から",
+  legacyNotice: "以前のバージョン(scalar_*)の進行記録が見つかりました。この版ではそれを使用しません。",
+  end: "終わり",
+  reach: { full: "完全回収", standard: "標準", silent: "沈黙走行" },
+  unasked: "問わなかったもの",
+  gesture: { hold: "押し続ける", release: "離す", silence: "", trace: "なぞる", timeout_choice: "" },
+  toc: "目次", tocBack: "戻る", tocClose: "閉じる", tocMarks: "傍線を引いた箇所",
+  tocPrelude: "序", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
+  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  thicknessToggle: "残りの厚みを表示",
+  judgeRead: (f) => f + "の流儀で読みました。",
+  judgeSeeds: (o, t) => "回収 " + o + "/" + t,
+  judgePace: { slow: "長く留まるほう", fast: "先へ進むほう" },
+  judgeDays: (n) => n + "日にわたって読みました。",
+  factionNames: { hwagam: "ファガム", eidos: "エイドス", altair: "アルタイル", geumhwi: "グムヒ" },
+  sigils: {
+    hwagam: "炎が鏡の中にある。映しているのか、閉じ込められているのか分からない。",
+    eidos: "円の中に円。内側の円の縁が少しずれている。",
+    altair: "格子。一マスが空いている。最初から空いていたように見える。",
+    geumhwi: "縦線が五本。間隔が均等ではない。最後の線が少し遠い。",
+  },
+};
 
 window.STAGE = (function () {
   let $flow, $viewport, $hud, $title, $crack, $gesture, $choices, $toc, $thickness;
@@ -545,7 +569,7 @@ window.STAGE = (function () {
     /* 언어 선택 — 진행 상태는 언어판별 분리 보존 */
     const langRow = document.createElement("div");
     langRow.className = "title-lang";
-    [["ko", "한국어"], ["en", "English"]].forEach(([code, label]) => {
+    [["ko", "한국어"], ["en", "English"], ["jp", "日本語"]].forEach(([code, label]) => {
       const b = document.createElement("button");
       b.className = "lang-btn" + (window.LANG === code ? " active" : "");
       b.textContent = label;

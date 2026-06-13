@@ -25,24 +25,32 @@ jobs:
             manuscript/SNZ_EN_Part1.md manuscript/SNZ_EN_Part2.md manuscript/SNZ_EN_Part3.md \
             -a tools/annotations/en.json
 
+      - name: 원문 무결성 JP
+        run: |
+          python3 tools/verify_integrity.py game/script.jp.js \
+            manuscript/SNZ_JP_Part1.md manuscript/SNZ_JP_Part2.md manuscript/SNZ_JP_Part3.md \
+            -a tools/annotations/jp.json
+
       - name: 언어판 구조 패리티 (KO 정본 1:1) — 전 언어판 자동
         run: |
           for f in game/script.*.js; do
             python3 tools/verify_parity.py "$f"
           done
 
-      - name: 씬 그래프 검증 (도달성·고아·순환) — KO/EN
+      - name: 씬 그래프 검증 (도달성·고아·순환) — KO/EN/JP
         run: |
           node tools/validate_graph.mjs game/script.js
           node tools/validate_graph.mjs game/script.en.js
+          node tools/validate_graph.mjs game/script.jp.js
 
       - name: 봉인 비누설 검사
         run: python3 tools/check_seals.py
 
-      - name: 헤드리스 회귀 (완주·게이트·인터랙션·저장) — KO/EN
+      - name: 헤드리스 회귀 (완주·게이트·인터랙션·저장) — KO/EN/JP
         run: |
           node tools/smoke_headless.mjs
           SNZ_LANG=en node tools/smoke_headless.mjs
+          SNZ_LANG=jp node tools/smoke_headless.mjs
 
       - name: 구문 검사
         run: |

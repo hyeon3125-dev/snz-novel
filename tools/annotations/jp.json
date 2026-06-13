@@ -1,0 +1,402 @@
+{
+  "_doc": "JP localization sidecar — en.json 복제 후 choices 일역(auto_fx 금지·명시 앵커 유지). KO 구조 1:1.",
+  "unit_aliases": {
+    "Letting Go": "co01",
+    "The Hand": "co02"
+  },
+  "faction": {
+    "ba01": "hwagam",
+    "ba02": "geumhwi",
+    "ba04": "hwagam",
+    "arch01": "hwagam",
+    "arch02": "hwagam",
+    "obs01": "eidos",
+    "obs02": "eidos",
+    "calc01": "altair",
+    "calc02": "altair",
+    "ord01": "geumhwi",
+    "ord02": "geumhwi",
+    "del01": "geumhwi",
+    "dl05": "altair",
+    "dl08": "geumhwi",
+    "dl09": "eidos",
+    "dl11": "altair",
+    "dl13": "hwagam",
+    "dl14": "hwagam",
+    "ss01": "hwagam",
+    "ss02": "eidos",
+    "ss06": "geumhwi",
+    "ss07": "eidos",
+    "ss08": "altair",
+    "ss09": "hwagam",
+    "ss10": "eidos",
+    "ss11": "eidos",
+    "ss12": "gongga",
+    "ss13": "eidos",
+    "ff01": "geumhwi",
+    "ff02": "altair",
+    "fr01": "observer",
+    "co01": "eidos",
+    "ae04": "observer",
+    "vol:13": "geumhwi",
+    "vol:14": "altair"
+  },
+  "fx": {
+    "v07_c053_s03": {
+      "4": "echo"
+    },
+    "dl12_s01": {
+      "1": "light"
+    },
+    "v16_c200_s05": {
+      "0": "light"
+    },
+    "v01_c003_s06": {
+      "10": "loss"
+    },
+    "v13_c139_s02": {
+      "0": {
+        "tag": "blank",
+        "word": "blank"
+      }
+    },
+    "ss11_s01": {
+      "1": "crack"
+    },
+    "ba01_s03": {
+      "0": "shake_s"
+    },
+    "v16_c199_s01": {
+      "0": "seat"
+    },
+    "v04_c019_s05": {
+      "23": "pause_b"
+    },
+    "v04_c019_s09": {
+      "16": "pause_b"
+    },
+    "v04_c021_s04": {
+      "9": "pause_b"
+    },
+    "v05_c033_s04": {
+      "6": "pause_b"
+    },
+    "v05_c040_s03": {
+      "20": "pause_b"
+    },
+    "calc02_s01": {
+      "25": "pause_b"
+    },
+    "v07_c057_s02": {
+      "10": "pause_b"
+    },
+    "v09_c073_s01": {
+      "11": "pause_b"
+    },
+    "_pause_b": "KO auto_fx('잠깐이 있었다.') 발화 지점 8곳의 명시 앵커 이식 — 번역문 정형구 매칭은 과발화 위험(v16_c197 사례)이라 언어판은 명시 앵커 원칙"
+  },
+  "interaction": {
+    "v01_c003_s03": {
+      "type": "silence",
+      "seconds": 4,
+      "at": "end"
+    },
+    "in04_s06": {
+      "type": "silence",
+      "seconds": 5,
+      "at": "end"
+    },
+    "v12_c134_s05": {
+      "type": "release"
+    },
+    "v16_c199_s01": {
+      "type": "hold",
+      "seconds": 2.5
+    },
+    "ae04_s06": {
+      "type": "trace"
+    },
+    "in05_s02": {
+      "type": "timeout_choice",
+      "at": "end",
+      "choices": [
+        "答え",
+        "ARIA"
+      ],
+      "timeoutMs": 8000,
+      "flag": "in05_answer"
+    },
+    "ba01_s04": {
+      "type": "shake"
+    },
+    "_doc_expansion": "인터랙션 확대(2026-06-12, L0 승인 '많을수록 좋다') — 전 항목 본문 근거 명시. reach_rules 재조정: 선택 4건 기준 silentUnchosenMin 3 / fullUnchosenMax 1.",
+    "v01_c005_s03": {
+      "type": "silence",
+      "seconds": 4,
+      "at": "end"
+    },
+    "_v01_c005_s03": "근거: 「도희는 대답하지 않았다. 대답이었다.」 — 집행관이시죠? 에 대한 침묵",
+    "v07_c056_s02": {
+      "type": "silence",
+      "seconds": 4,
+      "at": "end"
+    },
+    "_v07_c056_s02": "근거: 「침묵이 있었다. 민시우가 반박하지 않았다. 반박할 수 없었다.」",
+    "v10_c091_s03": {
+      "type": "silence",
+      "seconds": 4,
+      "at": "end"
+    },
+    "_v10_c091_s03": "근거: 씬 종지 「침묵이 있었다.」",
+    "v11_c115_s02": {
+      "type": "silence",
+      "seconds": 5,
+      "at": "end"
+    },
+    "_v11_c115_s02": "근거: 씬 종지 「침묵이 길었다.」 — 4s보다 긴 5s",
+    "v08_c069_s05": {
+      "type": "hold",
+      "seconds": 2.5
+    },
+    "_v08_c069_s05": "근거: 「그래도 렌즈는 놓지 않았다.」 — 민시우의 손",
+    "v10_c103_s04": {
+      "type": "hold",
+      "seconds": 2.5
+    },
+    "_v10_c103_s04": "근거: 「한결이 잡고 있었다.」 — Seat의 당김을 버티는 손",
+    "co01_s02": {
+      "type": "release"
+    },
+    "_co01_s02": "근거: 「티코가 놓지 않았다」→「티코가 놓았다. 놓는 손이 흔들리지 않았다」 — 누른 채 시작, 놓아야 끝",
+    "v04_c023_s01": {
+      "type": "trace",
+      "at": "end"
+    },
+    "_v04_c023_s01": "근거: 「손가락으로 훑었다. 한결의 손이 한 지점에서 멈췄다.」 — 닳은 자리를 따라",
+    "v02_c009_s05": {
+      "type": "timeout_choice",
+      "at": "end",
+      "choices": [
+        "一緒に",
+        "離れて"
+      ],
+      "timeoutMs": 8000,
+      "flag": "c009_together"
+    },
+    "_v02_c009_s05": "근거: 「함께 있으면 추적이 늘었고 떨어지면 직관을 잃었는데, 어느 쪽이 더 위험한지」 — 두 사람 다 답을 몰랐다",
+    "v04_c020_s05": {
+      "type": "timeout_choice",
+      "choices": [
+        "右",
+        "左"
+      ],
+      "timeoutMs": 8000,
+      "flag": "c020_fork"
+    },
+    "_v04_c020_s05": "근거: 「오른쪽으로 꺾이는 방향 / 왼쪽으로 내려가는 계단. 도희는 어느 쪽인지 판단했다. 근거 없이.」 — 독자도 근거 없이",
+    "v04_c025_s05": {
+      "type": "timeout_choice",
+      "at": "end",
+      "choices": [
+        "操作された選択",
+        "定められた結果"
+      ],
+      "timeoutMs": 8000,
+      "flag": "c025_fear"
+    },
+    "_v04_c025_s05": "근거: 「선택이 조작된 것이거나, 선택이 진짜인데 그 결과가 정해져 있었거나.」 — 결정론 서사의 자기지시"
+  },
+  "sound": {
+    "v07_c053": {
+      "bgm": "core_inner"
+    },
+    "v07_c054": {
+      "bgm": "core_inner"
+    },
+    "v07_c055": {
+      "bgm": "core_inner"
+    },
+    "v07_c056": {
+      "bgm": "core_inner"
+    },
+    "v07_c057": {
+      "bgm": "core_inner"
+    },
+    "v07_c058": {
+      "bgm": "core_inner"
+    },
+    "v07_c059": {
+      "bgm": "core_inner"
+    },
+    "v07_c060": {
+      "bgm": "core_inner"
+    },
+    "v07_c061": {
+      "bgm": "core_inner"
+    },
+    "v07_c062": {
+      "bgm": "core_inner"
+    },
+    "in04": {
+      "bgm": "daily"
+    },
+    "in05": {
+      "bgm": "daily"
+    },
+    "in06": {
+      "bgm": "daily"
+    }
+  },
+  "seeds": {
+    "pro": [
+      "s_again",
+      "s_alone"
+    ],
+    "ba01": [
+      "s_seoan"
+    ],
+    "v01_c001": [
+      "s_0003",
+      "s_774"
+    ],
+    "v03_c014": [
+      "s_cycle"
+    ],
+    "v03_c018": [
+      "s_pair"
+    ],
+    "v04_c024": [
+      "s_gongga"
+    ],
+    "v07_c055": [
+      "s_shoulder"
+    ],
+    "v08_c072": [
+      "s_ria"
+    ],
+    "v09_c088": [
+      "s_primus"
+    ],
+    "v12_c136": [
+      "s_seatwords"
+    ],
+    "v13_c139": [
+      "s_blank"
+    ],
+    "v14_c153": [
+      "s_3pct"
+    ],
+    "in04": [
+      "s_7min"
+    ],
+    "in05": [
+      "s_firstq"
+    ]
+  },
+  "gate": {
+    "v08_c072": {
+      "seeds": [
+        "s_0003"
+      ]
+    },
+    "v13_c146": {
+      "seeds": [
+        "s_blank"
+      ]
+    },
+    "v14_c161": {
+      "seeds": [
+        "s_3pct"
+      ]
+    },
+    "v14_c168": {
+      "seeds": [
+        "s_3pct"
+      ]
+    },
+    "v15_c171": {
+      "seeds": [
+        "s_primus"
+      ]
+    },
+    "v15_c173": {
+      "seeds": [
+        "s_seatwords"
+      ]
+    },
+    "v15_c179": {
+      "seeds": [
+        "s_shoulder"
+      ]
+    },
+    "v15_c183": {
+      "seeds": [
+        "s_firstq"
+      ]
+    },
+    "v16_c187": {
+      "seeds": [
+        "s_primus"
+      ]
+    },
+    "v16_c189": {
+      "seeds": [
+        "s_cycle"
+      ]
+    },
+    "v16_c194": {
+      "seeds": [
+        "s_again"
+      ]
+    },
+    "v16_c198": {
+      "seeds": [
+        "s_7min"
+      ]
+    },
+    "v16_c199": {
+      "seeds": [
+        "s_alone"
+      ]
+    },
+    "ae02": {
+      "seeds": [
+        "s_ria",
+        "s_alone"
+      ]
+    },
+    "ae04": {
+      "seeds": [
+        "s_774",
+        "s_pair",
+        "s_blank"
+      ]
+    },
+    "ss12": {
+      "seeds": [
+        "s_gongga"
+      ]
+    },
+    "v06_c051": {
+      "seeds": [
+        "s_seoan"
+      ]
+    }
+  },
+  "unit_gates": {
+    "ae03": {
+      "reach": "full"
+    },
+    "ae04": {
+      "reach": "full"
+    },
+    "ss12": {
+      "reach": "full"
+    }
+  },
+  "reach_rules": {
+    "fullSeedsMin": 16,
+    "fullUnchosenMax": 1,
+    "silentUnchosenMin": 3
+  }
+}

@@ -26,11 +26,12 @@
     (function () {
       var lang = null;
       try { lang = JSON.parse(localStorage.getItem("scalar2_lang")); } catch (e) {}
-      if (lang !== "ko" && lang !== "en") {
-        lang = ((navigator.language || "ko").toLowerCase().indexOf("ko") === 0) ? "ko" : "en";
+      if (lang !== "ko" && lang !== "en" && lang !== "jp") {
+        var nl = (navigator.language || "ko").toLowerCase();
+        lang = nl.indexOf("ko") === 0 ? "ko" : (nl.indexOf("ja") === 0 ? "jp" : "en");
       }
       window.LANG = lang;
-      document.write('<script src="script' + (lang === "en" ? ".en" : "") + '.js"><\/script>');
+      document.write('<script src="script' + (lang === "en" ? ".en" : (lang === "jp" ? ".jp" : "")) + '.js"><\/script>');
     })();
   </script>
   <!-- 로드 순서 고정: script → state → director → stage → input → main (§2) -->

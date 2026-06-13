@@ -8,11 +8,13 @@ import { readFileSync } from "node:fs";
 import vm from "node:vm";
 
 const GAME = new URL("../game/", import.meta.url).pathname;
-const LANG = process.env.SNZ_LANG === "en" ? "en" : "ko";   // SNZ_LANG=en 으로 영어판 회귀
-const SUF = LANG === "en" ? "_en" : "";
-const SCRIPT_FILE = LANG === "en" ? "script.en.js" : "script.js";
+const LANG = ["en", "jp"].includes(process.env.SNZ_LANG) ? process.env.SNZ_LANG : "ko";   // SNZ_LANG=en|jp 으로 언어판 회귀
+const SUF = LANG === "en" ? "_en" : (LANG === "jp" ? "_jp" : "");
+const SCRIPT_FILE = LANG === "en" ? "script.en.js" : (LANG === "jp" ? "script.jp.js" : "script.js");
 const T = LANG === "en"
   ? { begin: "Begin", resume: "Continue", reach: "Full Recall", silent: "Silent Run", unasked: "The Unasked", choice: "Answer" }
+  : LANG === "jp"
+  ? { begin: "読みはじめる", resume: "続きを読む", reach: "完全回収", silent: "沈黙走行", unasked: "問わなかったもの", choice: "答え" }
   : { begin: "읽기 시작", resume: "이어서 읽기", reach: "완전 회수", silent: "침묵 주행", unasked: "묻지 않은 것들", choice: "답" };
 const FILES = [SCRIPT_FILE, "state.js", "director.js", "stage.js", "input.js", "main.js"];
 
