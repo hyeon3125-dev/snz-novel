@@ -1461,7 +1461,7 @@ It was enduring. For Hangyeol, that was the method.
 
 ## SS-09 “The Scar” — Seoan
 
-*Placement: between Vol.13 and Vol.14 (the Geumhui line)*
+*Placement: between Vol.13 and Vol.14 (Kangwi recollection line)*
 
 -----
 

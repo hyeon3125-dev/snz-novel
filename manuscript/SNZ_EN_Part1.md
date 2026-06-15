@@ -12027,19 +12027,19 @@ A gun fired. One round. A warning. Fired upward.
 
 A window broke. One in the structure’s outer wall. Fragments fell.
 
-One of the Geumhui boundary squad was struck by a fragment. Near the eye. He put a hand to his face. The hand was red. It was not severe — the fragment had grazed. He had not lost his sight. But the feeling of something caught in the right field of vision persisted.
+One of Hwagam was struck by a fragment. Near the eye. He put a hand to his face. The hand was red. It was not severe — the fragment had grazed. He had not lost his sight. But the feeling of something caught in his field of vision persisted.
 
-It was Seoan. The youngest of the Geumhui boundary squad.
+It was Seoan. The youngest of the Hwagam enforcement detail.
 
 “Are you all right.”
 
-Another squad member asked.
+Another of Hwagam asked.
 
 “Recording.”
 
 Seoan said. He lowered his hand. He kept his place.
 
-One of Hwagam was scratched on the arm. That was all. No one died. No one was badly hurt. On the skin beside Seoan’s eye, the fragment’s trace remained. A thin scar.
+One of the Geumhui boundary squad was scratched on the arm. That was all. No one died. No one was badly hurt. A fragment grazed Seoan’s brow as well. No new scar was left.
 
 Not one of the Geumhui boundary squad used a lethal weapon. Neither did Hwagam. Every house had the same rule — killing without authorization was forbidden. There was no order to kill. Subdue, isolate, neutralize, arrest. That was all.
 
