@@ -12,7 +12,7 @@
 [![](https://img.shields.io/badge/No_AI_·_No_Server_·_No_Build-111111?style=flat-square&labelColor=111111&color=222222)](#구조--architecture)
 [![](https://img.shields.io/badge/Runtime_Dependencies-0-F37021?style=flat-square&labelColor=111111)](game/)
 [![](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-F37021?style=flat-square&labelColor=111111)](LICENSE-CONTENT.md)
-[![](https://img.shields.io/badge/Code-MIT-F37021?style=flat-square&labelColor=111111)](LICENSE)
+[![](https://img.shields.io/badge/Engine-PolyForm_Noncommercial-F37021?style=flat-square&labelColor=111111)](LICENSE)
 [![verify](https://github.com/hyeon3125-dev/snz-novel/actions/workflows/verify.yml/badge.svg)](https://github.com/hyeon3125-dev/snz-novel/actions/workflows/verify.yml)
 
 <br/>
@@ -147,7 +147,7 @@ The reading **engine** has zero dependencies and works fully offline. The hosted
 | | License | Terms |
 |---|---|---|
 | **Narrative content** 서사 콘텐츠 (원고·각본 데이터·설정) | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) | Non-commercial enjoyment, sharing, and derivatives are free. Commercial use (publishing · merchandise · adaptations · commercial AI training) requires a separate license — 상업적 이용은 별도 계약 |
-| **Code** 코드 (엔진·도구·스타일) | [MIT](LICENSE) | Free for any use — 제한 없음 |
+| **Engine / Code** 엔진·도구·스타일 | [PolyForm Noncommercial 1.0.0](LICENSE) | Free for any **noncommercial** purpose — 개인·비영리 작가는 자기 작품에 자유롭게 사용·수정·배포 가능. Commercial use requires a separate license — **상업적 이용은 별도 계약** (hyeon3125@gmail.com) |
 
 ---
 
