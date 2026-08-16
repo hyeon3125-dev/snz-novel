@@ -23,7 +23,7 @@ function collectErrors(page, sink) {
 }
 
 async function freshPage(browser, opts = {}) {
-  const ctx = await browser.newContext(opts);
+  const ctx = await browser.newContext({ locale: "ko-KR", ...opts });
   const page = await ctx.newPage();
   const errors = [];
   collectErrors(page, errors);
@@ -178,12 +178,12 @@ try {
     await ctx.close();
   }
 
-  // ════ 9.5 분석 — 활성: 쿠키리스 비콘 배선 검증 (실계정 오염 0: 비콘 가로채 스텁) ════
-  console.log("[9.5] 분석 활성: 비콘 로드 시도 · 쿠키 0 · 엔진 무영향 (실계정 오염 없음)");
+  // ════ 9.5 분석 — 기본 비활성: 외부 요청 0 ════
+  console.log("[9.5] 분석 기본 비활성: 외부 요청 0 · 엔진 정상");
   {
     const { ctx, page, errors } = await freshPage(browser);
     const beacon = [];
-    // GoatCounter로 나가는 실요청은 전부 가로채 빈 200 — 테스트가 대시보드를 더럽히지 않는다
+    // 회귀 시 실요청을 차단하면서 정확한 URL을 기록한다.
     await page.route("**/gc.zgo.at/**", (route) => {
       beacon.push(route.request().url());
       route.fulfill({ status: 200, contentType: "application/javascript", body: "" });
@@ -198,12 +198,12 @@ try {
     await page.getByText("읽기 시작").click();
     await sleep(300);
     for (let i = 0; i < 4; i++) { await page.mouse.click(300, 400); await sleep(60); }
-    check(await page.evaluate(() => window.ANALYTICS && window.ANALYTICS.enabled === true),
-          "ENDPOINT 설정됨 → ANALYTICS.enabled=true");
-    check(beacon.some((u) => u.includes("gc.zgo.at")), "쿠키리스 비콘 로드 시도 (gc.zgo.at)");
+    check(await page.evaluate(() => window.ANALYTICS && window.ANALYTICS.enabled === false),
+          "ENDPOINT 비어 있음 → ANALYTICS.enabled=false");
+    check(beacon.length === 0, `분석 외부 요청 0건${beacon.length ? " — " + beacon[0] : ""}`);
     const cookies = await ctx.cookies();
     check(cookies.length === 0, `쿠키 0개 (쿠키리스)${cookies.length ? " — " + cookies[0].name : ""}`);
-    check(await lineCount(page) >= 3, "분석 활성에도 읽기 정상 진행");
+    check(await lineCount(page) >= 3, "분석 비활성에도 읽기 정상 진행");
     check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
     await ctx.close();
   }

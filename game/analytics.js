@@ -12,7 +12,7 @@
  */
 "use strict";
 (function () {
-  var ENDPOINT = "https://scalar-nodezero.goatcounter.com/count";  // 비우면 비활성(네트워크 0)
+  var ENDPOINT = "";  // 기본 비활성(네트워크 0)
 
   function dntOn() {
     var d = (typeof navigator !== "undefined" && (navigator.doNotTrack || navigator.msDoNotTrack))

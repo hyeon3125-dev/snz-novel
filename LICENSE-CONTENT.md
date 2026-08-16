@@ -15,8 +15,8 @@
 
 **상업적 이용** (출판, 굿즈, 영상화, 게임화, 기타 라이선싱)은 별도 계약으로 가능합니다 — 레포지토리 이슈 또는 저작자에게 연락하십시오.
 
-코드(엔진·도구)는 별도로 [MIT 라이선스](LICENSE)를 따릅니다.
+코드(엔진·도구)는 별도로 [PolyForm Noncommercial 1.0.0](LICENSE)을 따릅니다.
 
 ---
 
-*The narrative content of "SCALAR: NODE ZERO" — the full manuscript under `manuscript/`, the prose in `game/script.js`, characters, and worldbuilding — is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Read it, share it, remix it non-commercially under the same license, with attribution. Commercial use of any kind — including publication, merchandise, adaptations, and commercial AI training — requires a separate license from the author. The engine code is separately MIT-licensed.*
+*The narrative content of "SCALAR: NODE ZERO" — the full manuscript under `manuscript/`, the prose in `game/script.js`, characters, and worldbuilding — is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Read it, share it, remix it non-commercially under the same license, with attribution. Commercial use of any kind — including publication, merchandise, adaptations, and commercial AI training — requires a separate license from the author. The engine code is separately licensed under [PolyForm Noncommercial 1.0.0](LICENSE).*
