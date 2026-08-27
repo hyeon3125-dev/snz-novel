@@ -5,7 +5,7 @@ KO(script.js)가 구조 정본이다. 신규 언어판 빌드가 KO와 다음 �
 
   1. 유닛 집합 + 순서 (재배치·누락·중복 초고 유닛 검출)
   2. 유닛 속성: kind / vol / ch / arc (Volume 헤더 위치 어긋남 검출)
-  3. 유닛별 씬 수 + 씬별 라인 수 (임의 분할·잉여 문단·결락 라인·편집 잔재 누수 전부 여기서 걸림)
+  3. 유닛별 씬 수 + 씬별 라인 수·형태 (임의 분할·줄 밀림·잉여 문단·결락 라인·편집 잔재 누수)
   4. meta: sceneCount / lineCount / seedTotal
   5. 유닛 어노테이션 패리티: seed / gate / reach / sound(bgm)
   6. 씬 어노테이션 패리티: faction / fx(태그·라인 인덱스까지) / interaction type / gate / sound
@@ -36,6 +36,15 @@ def unit_order(s):
 def fx_of(line):
     fx = line.get("fx")
     return fx.get("tag") if isinstance(fx, dict) else fx
+
+
+def line_shape(line):
+    """언어와 무관한 줄 형태. 같은 줄 수로 위장한 번역 밀림을 잡는다."""
+    text = line.get("t", "").strip()
+    italic = len(text) >= 2 and text.startswith("*") and text.endswith("*")
+    dialogue = ((text.startswith("“") and text.endswith("”")) or
+                (text.startswith("「") and text.endswith("」")))
+    return italic, dialogue
 
 
 def inter_type(sc):
@@ -110,6 +119,9 @@ def main():
             for i, (la, lb) in enumerate(zip(a["lines"], b["lines"])):
                 if fx_of(la) != fx_of(lb):
                     errors.append(f"{sid}[{i}].fx: KO {fx_of(la)} ≠ 대상 {fx_of(lb)}")
+                if line_shape(la) != line_shape(lb):
+                    errors.append(f"{sid}[{i}].shape: KO {line_shape(la)} ≠ 대상 {line_shape(lb)}"
+                                  " (이탤릭/대화 줄 밀림·인용부호 형식 확인)")
 
     if errors:
         print(f"패리티 검증 실패 — {len(errors)}건 (KO가 구조 정본):")

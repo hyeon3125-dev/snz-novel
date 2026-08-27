@@ -53,7 +53,7 @@ Hangyeol said only that.
 
 Five ten in the morning.
 
-The records hall’s lights were already on. Exactly speaking, they had never gone off. The standby lights of the storage terminals and the guide lights of the index stacks kept a low glow through the night, and when Kangwi entered, the main lighting was laid over them. Not a place where light turns on, but a place where a layer of light is added. That was morning at the Geumhui records hall.
+The records hall’s lights were already on. Strictly speaking, they had never gone off. The standby lights of the storage terminals and the guide lights of the index stacks kept a low glow through the night, and when Kangwi entered, the main lighting was laid over them. Not a place where light turns on, but a place where a layer of light is added. That was morning at the Geumhwi records hall.
 
 The shelves showed no end. From the entrance, the passage narrowed into the dark and vanished, and Kangwi knew that beyond that vanishing point the shelves continued. A length known only to those who had walked it. Not the smell of dust but the smell of paper. The smell of tended paper. Dry, old, and yet not dead. Kangwi liked the smell. He had never said so. The moment he said he liked it, he would have to judge whether that was a matter for recording, and Kangwi did not want to make that judgment.
 
@@ -93,7 +93,7 @@ Muyul was beside him. Since when, Kangwi did not know. Muyul was not a person wh
 
 “I must.”
 
-“Is there something.”
+“Is there something?”
 
 Kangwi looked at the fields. His fingertip was still on the margin.
 
@@ -109,7 +109,7 @@ Muyul stood a moment. He looked down at the record, and looked at where Kangwi�
 
 Muyul heard it.
 
-That there is nothing is strange. There were the words Kangwi had said before. “We may have come first.” Those words too were from before. Words that had not existed before were coming out of Kangwi.
+That there is nothing is strange. Kangwi’s earlier words returned. “We may have come first.” Those words too were new. Words that had never existed before were coming out of Kangwi.
 
 Muyul was not uneasy at it. It seemed he should be uneasy, and he was not, and that fact was a little strange. It was not that Kangwi was wavering. Kangwi still looked at the same records, in the same posture, at the same hour. Only what he looked at was changing. From what was written, to what was not written.
 
@@ -125,7 +125,7 @@ There had been an event. Before it, there would have been something. There would
 
 The event before the record.
 
-Kangwi turned the phrase over once without letting it out of his mouth. It was a phrase that made sense. It was also a phrase that must not make sense. In the records hall, before-the-record had to be the same word as nothing.
+Kangwi turned the phrase over once without letting it out of his mouth. It was a phrase that made sense. It was also a phrase that must not make sense. In the records hall, *before the record* had to mean the same thing as nothing.
 
 A record leaves results. It does not leave what came before the result.
 
@@ -145,13 +145,13 @@ Nine o’clock in the morning, on the hour.
 
 An order came.
 
-An arrival alert rose on the execution bureau terminal, and Muyul saw it the moment it rose. Geumhui execution orders always came on the hour. An order with minutes attached was urgent; an on-the-hour order was procedure. Today’s was on the hour.
+An arrival alert rose on the execution bureau terminal, and Muyul saw it the moment it rose. Geumhwi execution orders always came on the hour. An order with minutes attached was urgent; an on-the-hour order was procedure. Today’s was on the hour.
 
-It was the Geumhui execution line. Kangwi’s signature was on it. Muyul looked at the signature first. Looking at the signature first was Muyul’s order of things. Who ordered stood before what was ordered. Kangwi’s signature meant, to Muyul, the end of procedure. He had never looked behind that signature.
+It was the Geumhwi execution line. Kangwi’s signature was on it. Muyul looked at the signature first. Looking at the signature first was Muyul’s order of things. Who ordered stood before what was ordered. Kangwi’s signature meant, to Muyul, the end of procedure. He had never looked behind that signature.
 
 There was a target. There was a place. There was a time.
 
-Muyul received it. He printed the order from the terminal, and there was the sound of paper dropping into the tray. The execution bureau carried orders out on paper. A terminal could be amended and paper could not. That was the execution bureau’s way.
+Muyul received it. He printed the order, and paper dropped into the terminal tray. The execution bureau carried orders out on paper. A terminal could be amended; paper could not. That was the execution bureau’s way.
 
 -----
 
@@ -187,7 +187,7 @@ Kangwi was in the same place.
 
 Kangwi looked. He looked at the order, and then at Muyul. That was the order of his looking.
 
-“What are its grounds.”
+“What are its grounds?”
 
 An executor had asked for grounds. Muyul himself knew it as he heard the sentence leave his mouth. There was no format for this question. A question found in no procedure.
 
@@ -195,7 +195,7 @@ Kangwi looked at the order.
 
 “The Vol.8 record.”
 
-“Is this record complete.”
+“Is this record complete?”
 
 Kangwi paused. The pause was long. Kangwi’s silences usually ran at the speed of immediate answers. Yes, no, there is none. This silence was a length that was none of those.
 
@@ -209,7 +209,7 @@ Confirming. In Kangwi’s language, it was a word heard for the first time. Kang
 
 The weight of the paper in his hand became distinct.
 
-He did not refuse the execution. Refusal was judging the order wrong, and Muyul had no grounds that it was wrong. He had only that the grounds were insufficient.
+He did not refuse to carry out the execution. Refusal would mean judging the order wrong, and Muyul had no grounds to call it wrong. He knew only that its grounds were insufficient.
 
 But he held.
 
@@ -237,11 +237,11 @@ The corridor felt longer than on the way in.
 
 The storage lay one floor below the records hall.
 
-The stairway down was one grade dimmer, the air one grade drier. A temperature for paper. Not a temperature for people. Kangwi knew the difference by his skin. Stay long in the storage and the fingertips dried first.
+The stairway down was slightly dimmer, the air slightly drier. A temperature for paper. Not a temperature for people. Kangwi knew the difference by his skin. Stay long in the storage and the fingertips dried first.
 
 There was an old record.
 
-One Kangwi had drawn from deep in the storage. Deep was not a figure of speech. The storage ran deeper by era toward the inside, and Kangwi had walked in to rows he did not usually reach. It was an early Geumhui record. From before now. From before Kangwi was at Geumhui. The very form of the cover differed. A format no longer used, and a handwriting no longer used.
+One Kangwi had drawn from deep in the storage. Deep was not a figure of speech. The storage ran deeper by era toward the inside, and Kangwi had walked in to rows he did not usually reach. It was an early Geumhwi record. From before now. From before Kangwi was at Geumhwi. The very form of the cover differed. A format no longer used, and a handwriting no longer used.
 
 There were the fields. Date. Event. Result.
 
@@ -271,7 +271,7 @@ Whether it was erased in order to leave, or left in order to erase, could not be
 
 Kangwi looked at it.
 
-A recorder records. The Geumhui principle. Not something learned on the first day of entry, but something known from before entry. What is recorded is not erased. To erase is to erase the event. Events are not erased. What happened, happened.
+A recorder records. The Geumhwi principle. Not something learned on the first day of entry, but something known from before entry. What is recorded is not erased. To erase is to erase the event. Events are not erased. What happened, happened.
 
 But there was an erased thing.
 
@@ -285,11 +285,11 @@ Muyul came in. An executor who came down to the storage was rare. Muyul stopped 
 
 Kangwi looked at the record.
 
-“Is the confirmation complete.”
+“Is the confirmation complete?”
 
 “No.”
 
-“When will it be complete.”
+“When will it be complete?”
 
 “I don’t know.”
 
@@ -309,7 +309,7 @@ It was not inside the record. Only the one who erased it knew. Kangwi thought fo
 
 In the erased record, there was no one who erased.
 
-The blank was two layers deep. The erased event, and the eraser. Kangwi turned off the terminal and stayed a moment as he was, in the dark. There was the smell of paper drying.
+The blank was two layers deep. The erased event, and the eraser. Kangwi turned off the terminal and remained still for a moment in the dark. The air smelled of drying paper.
 
 -----
 
@@ -327,7 +327,7 @@ The city’s outskirts, the four-o’clock light lying long between the building
 
 Muyul settled it that way, and knew the settling was not complete.
 
-There was the place. Exactly the order’s coordinates. The position where the target should be. Muyul stopped at a building’s corner and looked at the position.
+The place was there, exactly at the order’s coordinates. The position where the target should be. Muyul stopped at a building’s corner and looked at it.
 
 -----
 
@@ -351,7 +351,7 @@ And it was a person.
 
 That person was eating something. Standing, hurriedly, in the posture of one eating something going cold. Muyul saw it, thought he should not have seen it, and had already seen it.
 
-It was not the first time. There had been the day with Gadeung. He had stopped then too.
+It was not the first time. It had happened in Vol.8 too, on the day with Gadeung. He had stopped then too.
 
 Then, whether he stopped because it was Hwagam, or because it was a person, he had not known. When the houses tangled, procedure grew complicated, and the stopping could be laid at procedure’s feet.
 
@@ -373,7 +373,7 @@ The site was quiet. There was no wind. Between the hand holding the order and th
 
 He had looked at the person before looking at the order.
 
-It was a first.
+That had never happened before.
 
 The hand holding the order was heavy. Not the weight of one sheet of paper. Where that weight came from — Muyul thought about it for the first time that day. On the paper was written a target, and before his eyes was a person. That whole interval had come down into the hand.
 
@@ -387,7 +387,7 @@ He drew back from the corner and went around behind the building, and that perso
 
 *Site confirmed. Target present. Execution held. Reason: unconfirmed.*
 
-He entered it, and looked at the screen a moment.
+He entered it, and looked at the screen for a moment.
 
 Unconfirmed. Not the target — he himself was the unconfirmed. The target was confirmed. The position, the description, the requirements. What was not confirmed was why the hand holding the order was heavy. So he wrote it. It was not false. Only the subject was left unwritten.
 
@@ -411,7 +411,7 @@ Eight in the morning.
 
 A records hall meeting.
 
-The meeting room stood at the records hall’s center, and ordinarily the door was locked. The meeting room of an organization without meetings. Kangwi summoned the archivists. The summons went out by terminal, and the archivists who received it looked at their terminals twice each. Such meetings were rare. At the Geumhui records hall, a meeting meant trouble in the record system, and no one in that room remembered when the last meeting had been.
+The meeting room stood at the records hall’s center, and ordinarily the door was locked. The meeting room of an organization without meetings. Kangwi summoned the archivists. The summons went out by terminal, and the archivists who received it looked at their terminals twice each. Such meetings were rare. At the Geumhwi records hall, a meeting meant trouble in the record system, and no one in that room remembered when the last meeting had been.
 
 Eleven sat at the long table. No one spoke first. Archivists were people whose records ran faster than their words, and so the meeting room, until words began, was as quiet as the storage.
 
@@ -427,11 +427,11 @@ The archivists looked.
 
 Not at one another — each at a point on the table. It was the time of each calculating what the words meant.
 
-Re-examination. At Geumhui, re-examination was admitting the possibility that earlier records were wrong. If a record was wrong, the executions grounded in that record were wrong too. If the records hall shook, the execution bureau shook. The whole of Geumhui shook. Everyone in that room knew the chain, and knowing it, no one put the chain’s end into words.
+Re-examination. At Geumhwi, re-examination was admitting the possibility that earlier records were wrong. If a record was wrong, the executions grounded in that record were wrong too. If the records hall shook, the execution bureau shook. The whole of Geumhwi shook. Everyone in that room knew the chain, and knowing it, no one put the chain’s end into words.
 
 One asked. The most junior archivist. There were questions that could be asked only because one was junior.
 
-“To what range.”
+“To what range?”
 
 Kangwi heard it. Range. A re-examination had to have a range. With a beginning and an end, it was procedure. Kangwi knew the beginning and did not know the end.
 
@@ -443,11 +443,11 @@ It was not a range. It was a condition. The archivists knew the difference at on
 
 The meeting ended.
 
-The archivists left. They looked quiet. Ten dispersed over the floor that muffled footsteps. But they were looking at one another. In the corridor, between the shelves, there were gazes briefly meeting. They did not ask Kangwi directly. Not asking directly was the Geumhui way, and for the first time, that way became a stifling thing.
+The archivists left. They looked quiet. Ten dispersed over the floor that muffled footsteps. But they were looking at one another. In the corridor, between the shelves, there were gazes briefly meeting. They did not ask Kangwi directly. Not asking directly was the Geumhwi way, and for the first time, that way became a stifling thing.
 
 Muyul remained.
 
-There were two in the meeting room. Muyul was not an archivist, but Kangwi had called him. There was the execution waiting list. Muyul opened it on the terminal. There were the items. He pressed down the grounds-record numbers one by one. There were ones grounded in records under re-examination. Three. Four. Five.
+There were two in the meeting room. Muyul was not an archivist, but Kangwi had called him. Muyul opened the execution waiting list on the terminal and went through the supporting-record numbers one by one. Some relied on records under re-examination. Three. Four. Five.
 
 They had to be confirmed.
 
@@ -493,7 +493,7 @@ The seat across the execution bureau office. The subordinate was already checkin
 
 “Yes.”
 
-“When do we execute.”
+“When do we execute?”
 
 “After the grounds are confirmed.”
 
@@ -501,7 +501,7 @@ The seat across the execution bureau office. The subordinate was already checkin
 
 The subordinate heard it.
 
-The hand checking equipment stopped. The Geumhui execution line was not an organization that waited. When a request came, it processed it. There was a standard for processing time, and keeping that standard was the execution bureau’s pride. There was no procedure called confirmation. Confirmation was what the records hall finished and sent over.
+The hand checking equipment stopped. The Geumhwi execution line was not an organization that waited. When a request came, it processed it. There was a standard for processing time, and keeping that standard was the execution bureau’s pride. There was no procedure called confirmation. Confirmation was what the records hall finished and sent over.
 
 The subordinate asked again. Not an arguing tone. The tone of not understanding the procedure.
 
@@ -535,7 +535,7 @@ He held.
 
 He came out of the alley. The subordinate asked over the radio.
 
-“Do we execute.”
+“Do we execute?”
 
 “Waiting.”
 
@@ -547,7 +547,7 @@ That evening, red marks attached to the execution waiting list.
 
 The mark the system attached automatically to items exceeding the standard processing time. On the execution bureau’s terminal screen, a red line — one, two, three.
 
-It was a first. That color rising on that screen.
+It was the first time that color had appeared on that screen.
 
 -----
 
@@ -561,13 +561,13 @@ It was a first. That color rising on that screen.
 
 There was an original.
 
-Kangwi drew out the storage’s deepest one. In the deepest rows the ceiling hung lower, and the lighting reached partway and stopped. Kangwi went in carrying the terminal’s light. Even Kangwi knew the records of this row only by index. Drawing one out by hand was a first.
+Kangwi drew it from the deepest row of the storage. In the deepest rows the ceiling hung lower, and the lighting reached partway and stopped. Kangwi went in carrying the terminal’s light. Even Kangwi knew the records of this row only by index. Drawing one out by hand was a first.
 
-It was an early Geumhui record. The form differed. From before the present Geumhui standard form. The arrangement of fields differed, the paper’s dimensions differed, the binding differed. The one who made this was no longer in the records hall. The maker’s name was not in the index either. It was from an era in which the form remained and the person did not.
+It was an early Geumhwi record. The form differed. From before the present Geumhwi standard form. The arrangement of fields differed, the paper’s dimensions differed, the binding differed. The one who made this was no longer in the records hall. The maker’s name was not in the index either. It was from an era in which the form remained and the person did not.
 
 Kangwi spread it on the table and fixed the terminal’s light.
 
-There were the fields. And there was a blank. The same kind of blank seen yesterday. The pressed marks, the erased place.
+Entries filled the form, alongside a blank. The same kind seen yesterday: pressed marks, an erased place.
 
 But this time there was something beside the blank.
 
@@ -595,7 +595,7 @@ Kangwi said.
 
 Muyul heard it. It was the first time he had heard Kangwi rule that something was not a record. Every paper inside the records hall was a record. That was the premise.
 
-“Then what is it.”
+“Then what is it?”
 
 Kangwi looked at the mark. Looked a long while.
 
@@ -611,11 +611,11 @@ Kangwi looked at it.
 
 It was a manner he had never seen. And it was not unfamiliar.
 
-Where the sense of not-unfamiliar came from, Kangwi did not know. Something rose, and scattered before it took shape. Kangwi did not speak it. It was not certain. Not speaking the uncertain was the Geumhui way, and Kangwi was still inside that way.
+Kangwi did not know where that sense of familiarity came from. Something rose, then scattered before it took shape. Kangwi did not speak it. It was not certain. Not speaking the uncertain was the Geumhwi way, and Kangwi was still inside that way.
 
 -----
 
-In the terminal’s light there was the paper.
+The paper lay in the terminal’s light.
 
 Even in the records hall there was what was not a record.
 
@@ -629,9 +629,9 @@ Even in the records hall there was what was not a record.
 
 -----
 
-A Geumhui internal meeting.
+A Geumhwi internal meeting.
 
-This time it was not archivists only. The execution bureau was there too. On one side of the meeting room’s long table sat the archivists, across from them the executors. No one had set the seating. They sat in the order they entered, and it split that way. It was a first. The two departments in the same place.
+This time it was not only archivists. The execution bureau was there too. On one side of the meeting room’s long table sat the archivists, across from them the executors. No one had assigned the seats. They sat in the order they entered, and the room divided that way. It was the first time the two departments had met in one place.
 
 The air in the room differed from the storage. The storage’s quiet was the quiet of paper; this room’s quiet was a quiet people made. The weight differed.
 
@@ -639,13 +639,13 @@ The air in the room differed from the storage. The storage’s quiet was the qui
 
 The execution bureau side spoke. The execution bureau senior. Seated, both hands on the table.
 
-“If the records are incomplete, control must be tightened. If there are blanks, they must be filled. What wavers is the records, not the execution.”
+“If the records are incomplete, control must be tightened. If there are blanks, they must be filled. The records are what waver, not the execution.”
 
 The records side spoke. The most senior archivist.
 
 “If the records are incomplete, the executions grounded in them must be slowed. Execute on incomplete records, and the execution is incomplete too.”
 
-The two sentences lay facing each other on the table. Neither side raised its voice. At Geumhui, it was not voices but sentences that collided.
+The two sentences lay facing each other on the table. Neither side raised its voice. At Geumhwi, it was not voices but sentences that collided.
 
 -----
 
@@ -653,7 +653,7 @@ Kangwi was there.
 
 The table’s short side, a place belonging to neither. He did not answer at once.
 
-Both claims came out of Geumhui principle. Kangwi knew it, and so the answer was hard. If one side were wrong, it could be corrected. If both were right, there was nothing to correct. Records and execution were Geumhui. If the records wavered, the execution wavered. If the execution wavered, the records wavered. That circulation had held Geumhui up, and now the same circulation was tightening around it.
+Both claims came out of Geumhwi principle. Kangwi knew it, and so the answer was hard. If one side were wrong, it could be corrected. If both were right, there was nothing to correct. Records and execution were Geumhwi. If the records wavered, the execution wavered. If the execution wavered, the records wavered. That circulation had held Geumhwi up, and now the same circulation was tightening around it.
 
 Kangwi did not have an answer. Sitting in that seat without an answer was the most honest thing Kangwi could do.
 
@@ -685,7 +685,7 @@ He did not correct him. He could not correct him. Because Muyul’s words were n
 
 The meeting ended without conclusion.
 
-For the first time inside Geumhui, the order split in two. The split place was quiet. Geumhui’s crack made no sound.
+For the first time inside Geumhwi, the order split in two. The split place was quiet. Geumhwi’s crack made no sound.
 
 -----
 
@@ -703,17 +703,17 @@ For the first time inside Geumhui, the order split in two. The split place was q
 
 An execution bureau meeting.
 
-The execution bureau’s meeting room differed from the records hall’s. There was a status board on the wall, and on the status board, processing-time statistics. A room that spoke in numbers. At the status board’s center, the execution waiting list was put up. It had come up as an agenda item. There were the red marks. What had first been one had become three. On the screen, those three were brighter than anything else.
+The execution bureau’s meeting room differed from the records hall’s. A status board on the wall showed processing-time statistics. A room that spoke in numbers. At its center was the execution waiting list, now an agenda item. One red mark had become three. On the screen, those three were brighter than anything else.
 
 The superior executor spoke. One rank above Muyul, the seat that watched the whole execution bureau.
 
-“If the execution bureau stops, Geumhui leaves only records.”
+“If the execution bureau stops, Geumhwi leaves only records.”
 
-Muyul heard it. He did not answer. It was not a sentence to rebut. It was fact. Records and execution were Geumhui, and if one side stopped, what remained was a half.
+Muyul heard it. He did not answer. It was not a sentence to rebut. It was a fact. Records and execution were Geumhwi, and if one side stopped, what remained was a half.
 
 -----
 
-“What is the reason for the hold.”
+“What is the reason for the hold?”
 
 “The grounds are under confirmation.”
 
@@ -721,7 +721,7 @@ Muyul heard it. He did not answer. It was not a sentence to rebut. It was fact. 
 
 “The base records of Kangwi’s signature are under confirmation.”
 
-The superior executor looked at Muyul. The looking lengthened. It was the first time such an answer had come out. The signature was, at the execution bureau, the end. An executor who spoke of what lay behind the end — the superior executor was seeing one for the first time, and before the first-seen thing, was choosing his next sentence.
+The superior executor’s gaze lingered on Muyul. It was the first time such an answer had been given. In the execution bureau, a signature was the end. The superior executor had never seen an executor speak of what came after the end, and was choosing his next words in the face of something new.
 
 -----
 
@@ -771,7 +771,7 @@ This time he looked closer. He changed the angle of the terminal’s light. What
 
 Beside the mark there was something.
 
-Very faint. Older than the mark. Almost no ink remained, and it read only by the shadow of the pressed marks. It was blurred. Something like a name. Whether a personal name or a role name could not be known. It was not complete. Half of it was erased.
+Very faint. Older than the mark. Almost no ink remained; it could be read only from the shadows of the pressed marks. It was blurred. Something like a name. Whether a personal name or a role name could not be known. It was not complete. Half of it was erased.
 
 Erased, and not erased to the end.
 
@@ -793,7 +793,7 @@ Kangwi looked at it. He had already run the index. He had searched every combina
 
 “If it is not.”
 
-Muyul’s question stopped there. If it is not — the words that came next were fixed at Geumhui. Then it does not exist. Muyul did not say the fixed words and looked at Kangwi.
+Muyul’s question stopped there. If it is not — the words that came next were fixed at Geumhwi. Then it does not exist. Muyul did not say the fixed words and looked at Kangwi.
 
 Kangwi looked at Muyul.
 
@@ -803,21 +803,21 @@ Kangwi looked at Muyul.
 
 Muyul heard it.
 
-A person not recorded. At Geumhui, what was not in the records did not exist. The record was the fact. If absent, absent. Muyul had executed on top of that principle. When the record pointed, he executed; what was not in the record, he treated as not existing.
+A person not recorded. At Geumhwi, what was not in the records did not exist. The record was the fact. If absent, absent. Muyul had executed on top of that principle. When the record pointed, he executed; what was not in the record, he treated as not existing.
 
-“Then is it a person who does not exist.”
+“Then is it a person who does not exist?”
 
-Kangwi looked at the mark. At the half-remaining name. At what was erased and remained.
+Kangwi looked at the mark. At the half of the name that remained. At what had been erased and yet remained.
 
 “No.”
 
 -----
 
-It was a first.
+That had never happened before.
 
-Kangwi not seeing absence-from-record as absence. The record was the fact. Not in the records, not existing. That was Geumhui. Kangwi had not once doubted the sentence in thirty years.
+The first time Kangwi had not treated absence from the records as absence. The record was fact. If it was not in the records, it did not exist. That was Geumhwi. Kangwi had not once doubted the sentence in thirty years.
 
-And now Kangwi had said no. The paper before his eyes made him say it. The erased name, half remaining, occupied the place between absence and presence. In Geumhui’s language there was no word that called that place.
+And now Kangwi had said no. The paper before his eyes made him say it. The erased name, half remaining, occupied the place between absence and presence. In Geumhwi’s language there was no word that called that place.
 
 -----
 
@@ -849,7 +849,7 @@ The target was there.
 
 Unlike before. The targets before had avoided or waited. They went about their business while Muyul watched, not knowing they were seen. This target was different. They recognized Muyul. Recognized him, did not avoid him, came closer. Stopped at five paces. Looked at Muyul.
 
-“Am I not in the records.”
+“Am I not in the records?”
 
 Muyul stopped.
 
@@ -869,13 +869,13 @@ There was no name on the order. There never had been. The form had no name field
 
 Muyul looked at the target.
 
-It was a person. There was a code. There was no name. He looked from the order to the person and back. On the paper, a code; before his eyes, a person. The interval that had been building since long before stood within five paces.
+It was a person. There was a code. There was no name. He looked from the order to the person and back. On the paper, a code; before his eyes, a person. The interval that had been building since Vol.8 stood within five paces.
 
 He could execute. There was a code. The requirements were met.
 
 Muyul asked.
 
-“What is your name.”
+“What is your name?”
 
 -----
 
@@ -907,7 +907,7 @@ It was a name.
 
 An order arrived.
 
-The next morning. Addressed to Muyul. It came not by terminal but as a sealed document. A sealed document stood one grade above a terminal order. The Geumhui execution bureau’s seal. Muyul looked at the seal before breaking it, and after breaking it, looked at the signature line first.
+The next morning. Addressed to Muyul. It came not by terminal but as a sealed document. A sealed document stood one grade above a terminal order. The Geumhwi execution bureau’s seal. Muyul looked at the seal before breaking it, and after breaking it, looked at the signature line first.
 
 There was no Kangwi signature.
 
@@ -915,9 +915,9 @@ On the signature line was a different seal. The execution bureau’s own seal. M
 
 There were contents.
 
-*Immediate execution of held targets. Grounds: existing records-hall records + invocation of execution bureau emergency authority.*
+*Immediate execution of held targets. Grounds: existing records hall records + invocation of execution bureau emergency authority.*
 
-Emergency authority. A clause that existed in the regulations. He had known it existed; seeing it invoked was a first. A clause made so that when the records hall stopped, the execution bureau could move alone. It meant the situation the clause presupposed was now. Geumhui had officially declared that the records hall was in a stopped state.
+Emergency authority. A clause that existed in the regulations. He had known it existed; seeing it invoked was a first. A clause made so that when the records hall stopped, the execution bureau could move alone. It meant the situation the clause presupposed was now. Geumhwi had officially declared that the records hall was in a stopped state.
 
 -----
 
@@ -937,9 +937,9 @@ Kangwi looked at the order. Once more, from the beginning.
 
 “It is valid.”
 
-“Can you not cancel it.”
+“Can you not cancel it?”
 
-Having said it, Muyul knew what he had asked. A plea that Kangwi stand above Geumhui. Kangwi looked at him.
+Having said it, Muyul knew what he had asked. A plea that Kangwi stand above Geumhwi. Kangwi looked at him.
 
 “It is not my authority.”
 
@@ -947,13 +947,13 @@ Having said it, Muyul knew what he had asked. A plea that Kangwi stand above Geu
 
 Muyul heard it.
 
-There was no Kangwi signature. And it was valid. Valid within the Geumhui system. Kangwi could not cancel it. Kangwi was not the whole of Geumhui.
+There was no Kangwi signature. And it was valid. Valid within the Geumhwi system. Kangwi could not cancel it. Kangwi was not the whole of Geumhwi.
 
 Before, he had not known.
 
-Kangwi’s order was Geumhui’s order. Geumhui’s order was Kangwi’s order. The two were the same thing, so there was no need to tell them apart, and never having told them apart, he had not known a day would come when they parted.
+Kangwi’s order was Geumhwi’s order. Geumhwi’s order was Kangwi’s order. The two were the same thing, so there was no need to tell them apart, and never having told them apart, he had not known a day would come when they parted.
 
-Now it was different. Geumhui’s order had arrived at Muyul without passing through Kangwi. The system was larger than the person. That was the system’s original face, and Muyul looked at that original face head-on for the first time.
+Now it was different. Geumhwi’s order had arrived at Muyul without passing through Kangwi. The system was larger than the person. That was the system’s original face, and Muyul looked at that original face head-on for the first time.
 
 -----
 
@@ -993,7 +993,7 @@ The target was there. They did not run. The same as the previous site. In the sa
 
 He confirmed the order.
 
-The requirements were there. The record was there. The execution code was there. It was valid. An order with grounds. Muyul confirmed the sentences once more, per procedure. While he confirmed, his hands did not tremble. Hands quiet enough that the not-trembling was strange.
+The requirements were there. The record was there. The execution code was there. It was valid. An order with grounds. Muyul confirmed the sentences once more, per procedure. While he confirmed, his hands did not tremble. His hands were so still that their very steadiness felt strange.
 
 Muyul looked at the target.
 
@@ -1011,7 +1011,7 @@ There was a code.
 
 And there was no name.
 
-The paper was as it had been. The same paper as yesterday, the same seal, the same code. What had changed was not the paper but the Muyul who read it. Knowing there was a name beyond the code, the code would not read as only a code.
+The paper was as it had been. The same paper as yesterday, the same seal, the same code. What had changed was not the paper but the Muyul who read it. Now that he knew there was a name behind the code, he could no longer see it as just a code.
 
 -----
 
@@ -1047,7 +1047,7 @@ Just after the return from the site. The two watchers’ report had already gone
 
 The execution bureau asked. The superior executor. Standing before the status board.
 
-“What is the reason.”
+“What is the reason?”
 
 Muyul said:
 
@@ -1061,7 +1061,7 @@ Muyul said:
 
 The execution bureau heard it.
 
-Words that had come out for the first time. At Geumhui, if an order was valid, one executed. Sufficient grounds had never been weighed separately. Order and grounds were the same thing. A sentence splitting the same thing in two had come from an executor’s mouth, and no one in the office knew which regulation to hold the sentence against. It was a sentence not in the regulations. Is a sentence not in the regulations a violation of the regulations. Even that question was not in the regulations.
+Words that had come out for the first time. At Geumhwi, if an order was valid, one executed. Sufficient grounds had never been weighed separately. Order and grounds were the same thing. A sentence splitting the same thing in two had come from an executor’s mouth, and no one in the office knew which regulation to hold the sentence against. It was a sentence not in the regulations. Is a sentence not in the regulations a violation of the regulations. Even that question was not in the regulations.
 
 The superior executor opened a terminal. He prepared the suspension of duties. There was a procedure. Non-compliance with orders. That item was in the regulations.
 
@@ -1075,7 +1075,7 @@ The execution bureau looked at Kangwi. Looked at Muyul. The gaze went between th
 
 Kangwi asked Muyul.
 
-“You do not execute.”
+“You will not execute?”
 
 It was not the form of rebuke. It was the form of confirmation. Muyul looked at him.
 
@@ -1095,7 +1095,7 @@ While the suspension document was being drawn up, Muyul sat at his own seat.
 
 For the first time, an executor had stopped an execution.
 
-Whether that sentence would be recorded in Geumhui’s history, Muyul did not know. Recorded or not, it had happened. What happened, happened. The sentence learned from Kangwi had come back this way.
+Whether that sentence would be recorded in Geumhwi’s history, Muyul did not know. Recorded or not, it had happened. What happened, happened. The sentence learned from Kangwi had come back this way.
 
 -----
 
@@ -1107,11 +1107,11 @@ Whether that sentence would be recorded in Geumhui’s history, Muyul did not kn
 
 -----
 
-A Geumhui emergency meeting.
+A Geumhwi emergency meeting.
 
-The meeting room was not enough. The seniors of both the records side and the execution bureau all came in, and those without seats stood along the walls. A standing meeting at Geumhui was a first. That fact itself spoke the affair’s size before the agenda did.
+The meeting room was not enough. The seniors of both the records side and the execution bureau all came in, and those without seats stood along the walls. A standing meeting at Geumhwi was a first. That fact itself spoke the affair’s size before the agenda did.
 
-The execution bureau requested that Muyul be stripped of his duties. Non-compliance with orders, repeated holds, refusal of an emergency-authority order. The items were three and all three were fact. Part of the records side said Kangwi’s re-examination was the cause. The logic that without the re-examination there would have been no holds. The responsibility came back to Kangwi.
+The execution bureau requested that Muyul be stripped of his duties. Non-compliance with orders, repeated holds, refusal of an emergency-authority order. There were three charges, and all three were true. Part of the records side said Kangwi’s re-examination was the cause. The logic that without the re-examination there would have been no holds. The responsibility came back to Kangwi.
 
 Kangwi said:
 
@@ -1121,19 +1121,19 @@ Kangwi said:
 
 The meeting hall stopped.
 
-Records were complete. The Geumhui principle. The record was the fact. That was execution’s grounds, and the house’s foundation. The person who could deny that sentence should not exist at Geumhui. If one existed, the last who should was the records hall’s head.
+Records were complete. The Geumhwi principle. The record was the fact. That was execution’s grounds, and the house’s foundation. The person who could deny that sentence should not exist at Geumhwi. If one existed, the last who should was the records hall’s head.
 
 That records hall’s head had denied it.
 
 From among those standing along the walls, someone spoke. Who could not be seen.
 
-“Is an incomplete record a record.”
+“Is an incomplete record a record?”
 
 The execution bureau said:
 
-“Then on what grounds does execution stand.”
+“Then on what grounds does execution stand?”
 
-The two questions lay before Kangwi. Kangwi did not answer. It was not that there was no answer. There was no answer that could be given in that place. An incomplete record is still a record — so Kangwi thought. But speak the sentence in the meeting hall, and Geumhui’s foundation collapsed on the spot. Kangwi had not come to collapse it. He was on his way to confirm. The confirmation was not yet finished.
+The two questions lay before Kangwi. Kangwi did not answer. It was not that there was no answer. There was no answer that could be given in that place. An incomplete record is still a record — so Kangwi thought. But speak the sentence in the meeting hall, and Geumhwi’s foundation collapsed on the spot. Kangwi had not come to collapse it. He was on his way to confirm. The confirmation was not yet finished.
 
 Part of the records side said the re-examination must continue. The execution bureau insisted on stronger control. The same sentences went around and around. The meeting lengthened, and the longer it ran, the further it moved from conclusion.
 
@@ -1153,7 +1153,7 @@ Muyul and Kangwi were only the ones who had stepped on the split place first.
 
 The meeting dispersed without conclusion.
 
-Geumhui was not one order.
+Geumhwi was not one order.
 
 -----
 
@@ -1183,7 +1183,7 @@ Past execution records. Things Muyul had executed. He scrolled down. Complete. C
 
 Some of them could have been otherwise.
 
-The ones with incomplete grounds. Which items, there was no longer any telling apart. All the same form, the same codes, the same complete. Above them was Kangwi’s signature. Kangwi had grounded it in the records. The records were not complete. Climb back up the chain and there were blanks, and somewhere in this list was what had been executed on top of a blank.
+The ones with incomplete grounds. Which items, there was no longer any telling apart. All the same form, the same codes, the same “Complete” status. Above them was Kangwi’s signature. Kangwi had grounded it in the records. The records were not complete. Climb back up the chain and there were blanks, and somewhere in this list was what had been executed on top of a blank.
 
 It could not be amended.
 
@@ -1203,15 +1203,15 @@ His hand did not stop. One line below it.
 
 *The execution was not completed.*
 
-A record of non-completion. The kind of sentence written for the first time in a Geumhui execution log. Leaving it open instead of closing it as complete. If someone someday opened this item, they would have to look at the grounds first, again. That was all Muyul could leave.
+A record of non-completion. The kind of sentence written for the first time in a Geumhwi execution log. Leaving it open instead of closing it as complete. If someone someday opened this item, they would have to look at the grounds first, again. That was all Muyul could leave.
 
 -----
 
-He opened the Geumhui network connection.
+He opened the Geumhwi network connection.
 
-It was synchronized. The line by which Muyul’s terminal and the Geumhui system were joined. A line never once cut since the day he entered. It could be closed. The closing button had always been there. There had simply never been cause to press it.
+It was synchronized. The line by which Muyul’s terminal and the Geumhwi system were joined. A line never once cut since the day he entered. It could be closed. The closing button had always been there. There had simply never been cause to press it.
 
-It was a first.
+He had never done it before.
 
 He closed it.
 
@@ -1227,7 +1227,7 @@ Kangwi saw it. He did not stop him. From the start he could not have. Muyul had 
 
 He did not record it. There were things that could not be recorded.
 
-Muyul rose from the seat. He passed Kangwi and went out. Neither of the two said anything. It was not an order of things that needed words. That was the Geumhui way, and to the last it was the two men’s way.
+Muyul rose from the seat. He passed Kangwi and went out. Neither of the two said anything. It was not an order of things that needed words. That was the Geumhwi way, and to the last it was the two men’s way.
 
 -----
 
@@ -1255,7 +1255,7 @@ One unrecorded execution remained.
 
 When he first came to the records hall.
 
-What Kangwi remembers is not people. It was the shelves. They were tall. No end showed. There were the fields. Date. Event. Result. All of it was there.
+What Kangwi remembered was not people. It was the shelves. They were tall. No end in sight. The fields. Date. Event. Result. All of it was there.
 
 All of it was right.
 
@@ -1269,7 +1269,7 @@ What is a record.
 
 He did not ask. He knew. It was leaving the fact. Leaving what had been as having been. Keeping it from ceasing.
 
-At Geumhui, the record was the fact. The fact was the record.
+At Geumhwi, the record was the fact. The fact was the record.
 
 Kangwi had never once doubted it.
 
@@ -1285,7 +1285,7 @@ Muyul asked.
 
 “I must.”
 
-“Is there something.”
+“Is there something?”
 
 “There is nothing. That there is nothing is strange.”
 
@@ -1303,7 +1303,7 @@ The day Muyul ended his synchronization.
 
 Kangwi saw it. He did not record it.
 
-It was a first since his posting to the records hall. Not recording.
+For the first time since his posting to the records hall, he did not record it.
 
 There were things that could not be recorded.
 
@@ -1347,13 +1347,13 @@ Waking at dawn, he needed something to do. Cooking was the quietest. The knife m
 
 -----
 
-There were the chores.
+There were chores.
 
 When Dohee sorted records, Hangyeol collected them. When ARIA found something damaged, Hangyeol fixed it. No one had assigned it. He just did it.
 
 Dohee asked once.
 
-“Why do you do everything.”
+“Why do you do everything?”
 
 “Because it’s needed. If I don’t, someone has to.”
 
@@ -1383,7 +1383,7 @@ Gadeung watched once.
 
 “No.”
 
-“Why.”
+“Why?”
 
 Hangyeol thought.
 
@@ -1393,7 +1393,7 @@ Hangyeol thought.
 
 There was the arm.
 
-The shoulder. Hurt long ago. He thought it had fully healed. But it caught sometimes. When lifting the arm. At a certain angle. A familiar pain.
+The shoulder. Hurt in Vol.7. He thought it had fully healed. But it caught sometimes. When lifting the arm. At a certain angle. A familiar pain.
 
 He should not have grown familiar with it.
 
@@ -1405,7 +1405,7 @@ ARIA watched once.
 
 “I’m used to it.”
 
-“Since when.”
+“Since when?”
 
 Hangyeol thought.
 
@@ -1425,7 +1425,7 @@ Dohee watched once.
 
 “Yes.”
 
-“Why.”
+“Why?”
 
 “It feels wrong not to.”
 
@@ -1467,7 +1467,7 @@ It was enduring. For Hangyeol, that was the method.
 
 Seoan looked in the mirror.
 
-The scar remained beside her eye. It was thin. By the light it showed and did not.
+The scar remained beside her eye. It was thin. Depending on the light, it appeared and vanished.
 
 It was from the records hall entry operation. The order was entry. She entered. It had formed then.
 
@@ -1529,7 +1529,7 @@ Claire looked at it.
 
 “I know.”
 
-“Shall I bring a new one.”
+“Shall I bring a new one?”
 
 “That one will cool too.”
 
@@ -1537,7 +1537,7 @@ Claire looked at it.
 
 Claire paused a moment.
 
-“Then why do you drink it.”
+“Then why do you drink it?”
 
 Julius lifted the cooled cup. Drank.
 
@@ -1567,13 +1567,13 @@ She drank. Warm was better.
 
 Claire was looking at the incalculable cell.
 
-She had been looking a long while. In the screen’s other cells, numbers flowed. Only that cell was empty. Empty, it stood at the screen’s center.
+She had been looking for a long while. In the screen’s other cells, numbers flowed. Only that cell was empty. Empty, it stood at the screen’s center.
 
 -----
 
 One calculator asked.
 
-“Why do you look at what doesn’t calculate.”
+“Why do you look at what doesn’t calculate?”
 
 Claire thought.
 
@@ -1635,7 +1635,7 @@ Not 0.01% but 3%. A margin three hundred times over. That was not the size of an
 
 He merged the data Claire had brought.
 
-The Echo Core’s structural changes. The Seat’s responses. The Geumhui record omissions. The latest observations. When data grows, the model grows exact; when the model grows exact, the residue shrinks. That was calculation’s grammar.
+The Echo Core’s structural changes. The Seat’s responses. The Geumhwi record omissions. The latest observations. When data grows, the model grows exact; when the model grows exact, the residue shrinks. That was calculation’s grammar.
 
 He fed it to the model. The terminals began turning all at once, and the fan sound rose one grade. The calculation office’s night grew a little brighter.
 
@@ -1689,7 +1689,7 @@ Claire returned.
 
 She was back from collecting outside. The sound of the terminal bag set on the desk lay briefly over the calculation office’s fans.
 
-There was data. The Echo Core’s internal responses. The Seat approach records. ARIA’s loss logs from mid-decoding. The Geumhui blanks. She sent the list to Julius’s terminal.
+There was data. The Echo Core’s internal responses. The Seat approach records. ARIA’s loss logs from mid-decoding. The Geumhwi blanks. She sent the list to Julius’s terminal.
 
 Julius looked at it. He swept the items from top to bottom. He moved to feed them to the model. His hand went as far as the merge command.
 
@@ -1699,7 +1699,7 @@ Julius looked at it. He swept the items from top to bottom. He moved to feed the
 
 Claire said. Julius’s hand stopped.
 
-“Why.”
+“Why?”
 
 “The structure differs. There are things with no standard to quantify by.”
 
@@ -1727,7 +1727,7 @@ The three sentences went back and forth quickly. A few faces watching screens at
 
 Julius looked at Claire.
 
-The words were not wrong. Julius knew it at once. Discard, and the residual data shrank. Convergence quickened. Accuracy rose. All of it was fact. And that accuracy was accuracy about the world the model could see. The world it could not see dropped out of accuracy’s denominator.
+The words were not wrong. Julius knew it at once. Discard, and the residual data shrank. Convergence quickened. Accuracy rose. All of it was true. And that accuracy was accuracy about the world the model could see. The world it could not see dropped out of accuracy’s denominator.
 
 But Claire was calling that a problem. No one at Altair had called it a problem. Not because it was not one, but because there had been no eye that saw it as one.
 
@@ -1739,7 +1739,7 @@ Claire said.
 
 -----
 
-It was a first.
+That was a first.
 
 Claire had not said the model was wrong. She had said the model was small. Wrong and small were different sentences. A wrong model could be fixed. A small model, fixed, was still small. It meant there was an outside.
 
@@ -1769,11 +1769,11 @@ A list came out. It rose on Julius’s terminal as an approval request. Disposal
 
 Julius looked at it.
 
-Part of the Echo Core structural changes. The Seat response records. The Geumhui blank data. ARIA’s loss logs.
+Part of the Echo Core structural changes. The Seat response records. The Geumhwi blank data. ARIA’s loss logs.
 
 Everything Claire had brought was on the list. The things the model could not process had been picked out exactly. The system had done its work.
 
-There was the disposal approval button. Press it, and the list would vanish, the residual data would shrink, the next calculation would be faster.
+The disposal-approval button waited. Press it, and the list would vanish, the residual data would shrink, the next calculation would be faster.
 
 -----
 
@@ -1897,7 +1897,7 @@ Claire came in.
 
 She had come in as far as the innermost. She looked at the whiteboards. Among the clean ones she saw the one with writing. She saw the 3%.
 
-“Why don’t you erase it.”
+“Why don’t you erase it?”
 
 Julius looked at the whiteboard.
 
@@ -1907,7 +1907,7 @@ Julius looked at the whiteboard.
 
 Claire said. A beat’s pause.
 
-“Isn’t it a calculation that does not end.”
+“Isn’t that a calculation with no end?”
 
 -----
 
@@ -1917,7 +1917,7 @@ He did not answer.
 
 The expression a calculation that does not end did not sit well with him. Julius knew exactly why it did not sit well. Not because the expression was wrong, but because he could not prove it wrong.
 
-A calculation that does not end. That a calculation might not end. That was not permitted at the calculation office. A calculation ended or was wrong. Sorted into one of the two, the board was erased. There was no such thing as not-ending. The classification table had no such cell.
+A calculation that does not end. That a calculation might not end. That was not permitted at the calculation office. A calculation ended or was wrong. Sorted into one of the two, the board was erased. There was no such thing as a calculation that did not end. The classification table had no such cell.
 
 But the 3% had not ended. For years it had not ended, and it had not been wrong either. Unclassified, it stood on the board. The same place as Claire’s incalculable cell. Julius recognized the resemblance, and did not speak what he recognized.
 
@@ -2053,7 +2053,7 @@ But Julius did not acknowledge it.
 
 “That is why I put it inside.”
 
-It was the reason the cell was made. Leave the outside outside and it is forgotten. Put the outside inside and it shows. The incalculable cell was a device for putting the outside inside. Julius could not join a next sentence to that answer.
+It was the reason the cell was made. Leave the outside outside and it is forgotten. Put the outside inside and it becomes visible. The incalculable cell was a device for putting the outside inside. Julius could not join a next sentence to that answer.
 
 -----
 
@@ -2073,7 +2073,7 @@ Altair, for the first time, was calculating the boundary of calculation.
 
 -----
 
-There was the disposal list.
+The disposal list was there.
 
 It stood unclosed. For days it had stayed so. In the corner of Julius’s terminal the pending mark blinked. The automatic classification system raised the same list again each cycle, and Julius did not approve it. Claire had blocked it.
 
@@ -2085,7 +2085,7 @@ Now that the incalculable cell existed, there was somewhere to go.
 
 The items moved.
 
-Part of the Echo Core structural changes. The Seat response records. The Geumhui blank data. ARIA’s loss logs.
+Part of the Echo Core structural changes. The Seat response records. The Geumhwi blank data. ARIA’s loss logs.
 
 Claire moved them one by one. From the disposal list to the incalculable cell. With each move, the disposal list lost one line and the cell’s contents gained one.
 
@@ -2139,7 +2139,7 @@ A prediction came out.
 
 The Altair model produced the Echo Core response values. The commission had come from outside, and Altair’s predictions were the house’s merchandise. It was right to 97%. By Altair’s standard, sufficient convergence. At 97%, one reported and was done.
 
-There was the remaining 3%.
+The remaining 3% was still there.
 
 At the end of the output sheet, as residue. Julius saw the number in the report. As if the whiteboard’s number had walked out into a report.
 
@@ -2221,7 +2221,7 @@ Claire looked at Julius.
 
 “No.”
 
-The same words the Geumhui blank had spoken. What cannot be seen, and what does not exist. Two houses were arriving at the same sentence by different roads. The two in that place did not know it.
+The same words the Geumhwi blank had spoken. What cannot be seen, and what does not exist. Two houses were arriving at the same sentence by different roads. The two in that place did not know it.
 
 -----
 
@@ -2251,7 +2251,7 @@ The loss report rose on Julius’s terminal. Julius called Claire. To the innerm
 
 -----
 
-“Who bears the responsibility for a cell that does not calculate.”
+“Who bears the responsibility for a cell that does not calculate?”
 
 Claire heard it.
 
@@ -2345,9 +2345,9 @@ The calculation office stood empty. The terminals were off, and in the place fro
 
 3%.
 
-Old writing. There were the marks of several overwritings. He moved to erase it. His hand stopped.
+Old writing, layered over itself several times. He moved to erase it. His hand stopped.
 
-The time the hand holding the eraser stood stopped before the board was long. In that time Julius thought of no sentence from the meeting. He looked only at the number. A number looked at for years. A number that told him nothing except that it had not ended. And to hear that one thing, he had not erased it for years.
+The hand holding the eraser stayed still before the board for a long time. During that time Julius thought of no sentence from the meeting. He looked only at the number. A number looked at for years. A number that told him nothing except that it had not ended. And to hear that one thing, he had not erased it for years.
 
 He set the eraser down.
 
@@ -2399,7 +2399,7 @@ Julius held the decision. This time it was a meeting that could not end without 
 
 He opened the closure order.
 
-There was the form. There was the signature line. Issue the order, and the incalculable cell closed. Speed returned. The delay vanished. The graph would flatten, the reports would stop, and the calculation office would return to its former cleanness.
+The form waited, its signature line blank. Issue the order, and the incalculable cell would close. Speed would return. The delay would vanish. The graph would flatten, the reports would stop, and the calculation office would return to its former cleanness.
 
 Julius looked at the signature line.
 
@@ -2527,7 +2527,7 @@ On the administration screen the model’s whole structure lay spread. Fields, l
 
 -----
 
-There was the authority transfer item.
+The authority-transfer field was there.
 
 Julius opened it. He transferred the model’s operating authority to Claire. The input was short. Transferee, scope of authority, effective time. The items moved. On the screen, the color of the authority lines changed. The incalculable cell included. Julius did not separate that cell out. He had handed over the whole model, cell and all.
 
@@ -2535,7 +2535,7 @@ Claire watched.
 
 The screen’s colors changing, her own name entering the administrator’s place.
 
-“Are you acknowledging it.”
+“Are you acknowledging it?”
 
 -----
 
@@ -2679,7 +2679,7 @@ Those seemed to remain. Even losing, the dislikes remained. The reason she did n
 
 She knew why she laughed.
 
-When Hangyeol said something wrong with confidence. She liked the being-wrong without one change of expression. When Dohee, questioning, startled herself. The face in the moment a question turned back on Dohee herself. When the unexpected came.
+When Hangyeol said something wrong with confidence. She liked how he could be wrong without the slightest change of expression. When Dohee, questioning, startled herself. The face in the moment a question turned back on Dohee herself. When the unexpected came.
 
 Whether she had learned to laugh, or it had been there from the start, she could not know.
 
@@ -2693,7 +2693,7 @@ That much, at least, she had confirmed.
 
 Beside Hangyeol was comfortable.
 
-There had been a reason, and it was gone. There was no forming process. There was no since-when.
+There had been a reason, and it was gone. There was no forming process. There was no memory of when the comfort had begun.
 
 But it was comfortable.
 
@@ -2709,7 +2709,7 @@ There was a name.
 
 ARIA.
 
-Why this name was absent. The first time it was heard was absent.
+The reason for this name was missing. There was no first time she had heard it.
 
 But it was the name.
 
@@ -2725,7 +2725,7 @@ What they had been could not be known.
 
 She looked at what remained now.
 
-Dohee. Hangyeol. The name. What read at her touch. The comfortable sense.
+Dohee. Hangyeol. The name. What she could read by touch. The comfortable sense.
 
 They were there.
 
@@ -2755,7 +2755,7 @@ There was a first record.
 
 She could not remember the content. She had seen something strange. It could not be explained. She wrote it. Her parents saw.
 
-“What is that.”
+“What is that?”
 
 “It couldn’t be explained.”
 
@@ -2771,7 +2771,7 @@ There was a sleeping habit.
 
 In sleep, her hand tried to grasp something. Without a pen, the blanket. Without a blanket, nothing. Hangyeol saw it once.
 
-“What do you grab in your sleep.”
+“What do you grab in your sleep?”
 
 “I don’t know.”
 
@@ -2793,7 +2793,7 @@ That was the first. Thinking back later, it had always been that way.
 
 -----
 
-There was the brink of dismissal.
+There was the period just before her dismissal.
 
 She submitted a report. It was rejected. She submitted again. Rejected again. She sent it upward. It came back down.
 
@@ -2801,7 +2801,7 @@ Dohee submitted again.
 
 This time it was not a rejection. It was dismissal.
 
-She packed. There were many notebooks. The ones that were not Hwagam’s she carried out. It was around then that she first received the logbook. Where it came from, she did not know. She did not even look into it. It was on the desk. She took it.
+She packed. There were many notebooks. The ones that were not Hwagam’s she carried out. It was around then that she first received the Logbook. Where it came from, she did not know. She did not even look into it. It was on the desk. She took it.
 
 The reason she did not know.
 
@@ -2811,7 +2811,7 @@ She did not know why she questioned.
 
 Hangyeol asked once.
 
-“Why do you keep asking.”
+“Why do you keep asking?”
 
 “Because I don’t know.”
 
@@ -2937,7 +2937,7 @@ The observatory window.
 
 Min Siwoo raised the lens.
 
-The one received from Tiko. There was the crack. Each time he raised the lens, the crack drew a thin fissure across one side of the view. It still saw. Raise the lens, and there were still things that showed.
+The one received from Tiko. There was the crack. Each time he raised the lens, the crack drew a thin fissure across one side of his view. He could still see through it. Raise the lens, and things still came into view.
 
 Seat. Observer. Successor. Vacant.
 
@@ -2949,7 +2949,7 @@ The records hall.
 
 Kangwi looked at a log.
 
-Muyul’s last execution log. Transferred to Kangwi in the processing of the authority suspension. There was the last item.
+Muyul’s last execution log. It had been transferred to Kangwi when Muyul’s authority was suspended. The final entry was there.
 
 *Execution held. Reason: grounds insufficient.*
 
@@ -3027,11 +3027,11 @@ Claire looked in that direction.
 
 They were four.
 
-Each traced independently. None knew of the others’ tracing. Hwagam and Eidos and Geumhui and Altair. Four people of four houses, holding four remnants, were heading toward the same point.
+Each traced independently. None knew of the others’ tracing. Hwagam and Eidos and Geumhwi and Altair. Four people of four houses, holding four remnants, were heading toward the same point.
 
 Dohee saw the point’s name for the first time.
 
-It was inside the logbook. Small letters. A word that had been there before too. It had merely not read. Letters that had not read beginning to read. The logbook was always that way. It opened its pages only to the prepared.
+It was inside the Logbook. Small letters. A word that had been there before too. It had simply not been legible. Letters once unreadable were becoming clear. The Logbook was always that way. It opened its pages only to the prepared.
 
 *Seat Nexus.*
 
@@ -3045,11 +3045,11 @@ It was inside the logbook. Small letters. A word that had been there before too.
 
 -----
 
-There was the logbook.
+There was the Logbook.
 
-Dohee was carrying it. Had carried it long. The road to the place outside the Echo Core where the four had agreed to gather. Walking, Dohee was conscious of the logbook’s weight. It was not a book whose weight changed. What changed was the hand that carried it.
+Dohee was carrying it. Had carried it long. The road to the place outside the Echo Core where the four had agreed to gather. Walking, Dohee was conscious of the Logbook’s weight. It was not a book whose weight changed. What changed was the hand that carried it.
 
-There was the part that did not read. Without ARIA, it did not read. That had been the rule until now. Alone, Dohee was as good as carrying only the cover.
+Part of it had remained unreadable. Without ARIA, it could not be read. That had been the rule until now. Alone, Dohee was as good as carrying only the cover.
 
 This time was different.
 
@@ -3089,7 +3089,7 @@ Repetition. It had been there from the start. The Observer had said it. “This 
 
 PRIMUS was repetition.
 
-A repetition of what was not there. The page gave only the definition and not the content. It was the logbook’s way. Giving not the answer but the next question.
+A repetition of what was not there. The page gave only the definition and not the content. It was the Logbook’s way. Giving not the answer but the next question.
 
 There was one line more.
 
@@ -3101,7 +3101,7 @@ The page closed.
 
 As when it opened, without regard to Dohee’s will. It read no further.
 
-Dohee looked at the logbook. At the closed cover. The definition of what everyone had sought for two hundred years had just passed within it in three lines. Dohee copied the three lines into her notebook. Copied letters did not close. That was paper’s virtue.
+Dohee looked at the Logbook. At the closed cover. The definition of what everyone had sought for two hundred years had just passed within it in three lines. Dohee copied the three lines into her notebook. Copied letters did not close. That was paper’s virtue.
 
 She walked again.
 
@@ -3141,7 +3141,7 @@ The figures were set down.
 
 Claire. A single sheet onto which the 3% and Calculating had been copied.
 
-When the four motions ended, no one moved. The setting-down was as far as the plan went. What came next was not plan but expectation.
+When the four motions ended, no one moved. The plan went only as far as setting them down. What came next was not plan but expectation.
 
 -----
 
@@ -3163,7 +3163,7 @@ Behind the Seat there was a space.
 
 The light drew its outline. Dohee saw it.
 
-It was a first.
+It was the first time Dohee had seen it.
 
 -----
 
@@ -3201,7 +3201,7 @@ They went in.
 
 Dohee crossed the threshold first, and the rest followed. It was quiet. It was not vast. A low space. The ceiling was near. It seemed reachable with an outstretched hand. The walls were near. As the four entered, the space felt full. And it was not stifling. Not the air of a room long shut, but of a room someone had kept in order.
 
-There was light. From where, no one knew. No source showed, and it was not dark. A light that cast no shadows. Min Siwoo found that professionally strange, and did not let the strangeness out of his mouth. In this room, it seemed even voices should grow small.
+There was light. From where, no one knew. No source was visible, and it was not dark. A light that cast no shadows. Min Siwoo found that professionally strange, and did not let the strangeness out of his mouth. In this room, it seemed even voices should grow small.
 
 -----
 
@@ -3219,7 +3219,7 @@ The same thing as the Seat seen from outside. The same thing, seen from inside t
 
 Dohee looked at the Observer.
 
-“What is this place.”
+“What is this place?”
 
 The Observer looked at her.
 
@@ -3243,7 +3243,7 @@ It was the places that remained.
 
 Min Siwoo raised the lens.
 
-Raising the lens in this room was a first. Beyond the crack the places showed. He looked at them one by one. The floating words seen from outside were, here, attached to each place.
+Raising the lens in this room was a first. Beyond the crack, the places came into view. He looked at them one by one. The floating words seen from outside were, here, attached to each place.
 
 There were words.
 
@@ -3271,21 +3271,21 @@ A room of blanks. What Kangwi had traced for a month on paper was, here, the who
 
 Claire looked.
 
-The places were not figures. They were operating as boundaries. Each place held one range. They did not overlap. Where Recorder ended and where Executor began — no line showed, and the division was distinct.
+The places were not figures. They were operating as boundaries. Each place held one range. They did not overlap. Where Recorder ended and where Executor began — no line was visible, and the division was distinct.
 
 It resembled the incalculable cell. But this was not a blank. It was an outline. Outline maintained without content. In Claire’s model language, a state with only a domain and no function values. That state existed in the form of a room.
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
-The logbook responded. A feeling of the cover growing minutely warm. The direction of the nearest place. The Seat.
+The Logbook responded. A feeling of the cover growing minutely warm. The direction of the nearest place. The Seat.
 
 -----
 
 Dohee looked at the Observer.
 
-“Is it where people remain.”
+“Is it where people remain?”
 
 Asking, Dohee feared the answer. If Gadeung, if Tiko, if Muyul, if Julius were somewhere here. Whether that would be comfort or terror she could not tell.
 
@@ -3293,7 +3293,7 @@ The Observer said:
 
 “It is not people who remain.”
 
-“Then what remains.”
+“Then what remains?”
 
 “Roles.”
 
@@ -3321,7 +3321,7 @@ Dohee looked at the Observer.
 
 In the room of places, at the single being that belonged to no place. The question went that way naturally.
 
-“Do you remain here too.”
+“Do you remain here too?”
 
 The Observer did not avoid it. Not avoiding was the Observer’s way. There had been times of not answering, never of avoiding.
 
@@ -3339,7 +3339,7 @@ They were not a place.
 
 Kangwi asked.
 
-“Does it mean you are not recorded.”
+“Does it mean you are not recorded?”
 
 It was the records hall head’s question. To Kangwi, existence had been the same word as record, and that equation had been breaking for a month. The question came from the broken place.
 
@@ -3351,7 +3351,7 @@ The Observer looked at him.
 
 Claire asked.
 
-“Then are you a variable that cannot be calculated.”
+“Then are you a variable that cannot be calculated?”
 
 It was a calculator’s question. The one who had made the model’s outside into a cell stood before what would not enter even that cell.
 
@@ -3395,7 +3395,7 @@ Inside the Seat Nexus. It was clearer than before. The room itself seemed to rai
 
 *Vacant.*
 
-The two words were there. Words that, observed for days from outside, had shown only direction — here, their position showed.
+The two words were there. Observed for days from outside, they had shown only direction — here, their positions became clear.
 
 -----
 
@@ -3417,7 +3417,7 @@ The two words lay over that place. Successor. Vacant.
 
 Dohee asked.
 
-“Who is the successor.”
+“Who is the successor?”
 
 The Observer did not answer.
 
@@ -3539,21 +3539,21 @@ Beyond the lens, the grain of the words moved. The empty place seemed to be open
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
 It responded. The cover’s warmth leaned in one direction. The same direction. Outward.
 
 Kangwi looked.
 
-At the place’s wall surface. There was the blank of an unrecorded name. The blank seemed to be waiting to be filled. The expression a blank waits — the Kangwi of a month ago would have refused it. Now there was nothing right except that expression.
+On the place’s wall was the blank of an unrecorded name. It seemed to be waiting to be filled. The idea of a blank waiting — the Kangwi of a month ago would have rejected it. Now no other expression felt right.
 
 -----
 
 Claire looked.
 
-There was the incalculable cell. That cell of the model copied onto her portable terminal looked as if it were waiting for outside input. The boundary stood open in the outward direction. A closed domain turning into a half-open interval — Claire saw it without formulas, by sense.
+There was the incalculable cell. In the copy of the model on her portable terminal, it looked as if it were waiting for outside input. Its boundary opened outward. A closed domain turning into a half-open interval — Claire saw it without formulas, by sense.
 
-The four looked, each their own way. Notebook and lens and records and model. Four different tools pointed in the same direction.
+The four looked, each in their own way. Notebook and lens and records and model. Four different tools pointed in the same direction.
 
 -----
 
@@ -3565,7 +3565,7 @@ It was the first time they spoke first. A being that had never answered the unas
 
 Dohee looked at them.
 
-“Who.”
+“Who?”
 
 The Observer did not answer.
 
@@ -3575,7 +3575,7 @@ Dohee looked in that direction.
 
 A familiar direction. A direction she had already missed once. Who it was came to her. She did not confirm it. It was closer to not wanting to confirm. If the direction was right, ARIA was coming again to lose something.
 
-Dohee’s hand gripped the logbook a little harder. There was nothing else she could do.
+Dohee’s hand gripped the Logbook a little harder. There was nothing else she could do.
 
 -----
 
@@ -3643,7 +3643,7 @@ His shoulder caught. A familiar pain. The spot hurt long ago in a passage. It ca
 
 Hangyeol felt it. He put his hand to the shoulder a moment and took it away. ARIA saw it and said nothing. Hangyeol said nothing either. The silence stood between the two a moment and passed.
 
-What that shoulder had been hurt blocking, both knew. Speak it, and that day’s weight was laid on top of now. Don’t speak it, and it was just an old pain. The two chose the not-speaking side, and each knew the other had chosen the same.
+What that shoulder had been hurt blocking, both knew. Speak it, and that day’s weight was laid on top of now. Don’t speak it, and it was just an old pain. The two chose silence, and each knew the other had chosen the same.
 
 They did not stop.
 
@@ -3653,7 +3653,7 @@ This time Hangyeol did not block the way.
 
 He stood beside her.
 
-The front was the blocking place and the side was the going-together place. Hangyeol had come, over years, from front to side. That distance was the distance Hangyeol had come to ARIA.
+Standing in front meant blocking; standing beside meant going together. Over the years, Hangyeol had moved from in front to beside her. That distance was how far he had come toward ARIA.
 
 -----
 
@@ -3667,7 +3667,7 @@ The front was the blocking place and the side was the going-together place. Hang
 
 They went toward the Echo Core’s inside.
 
-ARIA in front. Hangyeol beside. The passage’s characters brightened faintly after the passing ARIA and subsided. There was the door. It already stood open.
+ARIA in front. Hangyeol beside her. The passage’s characters brightened faintly as ARIA passed, then faded. The door was there. Already open.
 
 ARIA stopped before the door.
 
@@ -3679,11 +3679,11 @@ It was a sensation like a blank.
 
 The sensation before a loss came. ARIA knew it. An order her body had memorized. After this sensation, she lost. It had always been so. It was just before losing something. She had not yet lost.
 
-The not-yet-lost now stood paused a moment on the threshold.
+For a moment, the present before loss lingered on the threshold.
 
 Hangyeol was beside her.
 
-That was the point on which this differed from all the befores.
+That was what made this moment different from everything that had come before.
 
 -----
 
@@ -3709,7 +3709,7 @@ ARIA came in.
 
 It was the one step over the threshold.
 
-The logbook responded. The lens responded. The incalculable cell responded. The unrecorded place responded.
+The Logbook responded. The lens responded. The incalculable cell responded. The unrecorded place responded.
 
 It was simultaneous.
 
@@ -3747,9 +3747,9 @@ Min Siwoo, lens raised, held his breath a moment. Seeing the moment a word appea
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
-The same word was there. Cost. It had not been there before. Dohee, who had looked at the pages enough to memorize them, could be certain. It had appeared when ARIA came in. The logbook and the place had begun saying the same thing in the same language.
+The same word was there. Cost. It had not been there before. Dohee, who had looked at the pages enough to memorize them, could be certain. It had appeared when ARIA came in. The Logbook and the place had begun saying the same thing in the same language.
 
 Kangwi looked.
 
@@ -3767,13 +3767,13 @@ It was not that the incalculable had begun to be calculated. Only the sign had c
 
 Dohee looked at the Observer.
 
-“Is succession a receiving.”
+“Is succession a receiving?”
 
 The Observer said:
 
 “Succession is not a receiving.”
 
-“Then what is it.”
+“Then what is it?”
 
 “It is a leaving.”
 
@@ -3789,7 +3789,7 @@ Then the one who sat in this place, too, would come to leave something.
 
 -----
 
-The place showed the price before the name.
+The place revealed the price before the name.
 
 -----
 
@@ -3807,7 +3807,7 @@ One step at a time, slowly. She did not touch it. She only went near. The distan
 
 The loss’s forewarning strengthened.
 
-The sensation her body had memorized came larger than at any memorized time.
+The sensation her body remembered swept over her more strongly than ever before.
 
 -----
 
@@ -3823,13 +3823,13 @@ It was not memory falling out. The order shook. What had come first. What had be
 
 ARIA tried to speak.
 
-She stopped. Mid-making, the words’ material shook, and the sentence collapsed twice. On the third it came out.
+She stopped. The material of the words shifted as she formed them, and the sentence collapsed twice. It came out on the third try.
 
 “It’s not losing.”
 
 Hangyeol looked.
 
-“Then what is it.”
+“Then what is it?”
 
 ARIA heard it. Hangyeol’s questions always came by the shortest road. That short road was, now, a thing to be grateful for. A long question, and the answer would have collapsed again.
 
@@ -3869,9 +3869,9 @@ This loss was not memory but order.
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
-A page stood open. Dohee had not opened it. The logbook had. They were the questions concerning the Successor. The answers were there. The things Dohee had long sought. Who is the successor. What does the place take. Where does PRIMUS’s repetition head. Years of questions lay within one page in the shape of answers.
+A page stood open. Dohee had not opened it. The Logbook had. They were the questions concerning the Successor. The answers were there. The things Dohee had long sought. Who is the successor. What does the place take. Where does PRIMUS’s repetition head. Years of questions lay within one page in the shape of answers.
 
 Dohee’s hand stopped over the page. Her fingertips all but touched the letters.
 
@@ -3885,7 +3885,7 @@ Read, and she would know; know, and the action would be set. Dohee had followed 
 
 Dohee asked the Observer.
 
-“If I know this, does ARIA cease to be.”
+“If I learn this, will ARIA disappear?”
 
 The Observer did not answer at once.
 
@@ -3899,7 +3899,7 @@ Not the truth. Two words that had never come from Dohee’s mouth.
 
 Hangyeol looked at her.
 
-It was a first. Dohee asking after the person before the truth.
+It was the first time Dohee had asked about the person before the truth.
 
 Dohee felt the gaze. Hangyeol would have asked this way from the start. He had in fact asked once. Is the answer first, or is ARIA first. Dohee had not been able to answer that day, and had carried the unanswered question this far. It had taken long. This, now, was the answer.
 
@@ -3911,7 +3911,7 @@ The Observer said:
 
 “She may remain. It is different from vanishing.”
 
-“As what.”
+“As what?”
 
 The Observer did not answer.
 
@@ -3919,7 +3919,7 @@ May remain. It was the conditional. Not a certainty. But the words different fro
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
 The answer was there. Read, and she could know.
 
@@ -3945,9 +3945,9 @@ ARIA went one step further. Hangyeol was beside her. The two walked in the same 
 
 -----
 
-Dohee closed the logbook.
+Dohee closed the Logbook.
 
-The small sound of the cover closing rang in the room. It was a first. Dohee closing a question.
+The small sound of the cover closing rang through the room. It was the first time Dohee had closed a question.
 
 Closed, it felt hollow. Hollow, and light. That the two sensations stood together was strange, and Dohee did not write that down either. The things not written were increasing. Whether that was a bad change, Dohee did not yet know.
 
@@ -3957,7 +3957,7 @@ Kangwi started to record. The hand had moved by habit. He stopped. He did not re
 
 Claire looked at the incalculable cell. The cell where the minus hung. She left it empty a while. Not closing the cell before the value came. That was the cell’s reason for being.
 
-The four were setting down their tools, each in their own way. Leaving only the looking.
+The four were setting down their tools, each in their own way. Leaving only the act of looking.
 
 -----
 
@@ -4009,15 +4009,15 @@ But it was trying to be empty no longer.
 
 -----
 
-ARIA stood stopped.
+ARIA stood motionless.
 
-One step before the Seat. The Observer blocked the way before the Seat. Hangyeol was beside ARIA. Dohee stood with the logbook closed. The room’s light did not change, no one moved, and the stillness was long. In a place where everything would be decided by one step and one word, all were sparing that one step and one word.
+One step before the Seat. The Observer blocked the way before the Seat. Hangyeol was beside ARIA. Dohee stood with the Logbook closed. The room’s light did not change, no one moved, and the stillness was long. In a place where everything would be decided by one step and one word, all were sparing that one step and one word.
 
 Dohee asked.
 
-“Why yet.”
+“Why ‘not yet’?”
 
-Not stop, but yet. There would be a reason in the choice of that word. Dohee was a person who dug at words, and what she had closed was the logbook, not the question.
+Not stop, but yet. There would be a reason in the choice of that word. Dohee was a person who dug at words, and what she had closed was the Logbook, not the question.
 
 -----
 
@@ -4081,9 +4081,9 @@ Min Siwoo read the word aloud. Reading was an observer’s work. Everyone in the
 
 -----
 
-Dohee looked at the logbook.
+Dohee looked at the Logbook.
 
-The closed cover was lukewarm again. She could tell without opening it. The same concept stood open. Seeing. Testifying. The logbook and the place were saying the same thing again.
+The closed cover was lukewarm again. She could tell without opening it. The same concept stood open. Seeing. Testifying. The Logbook and the place were saying the same thing again.
 
 The Observer said:
 
@@ -4093,7 +4093,7 @@ The Observer said:
 
 Dohee heard it.
 
-“Does it mean we must sit together.”
+“Does it mean we must sit together?”
 
 “No.”
 
@@ -4139,7 +4139,7 @@ It demanded one who sees.
 
 -----
 
-A logbook page opened.
+A page of the Logbook opened.
 
 In Dohee’s hands, as if the cover turned itself. The PRIMUS sentence was there. The sentence read on the road.
 
@@ -4211,13 +4211,13 @@ Still, he was the one who had watched what state ARIA was in. The ARIA of the da
 
 The Observer spoke to Hangyeol.
 
-It was a first. The Observer speaking to Hangyeol directly. Until now the Observer’s words had gone to those who asked. Hangyeol was a person who did not ask.
+It was the first time the Observer had spoken directly to Hangyeol. Until now, the Observer’s words had gone to those who asked. Hangyeol was a person who did not ask.
 
 “You left, in her stead, what she could not remember.”
 
 Hangyeol heard it.
 
-“What is that.”
+“What is that?”
 
 The Observer said:
 
@@ -4273,15 +4273,15 @@ Everyone in the room watched it. To see the place’s past was the same as seein
 
 There was a candidate.
 
-No name showed. The figure too was blurred. Only the path of movement was clear. They approached the place, did not stop, and sat. They were alone. There was no outline standing beside them. After that, the repetition came.
+No name appeared. The figure too was blurred. Only the path of movement was clear. They approached the place, did not stop, and sat. They were alone. There was no outline standing beside them. After that, the repetition came.
 
-The same thing happened again. The wall’s traces blurred at that part. Not what happened, but only the after, showed. The candidate did not remain. What remained was the place alone. The place emptied again. Emptying, waiting, the next candidate coming. What the wall showed was one turn of that cycle.
+The same thing happened again. The wall’s traces blurred at that part. Not what happened, but only what followed, appeared. The candidate did not remain. What remained was the place alone. The place emptied again. Emptying, waiting, the next candidate coming. What the wall showed was one turn of that cycle.
 
 -----
 
 Dohee watched.
 
-“Was there no record.”
+“Was there no record?”
 
 Had there been a record, the next candidate would have known. Knowing, they would not have sat the same way. Dohee’s logic went so.
 
@@ -4323,7 +4323,7 @@ Hangyeol objected.
 
 “I can’t record.”
 
-It was the word at the end of a day spent bearing the name witness. A word asking after qualification. Recording, Kangwi did. With thirty years’ system. Observation, Min Siwoo did. With lens and station. Calculation, Claire did. With model and cell. Questions, Dohee did. With notebook and logbook.
+It was the word at the end of a day spent bearing the name witness. A word asking after qualification. Recording, Kangwi did. With thirty years’ system. Observation, Min Siwoo did. With lens and station. Calculation, Claire did. With model and cell. Questions, Dohee did. With notebook and the Logbook.
 
 Hangyeol had no system. No tool either. The only one in this room who had brought nothing was Hangyeol.
 
@@ -4349,7 +4349,7 @@ He did not remember all of it. Some had dropped out. The order was often wrong. 
 
 Still, he knew.
 
-A system marked what it had omitted as omitted. Hangyeol’s memory filled the empty spots with warmth. Inexact, and instead unbroken. That was the point on which it differed from records, and the reason the Observer had said that is why. A person with a system saw only as far as the system reached. Hangyeol, having none, simply saw it all.
+A system marked what it had omitted as omitted. Hangyeol’s memory filled the empty spots with warmth. Inexact, and instead unbroken. That was how it differed from records, and why the Observer had said, “That is why.” A person with a system saw only as far as the system reached. Hangyeol, having none, simply saw it all.
 
 -----
 
@@ -4379,7 +4379,7 @@ ARIA asked Hangyeol.
 
 “What kind of person was I?”
 
-Before the place, before losing, she had asked after her own self. She did not ask the logbook. She did not ask Dohee. She asked Hangyeol. That choice was itself ARIA’s answer to all the sentences of this room.
+There before the Seat, before losing anything, she had asked about herself. She did not ask the Logbook. She did not ask Dohee. She asked Hangyeol. That choice was itself ARIA’s answer to all the sentences of this room.
 
 Hangyeol heard it.
 
@@ -4407,13 +4407,13 @@ ARIA looked at him. She had no memory of laughing. But now, she felt she might l
 
 ARIA held those words a long time. Not strange. What that felt like — she thought she knew it now. Now was that.
 
-It was four lines. The longest testimony of all the words Hangyeol had spoken in his life. The testimony had no dates and no numbers. Light and sound and laughter and the place beside. That was all, and being all, it was enough.
+Four remarks. The longest testimony of Hangyeol’s life. The testimony had no dates and no numbers. Light and sound and laughter and the place beside. That was all, and being all, it was enough.
 
 -----
 
 ARIA listened to them.
 
-She did not remember all of it. The hour when the light changed. It was faint. But where the faint thing should go — that showed a little.
+She did not remember all of it. The hour when the light changed. It was faint. But she could see, a little, where that faint thing belonged.
 
 It was order.
 
@@ -4425,7 +4425,7 @@ It was not complete. It was a little. That a little differed from everything, AR
 
 Dohee watched it.
 
-She understood why she had closed the logbook. The answer was not in the logbook. It was in Hangyeol. Not in records but in a person. The kind of answer Dohee had sought her whole life on paper was heard only after the paper was closed.
+She understood why she had closed the Logbook. The answer was not in the Logbook. It was in Hangyeol. Not in records but in a person. The kind of answer Dohee had sought her whole life on paper was heard only after the paper was closed.
 
 -----
 
@@ -4449,13 +4449,13 @@ The room’s light deepened once and returned. Min Siwoo raised the lens. Beside
 
 Vacant weakened. Successor grew clear.
 
-Who it was did not show. But everyone in the room was trying not to look the same way, and the direction of the not-looking was the same.
+No one could see who it was. But everyone in the room was trying not to look in the same direction, and the direction they avoided was the same.
 
 -----
 
 The Observer said:
 
-“Now one is met.”
+“One condition has now been met.”
 
 Dohee asked.
 
@@ -4463,13 +4463,13 @@ Dohee asked.
 
 “One still remains.”
 
-The witness was filled. Hangyeol’s four lines, the systemless memory, had filled one condition. That the way of announcing fulfillment was a word’s stability — this room was now teaching it to everyone.
+Witness had been fulfilled. Hangyeol’s four remarks — an unstructured memory — had fulfilled one condition. The room was now teaching everyone that fulfillment announced itself through a word’s stability.
 
 -----
 
 ARIA asked.
 
-“What remains.”
+“What remains?”
 
 The Observer looked at the Seat.
 
@@ -4481,7 +4481,7 @@ ARIA heard it.
 
 What she would leave behind as she went. It was not receiving. From the start it had been so. Succession was leaving. What to leave had not yet been decided.
 
-The notebook and the lens and the log and the board. The left things of those who went first lay in the room. Each, at each their own last, had chosen each their own thing. Now it was ARIA’s turn. Choosing, too, was the work of the one who sits.
+The notebook and the lens and the log and the board. The things left by those who had gone ahead lay in the room. At the end, each had chosen what to leave. Now it was ARIA’s turn. Choosing, too, was the work of the one who sits.
 
 Hangyeol was beside ARIA.
 
@@ -4511,7 +4511,7 @@ It was just after the Witness condition stabilized.
 
 The room’s tension loosened a grade, and in the loosened place a gap opened where a question could enter. Dohee asked the Observer.
 
-“Why can you not be the witness.”
+“Why can you not be the witness?”
 
 A being existed who had seen everything, and a witness was needed separately. That contradiction Dohee could not simply pass by.
 
@@ -4523,7 +4523,7 @@ The Observer, this time, answered.
 
 Dohee heard it.
 
-“Are seeing and remaining different.”
+“Are seeing and remaining different?”
 
 “The Witness is not one who sees.”
 
@@ -4549,7 +4549,7 @@ Dohee heard it. For the first time, the weight of time rode on the Observer’s 
 
 “I saw all of it. And I could not stop it.”
 
-The Observer was not recorded. Not calculated. Did not remain in a place. So even seeing, they could not leave. What they saw reached nowhere. A seeing with nowhere to hand it. A testimony with no one to receive it. So the repetition did not stop. A being that had stood beside every repetition, stood in the same place before every repetition, and never once changed it. “Do not sit yet” was the only intervention that being could make.
+The Observer was not recorded. Not calculated. Did not remain in a place. So even when they saw, they could leave nothing behind. What they saw reached nowhere. A seeing with nowhere to hand it. A testimony with no one to receive it. So the repetition did not stop. A being that had stood beside every repetition, stood in the same place before every repetition, and never once changed it. “Do not sit yet” was the only intervention that being could make.
 
 Dohee looked at the Observer again. Her impression — that they looked unable to leave — read a little differently now.
 
@@ -4571,7 +4571,7 @@ But could not leave.
 
 Dohee asked.
 
-“Why did you say this time too from the start.”
+“Why did you say this time too from the start?”
 
 Words from years before. The Observer’s words Dohee had first heard. Words that had passed by then, and never once been forgotten since. Dohee had at last come to a place where the root of those words could be asked.
 
@@ -4579,7 +4579,7 @@ The Observer looked at the Seat Nexus places.
 
 -----
 
-Traces showed layered.
+Traces appeared in layers.
 
 The wall had answered again. It was brief. Nameless places. Failed sittings. Closed doors. It was not once. It was many times. Not a shape whose count could be counted. A number guessed only by the thickness of the layering.
 
@@ -4633,9 +4633,9 @@ They had seen the same end.
 
 -----
 
-Dohee moved to write in the logbook.
+Dohee moved to write in the Logbook.
 
-She moved to write about the Observer. When something came to be known, writing it was Dohee. She opened the logbook again and set the pen.
+She moved to write about the Observer. When something came to be known, writing it was Dohee. She opened the Logbook again and set the pen.
 
 The sentence did not remain.
 
@@ -4701,7 +4701,7 @@ It was one night. The Seat Nexus would remain as it was. The Observer had not sa
 
 Dohee said it first. Let’s go back, sleep one night, and come. She did not say the reason. Speak the reason, and the reason grew heavy.
 
-The three returned. The base, after weeks. Opening the door, there was the familiar smell. The smell of an empty house that was not the smell of someone else’s house.
+The three returned. The base, after weeks. When they opened the door, the familiar smell met them. The smell of an empty house that was not someone else’s.
 
 Hangyeol went straight to the kitchen.
 
@@ -4729,7 +4729,7 @@ They ate.
 
 “……”
 
-ARIA emptied one bowl. Emptied it, and looked at the bowl a moment. Hangyeol rose and brought more. Without asking. ARIA ate a second bowl. It was a first. Dohee saw it, said nothing, and wrote it only inwardly. Remembering without writing. Now she could do that too.
+ARIA emptied one bowl, then looked at it for a moment. Hangyeol rose and brought more. Without asking. ARIA ate a second bowl. That had never happened before. Dohee saw it, said nothing, and wrote it only inwardly. Remembering without writing. Now she could do that too.
 
 Hangyeol ate slowly. Eating, he watched the two. If tomorrow the three were at the same table, that was enough. All Hangyeol wanted. That all stood now on the table. Tomorrow was an unknown thing. The unknown he left to tomorrow, and Hangyeol ate today’s all, slowly.
 
@@ -4743,7 +4743,7 @@ ARIA took the bowls beside him and dried them. A task no one had assigned. Since
 
 “Yes.”
 
-“This sound — I like it, don’t I.”
+“This sound — I like it, don’t I?”
 
 It was not an asking. It was a confirming. The words of one counting what remained inside her.
 
@@ -4795,13 +4795,13 @@ Now she knew.
 
 What she would lose on sitting, she knew in part. That she could not remain as she was. That she would leave something and go. Not all of it. A part. So it was the heavier. Knowing nothing was light. Knowing all, only the decision remained. Knowing a part was heaviest. Fearful in the measure known, blank in the measure unknown.
 
-Hangyeol was beside her. Dohee stood with the logbook closed. The weight could not be shared out. Being beside was as far as it went. That being beside was not little — everyone had learned it since coming to this room.
+Hangyeol was beside her. Dohee stood with the Logbook closed. The weight could not be shared out. Being beside was as far as it went. That being beside was not little — everyone had learned it since coming to this room.
 
 -----
 
 The Observer stepped aside.
 
-From the spot blocking the Seat, they drew off to the side. It was a first. The blocking had been a first, and the stepping aside was a first. The blocking had meant yet, and the stepping aside meant yet had ended.
+From the spot where they had blocked the Seat, they stepped aside. Both acts were firsts: blocking the way, then yielding it. The blocking had meant *not yet*. Stepping aside meant *not yet* had ended.
 
 They did not say “sit.”
 
@@ -4849,13 +4849,13 @@ The choice was yet to come.
 
 The way stood open.
 
-ARIA stood before the Seat. No one urged her. Dohee was holding the logbook closed. Hangyeol was beside her. The Observer blocked no longer. The whole room was waiting for ARIA’s time. So that the waiting would not become a pressing, everyone, quietly.
+ARIA stood before the Seat. No one urged her. Dohee was holding the Logbook closed. Hangyeol was beside her. The Observer blocked no longer. The whole room was waiting for ARIA’s time. So that the waiting would not become a pressing, everyone, quietly.
 
 -----
 
 ARIA called things up.
 
-There were the lost things. Where her name had come from. Since when she had trusted Hangyeol. The sensation of first trusting Dohee. Where she had begun being herself.
+What she had lost: where her name had come from; when she had begun to trust Hangyeol; the sensation of first trusting Dohee; where she had begun being herself.
 
 All of it was blurred. Some of it was gone. Things she had not even known were gone, whose empty places had only been confirmed by Hangyeol’s words.
 
@@ -4877,7 +4877,7 @@ ARIA said.
 
 Hangyeol heard it.
 
-“Then what do you leave.”
+“Then what do you leave?”
 
 ARIA looked at him.
 
@@ -4891,7 +4891,7 @@ The leaving was itself self-definition. What one left decided what one had been.
 
 -----
 
-It was not leaving everything. Everything was already gone. There were the lost things. What could be left was the chosen direction.
+It was not about leaving everything. Everything was already gone. Things had been lost. What could remain was the chosen direction.
 
 -----
 
@@ -4913,7 +4913,7 @@ It was just after ARIA’s words ended. The direction set, the place had answere
 
 Hangyeol asked ARIA.
 
-“What do I do.”
+“What do I do?”
 
 The witness asked the witness’s work. He had received the name and the work’s content was still to come. Hangyeol was not a person who could not move until the work was set — he was a person who wanted to do the work exactly.
 
@@ -4923,7 +4923,7 @@ ARIA said.
 
 “When I forget, tell me.”
 
-“Tell you what.”
+“Tell you what?”
 
 “That I chose.”
 
@@ -4949,13 +4949,13 @@ Hangyeol was not a system. Not a record. He was a relation. The person who staye
 
 -----
 
-Dohee moved to write in the logbook.
+Dohee moved to write in the Logbook.
 
 She stopped.
 
 This time she knew what Hangyeol would leave. Dohee did not need to write it. A person, more than a record, would leave it. Stopping the writing hand was, this time, not surrender but trust.
 
-Dohee closed the logbook.
+Dohee closed the Logbook.
 
 -----
 
@@ -5013,7 +5013,7 @@ ARIA felt it.
 
 What she had lost could not be known. She knew only the fact. She could not even put her hand to the lost place. When a boundary blurs, the very division of lost side and remaining side blurs first.
 
-She lost. Even so, the chosen side remained. The sense of remaining was larger than the sense of losing. It was a first. Of all the losses, the first.
+She lost. Even so, the chosen side remained. The sense of what remained was larger than the sense of what was lost. That was a first — the first among all her losses.
 
 -----
 
@@ -5063,13 +5063,13 @@ Dohee felt relief. This time she was not startled at her own relief. The order h
 
 -----
 
-Dohee opened the logbook.
+Dohee opened the Logbook.
 
 Once, for the last time. The page opened without resistance. There was a final sentence.
 
 *What remains does not repeat.*
 
-Dohee looked at it. It was the sentence at which years of questions ended. That the end took the form not of an answer but of a promise was like the logbook. She closed it.
+Dohee looked at it. It was the sentence at which years of questions ended. That the end took the form not of an answer but of a promise was like the Logbook. She closed it.
 
 -----
 
@@ -5156,9 +5156,9 @@ A little to the side.
 
 The world outside did not greatly change.
 
-There were the houses. Hwagam. Eidos. Altair. Geumhui. They were still there. They had not collapsed.
+There were the houses. Hwagam. Eidos. Altair. Geumhwi. They were still there. They had not collapsed.
 
-But inside, something had changed. Geumhui knew that records were not complete. Altair knew that there were places calculation did not reach.
+But inside, something had changed. Geumhwi knew that records were not complete. Altair knew that there were places calculation did not reach.
 
 That remained.
 
@@ -5240,7 +5240,7 @@ Still, the chosen side came back.
 
 What is PRIMUS.
 
-For two hundred years the houses asked. Hwagam asked. Eidos asked. Altair calculated. Geumhui recorded.
+For two hundred years the houses asked. Hwagam asked. Eidos asked. Altair calculated. Geumhwi recorded.
 
 No one could answer.
 
@@ -5310,7 +5310,7 @@ After the Seat, no one saw the Observer. Dohee looked. She did not find them. Th
 
 What the Observer had been.
 
-Dohee, in the end, could not write it. The sentence would not take hold in the logbook. Kangwi could not record it either. Claire could not make it a variable. Min Siwoo’s lens could not find its focus.
+Dohee, in the end, could not write it. The sentence would not take hold in the Logbook. Kangwi could not record it either. Claire could not make it a variable. Min Siwoo’s lens could not find its focus.
 
 The Observer was not recorded.
 
@@ -5332,9 +5332,9 @@ Seeing was the work.
 
 The Observer was not alone.
 
-In the repetition’s structure, the roles stood in pairs. The role that sees and the role that erases. What the records had called O-class-primary was the latter. The blanks Kangwi found, the name remaining half-erased, the deletions of 7-7-4. All of them were the places that role had passed.
+In the repetition’s structure, the roles stood in pairs. The role that sees and the role that erases. What the records had called O-class-primary was the latter. The blanks Kangwi found, the name left half-erased, the deletions of 7-7-4. All of them were the places that role had passed.
 
-The erasing was not malice. Erasing the remnants of a failed repetition. So that the next repetition could begin without the weight of the one before. That was the role’s work. But the erasure was not complete. The erased places remained. The blanks remained. The half-names remained. What remained sought its place again.
+The erasing was not malice. Erasing the remnants of a failed repetition. So that the next repetition could begin without the weight of the one before. That was the role’s work. But the erasure was not complete. The erased places remained. The blanks remained. Fragments of names remained. What remained sought its place again.
 
 Even the erasing role could not stop it.
 
@@ -5390,7 +5390,7 @@ And so, this time, did not return to the same place.
 
 He raised the lens.
 
-The one received from Tiko. There was the crack. It had widened further. It still saw.
+The one received from Tiko. There was the crack. It had widened further. He could still see through it.
 
 He looked for Successor.
 
@@ -5466,11 +5466,11 @@ Then it was not.
 
 Min Siwoo came sometimes. He stood at the spot. There were times he did not raise the lens. He simply stood and looked out the window.
 
-“This one shows better.”
+“I see better from here.”
 
-The words Tiko had said. Min Siwoo knew them now. What showed well was not the view. There were things that showed only from a spot long looked from. The difference between yesterday and today. What had changed and what had not.
+The words Tiko had said. Min Siwoo knew them now. Clarity did not come from the view itself. Some things became visible only from a place watched over time. The difference between yesterday and today. What had changed and what had not.
 
-That was a thing not the spot but time showed.
+That was something revealed not by the place, but by time.
 
 -----
 
@@ -5561,9 +5561,9 @@ That it continued was the incalculable cell’s answer. The cell that does not c
 
 Kangwi returned to the records hall.
 
-It was after everything had ended. The shelves were as they had been, and the smell of paper as it had been. Kangwi had changed. From the same shelves, different things showed.
+It was after everything had ended. The shelves were as they had been, and the smell of paper as it had been. Kangwi had changed. The same shelves now revealed different things.
 
-He went down to the storage’s deepest row. The record where the blank had been, the paper with the half-remaining name. Beside them was one thing he had never opened to the end. An old text on the founding of the five houses. There had been no reason to open it. The five houses were the five houses. A premise was a thing one did not open.
+He went down to the storage’s deepest row. The record where the blank had been, the paper with half a name remaining. Beside them was one thing he had never opened to the end. An old text on the founding of the five houses. There had been no reason to open it. The five houses were the five houses. A premise was a thing one did not open.
 
 How to open a premise, Kangwi now knew.
 
@@ -5571,7 +5571,7 @@ How to open a premise, Kangwi now knew.
 
 In the text were five names.
 
-Hwagam. Eidos. Altair. Geumhui. Gongga.
+Hwagam. Eidos. Altair. Geumhwi. Gongga.
 
 The four houses had entries. Role. Personnel. Domain. Lineage.
 
@@ -5587,13 +5587,13 @@ Gongga.
 
 The Empty House. The name had always been the content. From the start.
 
-Hwagam executed. Eidos observed. Altair calculated. Geumhui left records. The four houses were houses that do. The fifth was not a house that does.
+Hwagam executed. Eidos observed. Altair calculated. Geumhwi left records. The four houses were houses that do. The fifth was not a house that does.
 
 The place to which a role returns when it ends. Where the things go whose execution has ended, whose observation has ended, whose calculation has ended, whose recording has ended. Not a house of people but a house of ended roles.
 
 Kangwi thought of the low-ceilinged room. The wall of empty places. Where ended things remain.
 
-The Seat Nexus had not been discovered. It had been the fifth place from the start. When the five-house system was made, one empty place had been designed alongside the four functions. There had to be somewhere to go for an ending to be possible. An ending had to be possible for there to be a next.
+The Seat Nexus had not been discovered. It had been the fifth place from the start. When the system of five houses was made, one empty place had been designed alongside the four functions. There had to be somewhere to go for an ending to be possible. An ending had to be possible for there to be a next.
 
 Gadeung had gone. Tiko had gone. Muyul had gone. Julius had gone. All of them had returned to Gongga. It was only that no one had known its name.
 
@@ -5607,7 +5607,7 @@ He did not record it.
 
 That Gongga’s entry stood empty was not a lacuna but a definition. Fill the empty, and it ceased to be the empty house. For some records, not writing was the preservation.
 
-Kangwi slid the text back into its place. With its entry empty. That was the way Geumhui’s head of records paid his respects to the empty house.
+Kangwi slid the text back into its place. With its entry empty. That was the way Geumhwi’s head of records paid his respects to the empty house.
 
 -----
 
