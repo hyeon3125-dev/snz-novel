@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>SCALAR: NODE ZERO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-faction="trio">
+  <div id="title-screen" hidden></div>
+  <div id="crack-overlay" data-level="0" aria-hidden="true"></div>
+  <header id="hud" data-no-advance></header>
+  <div id="thickness" aria-hidden="true" hidden></div>
+  <nav id="toc" data-no-advance hidden></nav>
+  <main id="viewport">
+    <div id="lens-mask" aria-hidden="true"></div>
+    <div id="flow"></div>
+    <div id="tap-space" aria-hidden="true"></div>
+  </main>
+  <div id="gesture-hint" hidden></div>
+  <div id="choice-box" hidden data-no-advance></div>
+
+  <!-- 언어 결정 → 각본 데이터 선택 로드 (빌드 없음 원칙: document.write 동기 삽입으로 로드 순서 보존) -->
+  <script>
+    (function () {
+      var lang = null;
+      try { lang = JSON.parse(localStorage.getItem("scalar2_lang")); } catch (e) {}
+      if (lang !== "ko" && lang !== "en" && lang !== "jp") {
+        var nl = (navigator.language || "ko").toLowerCase();
+        lang = nl.indexOf("ko") === 0 ? "ko" : (nl.indexOf("ja") === 0 ? "jp" : "en");
+      }
+      window.LANG = lang;
+      document.write('<script src="script' + (lang === "en" ? ".en" : (lang === "jp" ? ".jp" : "")) + '.js"><\/script>');
+    })();
+  </script>
+  <!-- 로드 순서 고정: script → state → director → stage → input → main (§2) -->
+  <script src="state.js"></script>
+  <script src="director.js"></script>
+  <script src="stage.js"></script>
+  <script src="input.js"></script>
+  <script src="main.js"></script>
+  <!-- 선택적 분석 (엔진 외부·쿠키리스·DNT 존중). 비활성 시 네트워크 호출 0 — 0-dep 불변식 유지. -->
+  <script src="analytics.js"></script>
+</body>
+</html>

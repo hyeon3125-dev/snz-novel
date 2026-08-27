@@ -1,0 +1,342 @@
+/* SCALAR: NODE ZERO — 기본값은 정적(靜寂). 효과 1개가 들어가면 주변은 침묵. (§4)
+ * 가문 테마는 색이 아니라 텍스트 문법이다 (불변식 6, §6-2). */
+
+:root {
+  --bg: #0c0d0f;
+  --ink: #cfd2d6;
+  --ink-dim: #6c7077;
+  --accent: #9aa3ad;
+  --measure: 34rem;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+
+/* hidden 속성은 display 지정(flex 등)보다 항상 우선 — 타이틀/선택지 토글의 단일 권위 */
+[hidden] { display: none !important; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Noto Serif KR", "Apple SD Gothic Neo", "Nanum Myeongjo", serif;
+  font-size: 1.05rem;
+  line-height: 1.95;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  transition: background-color 2s;
+}
+
+/* ── HUD — 탭하면 목차 (안내 없음) ── */
+#hud {
+  position: fixed; top: 0; left: 0; right: 0;
+  padding: 0.6rem 1rem;
+  font-size: 0.72rem; letter-spacing: 0.08em;
+  color: var(--ink-dim); text-align: center;
+  background: linear-gradient(var(--bg) 60%, transparent);
+  z-index: 5; cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+/* ── 남은 두께 — 오른손에 남은 페이지의 물성. 숫자 없음.
+ * 본문 컬럼 바로 옆 (화면 가장자리 X — 직관성): 좁은 화면에선 우측 여백 안쪽으로 ── */
+#thickness {
+  position: fixed; top: 3.4rem;
+  right: max(0.45rem, calc(50vw - var(--measure) / 2 - 1.5rem));
+  width: 3px; z-index: 4; pointer-events: none;
+  border-radius: 2px;
+  background: linear-gradient(to bottom, #51565e, #2b2e33);
+  opacity: 0.85; transition: height 1.2s ease;
+}
+
+/* ── 본문 흐름 ── */
+#viewport {
+  height: 100%; overflow-y: auto;
+  padding: 3.2rem 1.25rem 0;
+  cursor: pointer;
+}
+#flow { max-width: var(--measure); margin: 0 auto; }
+#tap-space { height: 55vh; }
+
+.line { margin: 1.15em 0; animation: line-in 0.45s ease-out; position: relative;
+        -webkit-touch-callout: none; }
+.line em { font-style: italic; color: var(--accent); }
+.line strong { font-weight: 700; }
+
+/* 밑줄 — 독자가 남기는 기록 (길게 누르기). 게임의 표시가 아니라 독자의 흔적 */
+.line.marked {
+  text-decoration: underline;
+  text-decoration-color: #4a4e55;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.32em;
+}
+
+/* 다시 펼친 페이지 — 이어읽기의 마지막 줄, 눈이 글줄을 찾는 순간 (.instant보다 우선) */
+.line.reopen { animation: reopen 0.9s ease-out !important; }
+@keyframes reopen {
+  from { opacity: 0.25; filter: blur(1.5px); }
+  to   { opacity: 1; filter: none; }
+}
+
+.scene-break { height: 3.2em; }
+
+.unit-card {
+  margin: 4.5em 0 3em; text-align: center;
+  font-size: 0.85rem; letter-spacing: 0.14em;
+  color: var(--ink-dim);
+  animation: line-in 0.9s ease-out;
+}
+.unit-card::after {
+  content: ""; display: block;
+  width: 2.2em; height: 1px;
+  background: var(--ink-dim);
+  margin: 1.6em auto 0; opacity: 0.5;
+  transition: width 1.2s, opacity 1.2s;
+}
+/* 회수 공명 — 본 사람에게만 울리는 (§7-1). 과하지 않게: 밑줄이 조금 길어지고 밝아질 뿐 */
+.unit-card.resonant { color: var(--accent); }
+.unit-card.resonant::after { width: 6em; opacity: 0.9; }
+
+.end-card { margin: 6em 0; text-align: center; animation: line-in 1.2s ease-out; }
+.end-title { letter-spacing: 0.5em; color: var(--ink); }
+.end-reach { margin-top: 1.4em; font-size: 0.78rem; letter-spacing: 0.18em; color: var(--ink-dim); }
+
+/* 완독 판정 — 책의 판권면 자리 (§v2.1 2-3). 문양은 이미지가 아니라 묘사 */
+.judge-card { margin: 7em 0 5em; text-align: center; animation: line-in 1.6s ease-out; }
+.judge-read { letter-spacing: 0.14em; color: var(--ink); }
+.judge-sigil {
+  margin: 2.2em auto 0; max-width: 24rem;
+  font-style: italic; font-size: 0.92rem; line-height: 2.1;
+  color: var(--accent);
+}
+.judge-stats {
+  margin-top: 2.6em; font-size: 0.74rem; letter-spacing: 0.16em;
+  color: var(--ink-dim);
+}
+
+@keyframes line-in {
+  from { opacity: 0; transform: translateY(0.35em); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ════════ fx (§4) — 연출은 본문 문체의 번역 ════════ */
+
+/* echo — 텍스트 잔상 1회 */
+.fx-echo-ghost {
+  position: absolute; left: 0; right: 0;
+  margin-top: -1.95em; pointer-events: none;
+  animation: echo-fade 1.3s 0.3s ease-out forwards;
+  opacity: 0.5;
+}
+@keyframes echo-fade { to { opacity: 0; filter: blur(4px); } }
+
+/* blank — 문장 중간의 실제 공백. 끝내 채워지지 않음 */
+.fx-blank {
+  display: inline-block; min-width: 3.2em; height: 1em;
+  border-bottom: 1px solid var(--ink-dim);
+  vertical-align: baseline;
+}
+.fx-blank.wide { min-width: 11em; }
+
+/* crack — 가장자리 균열 누적 (회복 없음) */
+#crack-overlay {
+  position: fixed; inset: 0; pointer-events: none; z-index: 8;
+  opacity: 0; transition: opacity 3s;
+}
+#crack-overlay[data-level="1"] { opacity: 1; box-shadow: inset 0 0 60px -42px #aab; }
+#crack-overlay[data-level="2"] { opacity: 1; box-shadow: inset 0 0 70px -38px #aab; }
+#crack-overlay[data-level="3"] { opacity: 1; box-shadow: inset 0 0 80px -34px #aab; }
+#crack-overlay[data-level="4"] { opacity: 1; box-shadow: inset 0 0 90px -30px #aab; }
+#crack-overlay[data-level="5"] { opacity: 1; box-shadow: inset 0 0 100px -26px #aab; }
+#crack-overlay[data-level]:not([data-level="0"])::before {
+  content: ""; position: absolute; top: 0; right: 12%;
+  width: 1px; height: calc(8% * var(--lv, 1));
+  background: linear-gradient(#aab8, transparent);
+  transform: rotate(14deg);
+}
+
+/* shake — BA 권역 한정 */
+.fx-shake-s { animation: shake 0.4s; }
+.fx-shake-m { animation: shake 0.5s; animation-timing-function: ease-in; }
+@keyframes shake {
+  0%, 100% { transform: none; }
+  20% { transform: translate(3px, -2px); }
+  40% { transform: translate(-4px, 2px); }
+  60% { transform: translate(3px, 1px); }
+  80% { transform: translate(-2px, -1px); }
+}
+.fx-flash { background: #16181c; }  /* reduced-motion 대체 */
+
+/* seat — 0.8초 전체 정지 + UI 숨김 + 완전 무음 */
+.fx-seat #hud, .fx-seat #gesture-hint { opacity: 0; }
+.fx-seat #viewport { pointer-events: none; }
+
+/* light — 색온도 30초 전이 (DL-12·Ch.200 전용) */
+body.fx-light { background-color: #1a1410; transition: background-color 30s linear; }
+
+/* ════════ 가문 문법 (§6-2) ════════ */
+
+/* 화감 — 기록 양식 위에 서사 */
+[data-faction="hwagam"] .line { padding-left: 5.2em; }
+.hg-prefix {
+  position: absolute; left: 0; top: 0.3em;
+  font-family: "SF Mono", "D2Coding", monospace;
+  font-size: 0.62rem; letter-spacing: 0.05em;
+  color: var(--ink-dim); opacity: 0.75;
+}
+
+/* 에이도스 — 렌즈 안에만 선명 */
+#lens-mask { display: none; }
+[data-faction="eidos"] #lens-mask {
+  display: block; position: fixed; inset: 0;
+  pointer-events: none; z-index: 4;
+  background: radial-gradient(ellipse 46% 38% at 50% 46%, transparent 62%, rgba(7,8,9,0.82) 100%);
+}
+[data-faction="eidos"] #flow { max-width: 27rem; }
+
+/* 알타이르 — 격자 정렬 + 우측 수치 컬럼 */
+[data-faction="altair"] .line {
+  text-align: left; padding-right: 4.6em;
+  font-variant-numeric: tabular-nums;
+}
+.at-col {
+  position: absolute; right: 0; top: 0.25em;
+  font-family: "SF Mono", "D2Coding", monospace;
+  font-size: 0.66rem; color: var(--ink-dim);
+  min-width: 3.4em; text-align: right;
+  border-left: 1px solid #2a2d31; padding-left: 0.7em;
+  min-height: 1.2em;
+}
+
+/* 금휘 — 종이결, 세로 괘선, 넓은 여백 */
+[data-faction="geumhwi"] { background: #111013; }
+[data-faction="geumhwi"] #flow {
+  border-left: 1px solid #2c2a26;
+  border-right: 1px solid #2c2a26;
+  padding: 0 2.2rem;
+}
+[data-faction="geumhwi"] .line { margin: 2em 0; color: #c8c2b4; }
+
+/* 공가 — 텍스트 없음에 가까움. SS-12 단 한 번 */
+[data-faction="gongga"] #hud { opacity: 0; }
+[data-faction="gongga"] #flow { max-width: 22rem; }
+[data-faction="gongga"] .line {
+  margin: 38vh 0; text-align: center;
+  font-size: 0.95rem; color: var(--ink-dim);
+}
+[data-faction="gongga"] .unit-card::after { display: none; }
+
+/* Observer — 고정되지 않고 표류 */
+[data-faction="observer"] .line { animation: line-in 0.45s ease-out, drift 60s linear forwards; }
+@keyframes drift { to { transform: translateX(60px); } }
+
+/* 전환 연출 — 문법의 해체와 조립 (§6-3) */
+.faction-switching #flow { opacity: 0.25; filter: blur(1.5px); transition: opacity 0.3s, filter 0.3s; }
+#flow { transition: opacity 0.3s, filter 0.3s; }
+
+/* ════════ 인터랙션 UI (§5) ════════ */
+#gesture-hint {
+  position: fixed; bottom: 12vh; left: 0; right: 0;
+  text-align: center; z-index: 6; pointer-events: none;
+  font-size: 0.74rem; letter-spacing: 0.3em;
+  color: var(--ink-dim); opacity: 0.5;
+  animation: breathe 2.6s ease-in-out infinite;
+}
+#gesture-hint[data-type="silence"]::after {
+  content: "·"; display: block; font-size: 1.2rem;
+}
+@keyframes breathe { 50% { opacity: 0.85; } }
+
+#choice-box {
+  position: fixed; bottom: 16vh; left: 0; right: 0;
+  display: flex; justify-content: center; gap: 1.2rem;
+  z-index: 7;
+}
+.choice-btn {
+  font: inherit; font-size: 0.9rem; letter-spacing: 0.2em;
+  color: var(--ink); background: rgba(12,13,15,0.85);
+  border: 1px solid var(--ink-dim);
+  padding: 0.6rem 2rem; cursor: pointer;
+  animation: choice-wane 8s linear forwards;  /* 제한시간의 시각화 */
+}
+.choice-btn:hover { border-color: var(--ink); }
+@keyframes choice-wane { from { opacity: 1; } to { opacity: 0.35; } }
+
+/* ════════ 타이틀 ════════ */
+#title-screen {
+  position: fixed; inset: 0; z-index: 10;
+  background: var(--bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 1rem; padding: 2rem; text-align: center;
+}
+.title-name { font-size: 1.5rem; letter-spacing: 0.34em; margin-bottom: 0.2rem; }
+.title-sub { font-size: 0.78rem; letter-spacing: 0.18em; color: var(--ink-dim); margin-bottom: 3rem; }
+.title-btn {
+  font: inherit; font-size: 0.92rem; letter-spacing: 0.22em;
+  color: var(--ink); background: none;
+  border: 1px solid var(--ink-dim);
+  padding: 0.7rem 2.6rem; cursor: pointer;
+  transition: border-color 0.3s, color 0.3s;
+}
+.title-btn:hover { border-color: var(--ink); }
+.title-notice {
+  margin-top: 2.4rem; max-width: 26rem;
+  font-size: 0.74rem; line-height: 1.7; color: var(--ink-dim);
+}
+.title-lang { margin-top: 2.2rem; display: flex; gap: 1.6rem; }
+.lang-btn {
+  font: inherit; font-size: 0.74rem; letter-spacing: 0.12em;
+  color: var(--ink-dim); background: none; border: none;
+  padding: 0.3rem 0.2rem; cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+.lang-btn:hover { color: var(--ink); }
+.lang-btn.active { color: var(--ink); border-bottom-color: var(--ink-dim); cursor: default; }
+
+/* ════════ 목차 (§v2.1 3-1) — 기록 보관함의 톤. 방문 표시 없음 ════════ */
+#toc {
+  position: fixed; inset: 0; z-index: 9;
+  background: rgba(10, 11, 13, 0.97);
+  display: flex; flex-direction: column;
+  padding: 3.4rem 1.2rem 1.4rem;
+}
+.toc-list {
+  flex: 1; overflow-y: auto;
+  max-width: var(--measure); margin: 0 auto; width: 100%;
+}
+.toc-item {
+  display: block; width: 100%; text-align: left;
+  font: inherit; font-size: 0.88rem; line-height: 1.6;
+  color: var(--ink); background: none; border: none;
+  border-bottom: 1px solid #1d1f23;
+  padding: 0.85rem 0.4rem; cursor: pointer;
+  transition: color 0.25s;
+}
+.toc-item:hover { color: #fff; }
+.toc-mark-line { color: var(--ink-dim); font-style: italic; }
+.toc-foot {
+  display: flex; justify-content: center; gap: 1.8rem;
+  padding-top: 1.2rem;
+}
+.toc-foot-btn {
+  font: inherit; font-size: 0.74rem; letter-spacing: 0.12em;
+  color: var(--ink-dim); background: none; border: none;
+  border-bottom: 1px solid transparent;
+  padding: 0.3rem 0.2rem; cursor: pointer;
+}
+.toc-foot-btn:hover { color: var(--ink); }
+.toc-foot-btn.active { color: var(--ink); border-bottom-color: var(--ink-dim); }
+
+/* ════════ 접근성 (§5-4) ════════ */
+@media (prefers-reduced-motion: reduce) {
+  .line, .unit-card, .end-card, .judge-card, .fx-echo-ghost { animation: none; }
+  .fx-shake-s, .fx-shake-m { animation: none; }
+  .line.reopen { animation: none !important; }
+  [data-faction="observer"] .line { animation: none; }
+}
+.reduced-motion .line, .reduced-motion .unit-card, .reduced-motion .end-card,
+.reduced-motion .judge-card { animation: none; }
+.reduced-motion .line.reopen { animation: none !important; }
+.reduced-motion [data-faction="observer"] .line { animation: none; }
+.instant { animation: none !important; }
