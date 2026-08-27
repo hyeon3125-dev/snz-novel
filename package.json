@@ -4,6 +4,10 @@
   "description": "개발·테스트 전용 도구 의존성 — 게임 런타임 의존성은 0 (game/ 은 정적 파일만)",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
+    "build:ko": "python3 tools/parse_snz.py manuscript/SNZ_KO_Part1.md manuscript/SNZ_KO_Part2.md manuscript/SNZ_KO_Part3.md manuscript/SNZ_KO_Part4.md manuscript/SNZ_KO_Part5.md -o game/script.js -a tools/annotations/base.json -a tools/annotations/ko.json",
+    "build:en": "python3 tools/parse_snz.py manuscript/SNZ_EN_Part1.md manuscript/SNZ_EN_Part2.md manuscript/SNZ_EN_Part3.md manuscript/SNZ_EN_Part4.md manuscript/SNZ_EN_Part5.md -o game/script.en.js -a tools/annotations/base.json -a tools/annotations/en.json",
+    "build:jp": "python3 tools/parse_snz.py manuscript/SNZ_JP_Part1.md manuscript/SNZ_JP_Part2.md manuscript/SNZ_JP_Part3.md manuscript/SNZ_JP_Part4.md manuscript/SNZ_JP_Part5.md -o game/script.jp.js -a tools/annotations/base.json -a tools/annotations/jp.json",
+    "build": "npm run build:ko && npm run build:en && npm run build:jp",
     "test:browser": "node tools/browser_test.mjs",
     "test:smoke": "node tools/smoke_headless.mjs",
     "test:graph": "node tools/validate_graph.mjs game/script.js"

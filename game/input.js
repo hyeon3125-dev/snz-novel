@@ -1,5 +1,5 @@
 /* SCALAR: NODE ZERO — input.js
- * 입력 수집·정규화 (Architecture v2.0 §2, §5).
+ * 입력 수집·정규화 (Architecture v3).
  * 기본 진행: 탭/클릭/스페이스/엔터 → advance.
  * 인터랙션 6종 (§5-2): hold / release / silence / timeout_choice / shake / trace.
  * 접근성 (§5-4): settings.holdAssist → 모든 제스처를 탭으로 대체.

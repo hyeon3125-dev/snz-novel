@@ -1,5 +1,5 @@
 /* SCALAR: NODE ZERO — stage.js
- * 실제 렌더 (Architecture v2.0 §2, §4, §6).
+ * 실제 렌더 (Architecture v3).
  * 연출은 본문 문체의 번역 — 기본값은 정적(靜寂). 효과 1개가 들어가면 주변은 침묵.
  * 사운드: Web Audio 절차 합성 — 에셋 파일 0, 의존성 0. 모든 전이 2초+ 페이드.
  */
@@ -10,14 +10,14 @@
 window.STR = (window.LANG === "en") ? {
   titleSub: "A Deterministic Interactive Novel",
   begin: "Begin", resume: "Continue", restart: "From the Beginning",
-  legacyNotice: "Save data from the old version (scalar_*) was found. This edition does not use it.",
+  legacyNotice: "A previous-edition record was found. It remains available in the v2 archive.",
+  legacyLink: "Open the v2 archive", blankLabel: "blank",
   end: "End",
   reach: { full: "Full Recall", standard: "Standard", silent: "Silent Run" },
   unasked: "The Unasked",
   gesture: { hold: "press and hold", release: "let go", silence: "", trace: "trace it", timeout_choice: "" },
   toc: "Contents", tocBack: "Back", tocClose: "Close", tocMarks: "Underlined Passages",
-  tocPrelude: "Prelude", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
-  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  tocPrelude: "Prelude", tocPart: (n, lo, hi) => "Part " + n + (lo ? " — Ch." + lo + "~" + hi : ""),
   thicknessToggle: "Show remaining thickness",
   judgeRead: (f) => "You read the " + f + " way.",
   judgeSeeds: (o, t) => "Recall " + o + "/" + t,
@@ -33,14 +33,14 @@ window.STR = (window.LANG === "en") ? {
 } : {
   titleSub: "결정론적 인터랙티브 노벨",
   begin: "읽기 시작", resume: "이어서 읽기", restart: "처음부터",
-  legacyNotice: "이전 버전(scalar_*)의 진행 기록이 발견되었습니다. 새 판은 그 기록을 사용하지 않습니다.",
+  legacyNotice: "이전 판의 진행 기록이 남아 있습니다. v2 보관판에서 그대로 읽을 수 있습니다.",
+  legacyLink: "v2 보관판 열기", blankLabel: "공백",
   end: "끝",
   reach: { full: "완전 회수", standard: "표준", silent: "침묵 주행" },
   unasked: "묻지 않은 것들",
   gesture: { hold: "누르고 있기", release: "놓기", silence: "", trace: "따라 긋기", timeout_choice: "" },
   toc: "목차", tocBack: "뒤로", tocClose: "닫기", tocMarks: "밑줄 친 곳",
-  tocPrelude: "序", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
-  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  tocPrelude: "序", tocPart: (n, lo, hi) => "Part " + n + (lo ? " — Ch." + lo + "~" + hi : ""),
   thicknessToggle: "남은 두께 표시",
   judgeRead: (f) => f + "의 방식으로 읽었습니다.",
   judgeSeeds: (o, t) => "회수 " + o + "/" + t,
@@ -50,21 +50,21 @@ window.STR = (window.LANG === "en") ? {
   sigils: {
     hwagam: "불꽃이 거울 안에 있다. 비추는 것인지 갇힌 것인지 알 수 없다.",
     eidos: "원 안에 원. 안쪽 원의 가장자리가 조금 어긋나 있다.",
-    altair: "격자. 한 칸이 비어있다. 처음부터 비어있었던 것처럼 보인다.",
+    altair: "격자. 한 칸이 비어 있다. 처음부터 비어 있었던 것처럼 보인다.",
     geumhwi: "세로선 다섯 개. 간격이 같지 않다. 마지막 선이 조금 더 멀다.",
   },
 };
 if (window.LANG === "jp") window.STR = {
   titleSub: "決定論的インタラクティブノベル",
   begin: "読みはじめる", resume: "続きを読む", restart: "最初から",
-  legacyNotice: "以前のバージョン(scalar_*)の進行記録が見つかりました。この版ではそれを使用しません。",
+  legacyNotice: "以前の版の進行記録が残っています。v2アーカイブでそのまま読むことができます。",
+  legacyLink: "v2アーカイブを開く", blankLabel: "空白",
   end: "終わり",
   reach: { full: "完全回収", standard: "標準", silent: "沈黙走行" },
   unasked: "問わなかったもの",
   gesture: { hold: "押し続ける", release: "離す", silence: "", trace: "なぞる", timeout_choice: "" },
   toc: "目次", tocBack: "戻る", tocClose: "閉じる", tocMarks: "傍線を引いた箇所",
-  tocPrelude: "序", tocArc: (n, lo, hi) => "Arc " + n + " — Vol." + lo + "~" + hi,
-  tocVol: (n, lo, hi) => "Vol." + n + (lo ? " — Ch." + lo + "~" + hi : ""),
+  tocPrelude: "序", tocPart: (n, lo, hi) => "Part " + n + (lo ? " — Ch." + lo + "~" + hi : ""),
   thicknessToggle: "残りの厚みを表示",
   judgeRead: (f) => f + "の流儀で読みました。",
   judgeSeeds: (o, t) => "回収 " + o + "/" + t,
@@ -243,7 +243,7 @@ window.STAGE = (function () {
       // 문장 중간에 실제 공백 (§4 blank) — 끝내 채워지지 않음
       p.innerHTML = emphasize(t).replace(
         new RegExp(fx.word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")),
-        '<span class="fx-blank" aria-label="공백"></span>');
+        '<span class="fx-blank" aria-label="' + window.STR.blankLabel + '"></span>');
     } else {
       p.innerHTML = emphasize(t);
     }
@@ -304,7 +304,7 @@ window.STAGE = (function () {
         setTimeout(() => document.body.classList.remove("fx-seat"), 800);
         break;
       }
-      case "light":  // 색온도 30초 전이 — DL-12·Ch.200 전용
+      case "light":  // 색온도 30초 전이 — 결말부 전용
         document.body.classList.add("fx-light");
         break;
       case "pause_b":  // 강제 박자 1.2초
@@ -589,6 +589,12 @@ window.STAGE = (function () {
       n.textContent = window.STR.legacyNotice;
       $title.appendChild(n);
     }
+    const a = document.createElement("a");
+    a.className = "title-legacy";
+    a.href = "../legacy/v2/";
+    a.textContent = window.STR.legacyLink;
+    a.addEventListener("click", (e) => e.stopPropagation());
+    $title.appendChild(a);
     $title.hidden = false;
   }
   function hideTitle() { $title.hidden = true; }

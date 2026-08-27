@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SNZ Final Part md → game/script.js 변환기 (Architecture v2.0 §3).
+"""SNZ Part md → game/script.js 변환기 (Architecture v3 §3).
 
 사용:
     python3 parse_snz.py "<본문 Part md 경로>" [추가 Part...] -o ../game/script.js
@@ -14,7 +14,6 @@ import hashlib
 import json
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 # ──────────────── 구분자 ────────────────
@@ -44,10 +43,14 @@ EDITORIAL_PATTERNS = [
 ]
 
 # ──────────────── 헤더 분류 ────────────────
-# 챕터: "## Vol.1 Ch.1 — Observation" / "## Vol.4 Ch.19 「이탈」" / "## Vol.6 — Ch.43 「기록원」 [전면판]"
+# v3: "## Part.1 Ch.1 — 「관측」". v2 헤더는 legacy 변환용으로 계속 읽는다.
+RE_CHAPTER_V3 = re.compile(r"^## Part\.(\d+)\s*(?:—\s*)?Ch\.(\d+)\s*(?:—\s*)?(.*)$")
 RE_CHAPTER = re.compile(r"^## Vol\.(\d+)\s*(?:—\s*)?Ch\.(\d+)\s*(?:—\s*)?(.*)$")
 RE_PROLOGUE = re.compile(r"^## Prologue\s*—\s*[「“](.+)[」”]")
+RE_PRELUDE = re.compile(r"^## Prelude\s*—\s*[「“](.+)[」”]")
+RE_PART = re.compile(r"^# Part (\d+)\b")
 RE_VOLUME = re.compile(r"^# Volume (\d+)\b")
+RE_EPILOGUE = re.compile(r"^## Epilogue\b")
 RE_DIAMOND = re.compile(r"^## ◆ (.+)$")  # 서브 문서 배너 헤더
 # 권 내장 인터루드: "## Archive-01 — 「기록」" 등
 RE_INLINE_SUB = re.compile(r"^## (Archive|Observation|Calculation|Order|Deletion)-(\d+)\s*—\s*[「“](.+)[」”]")
@@ -90,12 +93,13 @@ def apply_drops(text, ranges):
 class Parser:
     def __init__(self, unit_aliases=None):
         self.unit_aliases = unit_aliases or {}  # 헤더 제목 → 강제 uid (예: EN Cold Open)
-        self.units = []          # [{id, label, kind, vol, ch}]
+        self.units = []          # [{id, label, kind, part, ch}]
         self.unit_ids = set()
         self.cur_unit = None     # 현재 unit dict
         self.cur_scene_lines = []
         self.scenes = []         # [{unit, lines}] (id는 마지막에 부여)
-        self.cur_vol = None
+        self.cur_part = None
+        self.cur_vol = None      # v2 입력 호환용
         self.ff_seq = 0          # 무번호 Fragment 순번
         self.skipped = []        # [(사유, 줄번호, 원문)]
 
@@ -105,17 +109,17 @@ class Parser:
             self.scenes.append({"unit": self.cur_unit["id"], "lines": self.cur_scene_lines})
         self.cur_scene_lines = []
 
-    def start_unit(self, uid, label, kind, vol=None, ch=None):
+    def start_unit(self, uid, label, kind, part=None, ch=None):
         self.close_scene()
-        if vol is None:
-            vol = self.cur_vol  # 서브 문서는 배치 권역의 권 번호를 상속 (Arc 산출용)
+        if part is None:
+            part = self.cur_part
         if uid in self.unit_ids:  # 중복 id 방지 (동명 Fragment 등)
             base, n = uid, 2
             while f"{base}_{n}" in self.unit_ids:
                 n += 1
             uid = f"{base}_{n}"
         self.unit_ids.add(uid)
-        self.cur_unit = {"id": uid, "label": label, "kind": kind, "vol": vol, "ch": ch}
+        self.cur_unit = {"id": uid, "label": label, "kind": kind, "part": part, "ch": ch}
         self.units.append(self.cur_unit)
 
     def skip(self, reason, lineno, text):
@@ -123,16 +127,31 @@ class Parser:
 
     # ── 헤더 처리. True = 소비됨 ──
     def handle_header(self, line, lineno):
+        m = RE_CHAPTER_V3.match(line)
+        if m:
+            part, ch = int(m.group(1)), int(m.group(2))
+            self.cur_part = part
+            self.start_unit(f"p{part:02d}_c{ch:03d}", line[3:].strip(), "chapter", part, ch)
+            self.skip("header:chapter", lineno, line)
+            return True
         m = RE_CHAPTER.match(line)
         if m:
             vol, ch = int(m.group(1)), int(m.group(2))
-            self.start_unit(f"v{vol:02d}_c{ch:03d}", line[3:].strip(), "chapter", vol, ch)
+            # v2 원고를 읽을 때는 16권을 5부 원천 구간으로 투영한다.
+            part = 1 if vol <= 3 else 2 if vol <= 6 else 3 if vol <= 10 else 4 if vol <= 14 else 5
+            self.cur_part = part
+            self.start_unit(f"v{vol:02d}_c{ch:03d}", line[3:].strip(), "chapter", part, ch)
             self.skip("header:chapter", lineno, line)
             return True
         m = RE_PROLOGUE.match(line)
         if m:
             self.start_unit("pro", line[3:].strip(), "prologue")
             self.skip("header:prologue", lineno, line)
+            return True
+        m = RE_PRELUDE.match(line)
+        if m:
+            self.start_unit(f"pre{self.cur_part or 0:02d}", line[3:].strip(), "prelude")
+            self.skip("header:prelude", lineno, line)
             return True
         m = RE_DIAMOND.match(line)
         if m:
@@ -215,9 +234,21 @@ class Parser:
                 self.start_unit(uid, line[3:].strip(), "sub")
                 self.skip("header:after_ending", lineno, line)
             return True
+        m = RE_EPILOGUE.match(line)
+        if m:
+            self.start_unit("epi", line[3:].strip(), "epilogue")
+            self.skip("header:epilogue", lineno, line)
+            return True
+        m = RE_PART.match(line)
+        if m:
+            self.cur_part = int(m.group(1))
+            self.close_scene()
+            self.skip("header:part", lineno, line)
+            return True
         m = RE_VOLUME.match(line)
         if m:
             self.cur_vol = int(m.group(1))
+            self.cur_part = 1 if self.cur_vol <= 3 else 2 if self.cur_vol <= 6 else 3 if self.cur_vol <= 10 else 4 if self.cur_vol <= 14 else 5
             self.close_scene()
             self.skip("header:volume", lineno, line)
             return True
@@ -254,16 +285,6 @@ class Parser:
         self.close_scene()
 
 
-def vol_to_arc(vol):
-    """BP v4.0 6-Arc 매핑."""
-    if vol is None:
-        return None
-    for arc, (lo, hi) in enumerate([(1, 3), (4, 6), (7, 9), (10, 12), (13, 14), (15, 16)], 1):
-        if lo <= vol <= hi:
-            return arc
-    return None
-
-
 def build_script(parser, annotations, src_hashes, part_label):
     ann_faction = annotations.get("faction", {})
     ann_fx = annotations.get("fx", {})
@@ -290,6 +311,8 @@ def build_script(parser, annotations, src_hashes, part_label):
     def ref_ok(key):
         if key.startswith("_"):
             return True  # _doc/_reason 류 주석 키
+        if key.startswith("part:"):
+            return key[5:].isdigit()
         if key.startswith("vol:"):
             return key[4:].isdigit()
         return key in unit_ids or key in scene_ids_planned
@@ -308,7 +331,8 @@ def build_script(parser, annotations, src_hashes, part_label):
         order.append(sid)
         unit = unit_by_id[sc["unit"]]
         faction = (ann_faction.get(sid) or ann_faction.get(sc["unit"])
-                   or (ann_faction.get(f"vol:{unit['vol']}") if unit["vol"] else None) or "trio")
+                   or (ann_faction.get(f"part:{unit['part']}") if unit["part"] else None)
+                   or "trio")
         lines = []
         fx_map = ann_fx.get(sid, {})
         auto_fx = annotations.get("auto_fx", {})
@@ -334,24 +358,32 @@ def build_script(parser, annotations, src_hashes, part_label):
     units_out = {}
     for u in parser.units:
         units_out[u["id"]] = {
-            "label": u["label"], "kind": u["kind"], "vol": u["vol"], "ch": u["ch"],
-            "arc": vol_to_arc(u["vol"]),
+            "label": u["label"], "kind": u["kind"], "part": u["part"], "ch": u["ch"],
             "seed": ann_seeds.get(u["id"]),          # 이 유닛 완료 시 마킹할 복선 id
             "gate": ann_gate.get(u["id"]),           # 회수 게이트: {"seed": id} — 미보유 시 연출 묵음
             "reach": ann_unit_gates.get(u["id"]),    # 도달 상태 게이트: {"reach": "full"}
             "sound": ann_sound.get(u["id"]),         # {"bgm": 키}
         }
+    source_full_sha = hashlib.sha256("".join(x["sha256"] for x in src_hashes).encode()).hexdigest()
+    annotation_sha = hashlib.sha256(
+        json.dumps(annotations, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
+    content_hash = hashlib.sha256((source_full_sha + annotation_sha).encode()).hexdigest()
     return {
         "meta": {
-            "part": part_label,
-            "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "edition": "snz-v3",
+            "schemaVersion": 3,
+            "parts": part_label,
             "sources": src_hashes,
+            "sourceFullSha": source_full_sha,
+            "contentHash": content_hash,
             "sceneCount": len(order),
             "lineCount": sum(len(s["lines"]) for s in scenes_out.values()),
             "reachRules": annotations.get("reach_rules",
                                           {"fullSeedsMin": 16, "fullUnchosenMax": 2, "silentUnchosenMin": 3}),
             "seedTotal": len({sid for v in ann_seeds.values()
                               for sid in (v if isinstance(v, list) else [v])}),
+            "judgementUnit": annotations.get("judgement_unit"),
         },
         "order": order,
         "units": units_out,
@@ -363,13 +395,23 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("sources", nargs="+", help="SNZ Final Part md 경로")
     ap.add_argument("-o", "--output", required=True, help="script.js 출력 경로")
-    ap.add_argument("-a", "--annotations", default=None, help="annotations json (faction 등)")
+    ap.add_argument("-a", "--annotations", action="append", default=[],
+                    help="annotations json; 여러 번 주면 뒤 파일이 중첩 override")
     ap.add_argument("--skip-report", default=None, help="스킵 라인 리포트 출력 경로")
     args = ap.parse_args()
 
+    def merge(base, override):
+        for key, value in override.items():
+            if isinstance(value, dict) and isinstance(base.get(key), dict):
+                merge(base[key], value)
+            else:
+                base[key] = value
+        return base
+
     annotations = {}
-    if args.annotations and Path(args.annotations).exists():
-        annotations = json.loads(Path(args.annotations).read_text(encoding="utf-8"))
+    for ann_path in args.annotations:
+        if Path(ann_path).exists():
+            merge(annotations, json.loads(Path(ann_path).read_text(encoding="utf-8")))
 
     drop_ranges = annotations.get("drop_ranges", {})
     parser = Parser(unit_aliases=annotations.get("unit_aliases", {}))
@@ -378,8 +420,8 @@ def main():
     for src in args.sources:
         text = Path(src).read_text(encoding="utf-8")
         src_hashes.append({"file": Path(src).name,
-                           "sha256": hashlib.sha256(text.encode()).hexdigest()[:16]})
-        m = re.search(r"## (Part \d+)", text[:200])
+                           "sha256": hashlib.sha256(text.encode()).hexdigest()})
+        m = re.search(r"^# (Part \d+)\b", text[:200], re.MULTILINE)
         labels.append(m.group(1) if m else Path(src).name)
         parser.feed(apply_drops(text, drop_ranges.get(Path(src).name)))
 

@@ -15,8 +15,8 @@
   if (S && S.order) S.order.forEach((sid, i) => { ORDER_IDX[sid] = i; });
 
   /* ── 읽기 결 이벤트 (선택적 분석 — 없거나 비활성이면 무동작) ──
-   * 페이지뷰가 아니라 '얼마나 깊이 읽는가'를 본다: 시작·권 도달·체류 분·완독. */
-  let aMaxVol = 0;
+   * 페이지뷰가 아니라 '얼마나 깊이 읽는가'를 본다: 시작·부 도달·체류 분·완독. */
+  let aMaxPart = 0;
   let aTimers = [];
   function track(name) { if (window.ANALYTICS && window.ANALYTICS.event) window.ANALYTICS.event(name); }
   function armReadingTimers() {
@@ -113,8 +113,8 @@
           window.STAGE.setHud(op.label);
           armEgg();
           updateThickness();
-          const uv = S.units[op.unit] && S.units[op.unit].vol;  // 권 도달 깊이 (1회씩)
-          if (uv && uv > aMaxVol) { aMaxVol = uv; track("read/vol/" + (uv < 10 ? "0" : "") + uv); }
+          const up = S.units[op.unit] && S.units[op.unit].part;
+          if (up && up > aMaxPart) { aMaxPart = up; track("read/part/0" + up); }
           return;
         }
         case "interaction":
@@ -155,7 +155,9 @@
     window.STAGE.setHud(unitLabel(sceneId));
     let last = null;
     for (let i = 0; i < lineIdx && i < sc.lines.length; i++) {
-      last = window.STAGE.renderLine(sc.lines[i].t, null, true, { sceneId, lineIdx: i });
+      const fx = sc.lines[i].fx;
+      const restoreFx = fx && (fx.tag || fx) === "blank" ? fx : null;
+      last = window.STAGE.renderLine(sc.lines[i].t, restoreFx, true, { sceneId, lineIdx: i });
     }
     if (last) last.classList.add("reopen");  // 눈이 읽던 글줄을 찾는 순간
     const u = S.units[sc.unit];
@@ -196,8 +198,7 @@
     if (!lineIdx) advance();  // 유닛 카드/첫 비트
   }
 
-  /* 목차 모델 — Arc → Vol → 유닛. 방문 여부 표시 없음. 서브 문서는 배치 그대로 */
-  const ARC_RANGE = { 1: [1, 3], 2: [4, 6], 3: [7, 9], 4: [10, 12], 5: [13, 14], 6: [15, 16] };
+  /* 목차 모델 — Part → 유닛. 방문 여부 표시 없음. */
   function tocModel() {
     const seen = {};
     const units = [];
@@ -206,23 +207,22 @@
       if (seen[uid]) return;
       seen[uid] = true;
       const u = S.units[uid];
-      units.push({ uid, label: u.label, vol: u.vol, arc: u.arc, ch: u.ch });
+      units.push({ uid, label: u.label, part: u.part, ch: u.ch });
     });
     const groups = [];
-    const prelude = units.filter((u) => u.vol === null);
+    const prelude = units.filter((u) => u.part === null);
     if (prelude.length) {
       groups.push({ label: window.STR.tocPrelude, vols: [{ label: "", units: prelude }] });
     }
-    for (let a = 1; a <= 6; a++) {
-      const [lo, hi] = ARC_RANGE[a];
-      const vols = [];
-      for (let v = lo; v <= hi; v++) {
-        const vu = units.filter((u) => u.vol === v);
-        if (!vu.length) continue;
-        const chs = vu.filter((u) => u.ch).map((u) => u.ch);
-        vols.push({ label: window.STR.tocVol(v, Math.min(...chs), Math.max(...chs)), units: vu });
-      }
-      if (vols.length) groups.push({ label: window.STR.tocArc(a, lo, hi), vols });
+    for (let p = 1; p <= 5; p++) {
+      const pu = units.filter((u) => u.part === p);
+      if (!pu.length) continue;
+      const chs = pu.filter((u) => u.ch).map((u) => u.ch);
+      groups.push({
+        label: window.STR.tocPart(p, chs.length ? Math.min(...chs) : null,
+          chs.length ? Math.max(...chs) : null),
+        vols: [{ label: "", units: pu }],
+      });
     }
     const marks = window.STATE.getMarks()
       .filter((m) => S.scenes[m.sceneId] && S.scenes[m.sceneId].lines[m.lineIdx])
@@ -297,7 +297,13 @@
     if (s.reducedMotion) document.documentElement.classList.add("reduced-motion");
     document.body.setAttribute("data-faction", "trio");
 
-    const progress = window.STATE.getProgress();
+    let progress = window.STATE.getProgress();
+    const savedScene = progress && S.scenes[progress.sceneId];
+    if (progress && (!savedScene || !Number.isInteger(progress.lineIdx)
+        || progress.lineIdx < 0 || progress.lineIdx > savedScene.lines.length)) {
+      window.STATE.clearProgress();
+      progress = null;
+    }
     window.STAGE.showTitle({
       canContinue: !!progress,
       legacyNotice: window.STATE.detectLegacy(),

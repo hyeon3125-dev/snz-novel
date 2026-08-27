@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <title>SCALAR: NODE ZERO</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=snz-v3">
 </head>
 <body data-faction="trio">
   <div id="title-screen" hidden></div>
@@ -25,22 +25,31 @@
   <script>
     (function () {
       var lang = null;
-      try { lang = JSON.parse(localStorage.getItem("scalar2_lang")); } catch (e) {}
+      try { lang = JSON.parse(localStorage.getItem("scalar_lang")); } catch (e) {}
+      if (lang !== "ko" && lang !== "en" && lang !== "jp") {
+        try { lang = JSON.parse(localStorage.getItem("scalar2_lang")); } catch (e) {}
+      }
       if (lang !== "ko" && lang !== "en" && lang !== "jp") {
         var nl = (navigator.language || "ko").toLowerCase();
         lang = nl.indexOf("ko") === 0 ? "ko" : (nl.indexOf("ja") === 0 ? "jp" : "en");
       }
+      try {
+        if (localStorage.getItem("scalar_lang") === null) {
+          localStorage.setItem("scalar_lang", JSON.stringify(lang));
+        }
+      } catch (e) {}
       window.LANG = lang;
-      document.write('<script src="script' + (lang === "en" ? ".en" : (lang === "jp" ? ".jp" : "")) + '.js"><\/script>');
+      document.documentElement.lang = lang === "jp" ? "ja" : lang;
+      document.write('<script src="script' + (lang === "en" ? ".en" : (lang === "jp" ? ".jp" : "")) + '.js?v=snz-v3"><\/script>');
     })();
   </script>
   <!-- 로드 순서 고정: script → state → director → stage → input → main (§2) -->
-  <script src="state.js"></script>
-  <script src="director.js"></script>
-  <script src="stage.js"></script>
-  <script src="input.js"></script>
-  <script src="main.js"></script>
+  <script src="state.js?v=snz-v3"></script>
+  <script src="director.js?v=snz-v3"></script>
+  <script src="stage.js?v=snz-v3"></script>
+  <script src="input.js?v=snz-v3"></script>
+  <script src="main.js?v=snz-v3"></script>
   <!-- 선택적 분석 (엔진 외부·쿠키리스·DNT 존중). 비활성 시 네트워크 호출 0 — 0-dep 불변식 유지. -->
-  <script src="analytics.js"></script>
+  <script src="analytics.js?v=snz-v3"></script>
 </body>
 </html>

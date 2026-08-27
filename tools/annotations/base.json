@@ -1,0 +1,366 @@
+{
+ "_doc": "v3 common semantic annotations. Locale files contain strings only.",
+ "faction": {
+  "pro_s05": "hwagam",
+  "pro_s06": "hwagam",
+  "pro_s07": "hwagam",
+  "pro_s08": "hwagam",
+  "pro_s09": "hwagam",
+  "p01_c004_s07": "hwagam",
+  "p01_c006_s07": "eidos",
+  "p01_c008_s07": "geumhwi",
+  "p01_c008_s17": "altair",
+  "p02_c015_s05": "geumhwi",
+  "p02_c021_s07": "geumhwi",
+  "p02_c021_s23": "hwagam",
+  "p02_c021_s24": "eidos",
+  "p02_c021_s25": "eidos",
+  "p02_c021_s26": "altair",
+  "p02_c021_s27": "geumhwi",
+  "p02_c021_s28": "observer",
+  "p03_c031_s18": "geumhwi",
+  "p03_c031_s19": "geumhwi",
+  "p03_c031_s20": "geumhwi",
+  "p03_c031_s21": "geumhwi",
+  "p03_c031_s22": "geumhwi",
+  "p03_c031_s23": "geumhwi",
+  "in01_s20": "geumhwi",
+  "in01_s21": "geumhwi",
+  "in01_s22": "geumhwi",
+  "in01_s23": "geumhwi",
+  "in01_s24": "hwagam",
+  "in01_s25": "hwagam",
+  "in01_s26": "hwagam",
+  "in01_s27": "hwagam",
+  "in01_s28": "hwagam",
+  "in02_s07": "hwagam",
+  "in02_s08": "hwagam",
+  "in02_s09": "hwagam",
+  "in02_s10": "hwagam",
+  "in02_s11": "hwagam",
+  "in02_s12": "hwagam",
+  "in02_s13": "hwagam",
+  "in02_s14": "hwagam",
+  "in02_s15": "hwagam",
+  "p04_c051_s18": "hwagam",
+  "p04_c051_s19": "hwagam",
+  "p04_c051_s20": "hwagam",
+  "p04_c051_s21": "eidos",
+  "p04_c051_s22": "eidos",
+  "p04_c051_s23": "eidos",
+  "p04_c051_s24": "eidos",
+  "p04_c056_s11": "eidos",
+  "p04_c056_s12": "eidos",
+  "p04_c056_s13": "eidos",
+  "p04_c056_s14": "eidos",
+  "p04_c057_s01": "geumhwi",
+  "p04_c057_s02": "geumhwi",
+  "p04_c057_s03": "geumhwi",
+  "p04_c057_s04": "geumhwi",
+  "p04_c057_s05": "geumhwi",
+  "p04_c057_s06": "geumhwi",
+  "p04_c057_s07": "geumhwi",
+  "p04_c057_s08": "geumhwi",
+  "p04_c057_s09": "geumhwi",
+  "p04_c057_s10": "geumhwi",
+  "p04_c057_s11": "geumhwi",
+  "p04_c057_s12": "geumhwi",
+  "p04_c057_s13": "geumhwi",
+  "p04_c057_s14": "geumhwi",
+  "p04_c057_s15": "geumhwi",
+  "p04_c057_s16": "geumhwi",
+  "p04_c057_s17": "geumhwi",
+  "p04_c057_s18": "geumhwi",
+  "p04_c057_s19": "geumhwi",
+  "p04_c058_s01": "geumhwi",
+  "p04_c058_s02": "geumhwi",
+  "p04_c058_s03": "geumhwi",
+  "p04_c058_s04": "geumhwi",
+  "p04_c058_s05": "geumhwi",
+  "p04_c058_s06": "geumhwi",
+  "p04_c058_s07": "geumhwi",
+  "p04_c058_s08": "geumhwi",
+  "p04_c058_s09": "geumhwi",
+  "p04_c058_s10": "geumhwi",
+  "p04_c058_s11": "geumhwi",
+  "p04_c058_s12": "geumhwi",
+  "p04_c058_s13": "geumhwi",
+  "p04_c058_s14": "geumhwi",
+  "p04_c058_s15": "geumhwi",
+  "p04_c058_s16": "geumhwi",
+  "p04_c058_s17": "geumhwi",
+  "p04_c058_s18": "geumhwi",
+  "p04_c058_s19": "geumhwi",
+  "p04_c058_s20": "geumhwi",
+  "p04_c058_s21": "geumhwi",
+  "p04_c059_s01": "geumhwi",
+  "p04_c059_s02": "geumhwi",
+  "p04_c059_s03": "geumhwi",
+  "p04_c059_s04": "geumhwi",
+  "p04_c059_s05": "geumhwi",
+  "p04_c059_s06": "geumhwi",
+  "p04_c059_s07": "geumhwi",
+  "p04_c059_s08": "geumhwi",
+  "p04_c059_s10": "geumhwi",
+  "p04_c059_s11": "geumhwi",
+  "p04_c059_s12": "geumhwi",
+  "p04_c059_s13": "geumhwi",
+  "p04_c059_s14": "geumhwi",
+  "p04_c059_s15": "geumhwi",
+  "p04_c059_s16": "geumhwi",
+  "p04_c060_s01": "geumhwi",
+  "p04_c060_s02": "geumhwi",
+  "p04_c060_s03": "geumhwi",
+  "p04_c060_s06": "geumhwi",
+  "p04_c060_s07": "geumhwi",
+  "p04_c060_s08": "geumhwi",
+  "p04_c060_s09": "geumhwi",
+  "p04_c060_s10": "geumhwi",
+  "p04_c060_s11": "geumhwi",
+  "p04_c060_s12": "geumhwi",
+  "p04_c060_s13": "geumhwi",
+  "p04_c060_s14": "geumhwi",
+  "p04_c060_s15": "geumhwi",
+  "p04_c060_s16": "geumhwi",
+  "p04_c060_s17": "geumhwi",
+  "p04_c060_s18": "hwagam",
+  "p04_c060_s19": "hwagam",
+  "p04_c060_s20": "hwagam",
+  "p04_c060_s21": "hwagam",
+  "p04_c060_s22": "altair",
+  "p04_c060_s23": "altair",
+  "p04_c060_s24": "altair",
+  "p04_c060_s25": "altair",
+  "p04_c060_s26": "altair",
+  "p04_c060_s27": "altair",
+  "p04_c060_s28": "altair",
+  "p04_c060_s29": "altair",
+  "p04_c061_s01": "altair",
+  "p04_c062_s01": "altair",
+  "p04_c063_s01": "altair",
+  "p04_c064_s01": "altair",
+  "p04_c064_s02": "altair",
+  "p04_c064_s04": "altair",
+  "p04_c064_s05": "altair",
+  "p04_c064_s06": "altair",
+  "p04_c064_s07": "altair",
+  "p04_c064_s08": "altair",
+  "p04_c064_s09": "altair",
+  "p04_c064_s10": "altair",
+  "p04_c064_s11": "altair",
+  "p04_c064_s12": "altair",
+  "p04_c064_s13": "altair",
+  "p04_c064_s14": "altair",
+  "p04_c064_s15": "altair",
+  "p04_c064_s16": "altair",
+  "p04_c064_s17": "altair",
+  "p04_c064_s18": "altair",
+  "p04_c064_s19": "altair",
+  "p04_c064_s20": "altair"
+ },
+ "fx": {
+  "pro_s07": {
+   "0": "shake_s"
+  },
+  "p01_c003_s06": {
+   "10": "loss"
+  },
+  "p03_c027_s03": {
+   "4": "echo"
+  },
+  "p04_c055_s03": {
+   "0": "crack"
+  },
+  "p04_c057_s11": {
+   "0": {
+    "tag": "blank"
+   }
+  },
+  "p04_c064_s17": {
+   "1": "light"
+  },
+  "p05_c078_s01": {
+   "0": "seat"
+  },
+  "p05_c078_s11": {
+   "0": "light"
+  }
+ },
+ "interaction": {
+  "epi_s01": {
+   "type": "trace",
+   "at": "end"
+  },
+  "p01_c003_s03": {
+   "type": "silence",
+   "seconds": 4,
+   "at": "end"
+  },
+  "in01_s06": {
+   "type": "silence",
+   "seconds": 5,
+   "at": "end"
+  },
+  "in02_s02": {
+   "type": "timeout_choice",
+   "at": "end",
+   "choices": [
+    "<localized>",
+    "<localized>"
+   ],
+   "timeoutMs": 8000,
+   "flag": "priority_answer"
+  },
+  "p05_c078_s01": {
+   "type": "hold",
+   "seconds": 2.5
+  },
+  "p04_c055_s16": {
+   "type": "release",
+   "at": "end"
+  },
+  "p03_c046_s04": {
+   "type": "hold",
+   "seconds": 2.5
+  }
+ },
+ "sound": {
+  "p03_c027": {
+   "bgm": "core_inner"
+  },
+  "p03_c028": {
+   "bgm": "core_inner"
+  },
+  "p03_c029": {
+   "bgm": "core_inner"
+  },
+  "p03_c030": {
+   "bgm": "core_inner"
+  },
+  "p03_c031": {
+   "bgm": "core_inner"
+  },
+  "in01": {
+   "bgm": "daily"
+  },
+  "in02": {
+   "bgm": "daily"
+  },
+  "in03": {
+   "bgm": "daily"
+  }
+ },
+ "seeds": {
+  "pro": [
+   "s_again",
+   "s_alone",
+   "s_seoan"
+  ],
+  "p01_c001": [
+   "s_0003",
+   "s_774"
+  ],
+  "p01_c009": "s_cycle",
+  "p01_c012": "s_pair",
+  "p02_c015": "s_gongga",
+  "p03_c028": "s_shoulder",
+  "p03_c034": "s_ria",
+  "p03_c040": "s_primus",
+  "in01": "s_7min",
+  "in02": "s_firstq",
+  "p04_c056": "s_seatwords",
+  "p04_c057": "s_blank",
+  "p04_c061": "s_3pct"
+ },
+ "gate": {
+  "p02_c026": {
+   "seeds": [
+    "s_seoan"
+   ]
+  },
+  "p03_c034": {
+   "seeds": [
+    "s_0003"
+   ]
+  },
+  "p04_c059": {
+   "seeds": [
+    "s_blank"
+   ]
+  },
+  "p04_c063": {
+   "seeds": [
+    "s_3pct"
+   ]
+  },
+  "p04_c064": {
+   "seeds": [
+    "s_3pct"
+   ]
+  },
+  "p05_c066": {
+   "seeds": [
+    "s_primus"
+   ]
+  },
+  "p05_c067": {
+   "seeds": [
+    "s_seatwords"
+   ]
+  },
+  "p05_c070": {
+   "seeds": [
+    "s_shoulder"
+   ]
+  },
+  "p05_c071": {
+   "seeds": [
+    "s_firstq"
+   ]
+  },
+  "p05_c073": {
+   "seeds": [
+    "s_cycle"
+   ]
+  },
+  "p05_c074": {
+   "seeds": [
+    "s_again"
+   ]
+  },
+  "p05_c077": {
+   "seeds": [
+    "s_7min"
+   ]
+  },
+  "p05_c078": {
+   "seeds": [
+    "s_alone"
+   ]
+  }
+ },
+ "unit_gates": {},
+ "anchors": {
+  "pro_s07#fx:0": "충돌이 있었다.",
+  "p01_c003_s06#fx:10": "어제도 여기 있었나요.",
+  "p03_c027_s03#fx:4": "닫지 마.",
+  "p04_c055_s03#fx:0": "렌즈의 균열은 전보다 깊었다.",
+  "p04_c057_s11#fx:0": "빈칸이 이상했다.",
+  "p04_c064_s17#fx:1": "빛이 달라지고 있었다. 흰빛이 천천히 주황으로 기울었다.",
+  "p05_c078_s01#fx:0": "ARIA가 Seat에 손을 댔다.",
+  "p05_c078_s11#fx:0": "빛이 달라지고 있었다.",
+  "epi_s01#interaction": "벽에 희미한 자국 하나가 있었다. Observer가 오래 서 있던 곳이었다. 새겨진 선이 아니라, 다른 부분보다 먼지가 조금 덜 앉은 정도의 흔적이었다.",
+  "p01_c003_s03#interaction": "이 구역에서 사는 방식은 간단했다. 움직이되 흔적을 남기지 않고, 알되 알고 있다는 것을 드러내지 않으며, 필요한 것만 가지고 필요하지 않은 것은 갖지 않는 것이었다. 연결은 흔적이었고, 흔적은 위치였으며, 위치는 분류였다.",
+  "in01_s06#interaction": "“무서운 건요.” ARIA가 말했다. “잊는 게 아니에요. 잊었다는 걸 모르는 거예요. 방금 저는 아무것도 이상하지 않았어요. 한결 씨가 모르는 사람인 게, 그 칠 분 동안은 그냥 사실이었어요.”",
+  "in02_s02#interaction": "한결이 말을 끊었다. 한결이 사람의 말을 끊은 것을, 도희는 처음 봤다.",
+  "p05_c078_s01#interaction": "한 걸음을 마저 갔고, 손을 뻗었다. 표면은 매끄럽지도 거칠지도 않았다. 온도가 없었다. 손끝에 닿은 것은 재질이 아니라, 기다림 같은 것이었다. 오래 기울어 있던 그릇에 처음으로 무언가 닿은 것이었다.",
+  "p04_c055_s16#interaction": "티코가 놓았다.",
+  "p03_c046_s04#interaction": "구조물 전체는 아니었다. Seat 주변이었다. 조용한 반응이었다. 그런데 있었다."
+ },
+ "judgement_unit": "p05_c078",
+ "reach_rules": {
+  "fullSeedsMin": 16,
+  "fullUnchosenMax": 0,
+  "silentUnchosenMin": 1
+ }
+}

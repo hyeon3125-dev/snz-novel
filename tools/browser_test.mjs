@@ -34,7 +34,7 @@ async function setProgress(page, sceneId, lineIdx, extra = {}) {
   await page.goto(BASE + "/game/");
   await page.evaluate(([sid, idx, ex]) => {
     localStorage.clear();
-    localStorage.setItem("scalar2_progress", JSON.stringify({ sceneId: sid, lineIdx: idx, ts: Date.now() }));
+    localStorage.setItem("scalar3_progress", JSON.stringify({ sceneId: sid, lineIdx: idx, ts: Date.now() }));
     for (const [k, v] of Object.entries(ex)) localStorage.setItem(k, JSON.stringify(v));
   }, [sceneId, lineIdx, extra]);
   await page.reload();
@@ -56,6 +56,7 @@ try {
     await page.evaluate(() => localStorage.clear());
     await page.reload();
     check(await page.locator("#title-screen").isVisible(), "타이틀 표시");
+    check(await page.locator("a.title-legacy").isVisible(), "v2 보관판 링크 표시");
     await page.getByText("읽기 시작").click();
     await sleep(300);
     check(await page.locator("#title-screen").isHidden(), "시작 후 타이틀이 실제로 사라짐 (CSS 가시성)");
@@ -94,21 +95,32 @@ try {
   }
 
   // ════ 3. fx — echo 씬 + BGM(AudioContext) 무사고 ════
-  console.log("[3] fx: echo (v07_c053_s03) + core_inner BGM");
+  console.log("[3] fx: echo (p03_c027_s03) + core_inner BGM");
   {
     const { ctx, page, errors } = await freshPage(browser);
-    await setProgress(page, "v07_c053_s03", 0);
+    await setProgress(page, "p03_c027_s03", 0);
     for (let i = 0; i < 6; i++) { await page.mouse.click(300, 400); await sleep(80); }
     check(await page.locator("#flow .line", { hasText: "닫지 마" }).count() >= 1, "echo 대상 라인 출력");
     check(errors.length === 0, `fx·오디오 경로 콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
     await ctx.close();
   }
 
-  // ════ 4. timeout_choice — 선택지 표시·선택·기록 ════
-  console.log("[4] 인터랙션: timeout_choice (in05_s02)");
+  // ════ 3.5. blank fx — 이어읽기에서도 의미 보존 ════
+  console.log("[3.5] fx: blank 이어읽기 복원");
   {
     const { ctx, page, errors } = await freshPage(browser);
-    await setProgress(page, "in05_s02", 0);
+    await setProgress(page, "p04_c057_s11", 1);
+    check(await page.locator("#flow .fx-blank").count() === 1, "빈칸 효과가 이어읽기에서도 유지");
+    check(!(await page.locator("#flow .line").first().textContent()).includes("빈칸"), "가려진 낱말이 복원 화면에 노출되지 않음");
+    check(errors.length === 0, `blank 복원 콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
+
+  // ════ 4. timeout_choice — 선택지 표시·선택·기록 ════
+  console.log("[4] 인터랙션: timeout_choice (in02_s02)");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    await setProgress(page, "in02_s02", 0);
     for (let i = 0; i < 30 && !(await page.locator("#choice-box .choice-btn").count()); i++) {
       await page.mouse.click(300, 400); await sleep(70);
     }
@@ -117,18 +129,18 @@ try {
     await page.locator(".choice-btn", { hasText: "답" }).click();
     await sleep(200);
     check(await page.locator("#choice-box").isHidden(), "선택 후 박스 숨김");
-    const flag = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar2_flags") || "{}"));
-    check(flag.in05_answer === "답", "선택 플래그 기록");
+    const flag = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar3_flags") || "{}"));
+    check(flag.priority_answer === "답", "선택 플래그 기록");
     await page.mouse.click(300, 400); await sleep(100);
     check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
     await ctx.close();
   }
 
   // ════ 5. hold 제스처 — 누르고 있어야 진행 ════
-  console.log("[5] 인터랙션: hold (v16_c199_s01)");
+  console.log("[5] 인터랙션: hold (p05_c078_s01)");
   {
     const { ctx, page, errors } = await freshPage(browser);
-    await setProgress(page, "v16_c199_s01", 0);
+    await setProgress(page, "p05_c078_s01", 0);
     await page.mouse.click(300, 400); await sleep(100);   // 유닛 카드
     await page.mouse.click(300, 400); await sleep(100);   // 인터랙션 발동
     check(await page.locator("#gesture-hint").isVisible(), "제스처 힌트 표시 (누르고 있기)");
@@ -155,13 +167,14 @@ try {
     await sleep(400);
     check(await page.getByText("Begin").isVisible(), "전환 후 EN 타이틀 (Begin)");
     check(await page.evaluate(() => window.LANG) === "en", "window.LANG=en + script.en.js 로드");
+    check(await page.evaluate(() => document.documentElement.lang) === "en", "문서 언어도 EN으로 전환");
     await page.getByText("Begin").click();
     await sleep(300);
     for (let i = 0; i < 3; i++) { await page.mouse.click(300, 400); await sleep(70); }
     const enLine = await page.locator("#flow .line").first().textContent();
     check(/[A-Za-z]/.test(enLine) && !/[가-힣]/.test(enLine), `EN 본문 출력: "${enLine.slice(0, 40)}"`);
     const keys = await page.evaluate(() => Object.keys(localStorage));
-    check(keys.includes("scalar2_progress_en"), "EN 진행 상태 분리 저장 (scalar2_progress_en)");
+    check(keys.includes("scalar3_progress_en"), "EN 진행 상태 분리 저장 (scalar3_progress_en)");
     // 다시 한국어로 — KO 진행과 독립
     await page.locator(".lang-btn", { hasText: "한국어" }).click().catch(() => {});
     check(errors.length === 0, `콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
@@ -208,22 +221,41 @@ try {
     await ctx.close();
   }
 
-  // ════ 8. 목차 네비게이션 (§v2.1 3-1) — HUD 탭 → Arc → Vol → 챕터 점프 (조용히) ════
-  console.log("[8] 목차: HUD → Arc 6 → Vol.16 → Ch.196 점프 + skipped 기록");
+  // ════ 7.5 v2 보관판 — 정적 스냅샷 독립 구동 ════
+  console.log("[7.5] v2 보관판 독립 구동");
   {
     const { ctx, page, errors } = await freshPage(browser);
-    await setProgress(page, "v09_c088_s01", 0);   // in05(timeout_choice) 이전 지점
+    await page.goto(BASE + "/legacy/v2/");
+    await page.waitForURL("**/legacy/v2/game/**");
+    await page.evaluate(() => {
+      localStorage.clear();
+      localStorage.setItem("scalar2_progress", JSON.stringify({ sceneId: "pro_s01", lineIdx: 1 }));
+    });
+    await page.reload();
+    check(await page.locator("#title-screen").isVisible(), "v2 타이틀 표시");
+    check(await page.getByText("이어서 읽기").isVisible(), "v2 진행 기록으로 이어읽기 가능");
+    await page.getByText("이어서 읽기").click();
+    check(await lineCount(page) === 1, "v2 저장 좌표 복원");
+    check(await page.evaluate(() => localStorage.getItem("scalar3_progress") === null), "v2 열람이 v3 진행을 변경하지 않음");
+    check(errors.length === 0, `v2 콘솔 에러 0건${errors.length ? " — " + errors[0] : ""}`);
+    await ctx.close();
+  }
+
+  // ════ 8. 목차 네비게이션 — HUD 탭 → Part → 챕터 점프 (조용히) ════
+  console.log("[8] 목차: HUD → Part 5 → Ch.75 점프 + skipped 기록");
+  {
+    const { ctx, page, errors } = await freshPage(browser);
+    await setProgress(page, "p03_c046_s01", 0);   // in02(timeout_choice) 이전 지점
     await page.locator("#hud").click();
     check(await page.locator("#toc").isVisible(), "HUD 탭 → 목차 표시");
-    await page.locator(".toc-item", { hasText: "Arc 6" }).click();
-    await page.locator(".toc-item", { hasText: "Vol.16" }).click();
-    await page.locator(".toc-item", { hasText: "Ch.196" }).click();
+    await page.locator(".toc-item", { hasText: "Part 5" }).click();
+    await page.locator(".toc-item", { hasText: "Ch.75" }).click();
     await sleep(400);
     check(await page.locator("#toc").isHidden(), "점프 후 목차 닫힘 (안내 문구 없음)");
-    check((await page.locator("#hud").textContent()).includes("Ch.196"), "점프 도착: HUD = Ch.196");
+    check((await page.locator("#hud").textContent()).includes("Ch.75"), "점프 도착: HUD = Ch.75");
     await page.mouse.click(300, 400); await sleep(120);
     check(await lineCount(page) >= 1, "점프 후 본문 진행 정상");
-    const unchosen = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar2_unchosen") || "[]"));
+    const unchosen = await page.evaluate(() => JSON.parse(localStorage.getItem("scalar3_unchosen") || "[]"));
     check(unchosen.some((u) => u.skipped === true), "건너뛴 timeout_choice → skipped 비선택 기록");
     const th = await page.locator("#thickness").evaluate((el) => {
       const r = el.getBoundingClientRect();

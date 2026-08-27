@@ -4,11 +4,11 @@
 KO(script.js)가 구조 정본이다. 신규 언어판 빌드가 KO와 다음 항목에서 1:1인지 전수 대조:
 
   1. 유닛 집합 + 순서 (재배치·누락·중복 초고 유닛 검출)
-  2. 유닛 속성: kind / vol / ch / arc (Volume 헤더 위치 어긋남 검출)
+  2. 유닛 속성: kind / part / ch
   3. 유닛별 씬 수 + 씬별 라인 수·형태 (임의 분할·줄 밀림·잉여 문단·결락 라인·편집 잔재 누수)
   4. meta: sceneCount / lineCount / seedTotal
   5. 유닛 어노테이션 패리티: seed / gate / reach / sound(bgm)
-  6. 씬 어노테이션 패리티: faction / fx(태그·라인 인덱스까지) / interaction type / gate / sound
+  6. 씬 어노테이션 패리티: faction / fx / interaction 전 필드 / gate / sound
 
 EN판 교정(2026-06)에서 수동으로 했던 대조를 상설화한 것 — 일/중(간·번) 등 후속 언어판의 1차 게이트.
 사용:  python3 verify_parity.py ../game/script.en.js [--ref ../game/script.js]
@@ -38,6 +38,17 @@ def fx_of(line):
     return fx.get("tag") if isinstance(fx, dict) else fx
 
 
+def localized_fx_error(line):
+    """Locale-specific fx payload must still point at visible source text."""
+    fx = line.get("fx")
+    if not isinstance(fx, dict) or fx.get("tag") != "blank":
+        return None
+    word = fx.get("word")
+    if not isinstance(word, str) or not word or word not in line.get("t", ""):
+        return f"blank.word {word!r} is not present in the localized line"
+    return None
+
+
 def line_shape(line):
     """언어와 무관한 줄 형태. 같은 줄 수로 위장한 번역 밀림을 잡는다."""
     text = line.get("t", "").strip()
@@ -47,9 +58,15 @@ def line_shape(line):
     return italic, dialogue
 
 
-def inter_type(sc):
+def interaction_shape(sc):
+    """현지화 문자열만 지우고 동작을 결정하는 전 필드를 비교한다."""
     it = sc.get("interaction")
-    return it.get("type") if isinstance(it, dict) else it
+    if not isinstance(it, dict):
+        return it
+    shaped = dict(it)
+    if "choices" in shaped:
+        shaped["choices"] = ["<localized>"] * len(shaped["choices"])
+    return shaped
 
 
 def main():
@@ -81,16 +98,16 @@ def main():
     for u in ouk:
         if u not in xx["units"]:
             continue
-        for attr in ("kind", "vol", "ch", "arc"):
+        for attr in ("kind", "part", "ch"):
             if ko["units"][u][attr] != xx["units"][u][attr]:
                 errors.append(f"{u}.{attr}: KO {ko['units'][u][attr]} ≠ 대상 {xx['units'][u][attr]}"
-                              " (Volume 헤더 위치/배치 권역 확인)")
+                              " (Part 헤더 위치/배치 확인)")
         if stk.get(u) != stx.get(u):
             errors.append(f"{u} 씬 구조: KO {stk.get(u)} ≠ 대상 {stx.get(u)}"
                           " (씬 분할/잉여·결락 라인/편집 잔재 누수)")
 
     # 4. meta
-    for k in ("sceneCount", "lineCount", "seedTotal"):
+    for k in ("edition", "schemaVersion", "sceneCount", "lineCount", "seedTotal", "judgementUnit"):
         if ko["meta"][k] != xx["meta"][k]:
             errors.append(f"meta.{k}: KO {ko['meta'][k]} ≠ 대상 {xx['meta'][k]}")
 
@@ -109,8 +126,8 @@ def main():
             continue
         if a["faction"] != b["faction"]:
             errors.append(f"{sid}.faction: KO {a['faction']} ≠ 대상 {b['faction']}")
-        if inter_type(a) != inter_type(b):
-            errors.append(f"{sid}.interaction: KO {inter_type(a)} ≠ 대상 {inter_type(b)}")
+        if interaction_shape(a) != interaction_shape(b):
+            errors.append(f"{sid}.interaction: KO {interaction_shape(a)} ≠ 대상 {interaction_shape(b)}")
         if (a.get("gate") is None) != (b.get("gate") is None) or a.get("gate") != b.get("gate"):
             errors.append(f"{sid}.gate: KO {a.get('gate')} ≠ 대상 {b.get('gate')}")
         if a.get("sound") != b.get("sound"):
@@ -119,6 +136,10 @@ def main():
             for i, (la, lb) in enumerate(zip(a["lines"], b["lines"])):
                 if fx_of(la) != fx_of(lb):
                     errors.append(f"{sid}[{i}].fx: KO {fx_of(la)} ≠ 대상 {fx_of(lb)}")
+                for label, line in (("KO", la), ("대상", lb)):
+                    fx_error = localized_fx_error(line)
+                    if fx_error:
+                        errors.append(f"{sid}[{i}].fx ({label}): {fx_error}")
                 if line_shape(la) != line_shape(lb):
                     errors.append(f"{sid}[{i}].shape: KO {line_shape(la)} ≠ 대상 {line_shape(lb)}"
                                   " (이탤릭/대화 줄 밀림·인용부호 형식 확인)")

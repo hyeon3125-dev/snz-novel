@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""원문 무결성 양방향 검증기 — 빌드 게이트 (Architecture v2.0 §3-1, 불변식 2).
+"""원문→각본 순서 무결성 검증기 — 빌드 게이트 (Architecture v3 §3-1).
 
-1. 정방향: script.js 의 모든 서사 라인이 원문 md 에 한 글자도 다르지 않게 존재.
-2. 역방향: 원문의 모든 서사 라인(스킵 화이트리스트 제외)이 script.js 에 존재 — 누락 0.
-3. 총량: 원문 서사 라인 수 == script.js 라인 수 (1:1 변환 보장).
+원문의 모든 서사 라인과 각본의 ``(sceneId, lineIdx, text)`` 열을 전체
+순서대로 비교한다. 같은 문장이 다른 위치에 중복돼도 통과시키지 않는다.
 
 불일치 1건이라도 발견 시 exit 1 — 변환 결과물 사용 금지.
 
@@ -42,14 +41,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
     ap.add_argument("sources", nargs="+")
-    ap.add_argument("-a", "--annotations", default=None,
+    ap.add_argument("-a", "--annotations", action="append", default=[],
                     help="annotations json (drop_ranges 동일 적용)")
     args = ap.parse_args()
     script_path, sources = args.script, args.sources
     drop_ranges = {}
-    if args.annotations and Path(args.annotations).exists():
-        drop_ranges = json.loads(Path(args.annotations).read_text(encoding="utf-8")) \
-            .get("drop_ranges", {})
+    for ann_path in args.annotations:
+        if Path(ann_path).exists():
+            drop_ranges.update(json.loads(Path(ann_path).read_text(encoding="utf-8"))
+                               .get("drop_ranges", {}))
 
     js = Path(script_path).read_text(encoding="utf-8")
     if not js.startswith("window.SCRIPT = "):
@@ -62,42 +62,31 @@ def main():
         text = apply_drops(Path(src).read_text(encoding="utf-8"),
                            drop_ranges.get(Path(src).name))
         src_lines += [(Path(src).name, ln, t) for ln, t in narrative_lines(text)]
-    src_set = {t for _, _, t in src_lines}
-
     game_lines = []  # [(sceneId, idx, t)]
     for sid in script["order"]:
         for i, entry in enumerate(script["scenes"][sid]["lines"]):
             game_lines.append((sid, i, entry["t"]))
-    game_set = {t for _, _, t in game_lines}
-
-    errors = 0
-
-    # 1. 정방향: 게임 라인 → 원문 존재
-    fwd_fail = [(sid, i, t) for sid, i, t in game_lines if t not in src_set]
-    if fwd_fail:
-        errors += len(fwd_fail)
-        print(f"FAIL 정방향: 원문에 없는 라인 {len(fwd_fail)}건")
-        for sid, i, t in fwd_fail[:10]:
-            print(f"  {sid}[{i}]: {t[:70]}")
-
-    # 2. 역방향: 원문 라인 → 게임 존재
-    rev_fail = [(f, ln, t) for f, ln, t in src_lines if t not in game_set]
-    if rev_fail:
-        errors += len(rev_fail)
-        print(f"FAIL 역방향: script.js 에 누락된 원문 라인 {len(rev_fail)}건")
-        for f, ln, t in rev_fail[:10]:
-            print(f"  {f}:{ln}: {t[:70]}")
-
-    # 3. 총량 (중복 라인 포함 1:1)
+    errors = []
     if len(src_lines) != len(game_lines):
-        errors += 1
-        print(f"FAIL 총량: 원문 서사 {len(src_lines)}줄 ≠ script {len(game_lines)}줄")
+        errors.append(f"총량: 원문 서사 {len(src_lines)}줄 ≠ script {len(game_lines)}줄")
+
+    for pos, (src, built) in enumerate(zip(src_lines, game_lines)):
+        sf, sln, st = src
+        sid, idx, bt = built
+        if st != bt:
+            errors.append(
+                f"순번 {pos}: {sf}:{sln} {st[:60]!r} ≠ {sid}[{idx}] {bt[:60]!r}"
+            )
+            if len(errors) >= 21:
+                break
 
     if errors:
-        print(f"\n무결성 검증 실패 — {errors}건. 변환 결과물 폐기 요망.")
+        print(f"무결성 검증 실패 — {len(errors)}건")
+        for error in errors:
+            print("  ✗", error)
         return 1
-    print(f"무결성 100% — 서사 {len(src_lines)}줄 전량 일치 "
-          f"(씬 {script['meta']['sceneCount']}, 고유 라인 {len(src_set)})")
+    print(f"무결성 100% — 서사 {len(src_lines)}줄이 위치·순서까지 일치 "
+          f"(씬 {script['meta']['sceneCount']})")
     return 0
 
 

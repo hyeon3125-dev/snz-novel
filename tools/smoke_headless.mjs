@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-/* 헤드리스 스모크 테스트 — 최소 DOM 스텁 위에서 5레이어 전체를 구동.
- * 커버: 완주(전 3부)·저장/복원·인터랙션 7건(자동 충족)·회수 게이트 공명/묵음·
- *       도달 상태 분기(full/silent)·침묵 주행 후기·도달 게이트 유닛 스킵.
+/* 헤드리스 스모크 테스트 — v3 5부 전체를 최소 DOM 스텁 위에서 구동.
+ * 커버: 완주·저장/복원·핵심 인터랙션·회수 게이트 공명/묵음·
+ *       도달 상태 분기(full/silent)·v2 저장 격리.
  * 시각 fx 는 reduced-motion 경로로 로직만 검증 (시각 품질은 로컬 브라우저 UX 패스).
  */
 import { readFileSync } from "node:fs";
@@ -132,10 +132,10 @@ async function playToEnd(g, maxTaps) {
   return taps;
 }
 
-// ════ 1. 완주 (전 3부) — 응답 주행 → 도달 상태 full ════
-console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
+// ════ 1. 완주 (전 5부) — 응답 주행 → 도달 상태 full ════
+console.log("[1] v3 5부 완주 (선택 응답) → 완전 회수");
 {
-  const store = { scalar2_settings: settingsPreset({}) };
+  const store = { scalar_settings: settingsPreset({}) };
   const g = bootGame(store);
   g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   const S = g.ctx.SCRIPT;
@@ -148,40 +148,41 @@ console.log("[1] 전 3부 완주 (선택 응답) → 완전 회수");
   check(lines >= S.meta.lineCount - 1 && lines <= S.meta.lineCount,
         `라인 전수 출력: ${lines}/${S.meta.lineCount} (loss 소실 ≤1)`);
   check(cards.length === Object.keys(S.units).length, `유닛 카드 전수: ${cards.length}/${Object.keys(S.units).length}`);
-  const seeds = JSON.parse(store["scalar2_seeds" + SUF] || "{}");
-  check(Object.keys(seeds).length === 16, `복선 16건 전량 마킹 (실제 ${Object.keys(seeds).length})`);
-  check(JSON.parse(store["scalar2_flags" + SUF] || "{}").in05_answer === T.choice, "timeout_choice 응답 플래그 기록");
+  const seeds = JSON.parse(store["scalar3_seeds" + SUF] || "{}");
+  check(Object.keys(seeds).length === S.meta.seedTotal,
+        `복선 ${S.meta.seedTotal}건 전량 마킹 (실제 ${Object.keys(seeds).length})`);
+  check(JSON.parse(store["scalar3_flags" + SUF] || "{}").priority_answer === T.choice, "timeout_choice 응답 플래그 기록");
   const endReach = flow.children.find((c) => c.className.includes("end-card"))
     .children.find((c) => c.className === "end-reach");
   check(endReach && endReach.textContent.startsWith(T.reach), `도달 상태: ${endReach && endReach.textContent}`);
   const resonant = cards.filter((c) => c.className.includes("resonant")).map((c) => c.textContent);
-  // KO/EN 동일 17게이트 — EN 원고 구조 교정(BA-01 → Prologue 직후)으로 v06_c051 복원
-  const expGates = 17;
+  const expGates = Object.values(S.units).filter((u) => u.gate).length;
   check(resonant.length === expGates, `회수 공명 ${expGates}유닛 (gate 어노테이션 전량): 실제 ${resonant.length}`);
-  check(resonant.some((t) => t.includes("Ch.51")), "공명 예시: Vol.6 Ch.51 (서안 흉터 회수)");
-  check(cards.some((c) => c.textContent.includes(LANG === "en" ? "Gongga" : "空家")), "완전 회수 → SS-12 「空家」 개방");
+  check(resonant.length > 0, "회수 근거가 있는 유닛만 공명");
   check(g.ctx.STATE.getCracks() >= 1, "crack 누적 기록 (영구)");
-  // §v2.1: 완독 판정 — Ch.200 통과 시 1회 생성, 판정 화면 출력
-  const judge = JSON.parse(store["scalar2_judgement" + SUF] || "null");
+  // 완독 판정 — 메타에 지정된 마지막 본편 유닛 통과 시 1회 생성
+  const judge = JSON.parse(store["scalar3_judgement" + SUF] || "null");
   check(judge && judge.triggered && ["hwagam", "eidos", "altair", "geumhwi"].includes(judge.faction),
         `완독 판정 1회 생성: ${judge && judge.faction} (공가 제외 — 불변식 10)`);
   check(flow.children.some((c) => c.className === "judge-card"), "판정 화면 (판권면 자리) 출력");
-  const tel = JSON.parse(store["scalar2_telemetry" + SUF] || "{}");
-  check(tel.scenes > 1300 && tel.choiceOffered >= 1, `읽기 결 집계: 씬 ${tel.scenes} · 선택 제시 ${tel.choiceOffered}`);
+  const tel = JSON.parse(store["scalar3_telemetry" + SUF] || "{}");
+  check(tel.scenes >= S.meta.sceneCount && tel.choiceOffered >= 1,
+        `읽기 결 집계: 씬 ${tel.scenes} · 선택 제시 ${tel.choiceOffered}`);
 }
 
-// ════ 2. 침묵 주행 — 선택 회피 → ae03/ae04/ss12 스킵 + 후기 ════
-console.log("[2] 침묵 주행 (선택 회피) → 게이트 유닛 스킵 + 후기");
+// ════ 2. 침묵 주행 — 선택 회피 → 후기 ════
+console.log("[2] 침묵 주행 (선택 회피) → 후기");
 {
-  const store = { scalar2_settings: settingsPreset({ autoSkipChoices: true }) };
+  const store = { scalar_settings: settingsPreset({ autoSkipChoices: true }) };
   const g = bootGame(store);
   g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   await playToEnd(g, g.ctx.SCRIPT.meta.lineCount + 300 + 50);
   const flow = g.byId.flow;
   const cards = flow.children.filter((c) => c.className.includes("unit-card")).map((c) => c.textContent);
-  check(JSON.parse(store["scalar2_unchosen" + SUF]).length === 4, "비선택 4건 기록 — 선택 4곳 전부 회피 (실패가 아니라 기록)");
-  check(!cards.some((t) => t.includes(LANG === "en" ? "Gongga" : "空家")), "침묵 주행 → SS-12 스킵");
-  check(!cards.some((t) => t.includes("After Ending 03")), "침묵 주행 → AE-03 스킵");
+  const choiceCount = Object.values(g.ctx.SCRIPT.scenes)
+    .filter((s) => s.interaction && s.interaction.type === "timeout_choice").length;
+  check(JSON.parse(store["scalar3_unchosen" + SUF]).length === choiceCount,
+        `비선택 ${choiceCount}건 기록 (실패가 아니라 기록)`);
   check(cards.some((t) => t === T.unasked), "침묵 주행 전용 후기 1씬");
   const endReach = flow.children.find((c) => c.className.includes("end-card"))
     .children.find((c) => c.className === "end-reach");
@@ -191,10 +192,10 @@ console.log("[2] 침묵 주행 (선택 회피) → 게이트 유닛 스킵 + 후
 // ════ 3. 회수 게이트 묵음 — seed 미보유 시 fx 억제 (director 단위) ════
 console.log("[3] 회수 게이트 묵음/공명 (director)");
 {
-  const store = { scalar2_settings: settingsPreset({}) };
+  const store = { scalar_settings: settingsPreset({}) };
   const g = bootGame(store);
   g.ctx.STATE.load();
-  g.ctx.DIRECTOR.start("v16_c199_s01", 0);  // seat fx + s_alone 게이트
+  g.ctx.DIRECTOR.start("p05_c078_s01", 0);  // seat fx + s_alone 게이트
   let op = g.ctx.DIRECTOR.step();  // unit
   check(op.type === "unit" && op.resonance === false, "seed 미보유 → 공명 없음");
   op = g.ctx.DIRECTOR.step();      // hold 인터랙션 (start 게이트)
@@ -203,7 +204,7 @@ console.log("[3] 회수 게이트 묵음/공명 (director)");
   op = g.ctx.DIRECTOR.step();      // 첫 줄
   check(op.type === "line" && op.fx === null, "묵음: seat fx 억제");
   g.ctx.STATE.markSeed("s_alone");
-  g.ctx.DIRECTOR.start("v16_c199_s01", 0);
+  g.ctx.DIRECTOR.start("p05_c078_s01", 0);
   g.ctx.DIRECTOR.step(); g.ctx.DIRECTOR.interactionDone();
   op = g.ctx.DIRECTOR.step();
   check(op.type === "line" && op.fx === "seat", "보유: seat fx 풀버전");
@@ -212,11 +213,11 @@ console.log("[3] 회수 게이트 묵음/공명 (director)");
 // ════ 4. 저장/이어읽기 (기존 회귀) ════
 console.log("[4] 중간 이탈 → 이어읽기");
 {
-  const store = { scalar2_settings: settingsPreset({}) };
+  const store = { scalar_settings: settingsPreset({}) };
   let g = bootGame(store);
   g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
   for (let i = 0; i < 137; i++) { g.document.dispatch("click", tapEvent); g.ctx._tick(2000); await tick(); }
-  const saved = JSON.parse(store["scalar2_progress" + SUF]);
+  const saved = JSON.parse(store["scalar3_progress" + SUF]);
   check(saved && saved.lineIdx > 0, `진행 자동 저장: ${saved.sceneId} @${saved.lineIdx}`);
   g = bootGame(store);
   const btns = g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"));
@@ -232,11 +233,11 @@ console.log("[4] 중간 이탈 → 이어읽기");
 // ════ 4.5 점프 스킵 비선택(skipped)은 도달 상태에 불산입 (§v2.1 3-1) ════
 console.log("[4.5] skipped 비선택 → 침묵 주행 불산입");
 {
-  const skipped = [1, 2, 3].map((i) => ({ sceneId: "in05_s02", ts: i, skipped: true }));
+  const skipped = [1, 2, 3].map((i) => ({ sceneId: "in02_s02", ts: i, skipped: true }));
   const store = {
-    scalar2_settings: settingsPreset({}),
-    ["scalar2_unchosen" + SUF]: JSON.stringify(skipped),
-    ["scalar2_progress" + SUF]: JSON.stringify({ sceneId: "ss08_s01", lineIdx: 0, ts: 1 }),
+    scalar_settings: settingsPreset({}),
+    ["scalar3_unchosen" + SUF]: JSON.stringify(skipped),
+    ["scalar3_progress" + SUF]: JSON.stringify({ sceneId: "epi_s01", lineIdx: 0, ts: 1 }),
   };
   const g = bootGame(store);
   g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"))[0].click();
@@ -248,14 +249,31 @@ console.log("[4.5] skipped 비선택 → 침묵 주행 불산입");
   check(g.ctx.STATE.getUnchosenAsked().length === 0, "제시받은 비선택 0건 유지");
 }
 
-// ════ 5. 구버전 키 안내 (기존 회귀) ════
-console.log("[5] 구버전 scalar_* 키 안내");
+// ════ 5. v2 기록 안내 + 좌표 격리 ════
+console.log("[5] v2 기록 안내 + 좌표 격리");
 {
-  const store = { scalar_node_state: "{}", scalar2_settings: settingsPreset({}) };
+  const oldProgress = JSON.stringify({ sceneId: "v16_c200_s01", lineIdx: 3 });
+  const store = { scalar2_progress: oldProgress, scalar2_settings: settingsPreset({}) };
   let g = bootGame(store);
   check(g.byId["title-screen"].children.some((c) => c.className === "title-notice"), "안내 1회");
+  check(!store.scalar3_progress, "v2 진행 좌표를 v3로 이식하지 않음");
+  check(store.scalar2_progress === oldProgress, "v2 진행 좌표 원본 유지");
   g = bootGame(store);
   check(!g.byId["title-screen"].children.some((c) => c.className === "title-notice"), "재안내 없음");
+}
+
+// ════ 6. 손상·예비 v3 저장 좌표는 신규 시작으로 복구 ════
+console.log("[6] 무효 v3 진행 좌표 복구");
+{
+  const key = "scalar3_progress" + SUF;
+  const store = {
+    scalar_settings: settingsPreset({}),
+    [key]: JSON.stringify({ sceneId: "pre03_s02", lineIdx: 99 }),
+  };
+  const g = bootGame(store);
+  const btns = g.byId["title-screen"].children.filter((c) => c.className.includes("title-btn"));
+  check(btns.length === 1 && btns[0].textContent === T.begin, "무효 이어읽기 제거 → 처음부터");
+  check(store[key] === "null", "손상된 좌표 초기화");
 }
 
 console.log(`[lang=${LANG}] `, failures ? `\n스모크 실패 — ${failures}건` : "\n스모크 전부 통과");

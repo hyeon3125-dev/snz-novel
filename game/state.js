@@ -1,6 +1,6 @@
 /* SCALAR: NODE ZERO — state.js
- * 진행 상태·게이트·세이브 (Architecture v2.0 §7-4, localStorage v2)
- * 키: scalar2_* — 구버전 scalar_* 는 감지 시 폐기 안내 1회.
+ * 진행 상태·게이트·세이브 (Architecture v3 §7-4, localStorage v3)
+ * v2 서사 좌표는 이식하지 않고 같은 origin의 /legacy/v2/에서 보존한다.
  */
 "use strict";
 
@@ -9,18 +9,18 @@ window.STATE = (function () {
    * 설정·구버전 안내·언어 선택은 공유. */
   const SUF = window.LANG === "en" ? "_en" : (window.LANG === "jp" ? "_jp" : "");
   const K = {
-    progress: "scalar2_progress" + SUF,
-    seeds: "scalar2_seeds" + SUF,
-    unchosen: "scalar2_unchosen" + SUF,
-    cracks: "scalar2_cracks" + SUF,
-    save: "scalar2_save" + SUF,
-    flags: "scalar2_flags" + SUF,
-    telemetry: "scalar2_telemetry" + SUF,   // 읽기 결 집계 (가문 판정용 — 합산값만, 로그 없음)
-    judgement: "scalar2_judgement" + SUF,   // 완독 판정 — 1회 생성 (§v2.1)
-    marks: "scalar2_marks" + SUF,           // 독자의 밑줄 — 게임이 아니라 독자가 남기는 기록
-    settings: "scalar2_settings",
-    legacyNotified: "scalar2_legacy_notified",
-    lang: "scalar2_lang",
+    progress: "scalar3_progress" + SUF,
+    seeds: "scalar3_seeds" + SUF,
+    unchosen: "scalar3_unchosen" + SUF,
+    cracks: "scalar3_cracks" + SUF,
+    save: "scalar3_save" + SUF,
+    flags: "scalar3_flags" + SUF,
+    telemetry: "scalar3_telemetry" + SUF,
+    judgement: "scalar3_judgement" + SUF,
+    marks: "scalar3_marks" + SUF,
+    settings: "scalar_settings",
+    legacyNotified: "scalar3_legacy_notified",
+    lang: "scalar_lang",
   };
 
   function read(key, fallback) {
@@ -71,17 +71,25 @@ window.STATE = (function () {
     st.telemetry = read(K.telemetry, null) || freshTelemetry();
     st.judgement = read(K.judgement, null);
     st.marks = read(K.marks, {});
-    st.settings = Object.assign(st.settings, read(K.settings, {}));
+    let sharedSettings = read(K.settings, null);
+    if (!sharedSettings) {
+      sharedSettings = read("scalar2_settings", {});
+      write(K.settings, sharedSettings); // 설정만 copy-on-read; v2 원본은 유지한다.
+    }
+    st.settings = Object.assign(st.settings, sharedSettings);
     st.slots = read(K.save, [null, null, null]);
   }
 
-  /* 구버전(AI 게임) scalar_* 키 감지 → 폐기 안내 1회 (키 자체는 건드리지 않음) */
+  /* v2/구버전 기록 감지 → 보관판 안내 1회 (키 자체는 건드리지 않음). */
   function detectLegacy() {
     if (read(K.legacyNotified, false)) return false;
     let found = false;
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
-      if (k && k.indexOf("scalar_") === 0) { found = true; break; }
+      if (k && (k.indexOf("scalar2_") === 0
+          || (k.indexOf("scalar_") === 0 && k !== K.settings && k !== K.lang))) {
+        found = true; break;
+      }
     }
     if (found) write(K.legacyNotified, true);
     return found;

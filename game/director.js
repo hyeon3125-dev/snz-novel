@@ -1,8 +1,8 @@
 /* SCALAR: NODE ZERO — director.js
- * 씬 단위 연출 결정 (Architecture v2.0 §2). 각본 태그 → 스테이지 명령 컴파일.
+ * 씬 단위 연출 결정 (Architecture v3). 각본 태그 → 스테이지 명령 컴파일.
  *
  * step() 이 내보내는 명령:
- *   {type:"unit", unit, label, faction, arc, bgm, resonance, transition}
+ *   {type:"unit", unit, label, faction, part, bgm, resonance, transition}
  *   {type:"interaction", spec, sceneId}            — 충족 전 진행 차단 (main이 INPUT에 위임)
  *   {type:"line", t, fx, sceneId, lineIdx}          — fx는 게이트 묵음 적용 후
  *   {type:"scene-break"}
@@ -130,8 +130,8 @@ window.DIRECTOR = (function () {
     const sd = unit(uid).seed;
     if (sd) (Array.isArray(sd) ? sd : [sd]).forEach((s) => window.STATE.markSeed(s));
     window.STATE.recordLeader(judgeLeader(computeScores()));
-    // 완독 판정 트리거 (§v2.1 3-2): Ch.200 마지막 씬 통과 시 1회
-    if (unit(uid).ch === 200 && !window.STATE.getJudgement()) {
+    // 완독 판정 트리거: 판본 메타가 지정한 본편 최종 유닛 통과 시 1회.
+    if (uid === S().meta.judgementUnit && !window.STATE.getJudgement()) {
       judgementPending = window.STATE.setJudgement(computeJudgement());
     }
   }
@@ -181,11 +181,11 @@ window.DIRECTOR = (function () {
       return {
         type: "unit", unit: uid, label: u.label,
         faction: scene(firstSceneOfUnit(uid)).faction,
-        arc: u.arc,
+        part: u.part,
         bgm: (u.sound && u.sound.bgm) || null,
         // 회수 공명 — 본 사람에게만 울림. 완독자의 재독에서는 떡밥 쪽에서 미리 울린다 (역방향 공명)
         resonance: !!(g && g.full) || !!(window.STATE.getJudgement() && u.seed),
-        transition: (u.arc || 1) >= 4 ? "fast" : "slow",  // Vol.10+ 단축 전환 (§6-4)
+        transition: (u.part || 1) >= 4 ? "fast" : "slow",
       };
     }
 

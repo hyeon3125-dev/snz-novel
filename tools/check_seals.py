@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""봉인 5종 검사 (WB v3.0 §0, 불변식 3) — 신규 텍스트 표면 검사.
+"""봉인 5종 검사 — v3 본문과 UI를 함께 검사한다.
 
 봉인: Observer 정체 / ARIA 기원 완전판 / Cycle 총 횟수 / O-class 개체 정체 / 메인 시스템 의도.
-본문 라인(script.js 의 lines[].t)은 정본이므로 검사 제외 — 봉인은 본문에 원래 없다 (구조적 보장).
-검사 대상: 게임 코드·UI 문언·어노테이션 등 신규 작성물 전부.
+전면 개작 뒤에는 기존 본문도 안전하다고 가정하지 않는다.
 
 한계: 키워드 그렙은 완전하지 않음 — 신규 서사 텍스트 추가 시 봉인 비접촉 육안 검수 병행 (아키텍처 §8).
 """
@@ -31,13 +30,14 @@ SCAN_FILES = (
 )
 
 
-def script_new_surfaces(path):
-    """script.js 에서 본문 라인을 제외한 표면(라벨·메타)만 추출."""
+def script_surfaces(path):
+    """script.js의 본문·라벨·인터랙션을 전부 추출."""
     js = path.read_text(encoding="utf-8")
     s = json.loads(js[len("window.SCRIPT = "):].rstrip().rstrip(";"))
     out = []
     out += [u["label"] for u in s["units"].values()]
     for sc in s["scenes"].values():
+        out += [line["t"] for line in sc["lines"]]
         if sc.get("interaction"):
             out.append(json.dumps(sc["interaction"], ensure_ascii=False))
     return "\n".join(out)
@@ -47,7 +47,7 @@ def main():
     errors = 0
     targets = [(p, p.read_text(encoding="utf-8")) for p in SCAN_FILES if p.exists()]
     for sjs in sorted((ROOT / "game").glob("script*.js")):   # 언어판 추가 시 자동 포함
-        targets.append((f"{sjs} (본문 외 표면)", script_new_surfaces(sjs)))
+        targets.append((f"{sjs} (본문 포함)", script_surfaces(sjs)))
     for path, text in targets:
         for pat in FORBIDDEN:
             for m in re.finditer(pat, text):

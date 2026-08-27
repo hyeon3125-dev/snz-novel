@@ -13,40 +13,65 @@ jobs:
         with:
           node-version: 20
 
-      - name: 원문 무결성 KO (원고 ↔ 각본 데이터 양방향 전수 대조)
+      - name: 정본에서 커밋 각본 재현
         run: |
-          python3 tools/verify_integrity.py game/script.js \
-            manuscript/SNZ_Final_Part1.md manuscript/SNZ_Final_Part2.md manuscript/SNZ_Final_Part3.md \
-            -a tools/annotations/all.json
-
-      - name: 원문 무결성 EN
-        run: |
-          python3 tools/verify_integrity.py game/script.en.js \
-            manuscript/SNZ_EN_Part1.md manuscript/SNZ_EN_Part2.md manuscript/SNZ_EN_Part3.md \
-            -a tools/annotations/en.json
-
-      - name: 원문 무결성 JP
-        run: |
-          python3 tools/verify_integrity.py game/script.jp.js \
-            manuscript/SNZ_JP_Part1.md manuscript/SNZ_JP_Part2.md manuscript/SNZ_JP_Part3.md \
-            -a tools/annotations/jp.json
-
-      - name: 언어판 구조 패리티 (KO 정본 1:1) — 전 언어판 자동
-        run: |
-          for f in game/script.*.js; do
-            python3 tools/verify_parity.py "$f"
+          for lang in ko en jp; do
+            case "$lang" in
+              ko) stem=KO; script=game/script.js ;;
+              en) stem=EN; script=game/script.en.js ;;
+              jp) stem=JP; script=game/script.jp.js ;;
+            esac
+            python3 tools/verify_rebuild.py "$script" \
+              manuscript/SNZ_${stem}_Part1.md manuscript/SNZ_${stem}_Part2.md \
+              manuscript/SNZ_${stem}_Part3.md manuscript/SNZ_${stem}_Part4.md \
+              manuscript/SNZ_${stem}_Part5.md \
+              -a tools/annotations/base.json -a tools/annotations/${lang}.json
           done
 
-      - name: 씬 그래프 검증 (도달성·고아·순환) — KO/EN/JP
+      - name: 원문 위치·순서 무결성
+        run: |
+          for lang in ko en jp; do
+            case "$lang" in
+              ko) stem=KO; script=game/script.js ;;
+              en) stem=EN; script=game/script.en.js ;;
+              jp) stem=JP; script=game/script.jp.js ;;
+            esac
+            python3 tools/verify_integrity.py "$script" \
+              manuscript/SNZ_${stem}_Part1.md manuscript/SNZ_${stem}_Part2.md \
+              manuscript/SNZ_${stem}_Part3.md manuscript/SNZ_${stem}_Part4.md \
+              manuscript/SNZ_${stem}_Part5.md \
+              -a tools/annotations/base.json -a tools/annotations/${lang}.json
+          done
+
+      - name: 언어판 구조·연출 패리티
+        run: |
+          python3 tools/verify_parity.py game/script.en.js
+          python3 tools/verify_parity.py game/script.jp.js
+
+      - name: 원고 편집 잔재·미번역 검사
+        run: |
+          if rg -n '⟦TODO_(EN|JP)⟧|[가-힣]' manuscript/SNZ_EN_Part*.md manuscript/SNZ_JP_Part*.md; then
+            echo '번역판에 TODO 또는 한글이 남았습니다.' >&2
+            exit 1
+          fi
+          if rg -n '^={5,}$|^# Volume |^## Vol\.|기원 봉인 유지|여기까지 가는 길이 이 파트|이 파트의 끝에서' manuscript/SNZ_??_Part*.md; then
+            echo 'v3 원고에 편집·구판 잔재가 남았습니다.' >&2
+            exit 1
+          fi
+
+      - name: 어노테이션 근거·복선 인과
+        run: |
+          python3 tools/verify_annotations.py game/script.js \
+            -a tools/annotations/base.json -a tools/annotations/ko.json
+
+      - name: 그래프·봉인
         run: |
           node tools/validate_graph.mjs game/script.js
           node tools/validate_graph.mjs game/script.en.js
           node tools/validate_graph.mjs game/script.jp.js
+          python3 tools/check_seals.py
 
-      - name: 봉인 비누설 검사
-        run: python3 tools/check_seals.py
-
-      - name: 헤드리스 회귀 (완주·게이트·인터랙션·저장) — KO/EN/JP
+      - name: 헤드리스 완주 회귀
         run: |
           node tools/smoke_headless.mjs
           SNZ_LANG=en node tools/smoke_headless.mjs
@@ -57,3 +82,4 @@ jobs:
           for f in game/state.js game/director.js game/stage.js game/input.js game/main.js game/analytics.js; do
             node --check "$f"
           done
+          python3 -m py_compile tools/*.py

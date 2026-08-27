@@ -8,7 +8,7 @@ The hosted page may additionally include an **optional, cookieless analytics bea
 
 - **No cookies. No fingerprinting. No personal data.** Visits are counted without identifying you.
 - **Do-Not-Track is honoured** — if your browser sends DNT, nothing is sent.
-- It records only **aggregate reading-depth signals**: reading started/resumed, which volume was reached, time-spent milestones (5 / 20 / 60 min), and completion. This answers one question — *is the work actually being read?* — not *who* is reading.
+- It records only **aggregate reading-depth signals**: reading started/resumed, which part was reached, time-spent milestones (5 / 20 / 60 min), and completion. This answers one question — *is the work actually being read?* — not *who* is reading.
 - It is loaded **outside the reading engine**, deferred and failure-tolerant. If it is disabled, blocked, or you are offline, the story works identically.
 - In this source it is **off by default** (`game/analytics.js`, `ENDPOINT = ""`). When enabled, it uses [GoatCounter](https://www.goatcounter.com/) — an open-source, privacy-first, cookieless analytics service. Data, if collected, belongs to the project, not an ad network.
 
@@ -22,7 +22,7 @@ To opt out beyond DNT: block `gc.zgo.at`, or read offline / from a local clone �
 
 - **쿠키 없음. 핑거프린팅 없음. 개인정보 없음.** 신원을 식별하지 않고 방문만 셉니다.
 - **Do-Not-Track 존중** — 브라우저가 DNT를 보내면 아무것도 전송하지 않습니다.
-- 기록하는 것은 **집계된 읽기 깊이 신호**뿐입니다: 읽기 시작/이어읽기, 도달한 권, 체류 시간 구간(5 / 20 / 60분), 완독. *작품이 실제로 읽히는가*만 보고, *누가* 읽는지는 보지 않습니다.
+- 기록하는 것은 **집계된 읽기 깊이 신호**뿐입니다: 읽기 시작/이어읽기, 도달한 부, 체류 시간 구간(5 / 20 / 60분), 완독. *작품이 실제로 읽히는가*만 보고, *누가* 읽는지는 보지 않습니다.
 - **읽기 엔진 밖에서** 지연 로드되며 실패에 관대합니다. 비활성·차단·오프라인이어도 이야기는 동일하게 동작합니다.
 - 이 소스에서는 **기본 비활성**입니다(`game/analytics.js`, `ENDPOINT = ""`). 활성화 시 [GoatCounter](https://www.goatcounter.com/)(오픈소스·프라이버시 우선·쿠키리스)를 사용하며, 수집되더라도 데이터는 광고 네트워크가 아니라 프로젝트 소유입니다.
 

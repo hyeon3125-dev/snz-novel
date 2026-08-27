@@ -7,7 +7,7 @@
  * 활성화: 아래 ENDPOINT 에 GoatCounter 카운트 URL 을 넣으면 켜진다. 비우면 네트워크 호출 0.
  *   1) goatcounter.com 가입(무료·비영리) → 코드 선택(예: scalar-nodezero)
  *   2) ENDPOINT = "https://<코드>.goatcounter.com/count"
- *   3) 대시보드에서 방문/유입/이벤트(read/start·read/vol/NN·read/min/MM·read/end·read/judge/…) 확인
+ *   3) 대시보드에서 방문/유입/이벤트(snz-v3/read/start·read/part/NN·read/min/MM·read/end…) 확인
  * Plausible 등으로 바꾸려면 loadBeacon()/send() 두 곳만 교체.
  */
 "use strict";
@@ -28,7 +28,8 @@
       if (!on) return;
       try {
         if (window.goatcounter && window.goatcounter.count) {
-          window.goatcounter.count({ path: name, title: name, event: true });
+          var tagged = "snz-v3/" + name;
+          window.goatcounter.count({ path: tagged, title: tagged, event: true });
         }
       } catch (e) { /* 분석은 읽기를 방해하지 않는다 */ }
     },

@@ -170,7 +170,7 @@ body {
 .fx-seat #hud, .fx-seat #gesture-hint { opacity: 0; }
 .fx-seat #viewport { pointer-events: none; }
 
-/* light — 색온도 30초 전이 (DL-12·Ch.200 전용) */
+/* light — 색온도 30초 전이 (결말부 전용) */
 body.fx-light { background-color: #1a1410; transition: background-color 30s linear; }
 
 /* ════════ 가문 문법 (§6-2) ════════ */
@@ -279,6 +279,8 @@ body.fx-light { background-color: #1a1410; transition: background-color 30s line
   transition: border-color 0.3s, color 0.3s;
 }
 .title-btn:hover { border-color: var(--ink); }
+.title-legacy { color: var(--ink-dim); font-size: .78rem; margin-top: .2rem; }
+.title-legacy:hover { color: var(--ink); }
 .title-notice {
   margin-top: 2.4rem; max-width: 26rem;
   font-size: 0.74rem; line-height: 1.7; color: var(--ink-dim);

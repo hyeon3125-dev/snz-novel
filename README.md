@@ -6,7 +6,7 @@
 
 <br/>
 
-[![](https://img.shields.io/badge/📖_16_Volumes_·_200_Chapters_+_46_Side_Stories-F37021?style=for-the-badge&labelColor=111111)](manuscript/)
+[![](https://img.shields.io/badge/📖_5_Parts_·_78_Chapters_+_Epilogue-F37021?style=for-the-badge&labelColor=111111)](manuscript/)
 [![](https://img.shields.io/badge/🎮_Play_in_Browser-F37021?style=for-the-badge&labelColor=111111)](https://hyeon3125-dev.github.io/snz-novel/)
 
 [![](https://img.shields.io/badge/No_AI_·_No_Server_·_No_Build-111111?style=flat-square&labelColor=111111&color=222222)](#구조--architecture)
@@ -44,8 +44,10 @@ The full manuscript ships in this repo — read it as markdown, or play it.
 **🎮 As a game** — open **[hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/)** in any browser. That's it. Language (한국어/English/日本語) is selectable on the title screen; progress is kept separately per language.
 **게임으로** — 위 링크를 브라우저에서 열면 끝입니다. 타이틀 화면에서 언어(한국어/English/日本語)를 고를 수 있고, 진행 상태는 언어별로 따로 저장됩니다. 폰도 됩니다(진동·흔들기 인터랙션은 폰이 더 좋습니다). 진행은 자동 저장되어 닫았다 열면 읽던 곳에서 이어집니다.
 
-**📖 As a novel** — read the markdown three-parters in [`manuscript/`](manuscript/) directly (Korean original `SNZ_Final_*`, English `SNZ_EN_*`, and Japanese `SNZ_JP_*`).
-**원고로** — [`manuscript/`](manuscript/)의 마크다운 3부작을 그대로 읽으면 됩니다 (한국어 원본 `SNZ_Final_*` · 영어판 `SNZ_EN_*` · 일본어판 `SNZ_JP_*`).
+**📖 As a novel** — read the five-part manuscripts in [`manuscript/`](manuscript/) directly (Korean canon `SNZ_KO_*`, English `SNZ_EN_*`, and Japanese `SNZ_JP_*`).
+**원고로** — [`manuscript/`](manuscript/)의 마크다운 5부작을 그대로 읽으면 됩니다 (한국어 정본 `SNZ_KO_*` · 영어판 `SNZ_EN_*` · 일본어판 `SNZ_JP_*`).
+
+The previous interactive edition remains readable in [`legacy/v2/`](legacy/v2/) and is frozen at the `snz-v2-final` tag. 이전 인터랙티브 판은 `legacy/v2/`와 `snz-v2-final` 태그에 그대로 보존되어 있습니다.
 
 **🛠 For developers** — static files; clone and serve locally, fully offline-capable.
 **개발자용** — 정적 파일이라 클론 후 아무 웹서버로나 열리고, 오프라인에서도 동작합니다.
@@ -62,7 +64,7 @@ python3 -m http.server 4100        # or npx serve, nginx, GitHub Pages …
 | **Advance** | Tap / click / space — the pace belongs to the reader | 탭/클릭/스페이스 — 읽는 속도는 전적으로 독자의 것 |
 | **Interactions** | Hold · release · stay silent · shake · trace. Not choosing is also recorded as a choice | 길게 누르기·놓기·침묵·흔들기·따라 긋기. 선택하지 않는 것도 선택으로 기록 |
 | **Save** | Automatic (localStorage) — reopen and continue | 자동 저장 — 닫았다 열면 읽던 곳에서 |
-| **Contents** | Tap the top of the screen — Arc → Vol → chapter. No "visited" marks: the game does not judge how far you've read | 화면 상단을 탭 — Arc → Vol → 챕터 점프. 방문 표시 없음: 게임은 독자를 판단하지 않는다 |
+| **Contents** | Tap the top of the screen — Part → chapter. No "visited" marks: the game does not judge how far you've read | 화면 상단을 탭 — Part → 챕터 점프. 방문 표시 없음: 게임은 독자를 판단하지 않는다 |
 | **Underline** | Long-press a paragraph to leave your own mark; find them again in the contents | 문단을 길게 누르면 밑줄 — 독자가 남기는 기록. 목차에서 다시 찾아갈 수 있다 |
 | **Accessibility** | Respects reduced-motion; every gesture has a tap fallback | 움직임 축소 존중, 모든 제스처에 탭 대체 경로 |
 
@@ -91,7 +93,7 @@ script → state → director → stage → input → main
 
 | File | Role · 역할 |
 |---|---|
-| `game/script.js` | **The entire script as data** (machine-converted from manuscript) — 1,366 scenes · 11,608 lines · 각본 데이터 전체, 코드가 아니라 데이터 |
+| `game/script.js` | **The entire script as data** (machine-converted from manuscript) — 1,033 scenes · 9,091 lines · 각본 데이터 전체, 코드가 아니라 데이터 |
 | `game/state.js` | Progress · foreshadow tracking · saves — 진행·복선 추적·세이브 (localStorage) |
 | `game/director.js` | Scene → stage command compiler; recall gates & reach states — 연출 결정·회수 게이트·도달 상태 판정 |
 | `game/stage.js` | Rendering · 8 staging effects · 7 faction text grammars · procedural Web Audio — 렌더·연출 8종·가문 문법 7종·절차 합성 사운드 |
@@ -117,28 +119,28 @@ script → state → director → stage → input → main
 
 ## 원고 불변 원칙 · Manuscript Integrity
 
-Every narrative line in the game is **byte-identical** to the manuscript — a bidirectional exhaustive diff (`verify_integrity.py`) gates every build, re-verified by CI on every push. All game metadata (staging, interactions, recall gates) lives in a sidecar ([`tools/annotations/all.json`](tools/annotations/all.json)), each entry annotated with its textual grounding.
+Every narrative line in the game is **byte-identical and position-identical** to the manuscript. CI rebuilds the committed script deterministically and compares every `(scene, line, text)` tuple. Shared staging and recall metadata lives in [`tools/annotations/base.json`](tools/annotations/base.json); locale files contain only translated strings.
 
-게임의 모든 서사 라인은 원고와 **한 글자도 다르지 않습니다.** 빌드 게이트가 양방향 전수 대조하고, CI가 매 푸시마다 재검증합니다. 연출·인터랙션·복선 게이트 등 게임 메타데이터는 전부 사이드카에 있으며 항목마다 원고 근거를 주석으로 답니다.
+게임의 모든 서사 라인은 원고와 **글자·위치·순서가 모두 같습니다.** CI는 정본에서 각본을 다시 생성해 커밋 산출물과 비교합니다. 공통 연출·복선은 `base.json`, 번역 문자열만 언어별 사이드카에 둡니다.
 
 ```bash
-cd tools
-python3 parse_snz.py ../manuscript/SNZ_Final_Part1.md ../manuscript/SNZ_Final_Part2.md ../manuscript/SNZ_Final_Part3.md \
-        -o ../game/script.js -a annotations/all.json      # manuscript → script data
-python3 verify_integrity.py ../game/script.js ../manuscript/SNZ_Final_Part*.md \
-        -a annotations/all.json                            # gate: 100% verbatim, both directions
-node validate_graph.mjs ../game/script.js                  # scene graph: reachability · orphans · cycles
-python3 check_seals.py                                     # narrative seals stay sealed
-node smoke_headless.mjs                                    # 26 headless regression checks
+npm run build:ko
+python3 tools/verify_rebuild.py game/script.js manuscript/SNZ_KO_Part*.md \
+        -a tools/annotations/base.json -a tools/annotations/ko.json
+python3 tools/verify_integrity.py game/script.js manuscript/SNZ_KO_Part*.md \
+        -a tools/annotations/base.json -a tools/annotations/ko.json
+node tools/validate_graph.mjs game/script.js
+python3 tools/check_seals.py
+npm run test:smoke
 ```
 
 ---
 
 ## 프라이버시 · Privacy
 
-The reading **engine** has zero dependencies and works fully offline. The hosted page *may* additionally load a **cookieless, no-PII analytics beacon** (loaded outside the engine, deferred, fails silently): it counts visits and a few reading-depth signals (started / volume reached / minutes spent / finished) to tell whether the work is actually being read — **no cookies, no personal data, Do-Not-Track honoured**, and it is **off by default** in this source (see [`game/analytics.js`](game/analytics.js)). If it never loads — offline, blocked, or disabled — the story reads identically.
+The reading **engine** has zero dependencies and works fully offline. The hosted page *may* additionally load a **cookieless, no-PII analytics beacon** (loaded outside the engine, deferred, fails silently): it counts visits and a few reading-depth signals (started / part reached / minutes spent / finished) to tell whether the work is actually being read — **no cookies, no personal data, Do-Not-Track honoured**, and it is **off by default** in this source (see [`game/analytics.js`](game/analytics.js)). If it never loads — offline, blocked, or disabled — the story reads identically.
 
-읽기 **엔진**은 의존성 0이고 오프라인에서도 완전히 동작합니다. 호스팅된 페이지는 *선택적으로* **쿠키 없는·개인정보 없는 분석 비콘**을 추가로 불러올 수 있습니다(엔진 밖에서 지연 로드, 실패 시 조용히 무시): 방문 수와 몇 가지 읽기 깊이 신호(시작 / 도달한 권 / 머문 시간 / 완독)만 세어 작품이 실제로 읽히는지 봅니다 — **쿠키 없음, 개인정보 없음, Do-Not-Track 존중**, 그리고 소스에서는 **기본 비활성**입니다. 비콘이 안 떠도(오프라인·차단·비활성) 이야기는 한 글자도 다르지 않게 읽힙니다. → [`PRIVACY.md`](PRIVACY.md)
+읽기 **엔진**은 의존성 0이고 오프라인에서도 완전히 동작합니다. 호스팅된 페이지는 *선택적으로* **쿠키 없는·개인정보 없는 분석 비콘**을 추가로 불러올 수 있습니다(엔진 밖에서 지연 로드, 실패 시 조용히 무시): 방문 수와 몇 가지 읽기 깊이 신호(시작 / 도달한 부 / 머문 시간 / 완독)만 세어 작품이 실제로 읽히는지 봅니다 — **쿠키 없음, 개인정보 없음, Do-Not-Track 존중**, 그리고 소스에서는 **기본 비활성**입니다. 비콘이 안 떠도(오프라인·차단·비활성) 이야기는 한 글자도 다르지 않게 읽힙니다. → [`PRIVACY.md`](PRIVACY.md)
 
 ---
 

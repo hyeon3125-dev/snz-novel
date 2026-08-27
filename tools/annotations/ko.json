@@ -2,14 +2,14 @@
  "fx": {
   "p04_c057_s11": {
    "0": {
-    "word": "blank"
+    "word": "빈칸"
    }
   }
  },
  "interaction": {
   "in02_s02": {
    "choices": [
-    "Answer",
+    "답",
     "ARIA"
    ]
   }
