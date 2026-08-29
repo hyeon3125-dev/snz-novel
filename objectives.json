@@ -1,0 +1,11 @@
+{
+  "schema": "scalar.story-objectives.v1",
+  "readerPromise": "답을 독점하려는 세계에서 기록·비선택·관계가 누구의 자리를 남기는지 끝까지 체감하게 하는 심리 SF",
+  "primary": "emotional_impact",
+  "secondary": [
+    "character_attachment",
+    "payoff_delivery"
+  ],
+  "payoffCadence": "arc",
+  "confirmedAt": "2026-08-30T00:00:00.000Z"
+}
