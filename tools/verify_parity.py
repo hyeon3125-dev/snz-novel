@@ -19,6 +19,23 @@ import sys
 from pathlib import Path
 
 
+FACTION_TERMS = {
+    "en": {
+        "화감": "Hwagam", "금휘": "Geumhwi", "에이도스": "Eidos",
+        "알타이르": "Altair", "공가": "Gongga",
+    },
+    "jp": {
+        "화감": "ファガム", "금휘": "グムヒ", "에이도스": "エイドス",
+        "알타이르": "アルタイル", "공가": "ゴンガ",
+    },
+}
+
+FORBIDDEN_LOCALE_TERMS = {
+    "en": ("Geumhui", "Dohui", "Minsiu", "Tico", "internal routines"),
+    "jp": ("観測者", "空席", "後継者", "火鑑", "金輝"),
+}
+
+
 def load(path):
     js = Path(path).read_text(encoding="utf-8")
     return json.loads(js[len("window.SCRIPT = "):].rstrip().rstrip(";"))
@@ -76,6 +93,8 @@ def main():
                     help="구조 정본 (기본: KO game/script.js)")
     args = ap.parse_args()
     ko, xx = load(args.ref), load(args.target)
+    target_name = Path(args.target).name
+    locale = "en" if ".en." in target_name else "jp" if ".jp." in target_name else None
     errors = []
 
     # 1. 유닛 집합 + 순서
@@ -143,6 +162,22 @@ def main():
                 if line_shape(la) != line_shape(lb):
                     errors.append(f"{sid}[{i}].shape: KO {line_shape(la)} ≠ 대상 {line_shape(lb)}"
                                   " (이탤릭/대화 줄 밀림·인용부호 형식 확인)")
+                if locale:
+                    for ko_term, localized_term in FACTION_TERMS[locale].items():
+                        if (ko_term in la.get("t", "")) != (localized_term in lb.get("t", "")):
+                            errors.append(
+                                f"{sid}[{i}].faction-term: KO {ko_term!r} ↔ {locale} {localized_term!r}"
+                                " (가문명 누락·오역 확인)"
+                            )
+
+    if locale:
+        visible = "\n".join(
+            [u["label"] for u in xx["units"].values()]
+            + [line.get("t", "") for sc in xx["scenes"].values() for line in sc["lines"]]
+        )
+        for term in FORBIDDEN_LOCALE_TERMS[locale]:
+            if term in visible:
+                errors.append(f"{locale} 금지 표기 잔존: {term!r}")
 
     if errors:
         print(f"패리티 검증 실패 — {len(errors)}건 (KO가 구조 정본):")

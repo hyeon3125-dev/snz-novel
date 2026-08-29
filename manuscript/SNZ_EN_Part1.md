@@ -995,7 +995,7 @@ At the head of the room, chief inspector Yujin stood without briefing materials.
 
 Dohee thought of her own report. The one she had not submitted. The one she had submitted said no anomaly.
 
-“It has been determined that during internal routines, certain executors conducted independent investigations. Access outside regulation is confirmed in the records. The matter will be managed directly at the house level. Individual investigation ceases immediately.”
+“It has been determined that during Hwagam’s internal procedures, certain executors conducted independent investigations. Access outside regulation is confirmed in the records. The matter will be managed directly at the house level. Individual investigation ceases immediately.”
 
 When Yujin left the room, low voices rose behind her. Dohee did not get up from her chair.
 
@@ -2436,7 +2436,7 @@ Dohee tried to pull it off and it did not come off. The kind that bonded to the 
 
 “The coat,” Hangyeol said.
 
-Dohee took off the coat. The coat without the seal — the one she had taken out three days ago, leaving the sealed one in her locker. She shed it and dropped it, and the marker stayed on the floor with the coat.
+Dohee took off the coat. It was the unmarked one she had taken from her locker three days ago, leaving behind the coat bearing Hwagam’s seal. She shed it and dropped it, and the marker stayed on the floor with the coat.
 
 Dohee had nothing left. No Hwagam seal, no position, no coat. Having dropped even the coat the marker had fastened to, Dohee felt as if she wore nothing at all. In fact she had clothes on underneath — but the things that had made Dohee herself were all on the floor.
 
