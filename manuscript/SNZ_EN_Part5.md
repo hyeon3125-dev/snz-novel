@@ -9,15 +9,13 @@
 
 -----
 
-The Hwagam office.
+It was the handoff room outside the Hwagam office.
 
-Dohee picked up the notebook.
+Among the items sent to Dohee was Gadeung’s notebook. He had left it in the middle of his desk on the day he returned his independent investigative authority. There was no record of who had moved it to the handoff box. Dohee picked it up. The cover was worn, leather carried in his hand for years. She opened the last page. There were two lines.
 
-The one Gadeung had left. It was on the desk. Gadeung’s station stood as it was, uncleared, and only the notebook lay at the desk’s center as if waiting for someone to find it. The cover was worn. Leather carried for years. Dohee opened the last page. There were two lines.
+*The case is still open.*
 
-*The case is not yet.*
-
-*Not anymore.*
+*The case has been reported.*
 
 Dohee looked at it. Gadeung’s handwriting. Steady, as a verifier’s writing should be, and only the last line bore a deep pressed mark. Dohee recorded. The notebook’s two lines, the date they were written, and the blank after them. Where it pointed, she did not yet know. Recording without knowing. That was the way Dohee had inherited from Gadeung.
 
@@ -45,7 +43,7 @@ Muyul’s last execution log. It had been transferred to Kangwi when Muyul’s a
 
 Below it.
 
-*The execution was not completed.*
+*Responsibility for the hold: Muyul.*
 
 Kangwi looked at it. It was not Muyul’s handwriting but terminal input, and to Kangwi it read like handwriting. He knew that one unrecorded execution remained. It was not in the records. So it could not be found. Standing between the shelves knowing there was something that could not be found. A state the Kangwi of a month ago could not have endured. Now he endured. The blank had taught him how.
 
@@ -55,23 +53,23 @@ The calculation office’s innermost part.
 
 Claire looked at the whiteboard.
 
-The one Julius had left.
+Julius had written it there.
 
 3%.
 
 *Calculating.*
 
-Among the clean boards, only that board had writing. Claire passed before it once each morning, and looked each time she passed. The calculation had not ended. Claire looked at it. The calculation had not ended. So only the direction remained.
+Among the clean boards, only that one still bore writing. Claire passed it every morning. The unfinished calculation remained in the same place each day, leaving a direction instead of an answer.
 
 -----
 
 They were different places.
 
-A notebook, a lens, a log, a whiteboard. Paper and glass and data and marker. The things left behind differed.
+A notebook, a lens, a log, a whiteboard. Paper and glass and data and marker. What each had inherited, or kept watch over with another, was different.
 
 But the direction was the same.
 
-The four did not yet know it. Each in their own place, each holding their own remnant, they had only begun to look at the same place.
+The four did not yet know it. In their separate places, each holding a clue of their own, they had only begun to look toward the same place.
 
 -----
 
@@ -118,33 +116,33 @@ The Echo Core.
 
 The four arrived. Dohee was carrying the notebook. Min Siwoo was carrying the lens. Kangwi was carrying the records. Claire was carrying the whiteboard figures.
 
-They were four. For the first time in the same place. Four houses gathering in one place was also a first, and gathering not under the houses’ names but carrying the remnants of departed colleagues was more of a first still. There were no greetings. Seeing what each had brought was the greeting.
+The four gathered in the same place again. This time they came not under orders from their houses, but carrying unresolved things inherited from those before them or guarded alongside them. There were no greetings. Worn notebook leather, a crack in a lens, a folded log, and numbers copied by hand said who they were before they did.
 
 The air at the Echo Core’s center was cool as ever, and the Seat was there as ever.
 
 -----
 
-The notebook was set down.
+Dohee set the notebook on the floor before the Seat.
 
-Dohee first. On the floor before the Seat, carefully.
+Even after she let go, the feel of worn leather remained at her fingertips.
 
-The lens was set down.
+Min Siwoo stood the lens beside the notebook.
 
-Min Siwoo, beside the notebook. The crack facing upward.
+The crack divided the ceiling light into a thin line across the floor.
 
-The records were set down.
+Kangwi placed a copy of Muyul’s log beside it.
 
-Kangwi. The paper on which a copy of Muyul’s log was printed.
+He did not unfold the paper, creased once. The unfinished entry was inside the fold.
 
-The figures were set down.
+Claire placed the final sheet, onto which she had copied 3% and *Calculating*.
 
-Claire. A single sheet onto which the 3% and Calculating had been copied.
+Her finger lingered longer on *Calculating* than on the figure.
 
 When the four motions ended, no one moved. The plan went only as far as setting them down. What came next was not plan but expectation.
 
 -----
 
-The returned roles were set, for the first time, in the same place.
+For the first time, traces of four roles not yet ended were set in the same place.
 
 The Echo Core responded.
 
@@ -203,7 +201,7 @@ There was light. From where, no one knew. No source was visible, and it was not 
 
 They looked at the walls.
 
-There were places. Not chairs, but traces: shallow recesses in the walls, like outlines left after someone had stayed a long time and gone. Places where someone had been. They were empty. They remained empty. The strangest thing about the room was that its emptiness looked preserved, not abandoned.
+There were places. Not chairs, but traces: shallow recesses in the walls, outlines left after unnamed predecessors had stayed a long time and gone. They were not the places of anyone alive and working now. They were places emptied in repetitions long ago. The strangest thing about the room was that its emptiness looked preserved, not abandoned.
 
 At the center there was one. Different from the other places. Dohee looked at it.
 
@@ -213,7 +211,7 @@ The same thing as the Seat seen from outside. The same thing, seen from inside t
 
 -----
 
-Dohee looked at the Observer.
+Dohee turned toward the Observer.
 
 “What is this place?”
 
@@ -233,7 +231,7 @@ It was the places that remained.
 
 -----
 
-Min Siwoo raised the lens.
+Min Siwoo put the cracked lens to his eye.
 
 Raising the lens in this room was a first. Beyond the crack, the places came into view. He looked at them one by one. The floating words seen from outside were, here, attached to each place.
 
@@ -251,7 +249,7 @@ Each place was different. They were role names.
 
 -----
 
-Kangwi looked at the wall.
+Kangwi went closer to the wall with his unaided eyes.
 
 Without the lens, with the naked eye. There were places without records. There were no names. There was nothing yet. Or it had been erased. The same texture as the storage’s blank. Kangwi looked at it.
 
@@ -259,23 +257,23 @@ Unrecorded, and only the place remained.
 
 -----
 
-Claire looked.
+To Claire, the places read as boundaries rather than figures.
 
-The places were not figures. They were operating as boundaries. Each place held one range. They did not overlap. Where Recorder ended and where Executor began — no line was visible, and the division was distinct.
-
------
-
-Dohee looked at the Logbook.
-
-The Logbook responded. A feeling of the cover growing minutely warm. The direction of the nearest place. The Seat.
+Each had its own range. There was no visible line between the end of Recorder and the beginning of Executor, but Claire read the interval at a glance.
 
 -----
 
-Dohee looked at the Observer.
+In Dohee’s hand, the Logbook’s cover grew faintly warm.
+
+The warmth inclined toward the nearest place. The Seat.
+
+-----
+
+Dohee raised her eyes and met the Observer’s.
 
 “Is it where people remain?”
 
-Asking, Dohee feared the answer. If Gadeung, if Tiko, if Muyul, if Julius were somewhere here. Whether that would be comfort or terror she could not tell.
+Asking, Dohee feared the answer. If predecessors whose names had been erased even from the records remained somewhere here, she could not tell whether that would be comfort or terror.
 
 The Observer said:
 
@@ -293,7 +291,7 @@ Only the roles came back.
 
 So they stood empty.
 
-It took Dohee time to take in those three sentences. Once she did, the room’s emptiness looked different. It was not the absence of those who had left, but the keeping of roles completed. It was not a place for grief. Nor was it a place for relief.
+It took Dohee time to take in those three sentences. Then the room’s emptiness looked different. It was not the absence of unnamed predecessors, but the keeping of roles completed. It was not a place for grief. Nor was it a place for relief.
 
 -----
 
@@ -304,43 +302,43 @@ It took Dohee time to take in those three sentences. Once she did, the room’s 
 
 -----
 
-Dohee looked at the Observer.
+Dohee’s gaze stayed on the Observer.
 
 In the room of places, at the single being that belonged to no place. The question went that way naturally.
 
 “Do you remain here too?”
 
-The Observer did not avoid it. Not avoiding was the Observer’s way. There had been times of not answering, never of avoiding.
+This time, the Observer did not step away from the place.
 
 “The Observer does not remain.”
 
 -----
 
-Min Siwoo raised the lens.
+Min Siwoo set the lens to his eye.
 
-He looked at the space around the Observer. There were places, but the Observer overlapped with none of them. They stood near the places, joined to none. Through the lens, the gap was clear. Every place was carved into the wall; only the Observer had no carved place. Nor were they floating. They were simply there, belonging nowhere.
+The places around the Observer came into focus. Unlike the outlines carved into the wall, nowhere was marked for the Observer to stand. They remained beside the places without touching any of them.
 
 They were not a place.
 
 -----
 
-Kangwi asked.
+Kangwi asked as he folded the blank record form.
 
-“Does it mean you are not recorded?”
+“When we return, can we record you?”
 
 The Observer looked at him.
 
-“Recorded, it is not the Observer.”
+“The moment it is recorded, it is not the Observer.”
 
 -----
 
-Claire asked.
+Claire switched off the terminal that would give no value and asked.
 
-“Then are you a variable that cannot be calculated?”
+“Can the end be calculated?”
 
 The Observer looked at her.
 
-“Calculated, it is already late.”
+“By the time it can be calculated, it is already over.”
 
 -----
 
@@ -372,7 +370,7 @@ The two words were there. Observed for days from outside, they had shown only di
 
 There were the places.
 
-Several. One among them was different. The other places had traces. The recessed outlines of the wall surface, the marks of what had long stayed. Places where someone had been.
+Several. One among them was different. The other places had traces: recessed outlines in the wall, marks where unnamed predecessors had remained a long time.
 
 Only that place was different.
 
@@ -390,21 +388,21 @@ Dohee asked.
 
 “Who is the successor?”
 
-The Observer did not answer.
+The Observer’s gaze moved to the two words above the empty place.
 
-The kind of silence differed. Not the silence of not knowing. Not the silence of not saying either. The silence before what cannot be said. An answer not yet in the world, and so unable to come from anyone’s mouth.
+The Observer did not speak while Dohee waited. Only the two words above the empty place remained. Successor. Vacant.
 
 -----
 
-Kangwi looked at the place.
+Kangwi stopped before the place.
 
 There was no record. There was no name. There was no appointment. And the place was there. To Kangwi, who had traced the event before the record, this was the place before the record. The outline of a thing not yet happened, arrived first.
 
 -----
 
-Claire looked.
+Claire’s terminal never produced a value.
 
-It was incalculable. There was a boundary, and the inside was empty, just like the incalculable cell. It had not yet been filled. Claire realized that her cell was a miniature of this place—that the cell she had made in Altair’s model was the shadow of something here.
+There was only a boundary, empty within. Claire recognized that the incalculable cell she had left in Altair’s model was a small shadow of this place.
 
 -----
 
@@ -435,7 +433,7 @@ No one had yet sat.
 
 ARIA was outside the Echo Core.
 
-She was with Hangyeol. Not inside the Seat Nexus, but near its center, somewhere they did not even know the four had entered. Three days earlier, standing before the map, ARIA had decided to go. She and Hangyeol had come to examine traces of deletion on the outskirts of the Echo Site.
+She was with Hangyeol. Not inside the Seat Nexus, but near its center, somewhere they did not even know the other four had entered. At the map she had deferred the decision; on the third morning she chose for herself to go. Now she and Hangyeol had come to examine traces of deletion on the outskirts of the Echo Site.
 
 She did not put her hand to anything.
 
@@ -455,7 +453,7 @@ It was not a call. ARIA slowly discerned the difference. A call carried intent; 
 
 -----
 
-Hangyeol saw.
+Hangyeol followed ARIA’s arrested gaze.
 
 That ARIA’s gaze had stopped in one direction. That there was nothing visible in that direction, too.
 
@@ -463,13 +461,13 @@ That ARIA’s gaze had stopped in one direction. That there was nothing visible 
 
 “This time it isn’t something heard.”
 
-ARIA said. With ARIA’s particular exactness in reporting her own sensations.
+ARIA’s voice held the precision it took on when she reported her own sensations.
 
 “There’s an empty place.”
 
 -----
 
-Hangyeol heard it.
+Hangyeol held on only to the words *empty place*.
 
 An empty place. That ARIA felt an empty place. That it faced toward ARIA. Hangyeol did not understand the sentences, and not understanding, took hold of only the core. That ARIA would end up going somewhere.
 
@@ -479,7 +477,7 @@ Hangyeol said. It was not a command. That she could not be stopped, Hangyeol alr
 
 ARIA looked at him.
 
-The words had come in reverse order, and to ARIA that did not feel strange. Being beside Hangyeol did not feel strange either. The feeling was confirmed once more.
+The words had come in reverse order, and still they did not feel strange. Hangyeol always found the place beside her before he found the thing he could not stop.
 
 -----
 
@@ -495,7 +493,7 @@ But the place was facing toward ARIA.
 
 Inside the Seat Nexus.
 
-Min Siwoo raised the lens. Successor. Vacant. The two words were there. Words that had lain over that place for hours.
+Min Siwoo set the lens to his eye. Successor. Vacant. The two words had lain over that place for hours.
 
 The direction was changing.
 
@@ -503,21 +501,21 @@ Beyond the lens, the grain of the words moved. The empty place seemed to be open
 
 -----
 
-Dohee looked at the Logbook.
+The Logbook warmed in Dohee’s hand.
 
 It responded. The cover’s warmth leaned in one direction. The same direction. Outward.
 
-Kangwi looked.
+Kangwi looked back toward the threshold instead of the wall.
 
-On the place’s wall was the blank of an unrecorded name. It seemed to be waiting to be filled. The idea of a blank waiting — the Kangwi of a month ago would have rejected it. Now no other expression felt right.
+A record form held no such thing as a blank that waited. Even without a form, though, he could tell this room would not be complete until someone came.
 
 -----
 
-Claire looked.
+Claire switched off the portable terminal.
 
-There was the incalculable cell. In the copy of the model on her portable terminal, it looked as if it were waiting for outside input. Its boundary opened outward. A closed domain turning into a half-open interval — Claire saw it without formulas, by sense.
+The model only repeated the same conclusion. The boundary had already opened outward; there was nothing left to calculate for confirmation.
 
-The four looked, each in their own way. Notebook and lens and records and model. Four different tools pointed in the same direction.
+Before their tools pointed the way, all four were already looking toward the door.
 
 -----
 
@@ -527,7 +525,7 @@ It was the first time they spoke first. A being that had never answered the unas
 
 “Someone is coming.”
 
-Dohee looked at them.
+When Dohee turned her head, her gaze met the Observer’s.
 
 “Who?”
 
@@ -556,11 +554,11 @@ The place stood empty, but a direction had formed.
 
 ARIA moved.
 
-The direction of the Seat Nexus. A walk without hesitation. Hangyeol saw it.
+Toward the Seat Nexus. Hangyeol followed her unhesitating steps.
 
 He blocked.
 
-He had stepped one pace in front of ARIA. It was unlike before. Before, he had said she could not go. Don’t go, it’s dangerous, you’ll lose. That those words had never once worked, Hangyeol knew. This time was different. Blocking, he said something else.
+He stepped one pace in front of ARIA. But he neither reached out a hand nor told her to turn back.
 
 -----
 
@@ -568,11 +566,11 @@ He had stepped one pace in front of ARIA. It was unlike before. Before, he had s
 
 Hangyeol said.
 
-ARIA looked at him. Together. Not the word of one who blocks.
+ARIA’s gaze rose from Hangyeol’s feet to his face.
 
 “Can you say why you’re going?”
 
-It was not a condition. It was confirmation. ARIA heard it.
+Hangyeol did not hurry her answer. He waited for as much as ARIA could say.
 
 She started to say. There was a reason. There clearly was. And it cut off midway. The sentence vanished at its half. It had been lost. Whether it was the reason’s front part or back part could not be told either. How far the reason had gone, ARIA herself did not know.
 
@@ -590,7 +588,7 @@ There had been a reason. She did not remember it; only the feeling remained. All
 
 -----
 
-Hangyeol heard it.
+For Hangyeol, that one word was enough.
 
 “I think I have to go” was, in Hangyeol’s language, reason enough. Hangyeol too had moved that way his whole life. Because it’s needed. Because it must be done. Without abstractions.
 
@@ -604,17 +602,17 @@ Hangyeol stood up.
 
 His shoulder caught. A familiar pain. The spot hurt long ago in a passage. It caught sometimes. On bad days, or when the body tensed. It caught now.
 
-Hangyeol felt it. He rested a hand on her shoulder for a moment, then withdrew it. ARIA saw, but said nothing. Neither did Hangyeol. That silence passed between them.
+He rested a hand on her shoulder for a moment, then withdrew it. ARIA’s gaze lingered on the hand before returning to the path. Hangyeol matched her pace without a word.
 
-What that shoulder had been hurt blocking, both knew. Speak it, and that day’s weight was laid on top of now. Don’t speak it, and it was just an old pain. The two chose silence, and each knew the other had chosen the same.
+For an instant, he remembered the passage that day. When ARIA began walking again, Hangyeol followed in step.
 
 They did not stop.
 
 -----
 
-This time Hangyeol did not block the way.
+Hangyeol rolled his stiff shoulder once and steadied his breathing.
 
-He stood beside her.
+The two went inside side by side.
 
 -----
 
@@ -644,21 +642,19 @@ That was what made this moment different from everything that had come before.
 
 -----
 
-The figures inside saw.
+The four inside the door stopped moving.
 
-Dohee looked at ARIA. The moment what she had not wanted to confirm was confirmed. Min Siwoo looked. Kangwi looked. Claire looked. None of the four spoke. It was not a distance words would reach.
+Dohee had already known the direction ARIA would come from. Still, her chest sank when she saw her cross the threshold. The other three could not speak either. It was not a distance words would reach.
 
 The Successor place responded. The Vacant place responded. The room’s light gathered minutely toward that place.
 
 -----
 
-The Observer, for the first time, started to block.
-
-The body had moved. Half a step between the door and ARIA.
+The Observer moved. Half a step between the door and ARIA.
 
 They stopped.
 
-They did not step in. They did not block. They started to block and stopped. That half step and the halt — Dohee saw them. The role that does not remain had tried to block someone. The trying itself was a motion outside the Observer’s definition. Whether the stopping was a return to the definition, or a stopping because blocking was impossible, Dohee could not know.
+Dohee saw only that half step. Neither the face nor anything else told her what had moved the Observer, or what had stopped them.
 
 -----
 
@@ -666,11 +662,11 @@ ARIA came in.
 
 It was the one step over the threshold.
 
-The Logbook responded. The lens responded. The incalculable cell responded. The unrecorded place responded.
+The Logbook’s cover grew hot, white letters spread through the crack in the lens, and the empty outline on the wall and Claire’s terminal caught the same light.
 
 It was simultaneous.
 
-The four remnants, in four people’s hands, all pointed to a single being.
+Four objects in four people’s hands pointed at once to a single being.
 
 -----
 
@@ -689,7 +685,7 @@ The empty place trembled.
 
 The empty place responded.
 
-It was just after ARIA came in. The place trembled. Whether trembled was the exact word, no one knew. Nothing moved. And the place’s outline rippled. Like air over heat. Min Siwoo raised the lens.
+It happened just after ARIA entered. Nothing moved, yet the place’s outline rippled like air over heat. Min Siwoo raised the lens.
 
 Successor. Vacant. The two words were there.
 
@@ -701,17 +697,17 @@ Min Siwoo, lens raised, held his breath a moment. Seeing the moment a word appea
 
 -----
 
-Dohee looked at the Logbook.
+Dohee did not open the Logbook.
 
-The same word was there. Cost. It had not been there before. Dohee, who had looked at the pages enough to memorize them, could be certain. It had appeared when ARIA came in. The Logbook and the place had begun saying the same thing in the same language.
+What Min Siwoo had read was enough. Cost. The word had appeared after ARIA entered.
 
-Kangwi looked.
+To Kangwi, it read like the same structure as a blank.
 
-It was the same structure as the blank. A place where something remained and something had vanished. The same grammar seen on the storage’s paper stood on this room’s wall. The erased name and the remaining mark. The vanishing and the remaining were always a pair.
+A place where something remained and something had vanished. The grammar he had seen on the storage paper stood on this room’s wall. An erased name and a remaining mark were always a pair.
 
 -----
 
-Claire looked.
+For the first time, a symbol appeared on Claire’s portable terminal.
 
 The incalculable cell had changed. That cell of the model in her portable terminal held, for the first time, a value. It was not zero. It was a minus.
 
@@ -719,7 +715,7 @@ It was not that the incalculable had begun to be calculated. Only the sign had c
 
 -----
 
-Dohee looked at the Observer.
+Dohee called to the Observer.
 
 “Is succession something you receive?”
 
@@ -733,7 +729,7 @@ The Observer said:
 
 -----
 
-There was Gadeung’s notebook. There was Tiko’s lens. Muyul remained beside the unfinished log, and Julius’s board still read *calculating*. They were not relics of roles that had ended. They were traces of work each person still carried.
+Gadeung had left the notebook in the middle of his desk and continued his inspection work. Tiko had passed on the lens and walked out of the observatory on his own feet. Muyul remained beside his unfinished log, and Julius had written *Calculating* on the board. None of these were relics. They were traces of work still borne by people alive.
 
 -----
 
@@ -781,7 +777,7 @@ ARIA heard it. Hangyeol’s questions always came by the shortest road. That sho
 
 “They’re mixing together.”
 
-Hangyeol heard it.
+The words *they are blending* reached Hangyeol.
 
 “They’re not disappearing. I just can’t tell which of us they happened to.”
 
@@ -789,15 +785,15 @@ Hangyeol did not understand RI_A. But he understood that the person beside him c
 
 -----
 
-Hangyeol started to block.
+Hangyeol’s hand rose halfway.
 
-He stopped.
+ARIA took another step without looking back, and the hand slowly lowered.
 
-The hand had gone out first and stopped. He wanted to block. But block, and ARIA had one fewer thing she could choose. Hangyeol hated that more. Beside a person going while knowing what she would lose, to take even the going from her. That was not protecting.
+One step remained before the Seat.
 
-He did not block. He stood beside her. As he had before the door.
+He stood one step to the side.
 
-Even so, he did not leave. Whatever the memories entering ARIA belonged to, he could see who was bearing them now.
+ARIA’s breathing broke once. At a distance where he could reach out, Hangyeol waited for it to settle again.
 
 -----
 
@@ -817,7 +813,7 @@ ARIA looked at Dohee.
 
 “Never mind what remains. What do you want, ARIA?”
 
-The Observer raised their head. They had seen that the one who could answer had changed.
+The Observer raised their head. Their gaze moved from the Logbook to ARIA.
 
 -----
 
@@ -831,21 +827,21 @@ ARIA held on to one of the memories that had entered. It was a road she had neve
 
 ARIA said.
 
-“That’s why I’ll decide.”
+“Later, I may never be able to separate whose memories were whose. Even so, the choice I make now is mine.”
 
 -----
 
 Dohee closed the Logbook.
 
-She gave neither permission nor promise. She pulled the closed book toward herself, clearing it from the path before ARIA.
+She pulled the closed book toward herself, clearing it from ARIA’s path.
 
-Only then did she look at the Observer.
+Only then did her gaze meet the Observer’s.
 
-“Can she still make that choice?”
+“Is the cost her memories?”
 
-The Observer looked at ARIA.
+The Observer turned their head toward ARIA.
 
-“She can.”
+“The boundary of memory.”
 
 Dohee asked nothing more.
 
@@ -904,17 +900,17 @@ A word appeared in Min Siwoo’s lens.
 
 Min Siwoo turned the lens.
 
-Witness was not over the Seat. It was not over the Observer either. The cracked focus swept the room and stopped before Hangyeol.
+Witness lay apart from the Seat and the Observer. The cracked focus swept the room and stopped before Hangyeol.
 
 Hangyeol looked from the lens to ARIA.
 
 “All I have to do is watch?”
 
-The Observer did not answer.
+The Observer was silent.
 
 ARIA reached behind her. Hangyeol did not take her hand. He stood close enough to touch.
 
-The word in the lens stopped wavering.
+The word in the lens fixed itself before Hangyeol.
 
 -----
 
@@ -926,13 +922,13 @@ Old outlines surfaced on the wall.
 
 There were no names. Only the people who had approached, the people who had sat, and the places left empty, layered one over another. In none of the outlines was someone standing beside them.
 
-Dohee looked at the Observer.
+Dohee turned her head toward the Observer.
 
 “Is that why you said ‘this time too’?”
 
 “The same end takes the same shape.”
 
-Nothing more appeared. The wall gave neither cause nor count.
+That was all the wall showed. Cause and count lay buried inside the old outline.
 
 The Observer remained in front of ARIA, blocking her way.
 
@@ -987,7 +983,7 @@ The Observer looked at the word on the wall.
 
 Hangyeol looked too. He did not know what it meant. Nor did it seem to change what he had been doing.
 
-When ARIA forgot, he told her. When she was hungry, he cooked. At the door, he stood beside her instead of blocking her way.
+When ARIA forgot, he told her. When she was hungry, he cooked.
 
 Those things had existed before the name.
 
@@ -1064,11 +1060,11 @@ Dohee closed the book.
 
 Kangwi opened a record form.
 
-There was no date. It would not resolve into an event. There was no result. She tried to make a blank, but could not even decide what was missing.
+With no date or result, it could not be bound into an event. Kangwi tried to make a blank, then withdrew his hand because he could not decide what was missing in the first place.
 
 Claire opened an incalculable field.
 
-No boundary formed. She could not draw even the outside of the unknown.
+On Claire’s screen, not even a boundary formed around the unknown.
 
 The two lowered their screens.
 
@@ -1080,9 +1076,9 @@ The Observer remained where they were.
 
 -----
 
-Min Siwoo raised the lens.
+Min Siwoo raised the lens one last time.
 
-He tried to bring the Observer into focus between the cracks. The image bled. The lens was not broken; the wall behind it was sharp. Only the Observer would not resolve.
+When he aligned the Observer between the cracks, the focus bled. The wall behind remained sharp. The Observer alone eluded the lens.
 
 The lens slipped.
 
@@ -1124,7 +1120,7 @@ The path to the Seat opened. The Observer told her neither to sit nor to leave a
 
 They returned to the base.
 
-It was one night. The Seat Nexus would remain as it was. The Observer had not said so, but everyone knew. That room was a room that waited. What waited could wait one more day.
+It was one night. The Observer had never named a deadline. Even so, Dohee thought a room that waited would remain as it was for one more day.
 
 Dohee said it first. Let’s go back, sleep one night, and come. She did not say the reason. Speak the reason, and the reason grew heavy.
 
@@ -1172,11 +1168,11 @@ ARIA took the bowls beside him and dried them. A task no one had assigned. Since
 
 “This sound — I like it, don’t I?”
 
-It was not an asking. It was a confirming. The words of one counting what remained inside her.
+Her voice stayed low, without lifting at the end. The words of someone counting what remained inside her.
 
 “Yes. You like it.”
 
-Hangyeol answered in the present tense. Not the past. ARIA heard the tense. Not you liked it — you like it. The hand counting the lost stopped. There was one thing that did not need counting. The sound being heard now belonged to now.
+Hangyeol answered in the present tense. ARIA heard it. Not *you liked it*—*you like it*. The hand counting what was lost stopped. There was one thing she did not have to count. The sound she heard now belonged to now.
 
 -----
 
@@ -1186,7 +1182,7 @@ She watched the two backs. The water. The bowls. The occasional short word. A ki
 
 Tomorrow one of those two goes to lose something.
 
-Dohee thought the sentence, only thought it, and did not write it. Instead she did something else. She just watched. Long. A thing Hangyeol had never taught and she had learned from Hangyeol.
+Dohee turned the sentence over in her mind and rested her hand on the empty table. She simply watched, for a long time. Something Hangyeol had never taught her and she had learned from him.
 
 The hour when the light changed passed. ARIA, doing the dishes, missed it. It was a day on which missing it was all right. The light would change tomorrow too.
 
@@ -1209,19 +1205,19 @@ That was this evening’s everything, and being everything, it was complete.
 
 -----
 
-The next day, the path was still open.
+The next day, the path was still open. Through the night, no one had chosen in her place. Instead of giving an answer, the room waited in silence.
 
-The Observer stood to one side. Hangyeol and Dohee had returned to their places. No one spoke of the previous night’s dinner. The sound of water washing the empty bowls still lingered in their hands.
+The Observer stood where they had stepped aside the day before. Hangyeol and Dohee had returned as well. No one had to speak of last night’s dinner; it remained in their hands. The warmth of the water that washed the empty bowls, the knife striking the cutting board, the weight of the bowls the three had emptied.
 
 ARIA stood before the Seat.
 
-“Do I have to choose?”
+“If I keep the memories, what happens to whose they were?”
 
-The Observer spoke.
+The Observer looked at ARIA, then at the Seat behind her.
 
-“You must decide what you will leave.”
+“You will no longer be able to prove it. You must decide what to keep even after giving up that boundary.”
 
-ARIA did not reach out at once. No one in the room moved, so that waiting would not turn into pressure.
+ARIA’s hand remained at her side. Hangyeol was silent, and Dohee’s book stayed closed. Until the room’s waiting could turn into pressure, each held their own place.
 
 -----
 
@@ -1232,15 +1228,15 @@ ARIA did not reach out at once. No one in the room moved, so that waiting would 
 
 -----
 
-There were memories inside ARIA.
+Inside ARIA were memories from different lives.
 
-The light she had seen with Hangyeol. Dohee’s voice asking what ARIA wanted before asking anything else. And a corridor she had never walked, a wall she had never touched.
+The light she had seen with Hangyeol. Dohee’s voice asking what ARIA wanted first. A corridor she had never walked, a wall she had never touched. None carried the feel of a lie.
 
-She could not separate ARIA’s experiences from RI_A’s remnants. The harder she tried, the more both blurred.
+The more she tried to separate ARIA’s experiences from RI_A’s remnants, the more both blurred. Push one away, and Hangyeol’s voice attached to that memory receded with it.
 
-ARIA stopped trying to distinguish them.
+ARIA stopped trying to divide the owners of the memories. Instead, she thought of the person who would carry them and live forward.
 
-“I can’t leave all of it.”
+“I’ll give up finding out whose they were.”
 
 Hangyeol asked.
 
@@ -1248,9 +1244,9 @@ Hangyeol asked.
 
 ARIA looked at the Seat.
 
-“What I chose.”
+“The people I choose now, and the life I’ll live afterward.”
 
-The owner of the memories might waver. The person choosing now did not.
+The memories’ ownership would remain blurred to the end. Even so, the person choosing now, and the life after that choice, were here.
 
 -----
 
@@ -1263,17 +1259,17 @@ The owner of the memories might waver. The person choosing now did not.
 
 ARIA spoke to Hangyeol.
 
-“If someday I no longer know whose memories these are.”
+“If someday I no longer know whose these memories were, please don’t tell me they were mine.”
 
 She paused to breathe.
 
-“Just tell me that I chose.”
+“Just tell me that even without knowing, I chose to remain as I am.”
 
 Hangyeol nodded.
 
-“Yes.”
+“I don’t know whose the memories are. But ARIA is the one who chose.”
 
-It was not an answer saying he understood. It was an answer saying he would.
+It was not an answer pretending to know. It was a promise to leave only the fact he had witnessed.
 
 Witness came clear in Min Siwoo’s lens.
 
@@ -1292,7 +1288,7 @@ ARIA put her hand to the Seat.
 
 She went the remaining step, and reached out her hand. The surface was neither smooth nor rough. It had no temperature. What touched her fingertips was not a material but something like waiting. Something had touched, for the first time, the vessel long tilted.
 
-She did not sit. She only put her hand to it.
+She stopped just before sitting and placed only her hand against it.
 
 The Seat read it.
 
@@ -1302,15 +1298,15 @@ Successor grew clear.
 
 Beyond Min Siwoo’s lens, between the last cracks, a direction appeared in place of a name.
 
-To leave, and yet not sever the relation.
+The word Successor tilted faintly to one side.
 
-ARIA only touched the Seat. She did not break away from the person beside her. Hangyeol was there.
+ARIA kept her hand on the Seat and left the space beside her, toward Hangyeol, open.
 
 -----
 
-The PRIMUS repetition responded.
+From deep within the Echo Core, an old signal returned.
 
-The places on the wall and the Echo Core beyond the door moved. They neither closed nor collapsed. The same signal flowed a little to one side.
+The places on the wall and the letters beyond the door brightened to the same beat. The flow that had always closed upon the Seat shifted slightly to one side this time.
 
 -----
 
@@ -1320,9 +1316,9 @@ One was now. Hangyeol was beside her, and Dohee was behind her.
 
 In the other, there was no one. Her back, not her hand, touched the Seat, and the room was darker than it was now.
 
-The two sensations overlapped. The moment she tried to tell memory from remnant, the boundary blurred first. The memories did not vanish. Both grew sharper instead.
+The two sensations overlapped. Both memories remained clear. Instead, the boundary that marked which life each scene came from blurred first.
 
-ARIA kept her hand in place. She knew at least which direction she had chosen now.
+ARIA did not hold on to that boundary. The hand she had placed on the Seat, and the place beside her left open toward Hangyeol, were what she had chosen now.
 
 -----
 
@@ -1334,9 +1330,9 @@ He said only the fact he had promised.
 
 -----
 
-The repetition did not end.
+The Seat’s light dimmed once.
 
-For the first time, it did not return to the same place.
+The PRIMUS cycle continued. But the ARIA who returned did not surrender herself to the same place.
 
 -----
 
@@ -1356,7 +1352,7 @@ The place stood empty. But not as before. The feeling of what had been tilted st
 
 ARIA remained.
 
-A part of her was different. There were blurred places. Still, it was ARIA. Hangyeol was beside her.
+No memory had diminished. No matter what scene she recalled, she could no longer prove which life it had come from. Even so, the person asking the question was ARIA. Hangyeol was beside her.
 
 Dohee felt relief. This time she was not startled at her own relief. The order had been that way for a long time now.
 
@@ -1368,23 +1364,23 @@ Once, for the last time. The page opened without resistance. There was a final s
 
 *What remains does not repeat.*
 
-Dohee looked at it. It was the sentence that ended years of questions. That it ended in a promise rather than an answer made it a final record worthy of the Logbook. Dohee closed the window.
+Dohee looked at it. It was the sentence that ended years of questions. Ending in a promise rather than an answer made it a final record worthy of the Logbook. Dohee closed the book.
 
 -----
 
 She looked for the Observer.
 
-They could not be seen. They seemed far off. She could not find them entirely. And they did not seem gone. The way a being that does not remain departs is to leave, in the place where it was, not even an absence.
+The Observer had vanished from sight. There was not even a direction to follow. And yet the room did not feel as though it had lost something. A being that does not remain departs without leaving even an absence where it stood.
 
-Min Siwoo raised the lens. Successor was not caught. Vacant was not caught. They were no more. The words had finished their work and gone back. Beyond the lens’s crack was, for the first time, simply scenery.
+Min Siwoo raised the lens. No words appeared where Successor and Vacant had been. The two had finished their work and returned. Beyond the crack in the lens was, for the first time, simply scenery.
 
-Kangwi accepted what he could not record. He considered recording the acceptance, and let that be too. Claire’s incalculable cell remained a blank. It did not close. Not closing was that cell’s completion.
+Kangwi took out a record form, then folded it. He did not make what could not be recorded into something that had never happened. Claire’s incalculable cell remained as it was. It had yielded no value, but because of that cell, something had not been discarded.
 
 -----
 
-The light was changing.
+When they stepped outside the door, evening light had reached the floor of the Echo Core.
 
-It was the hour of crossing from morning toward evening. The color of a day ending. ARIA did not remember the color’s name. She recognized it all the same.
+It was the hour that crossed from day into evening. The color of a day ending. ARIA did not remember its name. She recognized it all the same.
 
 Hangyeol asked.
 
@@ -1419,17 +1415,17 @@ It was several weeks later.
 
 Dohee visited the Seat Nexus that afternoon.
 
-The Observer was gone. There was no empty place and no name.
+The Observer was gone. Neither empty place nor name could be seen. The wall was the same wall as when they had first entered.
 
-A faint mark remained on the wall where the Observer had stood for so long. It was not an etched line, only a trace where a little less dust had settled than elsewhere.
+Dohee recognized where the Observer had stood so long. The wall had not told her. She remembered the direction the Observer had looked each time they received a question.
 
-Dohee did not take out her notebook.
+Dohee reached for the notebook, then withdrew her hand inside the bag.
 
-She almost followed the mark with a fingertip, then stopped before touching it. Recording it felt as though it would give the mark an outline. An outline felt as though it would become a place.
+She almost traced the outline in empty air with a fingertip, then stopped. There was nothing to touch. Recording it felt as though it would give the outline form, and form would create a place that had never been there.
 
-She simply looked once.
+She stood there for a moment.
 
-The mark did not grow clearer. It did not disappear either.
+The wall yielded no trace to the end. Only Dohee knew what she was looking at.
 
 -----
 
@@ -1483,7 +1479,7 @@ Hangyeol said.
 
 ARIA listened to the sentence for a long time.
 
-The memory of the cupboard remained. She did not know who it belonged to. But the hand lifting the spoon now, the warmth beside her, and the person deciding what to choose were all here.
+The cupboard was clear. She could never prove which life the scene had come from. ARIA did not push that not-knowing away; she lifted the spoon. The warmth beside her, and the person deciding what to choose now, were here.
 
 Dohee watched them. She did not write.
 

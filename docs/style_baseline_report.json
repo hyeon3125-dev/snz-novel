@@ -1,0 +1,27 @@
+{
+  "schema": "scalar.prose-audit.v1",
+  "profileSha256": "8dcd9cc3772cab27c6a7a030e77eed1c9fbcfc2f9476074c3c5784d7cd2f3faf",
+  "inputSha256": "99e9aca6ae3ed86d0c94fece8964a68241180f11a455f61dd30e491be832e2ca",
+  "bodyCharacters": 301841,
+  "dialogueLineRatio": 0.295567,
+  "candidateCounts": {"adjacent-repetition": 35},
+  "patterns": [
+    {"id": "negative-ji-anatta", "count": 853},
+    {"id": "correction-not-but", "count": 52},
+    {"id": "negative-instead", "count": 1},
+    {"id": "hangyeol-heard-it", "count": 40},
+    {"id": "hangyeol-looked-aria", "count": 46},
+    {"id": "aria-said", "count": 162},
+    {"id": "record", "count": 909},
+    {"id": "confirmed", "count": 257},
+    {"id": "saw", "count": 1091},
+    {"id": "heard", "count": 269},
+    {"id": "was-thing", "count": 583},
+    {"id": "left-behind", "count": 8},
+    {"id": "hangyeol-topic", "count": 242},
+    {"id": "hangyeol-subject", "count": 619},
+    {"id": "aria-subject", "count": 780}
+  ],
+  "reportOnly": true,
+  "limitations": "Immutable SNZ v3 Korean baseline at commit 8672db6; counts locate revision candidates and do not approve prose."
+}

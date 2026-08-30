@@ -60,7 +60,7 @@ Hangyeol looked into the chamber.
 
 -----
 
-The three moved into the west sector. Dohee led; Hangyeol walked beside ARIA. They had often shared a space, but this was the first time they had walked in the same direction.
+The three moved into the west sector. Dohee led; Hangyeol walked beside ARIA. They had fled together before, led by one side or another. This was the first time the three had chosen a single purpose for themselves and walked toward it.
 
 ARIA stopped at the end of the corridor.
 
@@ -782,15 +782,13 @@ Even as the signals of the three Houses approached, the person did not move from
 
 Dohee looked from the passage to the way back.
 
-“I decide.”
+“I'm going.”
 
-Hangyeol answered before the person could.
-
-“What Dohee decides is Dohee’s to decide.”
+Hangyeol, not that person, moved to Dohee's side first.
 
 “I can’t drag you and ARIA into this.”
 
-“Whether I follow is mine to decide. ARIA decides for herself,” Hangyeol said. “If Dohee decides for us too, that’s the same thing Hwagam did to you.”
+Hangyeol stood before the passage instead. An answer meant not to return, in a different shape, the orders Dohee had once taken at Hwagam.
 
 -----
 
@@ -800,13 +798,7 @@ Hangyeol answered before the person could.
 
 “Yes. I want to know what I am.”
 
-Hangyeol moved beside ARIA.
-
-“Then I’m going too. That’s my decision.”
-
-Dohee spoke last for herself.
-
-“I’m going too.”
+Hangyeol moved beside ARIA. Dohee, too, stood before the passage.
 
 The three stood before the same passage for different reasons.
 
@@ -1015,35 +1007,19 @@ Ahead, four people moved. Behind, three reasons followed the same tracks.
 
 The relay waystation was on no map.
 
-Without that person’s guiding, it could not have been found. On the low side of the terrain, just below the point where the slope broke, there was a structure. From above it looked like part of the terrain; from the side it was buried in the slope and could not be seen. There was a way in, too — not from the front, but circling around to the rear. That person walked the detour as if drawing it from memory.
+Circling behind the slope, a structure buried in the terrain came into view. That person found the entrance as if drawing it from memory.
 
-Inside, there were traces.
-
-A place used often. Water was stored, dried provisions, the basic equipment needed for moving. That was all Dohee saw, and she could tell the equipment was old. Old, and kept in order. Someone had maintained this place for a long time.
-
-Dohee watched that person check the things.
-
-It was the manner of confirming that what should be there was there. Not searching—inspecting. Knowing about this waystation and maintaining it were different things, and that person did the latter.
+Inside were water, provisions, and moving equipment—old, but kept in order. That person did not search; they inspected, in order. Dohee understood that they had not merely known this place, but maintained it.
 
 -----
 
 Hangyeol surveyed the interior.
 
-Hangyeol was a person who read danger first. Where the exits were, where the hiding places were, where sound entered from. He looked at those first. Then at people.
+Hangyeol checked the exits, the hiding places, the direction sound entered from, first. Then he looked at that person.
 
-He looked at that person.
+For three years, standing in front of ARIA had been Hangyeol's way. But what he had to judge now was not whether danger was immediate—it was whether it was right to keep following someone who would not say what they wanted.
 
-For three years, Hangyeol had protected ARIA. When there was something ARIA did not know, Hangyeol stood in front. When danger came, Hangyeol took it first. That was Hangyeol’s way of protecting ARIA, and he had believed the way was right.
-
-But now, watching that person, Hangyeol was thinking in a different mode.
-
-Dangerous or not — that wasn’t it. What Hangyeol was looking at was something else. What kind of person this was. Not good or bad. Not that either. They seemed neither a good person nor a bad one. That person did not fit well into any classification.
-
-A person with a purpose. What the purpose was, Hangyeol did not yet know. They did not seem to mean the three harm — and doing no harm and being a help were also different. That person was leading the three, but whether the direction of the leading was for the three or for that person’s own sake, Hangyeol could not tell.
-
-It seemed a judgment he would have to make.
-
-Until now, Hangyeol had not judged. If ARIA followed, Hangyeol followed. If Dohee decided, Hangyeol took the rear. But now — whether following this person was right, it seemed Hangyeol himself would have to judge it. Following without judging was the mode Hangyeol had once guarded against. Reacting without thinking. He had meant not to, and until now, that was what he had done.
+Standing behind ARIA's choice, or Dohee's, would not give him that answer. This time, Hangyeol had to judge for himself.
 
 -----
 
@@ -1099,13 +1075,13 @@ Dohee looked at ARIA. Hangyeol looked too.
 
 That person looked at ARIA.
 
-They said nothing. Neither denied nor agreed. For the first time, that person fell completely silent. Not the silence of choosing an answer — a silence as if what ARIA had said had touched something inside them.
+They said nothing. Neither denied nor agreed. For the first time, that person fell completely silent. It was unlike the silence of choosing an answer.
 
 The seat was there first.
 
 Not the person — the seat. Not the role — the seat. ARIA had said it naturally — and Dohee did not fully understand what it meant. Hangyeol’s face said he didn’t either. Only ARIA seemed to know why she had said it.
 
-That person looked at ARIA for a long time.
+That person's gaze rested on ARIA.
 
 “Yes.”
 
@@ -1151,7 +1127,7 @@ Dohee looked at him. Hangyeol did not look at her; he looked ahead.
 
 “That could change,” Hangyeol said. “For better, or worse.”
 
-Dohee recorded it. Hangyeol had given an open judgment for the first time. Following — for now — and it could change if a reason came. That was Hangyeol’s first assessment.
+Dohee kept the words in her head. Hangyeol had given an open judgment for the first time. Following—for now—and it could change if a reason came. That was Hangyeol's first assessment.
 
 -----
 
@@ -1167,7 +1143,7 @@ He calculated the time elapsed. The ash’s temperature, the degree of scatterin
 
 Dawn. It matched the hour the three had begun to move.
 
-Min Siwoo looked at the place. For a long time. He did not bring out a screen, did not enter data. He just looked. In this place, that person had rested. In this place, had set a direction. In this place, had been cold enough, or in need enough, to light a fire.
+Min Siwoo looked at the place for a long time without bringing out a screen. Someone had rested here, set a direction, lit a fire small enough not to be seen.
 
 For the first time, Min Siwoo felt directly that the observation subject had substance.
 
@@ -1179,29 +1155,11 @@ He did not take the ash. He wanted to see even the manner of its disappearing.
 
 -----
 
-Claire stood at a junction.
+At the three-way junction, Claire read the erased footprints. The feet heading east had slowed once, and from that spot the southeast hill was visible.
 
-A three-way fork. By Claire’s calculation, east and southeast were the two candidates. One of the two. The 73 percent had risen to 78 as terrain data accumulated. But 22 percent still sat on the southeast.
+A hill good for Eidos to take position on. The pursued subject knew even where Min Siwoo watched from.
 
-Claire looked at the junction floor.
-
-The dust had been swept. East. The footprints had been erased on the move, leaving a direction of travel. The erasing had not been done at a uniform speed. At one point, the person’s stride had slowed as they erased the prints. There, they had changed direction once more.
-
-Claire calculated the reason for the stop at that place.
-
-The surrounding terrain. The direction sound entered from. The angle at which the sightline opened. From that place, the southeast could be checked — there would have been something to the southeast. They had checked it, and held east.
-
-Claire looked southeast.
-
-A hill. Good terrain for Eidos observation. Min Siwoo would have been there. This person knew Min Siwoo. Knew where Eidos watched from.
-
-Claire’s calculation jumped from 78 percent to 91.
-
-East. Claire was not certain. But 91 percent was close to certainty. For Claire, that was enough.
-
-She fixed her heading east.
-
-91 percent was not certainty. But until now, she had almost never been wrong.
+With one new trace caught, the eastward estimate rose to 78 percent. The calculation that followed climbed to 91. Claire chose east.
 
 -----
 
@@ -1253,23 +1211,9 @@ They did not answer.
 
 The night deepened.
 
-ARIA watched that person. They did not seem to be sleeping. The eyes were closed, and it was not the state of sleep. They seemed to be processing something. It resembled a mode ARIA knew — awake, and looking inward.
+ARIA watched that person, whose eyes were closed though they were not asleep. *Then the seat was there first.* She began to think past what they had said yes to, and stopped.
 
-ARIA thought again about what she had said earlier.
-
-*Then the seat was there first.*
-
-They had said yes. That person had said yes. The seat was there first. The seat is there first, and someone enters it. That person was in that seat. Before, someone else had been in it too.
-
-And ARIA—
-
-ARIA stopped the thought.
-
-This far was allowed. The next was not yet. You must open it not knowing, that person had said. ARIA felt the words did not apply to the Logbook alone. There were things one must not see after learning. There were things visible only when one goes not knowing.
-
-ARIA decided to wait.
-
-As Dohee was not opening the Logbook. As Hangyeol was deferring his judgment. Not yet.
+As Dohee did not open the Logbook, and Hangyeol deferred his judgment, ARIA too decided to wait.
 
 The waystation was quiet.
 
@@ -1362,7 +1306,7 @@ Dohee looked at her. That person looked too.
 
 That person closed the water container.
 
-They said nothing. About what ARIA had said. Only, the way they looked at ARIA changed for a moment — Dohee caught it. What the look was, she could not exactly read; it seemed to be confirming. Confirming something.
+They said nothing. About what ARIA had said. Only, the way they looked at ARIA changed for a moment. Dohee could not read what it meant.
 
 ARIA, perhaps feeling the look, said no more.
 
@@ -1370,85 +1314,39 @@ ARIA, perhaps feeling the look, said no more.
 
 The place that person had used as a waystation two days earlier.
 
-Min Siwoo reached it in the afternoon. There were traces inside. The water container had shifted slightly from its place, one of the dried provisions had decreased. There were pressed places on the floor — four people. Different sizes. A place where four had rested together.
+Min Siwoo found the shifted water container, the diminished provisions, four pressed places of different sizes. Sitting in the smallest, he read in his own body that ARIA had rested here.
 
-Min Siwoo sat in the smallest of the pressed places. ARIA. ARIA had rested in this spot.
-
-It was interesting. There was no regret. Being two days late was not a disappointment. If anything, things were becoming more visible — how these people moved, how they hid, how they rested.
-
-The direction of the next waystation narrowed to two possibilities. Min Siwoo marked both on his screen and left the waystation.
+The two-day gap sharpened the traces of living more than it bred disappointment. Min Siwoo marked the two next directions and left.
 
 -----
 
-About two hours after Min Siwoo left, Claire reached the same slope.
+About two hours after Min Siwoo left, Claire reached the same waystation.
 
-Before climbing, Claire looked at it.
+Inside, the traces of the four from two days before overlapped with the one who had passed through today. A footstep pattern that took in the whole, then sat in specific places—that was the Eidos way.
 
-There were traces of someone having climbed from this direction. Min Siwoo — over the past days Claire had seen the traces of someone moving the same heading while keeping a fixed gap. The traces of the Eidos manner of observing. Watching without going near. Those traces were here too.
-
-Claire climbed.
-
-She entered the structure. There were two sets of traces. The ones who came first — two days ago. The one who came after — this afternoon.
-
-The second set was Min Siwoo.
-
-Claire knew it by the footstep pattern. Enter, take in the whole, check specific points in order, sit and try the places. The way an observer processes a site. Different from Altair’s way — Altair measures, records, and leaves. An observer looks.
-
-Someone had looked at this place first.
-
-Claire recorded it. There was an observer moving the same heading, holding the same speed differential. Eidos. Staying ahead, continuously.
-
-Claire revised the calculation.
-
-The fact that this Observer had already surveyed the waystation meant their information was more accurate. It was one more confirmation that Claire’s heading was right. At the same time, a competing variable had appeared.
-
-Claire raised her pace slightly.
-
-If this observer arrived first, Claire could be late even with her calculation right. Claire entered the possibility into her table. It was the first case in which what she had thought sufficient might not be.
+Min Siwoo kept staying ahead on the same heading. Claire entered him as a competing variable and raised her pace.
 
 -----
 
-When they reached the new waystation that evening, Dohee sorted her pack.
+That evening, as Dohee sorted her pack at the new waystation, the Logbook came into view.
 
-As she took things out, the Logbook came into view.
-
-ARIA looked at it. Hangyeol looked. That person looked. Dohee did not take the Logbook out. She sorted the other things in the pack, confirmed the Logbook in its place, and closed the pack.
-
-It was brief. No one said anything.
+The three's eyes touched it, but Dohee did not take it out; she closed the pack.
 
 -----
 
-At night, that person erased the traces along the route.
+At night, that person erased, in order, the pressed grass, the shifted stones, the drainage marks.
 
-The ones left in the day’s moving. The pressed grass, the shifted stones, the drainage marks. That person handled them in order. Not fast, and thorough.
+To Hangyeol's eye it was not mere concealment. It was a skill worn deep into the body, one that made it seem as if no one had ever passed this way.
 
-Hangyeol watched the scene.
-
-That Hwagam personnel were in pursuit, Hangyeol knew. Eidos and Altair, too, would be coming this way. That person erasing traces was natural.
-
-But what Hangyeol saw was something else.
-
-Not erasing traces — making it as if there had been nothing. Not simply hiding — as if no one had passed this route at all. That difference read to Hangyeol. This person had done this a long time. It was the manner of someone who had lived a long time as if they had never been.
-
-Whether it was the manner of a good person or a bad one, Hangyeol still could not tell.
-
-But Hangyeol was watching it without missing it. Before, he would not have watched. It was not that his guard had loosened, or that he had grown indifferent. The opposite — he was watching more closely.
+He still could not settle a classification. Instead, he watched more closely than before.
 
 -----
 
 That night Dohee stayed awake a long time.
 
-That person’s words came back. *It did not have to be me.* The one who can ends up doing it. There is no reason.
+That person's words came back. *It did not have to be me.* Whether there was no reason, or they did not know it, or simply would not say it—Dohee still could not tell the three apart.
 
-Dohee thought it through again in the recorder’s way. Having no reason and not knowing the reason were different. That person had said there was no reason — whether that was no reason existing, or not knowing the reason, or not telling it. Dohee could not separate the three.
-
-And the same question applied to Dohee herself.
-
-Why Dohee. When that person had said, at the encounter, that she was chosen, Dohee had refused the premise. And now Dohee was following. Refusing while following — how that was possible, Dohee had not yet sorted out.
-
-*Why you.* The question Dohee had put to that person today. They had said it did not have to be them. Then why me. The question Dohee owed herself came out of that. From why you, to why me.
-
-One more question had formed. She recorded it. In her head.
+*Why you.* Turning the question's direction onto herself opened one more place with no answer.
 
 ARIA said quietly:
 
@@ -1462,15 +1360,7 @@ ARIA said quietly:
 
 “I don’t know where from. But—I don’t think this is my first time here either. At this waystation.”
 
-Dohee heard it.
-
-The ravine and this waystation. Neither felt new to ARIA, though she had never been to either. It was the same kind of thing ARIA had described at the facility: inside her were things she did not remember.
-
-The person had said they maintained this waystation. Before them, someone else had held the role. Someone else had used this place.
-
-The reason ARIA said it was not a first — could connect to that.
-
-Dohee knew where the thought went. She did not stop it. Only, she decided not to say it now. The state was still one of not knowing enough.
+Dohee laid the ravine, the waystation, and the trace of someone else's memory left in ARIA over the seat that person had inherited. It was too soon to speak of the connection.
 
 “I’ll ask later.”
 
@@ -1720,7 +1610,7 @@ Dohee asked.
 
 “The one who judges and goes for himself survives longer than the one who leans on me.”
 
-Dohee heard it. Surviving long. There was a word that person used as a standard — surviving. That was how this person saw the world.
+Dohee understood that that person's standard was survival.
 
 “Then ARIA too?”
 
@@ -1734,19 +1624,11 @@ Dohee looked at that person.
 
 “ARIA saw something at the ravine earlier. That is why she chose Hangyeol’s side. Because she thought there would be more in that direction.”
 
-Dohee thought about it. ARIA had not followed Hangyeol — there was something in that direction ARIA had to go to, and so she had gone with Hangyeol. Then Hangyeol and ARIA both — had chosen the same direction, each for their own reason.
-
-Dohee recorded it. In her head.
+Hangyeol and ARIA had chosen the same direction, each for their own reason.
 
 -----
 
-Just after Hangyeol and ARIA separated, Hangyeol judged alone for the first time.
-
-He decided not to go back. He had received the rendezvous coordinates — and there was no thought that he must go to that place. Going meant moving with that person again. That choice could be made two days later.
-
-For now, it was movement.
-
-Confirming how far Hwagam had come. That was why Hangyeol had chosen this direction. You were wrong, so I will confirm it myself. That was it.
+Hangyeol put off the question of rejoining for two days. For now, it was his turn to see with his own eyes how far Hwagam had come.
 
 ARIA walked beside him.
 
@@ -1774,7 +1656,7 @@ ARIA searched the sensation within her.
 
 “I can’t explain it. But I think there is.”
 
-Hangyeol heard it. The things she could not explain. When ARIA spoke like that — she had never been wrong. Hangyeol knew that.
+Hangyeol had already followed ARIA's inexplicable sense more than once.
 
 “Let’s go that way.”
 
@@ -1784,25 +1666,15 @@ Hangyeol said.
 
 Claire stopped calculating.
 
-Claire had never stopped a calculation mid-pursuit before. When a calculation would not resolve, she gathered more data; without data, she held multiple headings open. She did not stop.
-
-But today she stopped.
+Claire, who during a pursuit always gathered more data until a result came, stopped today.
 
 Min Siwoo’s traces had been showing for days. The gap was constant. It did not shrink. When Claire raised her speed — Min Siwoo seemed to raise his too. The data was strange. Min Siwoo, while staying ahead of Claire, was keeping the gap as if conscious of her.
 
-If that was right — it was not Claire observing Min Siwoo, but Min Siwoo observing Claire.
-
-Claire tried to turn the thought into figures. It would not turn.
-
-It was a case where the calculation did not come out. There was a variable Claire did not know. Why Min Siwoo was conscious of her, and if he was, what the purpose was. Without those, the calculation would not complete.
-
-Claire sat for a long time.
-
-The 91 percent she had thought sufficient now seemed not sufficient. With the Min Siwoo variable entered, the 91 percent could collapse. Claire tried to put the possibility into the table — and there was no place to put it.
+If it was not Claire observing Min Siwoo, but Min Siwoo observing Claire, there was no variable to explain the gap and the purpose. The 91 percent had no place, to begin with, to enter that variable.
 
 It was the second thing with no place in the table.
 
-Claire recorded the number. Twice.
+Claire counted the second item outside the table.
 
 -----
 
@@ -1810,7 +1682,7 @@ That night.
 
 Dohee was at the waystation, alone with that person.
 
-As she sorted her pack, the Logbook came into view. Dohee did not take it out. She looked at it, and closed the pack.
+As she sorted her pack, the Logbook came into view, but Dohee did not take it out.
 
 Hangyeol was not there. ARIA was not there. The waystation was quiet. Until now there had always been four of them at each waystation; tonight there were two.
 
@@ -1836,7 +1708,7 @@ That person looked at her.
 
 They did not answer.
 
-Dohee, knowing the Logbook was in the pack, did not take it out. Not yet.
+The Logbook stayed in the pack, as it was.
 
 -----
 
@@ -1872,9 +1744,7 @@ ARIA nodded as though confirming the direction within her.
 
 “Yes. Hangyeol, I have a sense of what might be there. I don’t know yet. But I feel as though I do.”
 
-Hangyeol heard it.
-
-She had never been wrong. The things ARIA could not explain had never been wrong.
+Hangyeol had followed that same sense to get this far, before.
 
 “Let’s go.”
 
@@ -1891,7 +1761,7 @@ Hangyeol walked again. ARIA followed.
 
 Dohee and that person walked one more day.
 
-They took the detour. Hangyeol and ARIA were not there. For the first time, Dohee traveled alone with that person—from waystation to waystation, with few words. The person led and Dohee followed. The sound was different. There were two sets of footsteps.
+It was the detour. Without Hangyeol and ARIA, Dohee traveled alone with that person, just the two of them.
 
 There was a rest at midday.
 
@@ -1901,51 +1771,41 @@ There was shade below a slope. That person stopped there. Drank water. Dohee dra
 
 Dohee looked at them.
 
-The direction of the question was different. Until now Dohee had questioned and that person had answered or not answered. This time it was reversed. That person had asked.
+This time, that person asked the question.
 
 “What do you mean?”
 
 “You’re recording now. Without a terminal. In your head.”
 
-Dohee heard it. It was right. Dohee had been recording all along. That person’s footfalls, their way of choosing routes, the times they drank water. Even without a terminal, the habit of recording had settled into her body.
+The footfalls, the route, even the times of drinking water—all of it had been piling up without a terminal.
 
 “Why do you record?”
 
 Dohee received the question.
 
-She had no answer. Because she had learned it at Hwagam. Because it was her job. She recorded because she was a recorder. But that was not what the person had asked—why she did it. Why she had become a recorder. Why she was still recording now, even after leaving Hwagam.
+She had no answer. That she had learned it at Hwagam, that it had been her job—those came easily to mind. But they gave no reason for recording even after leaving Hwagam.
 
 Dohee could not answer.
 
-She was quiet a long time. That person waited. Did not press for an answer. Watching Dohee stay quiet, they looked elsewhere.
+That person did not press her.
 
 “I don’t know.”
 
 Dohee said.
 
-It was the first time Dohee had answered a question with *I don’t know*. At Hwagam, *I don’t know* meant holding a record—refusing to write it until she knew. What Dohee had said now was different. She did not know why she recorded.
+At Hwagam, *I don't know* had meant holding a record. Now it was a confession that she did not know the reason for her own act.
 
 “That is the next question.”
 
 The person spoke.
 
-Dohee recorded it. In her head. Why do I record — that is the next question.
+The question stayed in her head.
 
 -----
 
 Hangyeol and ARIA moved from morning.
 
-ARIA set the direction. Hangyeol followed. This was different — until now, Hangyeol had led. The safe way, the fast way, the way Hangyeol knew. Now ARIA was in front and Hangyeol behind.
-
-Hangyeol noticed that it was not awkward.
-
-It seemed it should have been — to protect ARIA, Hangyeol had to lead. And it was not awkward. ARIA leading seemed, now, to be right. The one he had been protecting was finding the way ahead of him. Hangyeol was following behind it.
-
-Not protection — accompaniment.
-
-Hangyeol did not make it into words. He just walked.
-
-When ARIA changed direction, Hangyeol changed. When ARIA slowed, Hangyeol slowed. As if reading something together — what ARIA read, Hangyeol received, and walked.
+ARIA set the direction, and Hangyeol followed. When ARIA changed course, he turned with her; when she slowed, he slowed too. Leaving the lead to her while watching the surroundings—it was not awkward.
 
 -----
 
@@ -1953,9 +1813,7 @@ In the afternoon, ARIA stopped.
 
 It was the point where the ravine lowered. There was a rock, and behind the rock, a small space. ARIA headed for it.
 
-Inside the space was a structure.
-
-Like the one seen at the ravine yesterday. Old. The walls remained, and there was no roof. Entering, the smell was different — the smell of an old space. The smell of people having been there long ago.
+Inside the space was a structure like the one seen at the ravine yesterday. From the walls-only interior came a long-settled smell.
 
 ARIA looked at the wall.
 
@@ -1967,13 +1825,13 @@ There were markings like those at yesterday’s ravine. Scratches. Something lik
 
 “Yes. The same way. I don’t know if the same person made it. But they were trying to leave the same thing.”
 
-Hangyeol looked at the marks. He could not tell what language. Could not tell the meaning. He knew only that it was old. And that it was the same kind as yesterday’s.
+Hangyeol did not know the meaning either, but he could tell it was the same kind as yesterday's.
 
 “So there’s more than one.”
 
 “No. I think there are more. In the same direction.”
 
-Hangyeol thought about it. One yesterday, one today. The same kind. Inside the same direction. ARIA’s choosing this direction and these marks seemed connected. There was a direction — not random; things pointed toward somewhere.
+The same kind of mark had appeared twice, in the same direction. It could not be dismissed as coincidence.
 
 ARIA put her hand to the marks.
 
@@ -1989,11 +1847,7 @@ Hangyeol looked at her.
 
 “Something I think I might know. Not something I know. But I don’t think this is my first time seeing it. I’ve seen it somewhere. Somewhere I’ve never been.”
 
-Hangyeol heard it.
-
-The same kind as the things ARIA had said until now. A first that was not a first. Knowing what was never seen. Inside ARIA were things ARIA did not remember. What they were, Hangyeol did not know.
-
-Only, what Hangyeol confirmed now was — ARIA had chosen this direction not for a signal, but for this. ARIA was searching for these marks.
+ARIA had, in effect, been following these marks—not a signal.
 
 “Do we have to keep going?”
 
@@ -2003,9 +1857,7 @@ Hangyeol asked.
 
 “Okay.”
 
-Hangyeol rose first. ARIA rose after him. This time Hangyeol moved from behind ARIA to the front — opening the way. The direction ARIA sought, ARIA knew; going that direction safely was what Hangyeol could do.
-
-It was a thing the two did together.
+Once ARIA set the direction, Hangyeol moved ahead to scout the way.
 
 -----
 
@@ -2013,15 +1865,11 @@ The same day, Claire stopped before the eastern terrain.
 
 Wrong.
 
-Claire did not say it. She did not have to: the calculation was wrong. There were no people on the route it had produced. No waystation. There was nothing in the direction Claire’s 91 percent had indicated.
+On the route the 91 percent had pointed to, there were neither people nor a waystation.
 
 Claire calculated again.
 
-She reread the data. Tried to find where it had gone wrong. The dust patterns, the footprint directions, the speed estimates. All of it seemed right. And there was no result.
-
-The wrong place could not be found.
-
-That was what unsettled Claire most. Being wrong and not knowing where. An error that could not be corrected. If the error could not be corrected, the next calculation could not be trusted either.
+Even putting the dust, the footprints, the speed estimates back in, no flaw emerged. Without knowing the cause, the next calculation could not be trusted either.
 
 Claire stayed in that place a long time.
 
@@ -2029,9 +1877,7 @@ Claire stayed in that place a long time.
 
 She said it alone.
 
-It was the first time Claire had voiced doubt about a calculation’s result. In her head there had always been doubts — they had never left her mouth. Once spoken, a doubt became fact. The possibility that the calculation was wrong became fact.
-
-Now it had become fact.
+Once spoken aloud, the possibility that the calculation was wrong became fact.
 
 Claire took out the communication terminal. Altair headquarters. She connected.
 
@@ -2075,15 +1921,11 @@ Beyond the connection, Harten’s answer came late.
 
 The connection cut.
 
-Claire closed the terminal. What Harten had meant by it, she could not tell. But one thing she knew — Altair headquarters now knew this situation. That Claire had entered territory outside calculation.
+Claire closed the terminal. Now headquarters, too, knew that Claire had entered territory outside calculation.
 
 Claire looked at the terrain again.
 
-Somewhere, it had gone wrong. She did not know where. And she had to go further. It was not abandoning calculation — she had to find how to handle the part that exceeded what calculation could reach.
-
-For Claire, that was a first.
-
-The firstness made Claire uneasy. It was not the calculation that was a first — it was the first time Altair’s finest calculator had met a problem she had never seen.
+Not knowing where it had gone wrong, she had to go find how to handle the part that lay outside calculation.
 
 Claire began moving in another direction.
 
@@ -2095,19 +1937,11 @@ Dohee stayed awake a long time that night.
 
 Why do I record.
 
-The person’s question returned to her. Dohee did not try to find an answer. If she did, she would find one she could record—that she had learned it at Hwagam, that it had been her job. But that was not the kind of answer the person had asked for.
-
-Why she was recording even now.
-
 There was no Hwagam now, no terminal, no superior to report to. Why was she still recording?
 
 Dohee stayed inside the question a long time.
 
-The Logbook was in the pack. The things Dohee had not recorded were there — things recorded by someone who was not Dohee. Dohee did not take the Logbook out.
-
-Not taking it out, Dohee thought for the first time:
-
-Why am I not opening that Logbook. That, too, she did not know.
+In the pack was a Logbook someone else had written. Why she would not open it, she still did not know.
 
 -----
 
@@ -2133,7 +1967,7 @@ Dohee asked.
 
 “There has always been observation.”
 
-Dohee thought about it. Always. Before the name Eidos, in the days these buildings still functioned, someone had been watching something.
+Even in the days these buildings still functioned, someone had been watching something.
 
 -----
 
@@ -2157,9 +1991,7 @@ That person looked at her from the map.
 
 “The one who was before.”
 
-Dohee heard it. The one who was before. The one who had held this role before that person came. Dohee had known it — and in this space, the words entered her in a different way.
-
-There had been someone who fixed this map to this wall. Someone who watched something from this tower. Someone — people — who had run this whole network.
+There had been predecessors who fixed the terrain map to the wall, who watched something from the tower.
 
 “What did that person see from here?”
 
@@ -2171,17 +2003,7 @@ Dohee looked at them.
 
 “Me too.”
 
-Dohee went toward the window. The window had no glass — the place of something that had once been there. Outside, the dead towers came into view. Once, from this window, someone had looked at the same thing. That person’s predecessor, and the predecessor’s predecessor.
-
-Dohee looked at it.
-
-The gazes of the people who had looked in this direction from this window seemed layered there. Not one person. All the people who had looked from this place. That person was inside it too.
-
-For the first time, Dohee understood. This person was not performing a role — they were inside the role. The one before had been inside it too, and this tower and this terrain map were the traces of that role.
-
-Dohee recorded it. In her head.
-
-The one who was before had also looked from this window.
+Through the glassless window, the dead towers came into view. The predecessor, and the predecessor before that, would have looked in the same direction. This person was not performing a role—they were inside a role passed on, nameless.
 
 As that person was about to leave the tower, Dohee asked:
 
@@ -2195,15 +2017,11 @@ That person stopped.
 
 “That person did not know the name of the one before them either.”
 
-Dohee heard it. There was a lineage. And it was a lineage without names. From predecessor to predecessor, only the seat passed on, namelessly. That person was inside it too, in that seat without a name.
-
-Dohee did not write it. It could not be written.
+It was a lineage in which only the seat passed on, namelessly. Dohee could not write it down.
 
 -----
 
-Hangyeol stopped each time ARIA stopped.
-
-Moving among the Echo Sites — ARIA set the direction, Hangyeol followed it. By now it was not awkward. ARIA read something ahead, and Hangyeol watched the surroundings. No danger, safe, all right to continue. That was Hangyeol’s role.
+Among the Echo Sites, ARIA read the direction, and Hangyeol watched the surroundings.
 
 Site #3 was smaller than the two before.
 
@@ -2255,9 +2073,7 @@ Hangyeol looked that way. After the three marks, made the same way but in a diff
 
 “No. Only here.”
 
-Hangyeol looked at it. The three that repeated, and the one more that was only here. What it meant could not be known. But that it was not the same, he knew.
-
-Hangyeol thought about it. The thing that appeared everywhere. The structures all different, the scripts all different — and this alone repeating.
+After the three repeating marks, here alone, a different one was appended.
 
 “Do you know what this is?”
 
@@ -2271,17 +2087,13 @@ Hangyeol looked from the mark to ARIA.
 
 “Okay. I’ll watch the surroundings. If it’s safe, keep looking.”
 
-ARIA looked at him. Hangyeol had already gone to the entrance and was checking outside. There was nothing. Hangyeol looked back toward ARIA.
+Hangyeol went to the entrance and checked outside.
 
 “It’s all right. Keep looking.”
 
 ARIA returned to the wall.
 
-Watching it, Hangyeol thought of the way he used to do things. Standing in front of ARIA and blocking. Taking the danger when it came. That had been protection — and what Hangyeol was doing now was something else. Taking a position so that ARIA could do what she had to do. Not blocking a threat — making a space.
-
-So this is accompaniment. Hangyeol did not make it into words. He just knew.
-
-ARIA stayed before the wall a long time. Hangyeol guarded the outside through that time.
+While ARIA read the wall, Hangyeol guarded the entrance.
 
 Then Hangyeol looked into the distance.
 
@@ -2295,53 +2107,25 @@ The same script was there again.
 
 Claire reached the dead observation network in the afternoon.
 
-That Dohee and that person had passed through here could be known from the traces. The dust along the passage was swept, and at the tower entrance there were pressings in the shape of footsteps. Two people. Claire confirmed it and went inside.
+The swept dust and the pressings at the tower entrance said two people had passed through first.
 
 Inside the tower, Claire began calculating.
 
-The dead terminal, the faded terrain map, the placement of the debris. Through these, Claire estimated when this installation had functioned, how it had been run, how far its observation range had reached. The data was scant but sufficient — in Altair training, Claire had drawn the maximum from minimal information countless times.
+From the dead terminal, the faded terrain map, and the placement of the debris alone, she estimated the installation's era and observation range.
 
-The calculation came out. Claire recorded it.
-
-But there was something else.
-
-There were traces that were not of Claire’s calculating kind. Going around the tower’s interior — she knew someone had looked at this place first. Not footprints. A gaze. What had been checked, in what order, remained. The angles of objects, the direction dust had been wiped, the surface change where a hand had touched.
-
-Claire read it.
-
-The manner of these traces was not Altair. Altair measures, records, and leaves. These traces were different — somewhere had been looked at for a long time. Not moving from point to point: looking at the same place, continuously. Then moving to the next point.
-
-It was observation.
-
-The Eidos manner. Claire recognized it. Someone had come here in the Eidos way. Had not measured; had looked. What that person left was not data but the traces of a gaze.
+In the wiped dust and the hand-touched surfaces, another order remained too. An Eidos-style observation—looking long at one point, without measuring.
 
 Claire found it uncomfortable.
 
-Dohee’s and that person’s traces were there too. Those were not hard to read — they fell within Claire’s range of calculation. The Eidos traces were different. She could read them, and could not make them into calculation. Why this person had looked here, what they had sought — it did not come out in numbers.
+Why Min Siwoo had looked long in that direction did not come out in numbers. A second variable, after the Observer, had formed outside the table.
 
-Someone had examined this place first.
-
-That was a fact Claire already knew. Min Siwoo. Over the past days, the same heading, the same traces. Claire knew that existence kept staying ahead.
-
-But now, inside this tower, the traces came into sharper focus.
-
-This person did not calculate. They looked. For a long time. They looked long at a direction that, to Claire, held no meaning. In that direction, they saw something Claire could not read.
-
-Claire knew this was the second variable.
-
-The Observer had been the first — outside the range of calculation. Now a second had formed. The Eidos observer. This person, too, stood outside Claire’s table. Moving in a way that was not calculation. In a way Claire could not predict.
-
-And there was one more thing that would not explain.
-
-It could not yet be given a name. Something further inside than the two variables. The very thing that made the Observer and Min Siwoo into variables — what that was, Claire had not yet been able to calculate. There was no entry to calculate. No name either.
+The thing further inside, the thing that made the two of them into variables, had no entry yet, and no name.
 
 She took out the communication terminal. She did not connect to Harten. Connect, and she had to report; report, and that Claire had confirmed a second variable would be shared across all of Altair. Claire did not want that. This variable, Claire had to calculate herself.
 
 Even if it would not yet calculate.
 
-Claire left the tower. The direction the Eidos observer had looked at long — Claire looked at it too. What was there could not be known. But that this person knew it — that, she knew.
-
-Someone had examined this place first.
+Claire left the tower without transmitting. Toward the direction Min Siwoo had looked at long.
 
 -----
 
@@ -2381,7 +2165,7 @@ Dohee looked at it. A platform — a place where people had waited. Now half of 
 
 There were rails.
 
-Beside the platform the rails ran on — entering the water, then cut off. On the rails was a train. Stopped. Half the body sunk in water, the windows underwater. The train had not stopped here — the water had swallowed the train.
+Beside the platform the rails ran on — entering the water, then cut off. On the rails, a train stood stopped. Half the body sunk in water, the windows underwater. The train had not stopped here — the water had swallowed the train.
 
 Dohee stopped.
 
@@ -2397,11 +2181,7 @@ Dohee asked.
 
 “There is none.”
 
-Dohee heard it. No other route. This flooded transit network was the only way. That person had known it. Would have received this route from the one before. And the one before, from the one before that.
-
-She looked at the train sunk in the water. People would have ridden it. Would have waited on this platform. Would have known the names on this route map. Now there was no one. Only water.
-
-Dohee recorded it. In her head. A route left behind. The traces of movement remaining even after the people have gone.
+It was the only route, handed down from predecessor to predecessor. In the water, no people remained—only the train and the route map.
 
 -----
 
@@ -2419,7 +2199,7 @@ Dohee looked at that person.
 
 That person was looking at the marking.
 
-For a long while. As far as Dohee had seen, that person had never stopped this long. Not the stopping of setting a direction. The stopping of recognizing and processing. The stopping before something unfamiliar.
+Longer than when choosing a direction, they stopped as if processing something unfamiliar.
 
 “You don’t know it either.”
 
@@ -2435,21 +2215,15 @@ The water was quiet. The train waited inside it, long.
 
 Min Siwoo reached the dead observation network in the early morning.
 
-It was the end of days of pursuit. Tracing Dohee and the person’s trail, then Claire’s, back to their source, Min Siwoo understood that this network had been one of the journey’s key hubs.
+It was a key hub where the traces of Dohee and that person, and of Claire, overlapped.
 
 He went into the tower.
 
-There were traces. Min Siwoo began reading them. In the Eidos way — not by data but by gaze. Who had moved where, and how.
-
-There were Dohee’s traces. Before two of the windows. Before the terrain map. The movement was consistent — movement with a purpose. She had tried to see something, or to find something. There were Claire’s traces too. Claire had moved another way — measured, recorded, left. The footwork was efficient.
+Dohee had lingered before two windows and the terrain map; Claire had stepped only where measurement required.
 
 There were no traces of that person.
 
-Min Siwoo found it strange. If Dohee had spent time in this tower, that person would have been with her. And there were no traces of that person. Exactly — the traces had been erased. Dohee’s traces were there, and only that person’s were not.
-
-They had been erased on purpose.
-
-Min Siwoo recorded it. This person erases their traces. Not simply wiping footprints — erasing where they had been. Removing, from a space, the evidence of their own existence.
+Only the traces of that person, who must have been with Dohee, had been deliberately erased.
 
 -----
 
@@ -2463,21 +2237,11 @@ Outside, the dead towers came into view. So did the ravine in the distance. Beyo
 
 What did they see.
 
-Min Siwoo listened to the question without moving. For the first time, what he wondered about was not the subject he tracked — where it was, which direction it had taken. It was something else.
-
-What did this person see from here.
-
-Not where the subject had gone — what the subject had seen. That was what he wanted to know. Min Siwoo stood before the window a long time. In the place where that person had stood.
-
-He wanted to see the same thing.
-
-The same direction, with the same gaze. What that person had seen from here, Min Siwoo wanted to see too.
-
-This was not observation. Min Siwoo knew it. An observer does not follow the subject’s gaze. An observer watches the subject. And Min Siwoo, now, wanted to follow the subject’s gaze.
+Not where the subject had gone, but what they had seen—that was what he wondered. Min Siwoo stood before the window that person must have touched, and followed the same direction.
 
 Min Siwoo did not take his eyes from the window.
 
-For the first time, the observer’s gaze interested him more than the observed.
+The gaze interested him more than the observed.
 
 -----
 
@@ -2489,37 +2253,19 @@ Route B. The northeastern detour to the same point. Probability 59 percent.
 
 Route C. The straight line. High risk, but fast. Probability 61 percent.
 
-Claire calculated again. The same result came out. All three routes pointed to similar probabilities. Within the margin of error — inside 3 percent. Statistically the same level.
+Even recalculated, the difference among the three routes stayed within 3 percent.
 
 There was a problem.
 
-This could not be. Three routes holding the same probability meant — the pursued subject did not decide routes in a predictable way. A predictable subject yields one optimal route with overwhelming probability. And now three routes sat level.
-
-Claire calculated again. The same result again.
-
-One of them had to be wrong.
-
-In Claire’s principles of calculation, a result of three equals was an error. The calculation insufficient, or a variable omitted, or the premise wrong. One of the three.
-
-She rechecked the data. Searched for the omitted variable. There was none. She reexamined the premise. No flaw emerged.
+One optimal route should have stood out. Rechecking the data, the variables, the premise—no flaw revealed itself.
 
 Claire was afraid of it.
 
-The calculation sufficient, the variables complete, the premise correct — and the result looking like an error. It meant the possibility that the world the Altair calculation system presupposed and the actual world were different. The calculation perfect, and the world not following the calculation.
-
-In the Altair doctrine, that was impossible.
-
-With sufficient precision, calculation coincides with the world. That was the base premise. On that premise stood everything Claire was.
+If Altair's calculation was complete, the world had to converge. Now it did not.
 
 Claire took Route A. 62 percent. Whether 57 or 62 was meaningless — but one had to be chosen. She decided the route not by calculation but by choice.
 
-She had never done that before.
-
-Not moving by calculation — moving by choice because the calculation could not conclude. Claire began moving, aware of it.
-
-And for the first time, Claire considered the possibility that it was not she but the world that was wrong.
-
-The calculation had been sufficient. The variables complete. The premise correct. And the result did not converge to one. If what was wrong was Claire, it could be corrected. But if what was wrong was the world — it could not be corrected.
+This time, where the calculation could not reach a conclusion, Claire chose one herself. Whether the error that could be corrected lay in her, or in the premise by which she saw the world, she could not tell.
 
 -----
 
@@ -2535,11 +2281,7 @@ Who left that.
 
 Why is it underwater. Was it underwater from the start, or did the water rise later.
 
-Dohee felt the questions multiplying. The answers did not shrink; the questions grew. What that person had said came back to her. Because what is not recorded disappears. So the questions would not disappear.
-
-Dohee had still not opened the Logbook.
-
-Not opening it, Dohee knew that the moment when she would have to open it was coming.
+The questions had grown, and the Logbook was still closed. It could not stay closed much longer.
 
 -----
 
@@ -2578,13 +2320,7 @@ Dohee pointed again to the submerged place where the number had been.
 
 “No.”
 
-Dohee heard it and looked at that person. Never been, and knowing it far too well.
-
-Dohee heard that word. Records. What the person had were records. Records unlike Hwagam’s. Where they came from, who had left them—Dohee did not ask.
-
-Instead she recorded. In her head. Never been here, and holding the records. Where did those records come from.
-
-How that person’s records connected to the memory of this network of waystations—Dohee knew that was the next question.
+Never having been here, and knowing it far too well. How the records passed down to that person connected to the memory of this network of waystations—that was the next question.
 
 -----
 
@@ -2600,7 +2336,7 @@ It was the wall. The same position as the underwater marking seen at the earlier
 
 Dohee looked at it.
 
-Two places. Two places within this tunnel alone. Whether one person had carved them, or different people each — there was no telling. The manner of carving was similar. Whether the content was the same could not be known. It could not be deciphered.
+Within this tunnel alone, it was the second. The manner of carving was alike, but the content could not be deciphered.
 
 That person looked at the marking.
 
@@ -2612,7 +2348,7 @@ Dohee asked.
 
 That person did not answer.
 
-Dohee heard the silence. It meant no. This marking was not in that person’s records. Not in what was received from the one before. Nor the one before that.
+To Dohee the silence meant: a marking absent even from the inherited records.
 
 -----
 
@@ -2636,9 +2372,7 @@ ARIA walked toward it. Hangyeol followed.
 
 -----
 
-Inside, ARIA looked at the walls in order.
-
-Hangyeol guarded the outside from the entrance. That was the role now. While ARIA looked at what she had to look at, Hangyeol made the space. Not guarding — making space.
+Inside, while ARIA looked at the walls in order, Hangyeol guarded the entrance.
 
 ARIA stopped.
 
@@ -2656,7 +2390,7 @@ Hangyeol looked where ARIA pointed. The three marks. The thing that had appeared
 
 “Here too.” ARIA pointed at another wall. “There’s one more here too. But it’s different from #3’s.”
 
-Hangyeol looked that way. After the three marks there was a fourth — like the one seen at #3, but the form was different.
+After the three marks there was a fourth, its form different from the one at #3.
 
 “Is it different at each site?”
 
@@ -2666,7 +2400,7 @@ ARIA did not take her eyes from the fourth mark.
 
 “This fourth one I’m seeing for the first time. Only here.”
 
-Hangyeol looked at it. The three fixed, the fourth changing. What it meant could not be known. But there was a pattern.
+The three stayed fixed; only the fourth changed.
 
 “What about the others? The rest of the script.”
 
@@ -2674,7 +2408,7 @@ Hangyeol looked at it. The three fixed, the fourth changing. What it meant could
 
 ARIA pointed at the three marks.
 
-Hangyeol looked at it. This was why ARIA had gone searching through the four places. Not searching — heading toward where this was. ARIA was recognizing this.
+ARIA had, in effect, come toward wherever these three marks were.
 
 “Do you know what this is?”
 
@@ -2682,7 +2416,7 @@ ARIA checked the sensation lingering in her fingertips.
 
 “No. But I have to look.”
 
-Hangyeol heard it. She could not explain it, and said she had to look. Hangyeol asked no more.
+Hangyeol asked no more.
 
 “How much longer?”
 
@@ -2690,7 +2424,7 @@ Hangyeol heard it. She could not explain it, and said she had to look. Hangyeol 
 
 Hangyeol went back to the entrance and watched the outside. There was nothing strange. Quiet.
 
-ARIA looked for a long time. Hangyeol waited.
+Hangyeol waited until ARIA had seen all of it.
 
 -----
 
@@ -2720,11 +2454,9 @@ The one charged with delivery spoke, holding the document.
 
 There was a silence. The deliverer set the document down.
 
-Kangwi already knew. Before the document went up. By what route he had come to know — that was not in the document. At Geumhwi, Kangwi knowing first was an old thing. Grasping it before the report was complete. That was the reason Kangwi held the head seat.
+Kangwi already knew before the document went up. By what route, the document did not say.
 
-And Kangwi had not yet moved.
-
-At Geumhwi, not moving did not mean no interest. When Kangwi did not move — it meant something else was already moving.
+Kangwi did not move. Instead, something else was already moving.
 
 The document was left where it was. Without the review-complete mark.
 
@@ -2732,9 +2464,7 @@ The document was left where it was. Without the review-complete mark.
 
 Within the same zone, different things were moving.
 
-Dohee and that person were inside R-02. Before the markings of the submerged transit network. Hangyeol and ARIA were at Echo Site #4. Before the repeating sign. Kangwi was somewhere. In the state of already knowing.
-
-Whether these connected, and if they connected, how — no one knew.
+Dohee and that person were before the markings of R-02; Hangyeol and ARIA before the repeating sign of Echo Site #4. Kangwi, somewhere apart, already knew.
 
 Only, they were looking in the same direction.
 
@@ -2746,11 +2476,7 @@ Only, they were looking in the same direction.
 
 There was no record.
 
-The records hall keeper checked the access log. The Sector 7 materials. There was an access history. The accessor field was blank.
-
-An unrecorded access.
-
-The keeper asked the previous keeper. The previous keeper asked the one before. It had been so for a long time, they said.
+The records hall keeper checked the Sector 7 access log. There was an access history, and the accessor field was blank. It had been so since the previous keeper, and the one before.
 
 “Who accessed it?”
 
@@ -2760,15 +2486,13 @@ The keeper asked the previous keeper. The previous keeper asked the one before. 
 
 “The absence is the record.”
 
-The keeper could not tell what the words meant. That the absence is the record. That nothing is the mark.
+The keeper could not understand the words: that absence is the mark.
 
 He pulled the Sector 7 materials themselves.
 
 Original preserved: no. Disposed. Reason. Blank. The reason field existed and held nothing.
 
-Whether it had been blank from the start, or erased — there was no telling.
-
-The keeper looked at the date. Old. From before the present house system was formed.
+Whether it had been blank from the start, or erased, there was no telling. The date was older than the present house system.
 
 He closed the document.
 
@@ -2790,17 +2514,13 @@ Dohee looked at the walls as she walked.
 
 Advertisements. Fixed to the wall — not paper but board. Printed long ago, and after the flooding and the years, almost without color. Still the forms remained. There was a human figure. Holding something. Below it were letters — letters Dohee could not read. A language no longer in use.
 
-The people who passed through this tunnel had looked at this.
-
-Dohee thought about the fact. In the days this advertisement hung, there were people in this tunnel. People who read these letters. Now there was water.
+There would have been people who read these letters as they passed through the tunnel. Now there was only water.
 
 Further on there was a display board. Stopped. It stayed in its place with the screen dark. Once it would have shown something — the hour, the lines, the notices. Now there was nothing. A display board that would not light kept its place above the water.
 
 In a section where the inside of the train was visible, Dohee looked in through a window.
 
-There were seats. At a height the water had not reached. There was something like a bag — left behind, long ago, by someone. The form remained. They would have meant to come back for it. They had not come.
-
-Dohee recorded these things. In her head. Traces of the former world. Evidence that people had lived.
+On the seats above the waterline, a bag someone had left long ago still remained.
 
 Dohee asked while walking:
 
@@ -2812,7 +2532,7 @@ That person listened without breaking stride.
 
 “Did I say it has not moved?”
 
-Dohee heard it. That person had asked back. The premise that Geumhwi was not moving was wrong.
+The counter-question meant the premise itself—that Geumhwi was not moving—was wrong.
 
 “Is Geumhwi’s way different?”
 
@@ -2822,7 +2542,7 @@ Dohee looked at them.
 
 “Hwagam removes the anomaly. Eidos observes the anomaly. Altair explains the anomaly,” that person said. “Geumhwi looks not at anomalies but at order. An anomaly is a violation of order. To Geumhwi, we are not an anomaly. We are a violation.”
 
-Dohee thought about it. Anomaly and violation. The same thing defined in different ways. The word anomaly defines an existence; the word violation defines a relation.
+Anomaly defined an existence; violation defined a relation to order.
 
 “Then Geumhwi sees us as having broken the order?”
 
@@ -2832,9 +2552,9 @@ Dohee thought about it. Anomaly and violation. The same thing defined in differe
 
 “What is finished is handled. What is in progress is waited on.”
 
-Dohee knew where the words pointed. That Geumhwi was waiting. And that the waiting side could be the more dangerous.
+Geumhwi was waiting for it to end.
 
-Kangwi. Dohee had not yet heard the name. But in the way that person explained Geumhwi, it could be felt that there was someone inside Geumhwi. Someone who, without moving, knew everything.
+Dohee did not yet know who that someone inside Geumhwi was. But she could feel a presence that, without moving, knew everything.
 
 -----
 
@@ -2856,7 +2576,7 @@ Hangyeol turned. ARIA was standing before a wall. Not moving. Hangyeol went insi
 
 He looked at the wall.
 
-There was script. The same kind as the earlier sites. But — what Hangyeol had been seeing was not there. The three marks. The thing that had been present without fail at the four earlier places. Every other character could differ, and this alone was always there. Now it was not.
+Among characters like those at the earlier sites, only the three marks present at all four places were missing.
 
 “It’s not here.”
 
@@ -2866,7 +2586,7 @@ ARIA said.
 
 “The thing that’s always been there. It’s gone.”
 
-Hangyeol looked at the wall again. The characters were there. But the three marks that had repeated were not. Hangyeol remembered the four earlier places — there had been no place without the three marks. Only here, they were absent.
+Hangyeol looked again at the empty place.
 
 “Was it there before and then disappeared?”
 
@@ -2878,11 +2598,11 @@ Hangyeol looked that way. The wall face ARIA pointed at. There were other charac
 
 “I don’t know.”
 
-Hangyeol looked at it. An erased thing. Present at the four earlier places, absent here. If someone had erased it — they had erased it knowing. Someone who knew what these three marks were.
+If someone had erased it, they had done so knowing what the three marks meant.
 
 ARIA looked at the erased place without speaking.
 
-Hangyeol looked at her. ARIA’s form was unlike usual. Not wavering — stopped. ARIA’s way of stopping was her way of processing, and this was something else.
+ARIA was still, unlike when she was processing.
 
 “Are you okay?”
 
@@ -2890,7 +2610,7 @@ ARIA checked her own state before speaking.
 
 “I’m bewildered.”
 
-It was the first time ARIA had said she was bewildered.
+ARIA had never described her own state that way before.
 
 -----
 
@@ -2908,7 +2628,7 @@ Another spoke.
 
 There was no answer.
 
-The space went quiet. The standing ones looked toward the seated. They were waiting for words to come from the seated side.
+The standing ones waited for words from the seated side.
 
 “It concerns the Observer.”
 
@@ -2916,7 +2636,7 @@ The one who had reported said.
 
 “I know.”
 
-The voice was low. There was no explanation. He already knew.
+The low voice carried no explanation.
 
 The space went quiet again.
 
@@ -2924,9 +2644,7 @@ The space went quiet again.
 
 “Hold.”
 
-One word.
-
-No explanation. No reason either. Inside Geumhwi, no one asked for reasons. When the word hold came out — that was the decision.
+Hold was itself the decision.
 
 The standing ones bowed their heads.
 
@@ -2940,11 +2658,7 @@ Kangwi’s gaze rested on the last person to ask.
 
 That was all.
 
-The space went quiet again. All of Geumhwi stood on hold. Not moving was the decision. While the other houses moved, Geumhwi was watching it.
-
-The ones who move can be seen.
-
-The words remained in the space.
+While the other houses moved, Geumhwi remained on hold and watched.
 
 The one who had brought the report, leaving the space, said low to another beside him:
 
@@ -2962,25 +2676,23 @@ There was a short silence.
 
 “Long ago.”
 
-No further explanation. Long ago was all of it. How long ago — no one asked either. At Geumhwi, the words long ago were both an explanation and a boundary.
+No one asked how long ago.
 
 -----
 
 Claire restarted the calculation that same night.
 
-For two days she had not found the reason the three routes had been equal. She tried adding variables — the result did not change. She tried changing premises — it did not converge. Claire took the calculation method itself apart.
+Even with variables added, the three routes did not converge. Claire took apart the calculation's basic premise.
 
 Starting from the base premise.
 
-The subject takes the optimal route. All of Claire’s calculation stood on this premise. But this subject might not take the optimal route. If there was a purpose other than survival. If the very criterion of route selection differed from Claire’s.
+*The subject takes the optimal route.* A premise that failed to hold if there was a purpose other than survival.
 
 Claire tried replacing the premise.
 
-The subject takes a route that is not the optimal one. The calculation changed. One of the three routes dropped. Not convergence — but different.
+*The subject takes a route that is not the optimal one.* One of the three routes dropped.
 
-For the first time, she had run a calculation that changed the premise.
-
-Claire recorded the result. *If the calculation is sufficient and the world does not converge, the premise itself must be replaced.* It was not abandoning the calculation system. It was revising the premise. To Claire, that was a different kind of act.
+Claire wrote beside the result: *If the world does not converge, replace the premise.*
 
 -----
 
@@ -3000,19 +2712,11 @@ Sector 7 northeast. Deviation in data traffic figures. Within margin of error. I
 
 It had been processed as no anomaly.
 
-Gadeung looked at the item. He checked who the executor had been. A new appointee. The routine had been followed exactly. By the manual.
+The new executor had processed it by the manual. It was a figure Dohee would not have let pass. The file outside official channels, the unauthorized access—those had been wrong. But that did not mean the figure itself had been wrong.
 
-When Dohee was there, reports like this did not come up.
+But since Dohee was gone, the Sector 7 reports had grown cleaner. *No anomaly* appeared more often. The numbers fit. No one held onto the margin-of-error figures.
 
-That was the problem. Would Dohee have processed this as no anomaly. She would not have. Dohee did not let figures within the margin of error pass. She recorded them. The manual said they need not be recorded — Dohee recorded them. That was Dohee’s way.
-
-Was that way wrong.
-
-Gadeung did not judge it. That Dohee had acted outside the rules was a fact. The record file outside official channels, the unauthorized archive access, the non-cooperation during the inquiry. Dohee had done wrong.
-
-But since Dohee was gone, the Sector 7 reports had grown cleaner. No anomaly had multiplied. The numbers squared. No one held onto the margin-of-error figures.
-
-Gadeung judged that to be the greater wrong.
+To Gadeung, that cleanliness was the worse thing.
 
 -----
 
@@ -3022,21 +2726,13 @@ A list of zones with inspections complete. The zones Dohee had been responsible 
 
 Gadeung selected one of those zones and opened the raw logs himself.
 
-The data flowed.
-
-It sat within the margin of error. It looked like no problem. Gadeung compared it against the past thirty days. There was a pattern — very faintly, at the same hours, in the same direction, deviation was accumulating. Each within the margin, and summed, it was different.
+Overlaying the past thirty days, the deviations within the margin of error accumulated at the same hours, in the same direction.
 
 The same way Dohee had first found 7-7-4.
 
 Gadeung recorded it. Through official channels. Sent it up to his superior. He did not make a personal terminal file as Dohee had. He processed it by the rules.
 
-And he thought one thing.
-
-The way Dohee had found this had been a way that broke the rules — if Dohee had done it within the rules, would this have surfaced earlier than now. Or could it not have surfaced within the rules at all.
-
-Gadeung did not answer the question.
-
-Dohee had broken the rules. Gadeung still did not think that judgment wrong. The problem was something else. Only the rule-keepers remained, and the records had grown worse. If the rules are right and the results are bad — then there is something that must stand outside the rules. Whether Dohee had been that something, Gadeung did not know. He knew only that the place stood empty.
+Whether the same discovery could have been made within the rules, he did not know. After only rule-keepers remained, the records grew cleaner, and worse. The empty place Dohee had left exposed that difference.
 
 -----
 
@@ -3064,11 +2760,7 @@ That person looked that way.
 
 “They could not come.”
 
-Dohee heard it. Could not come. Had meant to come and could not. There had been someone who knew the number of this locker. Now there was no one.
-
-Looking at the locker, Dohee thought of the things she had left behind at Hwagam. The suspension notice. Her personal terminal. The 7-7-4 file. Things Dohee had left behind. She could not go back for them. They remained there, left behind.
-
-The same as this locker.
+Dohee thought of the notice, the terminal, the 7-7-4 file, left behind at Hwagam. They remained there like the belongings of someone who never came back for them.
 
 -----
 
@@ -3082,13 +2774,7 @@ With this premise entered, the calculation changed. One of the three routes fell
 
 Claire looked at the result.
 
-Change one premise and the whole calculation changes. A fact Claire had known — applying it to her own calculation was another thing. In Claire’s calculation system, premises were verified things. Not things subject to revision. And now she had revised one.
-
-It had not been wrong. It had been incomplete.
-
-Claire recorded the difference. *Not a wrong premise but an incomplete one. There was no complete description of the subject’s principle of action.* It was not abandoning the calculation system. It was completing it.
-
-For the first time, revising a premise had changed a result.
+Revising a verified premise changed the result. Claire wrote: *not a wrong premise, but an incomplete one.*
 
 Claire kept moving.
 
@@ -3098,7 +2784,7 @@ The Geumhwi records hall access log.
 
 Access date and time. Accessor. Document classification accessed.
 
-Most of the fields were filled. A few were not. The ones with the accessor field blank. It was not that there was no access record — the access itself had no record. Unrecorded access.
+Most of the fields were filled; only a handful of accesses remained without an accessor.
 
 One of the document classification entries.
 
@@ -3108,13 +2794,11 @@ Access grade: restricted.
 
 Below it was a disposal record.
 
-*Original preserved: no. Disposed. Reason:* — the reason field was not filled. Not blank. Deleted. The place where the field itself had been erased.
+*Original preserved: no. Disposed. Reason:* — only the last field bore the trace of deletion.
 
 By the document’s date, it was old. From before the present house system was established.
 
-The people who could access this document were restricted even within Geumhwi. That there had been access without an access history — that was the fact only the records hall keeper knew. Whether Kangwi had accessed it directly was not in the records.
-
-That it was not in the records did not mean it had not been.
+Even the records hall keeper did not know who had opened the restricted document. Whether Kangwi had accessed it was not recorded either.
 
 -----
 
@@ -3142,7 +2826,7 @@ They were not an answer, but traces of the people who had asked the same questio
 
 -----
 
-Claire reported the revised calculation to Altair.
+Claire reported the revised calculation not to Harten, her direct superior, but to Julius, the one who had trained her and reviewed the Altair model.
 
 Julius asked from beyond the screen.
 
@@ -3188,9 +2872,7 @@ The logbook remained open.
 
 -----
 
------
-
-*Character build-up · political dynamics · pacing*
+The same event was producing, at each separate place, a different judgment.
 
 -----
 
@@ -3517,23 +3199,21 @@ Not knowing. That was all Dohee could record now.
 
 Someone was reading documents.
 
-There was no sound. The Geumhwi records hall was always quiet. The ceiling was high — how high could not be seen, for the light did not reach it. A structure that rose vertically. The walls were full of record cases. Left and right, above and below. The cases ran on like stairs, and the stairs ran on like cases. Which was record and which was passage, a person coming for the first time could not tell.
+The Geumhwi records hall was quiet. Up to a ceiling the light did not reach, record cases and stairs ran on, each in the shape of the other.
 
 The archivists kept their places.
 
-The archivists did not speak. They spoke only when something was needed. When nothing was needed, each did their own work. Sorting documents, ordering the cases, drawing out or replacing requested materials. The time of the records hall was different from the time outside — even when outside ran fast, here it was constant.
+The archivists spoke only when needed, drawing out and returning documents at a constant pace.
 
 There was a person reading documents.
 
 One table, one chair. Somewhere on the records hall’s middle level. The other archivists did not go near that person. As if they knew that place had to stay empty.
 
-The document was thick. The reading was not fast. One page, one page. All of it was read. No marks were left. No pages folded. What was read was read. Without marks, it was remembered.
+The thick document turned, one page at a time. No mark was left where it had been read.
 
 -----
 
-One archivist approached carefully.
-
-The younger one. He seemed not long assigned to the records hall. He came carrying a document, trying the whole way to soften his footsteps. He seemed to think no sound should be made near Kangwi.
+A young archivist approached, softening his footsteps.
 
 A new document. An external report.
 
@@ -3555,15 +3235,13 @@ The one reading set the document down.
 
 A second document came.
 
-Eidos. Signal-tracking results. The unclassifiable signal had vanished from the Eidos observation net. Two position estimates. Eidos was expanding its observation range.
+Eidos. The unclassifiable signal had vanished from the observation net, and the position estimates had split in two.
 
 “Eidos is widening its range.”
 
 “I know.”
 
-A third document.
-
-Altair. Independent entry. Calculation results inconsistent. Pursuit premises under revision.
+The third was Altair's report of independent entry, inconsistent calculation results, and pursuit premises under revision.
 
 “Altair says it has revised its premises.”
 
@@ -3577,7 +3255,7 @@ It was quiet enough that the young archivist’s swallowing could be heard. The 
 
 The one reading looked at the archivist.
 
-This was the moment. Receiving that gaze, the archivist felt in earnest that this person was looking at him. The expression was as usual. Calm. Not threatening. And the archivist knew from that gaze that the question was wrong.
+As the calm gaze reached him, the archivist knew that his question itself had been wrong.
 
 “The question is wrong.”
 
@@ -3593,7 +3271,7 @@ The records hall went quiet again. Nothing had changed. The archivists each cont
 
 That person picked up a document again. This time a different one. This time one that had not been requested. One drawn out directly. From somewhere in the records hall, from a position known without any marking.
 
-Before taking it out, he bound the document he had been reading with black cord. The cord was thin; the motion, practiced. He tied the knot—then his hand went still. He untied it and bound the document again. The archivists sometimes saw him do this. They never asked why. Kangwi himself had never explained. Binding meant closing; unbinding meant checking. A hand that checked once more before it closed. Thirty years had made that motion.
+He bound the document he had been reading with black cord, untied it once to check, and bound it again. A motion of the hand, repeated before closing, for thirty years.
 
 One archivist saw it.
 
@@ -3607,7 +3285,7 @@ He opened the material.
 
 Echo Sites. The script patterns.
 
-In the records were the time of discovery, the locations, the analysis results. In the analysis field — undecipherable, it said. Hwagam had attempted it. Eidos had observed it. Altair had calculated it. All undecipherable.
+Below the time and place of discovery, the analyses of all three houses ended the same way: *undecipherable.*
 
 The last field.
 
@@ -3619,13 +3297,13 @@ Below it.
 
 Kangwi looked at the field.
 
-Hold meant still recording. At Geumhwi, hold was not abandonment. When more information accumulated, it would be drawn out again.
+For Geumhwi, hold meant not closing until more information had accumulated.
 
 An archivist was beside him.
 
 “A report concerning R-02 has also come up.”
 
-A different archivist. The older one. Not fearless so much as — accustomed. The way of one who had worked near Kangwi a long time. Handing over the document, he waited a moment. As if he wanted to say something more.
+The long-serving archivist handed over the document and waited.
 
 Kangwi took the document.
 
@@ -3677,11 +3355,11 @@ The next field.
 
 Kangwi looked at the field.
 
-It was old. The making of this material was old. From before the present house system was established. Even then, someone had recorded this. And processed it as disposed.
+It was material someone had recorded and disposed of, before the present house system existed.
 
 Kangwi turned to the next page.
 
-The next page was blank. There was no content. Not that there was no content — the content had been erased. There were traces. The place of something that had been there and been deleted.
+The next page held only the traces of deleted content.
 
 “It was not disposed of.”
 
@@ -3717,19 +3395,11 @@ The records hall was quiet.
 
 Kangwi returned to his place. Sat at the table. The document he had been reading was there. He picked it up again.
 
-Hwagam executes. Eidos observes. Altair calculates.
-
-Geumhwi keeps.
-
-Execution ends. Observation ends too. Calculation ends too. Only the record remains.
-
-To keep was not to lose. Disposed did not mean gone. Ended did not mean closed. As long as the record existed, it could return. As long as the record existed, it could be seen again. That was Geumhwi. That was the reason Kangwi held this seat.
-
-There was an hour when the light changed. When morning crossed into evening. The light that had been white tilted slowly to orange. The color of the walls changed, and the shadows lengthened. ARIA liked that hour. No one asked why.
+Even after execution, observation, and calculation ended, Geumhwi's record remained. That was why even a disposed document had come back.
 
 Observer. Sector 7. Echo Sites. R-02. Dohee. Hangyeol. ARIA. Claire. Min Siwoo.
 
-Names Kangwi knew. Things that had repeated many times inside the records. Where they were now did not matter. Where they would appear again mattered. What was left in the records did not disappear. Someday it appeared again. It always had.
+Names that had repeated within the records. What mattered was not how many times they appeared, but where they appeared again.
 
 An archivist brought yet another document.
 
@@ -3741,9 +3411,7 @@ The archivist set it down and withdrew.
 
 Kangwi closed the record.
 
-Someone thinks it has disappeared. Someone thinks it has ended.
-
-The record does not think so.
+Beneath the black cord, names once disposed of became active records again.
 
 -----
 
@@ -3767,7 +3435,7 @@ The subordinate stopped. Muyul did not stop.
 
 They moved.
 
-Geumhwi’s way of moving was unlike Hwagam’s. Hwagam moved leaving marks — zone markers, checkpoints, reporting routes. Muyul did not. When there was a destination, he moved. He left no marks along the way.
+Unlike Hwagam, Muyul left no zone markers or checkpoints; he simply went to the destination.
 
 The subordinate asked, following:
 
@@ -3799,13 +3467,11 @@ Muyul went inside the structure. The subordinate watched the outside. He did not
 
 Inside the structure it was quiet. Muyul looked at the wall.
 
-There was script. Scratched marks. Muyul did not calculate them or analyze them. Nor did he look long. Confirming did not take long.
-
-Looking long was the Eidos way. Calculating was the Altair way. Muyul did neither. What Muyul did was one thing — confirming what was not there. If what should be there was not, it had been erased. If something had been erased, someone had erased it. That was all.
+There was no need to look long at the scratched marks, or calculate them. Only the place where something should have been was different.
 
 He looked at what was not there.
 
-The place where it should have been. The place among the other characters where something should have been and was not. The surface was different — handled more recently than the other marks. It had been erased.
+The bare surface among the other characters had been handled more recently than the rest.
 
 “Erased, then.”
 
@@ -3821,7 +3487,7 @@ Even looking at the erased place, the subordinate could not tell.
 
 “There are traces.”
 
-The subordinate tried to understand what the words meant. Muyul did not seem likely to explain. He never had. The subordinate gave up and looked at the wall. He saw nothing there.
+To the subordinate, it still looked like a wall with nothing there.
 
 Muyul left the structure.
 
@@ -3843,21 +3509,17 @@ Muyul heard it.
 
 “There are no grounds.”
 
-The team leader leafed through the field record again.
-
 “It concerns the Observer. It is in the records too. Could that not serve as grounds?”
 
 “And.”
 
-The team leader looked at Muyul. What the word and meant — execute if there are grounds, or so what of it — he could not tell.
+The team leader looked at Muyul.
 
 “Does it serve as grounds for execution?”
 
 “No.”
 
 “Why not?”
-
-Muyul looked at the team leader.
 
 “The record tells us the Observer was here. It does not tell us what the Observer did. If we do not know what was done, there are no grounds for execution.”
 
@@ -3871,13 +3533,13 @@ The team leader stopped.
 
 Muyul began moving again.
 
-The team leader started to say something and stopped. In the end he said nothing. There was nothing to do but follow.
+The team leader closed his notebook and followed.
 
 -----
 
 At night, Muyul wrote the report.
 
-There was a format. The Geumhwi execution report form. There were fields — destination, movement route, on-site confirmations, execution status.
+The Geumhwi execution report form had destination, route, on-site confirmations, execution status.
 
 The execution status field.
 
@@ -3889,7 +3551,7 @@ Registered items.
 
 Observer. ARIA. Echo Sites. R-02. Dohee.
 
-Muyul confirmed each item. They were existing ones. Kangwi knew them, and they were in the records hall.
+They were fields already in the existing records.
 
 The next.
 
@@ -3917,15 +3579,11 @@ A moment.
 
 “Not yet.”
 
-He did not write it. He left the classification cell empty. The same way as a field without grounds for execution. Not filling was Muyul’s way. If it cannot be filled, do not fill it. If unknown, leave it as unknown.
+Muyul left the classification cell empty.
 
 He closed the report.
 
-Tomorrow it would go up to Kangwi. Kangwi would already know. That Muyul had been here, and what he had seen on site. He would send it up anyway. Records do not exist for those who know. They exist so that those who do not know may someday know.
-
-Geumhwi keeps.
-
-Muyul was the one who executed that.
+Even if Kangwi already knew, tomorrow's report would still go up. So that someone who did not yet know might someday read it.
 
 -----
 
@@ -4080,7 +3738,7 @@ The Observer was already far. Had moved. To somewhere not visible from here.
 
 Tiko looked at the gap between the two sets of traces.
 
-The Observer was receding. Min Siwoo was narrowing. Over the same subject, two people were going in different directions.
+The Observer was receding. Min Siwoo was closing that distance. Over the same subject, two people were going in different directions.
 
 Tiko went to the place where Min Siwoo had stood for a long time. The place where the footprints had pressed in. He looked in the direction the Observer had looked from there. The direction where the Observer would have been.
 
@@ -4271,8 +3929,6 @@ A convergence point.
 Claire wrote the entry.
 
 *Variable count increasing. Convergence point found. Convergence point identity unknown. Who is being led unknown.*
-
-Subjects that had never moved the same direction were pointing, for the first time, at a single spot. Dohee, Hangyeol, ARIA, the Observer. Every trace Claire had followed for days converged on the same place.
 
 That a convergence point existed. That was all Claire could do for now.
 
@@ -4529,9 +4185,7 @@ That person looked ahead.
 
 There was a further inside.
 
-Dohee watched the way that person stopped. They were not taking a bearing. They held their gaze on one place. For the first time — the first time Dohee had ever seen it happen — that person looked for a long while. Not to reach a judgment, but for the act of looking itself.
-
-For Dohee it was a first. For that person, it seemed to be a first too.
+That person held their gaze on one place. Unlike taking a bearing, or handling a marking. Not reaching a conclusion—simply looking.
 
 -----
 
@@ -4567,11 +4221,9 @@ Hangyeol watched the surroundings. There was nothing dangerous. Not yet.
 
 -----
 
-Claire arrived.
+Claire moved without stopping the calculation. She kept narrowing the route to the convergence point. Down to the last several dozen meters, there was conviction. Not 91 percent. 97 percent. A number Julius, in the end, had never granted.
 
-She had moved without stopping the calculation. Calculated while moving. Kept narrowing the route to the convergence point. For the last several dozen meters there was conviction. Not 91 percent. 97. The number Julius had spoken of.
-
-And she arrived.
+She stopped before the convergence point.
 
 She stopped.
 
@@ -4718,7 +4370,7 @@ Kangwi’s order came. It was short.
 
 *Secure order.*
 
-That was all. Two words. For Muyul, it was enough.
+That was all. For Muyul, it was enough.
 
 It was not the execution Hwagam did. Not the observation Eidos did. Not the calculation Altair did. What Muyul did was different. It was making boundaries. Dividing the space where people could move from the space where they could not.
 
@@ -4756,39 +4408,9 @@ The subordinate said no more.
 
 -----
 
-While the boundary was being built, they met a Hwagam advance unit.
+While the boundary was being built, a report came in: a Hwagam advance unit was approaching from the same direction.
 
-It was not unexpected. Deploying the boundary, Muyul had known Hwagam was moving the same direction.
-
-One of the Hwagam advance unit said:
-
-“Step aside. Execution in progress.”
-
-A Geumhwi subordinate said:
-
-“There are no grounds.”
-
-“It is the Observer pursuit. There are grounds.”
-
-“Has it been confirmed what the Observer did?”
-
-Hwagam stopped.
-
-“It is not what was done. The problem is where they are.”
-
-“Where they are is not grounds. What was done is grounds.”
-
-Hwagam came forward. The Geumhwi subordinate did not step back. Hwagam tried to pass. Geumhwi blocked.
-
-It was a brief contact. Hwagam stepped back. Geumhwi stepped back too. That was all. No weapons came out. There were no injuries.
-
-Hwagam said:
-
-“This becomes a problem later.”
-
-“We will record it.”
-
-Muyul was briefed on the situation.
+Muyul did not change the deployment.
 
 “Continue.”
 
@@ -4820,7 +4442,7 @@ ARIA waited for sensation to return to her palm.
 
 “It responds.”
 
-The moment the words ended, a small sound came from somewhere in the wall. A sound like stone moving. Everyone looked that way at once.
+The moment the words ended, a small sound came from somewhere in the wall. A sound like stone moving. Hangyeol and Dohee looked that way at once.
 
 Nothing happened.
 
@@ -4832,9 +4454,9 @@ Still nothing. Quiet. Hangyeol closed his hand. It was strange. Something seemed
 
 That person looked toward the wall.
 
-A long time. They looked as if they already knew. And then looked once more. It was confirming. They were confirming something.
+The gaze lingered long. Looking as if they already knew, and confirming once more all the same.
 
-For the first time, Dohee felt that that person was not certain. Knowing, and having to confirm. There were cases where knowing and confirming were different.
+To Dohee, it looked like someone who seemed to know, and confirmed again regardless.
 
 Dohee looked at them.
 
@@ -4854,7 +4476,7 @@ What would come next — that person said no more. Dohee asked no more. Hangyeol
 
 -----
 
-Kangwi spoke in the records hall.
+Kangwi opened the comm in the records hall.
 
 “The ones who move can be seen.”
 
@@ -4866,11 +4488,11 @@ Kangwi looked at the archivist.
 
 “Not yet.”
 
-And he said:
+And spoke into the field channel.
 
 “Begin the boundary records.”
 
-Muyul answered.
+Muyul, at the boundary, answered.
 
 “Yes.”
 
@@ -4884,17 +4506,15 @@ This time it was not a hold. The black sealing cord lay over the records. Still 
 
 The figures came up again.
 
-Gadeung opened the report. The past three weeks of data. The tally of anomalous figures by zone. Each sat within the margin of error. By the manual’s standard, figures requiring no handling.
+Gadeung opened the day's report. The tally of anomalous figures by zone. Each sat within the margin of error. By the manual's standard, none required handling.
 
-But summed, it was different.
+Summed, it was different. There was a faint deviation, rising at the same hours, at the same intervals.
 
-Gadeung looked at it for a long time. He had seen it before. This pattern. Each normal, and the sum abnormal. Before 7-7-4, too, there had been this pattern. Then, Dohee had found it first.
+Gadeung opened Dohee's report from days before again. A document submitted as no anomaly. Except the deviations within normal range had been set apart, each marked with the note *tracking required.*
 
 7-7-4.
 
-Gadeung pulled the file out again. The old one. The one Dohee had made. Not through official channels. It had been stored on a personal terminal, then later transferred to the Hwagam archive. There was a reason for the transfer — because Dohee, in the end, had been right.
-
-And at first, it had been within the margin of error.
+Gadeung requested a viewing copy of the personal terminal seized by the Inspectorate. `7-7-4_observation_log`. Not an old archive—evidence in the audit now underway. There was no conclusion. Instead, there were figures and timestamps from several days before today’s report.
 
 -----
 
@@ -4904,13 +4524,17 @@ The new appointee sent up a report.
 
 Gadeung looked at him.
 
-“Dohee said that too.”
+“Dohee's report said that too.”
 
 The new appointee stopped.
 
 “Sir?”
 
-“And three months later there was an incident.”
+“But there was something missing from your report.”
+
+“What do you mean?”
+
+“The deviation you couldn't explain.”
 
 The new appointee swallowed the words *within normal range*.
 
@@ -4962,9 +4586,9 @@ Gadeung did not answer.
 
 “What record?”
 
-“The 7-7-4 pattern is repeating. It was the same form before.”
+“The seized 7-7-4 record and today's tally point to the same interval.”
 
-The superior delayed their answer, as though recalling an earlier record.
+The superior delayed their answer, as though recalling the audit material.
 
 “That time, Dohee found it.”
 
@@ -4974,11 +4598,11 @@ The superior delayed their answer, as though recalling an earlier record.
 
 “That is correct.”
 
-“Is the pattern returning a statement that Dohee was right?”
+“Then are you saying Dohee was right?”
 
 Gadeung heard the question. It could not be answered easily.
 
-“Whether Dohee was right is still too early to judge,” Gadeung said. “But that Dohee saw it first, from outside the rules, is fact. Now I am seeing the same thing from inside the rules.”
+“Whether she was right, I can't judge yet,” Gadeung said. “But that Dohee saw first what we've gathered today—that is fact.”
 
 The superior looked at Gadeung.
 
@@ -4992,19 +4616,11 @@ The superior said no more. The closing order was not rescinded. But no further o
 
 Gadeung looked at the file alone.
 
-That the quality of Hwagam’s reports had changed since Dohee’s dismissal — Gadeung knew it. Changed did not mean worsened. The format had grown more exact. Manual compliance had risen.
+Since Dohee's dismissal, the format of Hwagam's reports had grown more exact. Manual compliance had risen too. Only the one who set inexplicable deviations aside as a separate entry was gone.
 
-But this pattern Gadeung had found — would he have found it without Dohee.
+Gadeung laid the seized copy beside the day's tally. Dohee's record had been made outside the rules, and it had gone into the grounds for her dismissal. Without it, today's figures would each have closed as normal on their own.
 
-It was Dohee who first discovered 7-7-4. After Dohee’s dismissal, the same pattern recurred, and no one found it first. Gadeung had found it now. Because the 7-7-4 file was in the archive and could be compared.
-
-Dohee’s record had helped Gadeung.
-
-Gadeung thought about it. Dohee had broken the rules. Had been dismissed. And what Dohee left behind was doing the work now.
-
-What was left from outside the rules.
-
-Gadeung took out the notebook. The black notebook. The one for recording the things that were not official reports. 7-7-4 pattern recurrence. Summed abnormality. Upper-level closing order. Gadeung continuing independently.
+Gadeung took out the black notebook. The one for writing what could not yet go into an official report. 7-7-4 record matches day's tally. Sum abnormal. Upper-level closing order. Gadeung continuing independently.
 
 Having written it, he opened the report again. The entries concerning Sector 7. Personnel concentration increasing. Hwagam, Eidos, Altair, Geumhwi. Each in the same direction for different reasons.
 
@@ -5012,11 +4628,11 @@ Probability of collision rising.
 
 He wrote it.
 
-“What Dohee saw has come again.”
+“What Dohee saw first, I have now confirmed.”
 
 And one line more.
 
-“This time, I see it from inside the rules.”
+“This time, I leave it inside the rules.”
 
 And one line more.
 
@@ -5047,11 +4663,11 @@ So she closed it. That reading without understanding and closing without underst
 
 The Hwagam advance unit reached the boundary.
 
-Twelve of them. Hwagam’s manner of moving was always the same — a straight line. With a target, they took the fastest route. They did not detour. Hwagam’s execution arts were designed that way. Fast, linear, specialized for arrest.
+Twelve of them came by the fastest, straight-line route. Hwagam's way, specialized for arrest.
 
 The advance leader stood at the front.
 
-A Geumhwi boundary squad was blocking the way. Not blocking — standing. They held no weapons. Took no stances. They were simply in their places.
+The Geumhwi boundary squad stood in the road, without weapons, without stances.
 
 “Step aside.”
 
@@ -5065,7 +4681,7 @@ One of the Geumhwi boundary squad said.
 
 “The grounds for execution.”
 
-The advance leader stopped. To Hwagam, execution was an order. When the upper ranks ordered execution, you executed. Asking for grounds was not the Hwagam way. And Geumhwi kept asking for grounds.
+Hwagam never questioned the grounds behind a superior's execution order.
 
 “It is the Observer pursuit. Entry into Sector 7 confirmed. That is sufficient.”
 
@@ -5083,21 +4699,21 @@ The advance leader listened no further.
 
 Hwagam moved.
 
-Fast. Twelve moved at once. Not in different directions — the same direction. They concentrated on one member of the boundary squad. The Hwagam way. Punching through one point fast. Making a weak point, and passing everyone through it.
+The twelve moved at once toward a single member of the boundary squad. A way of punching through one point and passing everyone through it.
 
 The Geumhwi boundary squad stepped back.
 
-They did not block. They stepped back. Hwagam went in through the gap. They succeeded in entering — so it looked.
+As the boundary squad stepped back, Hwagam went in through the open gap.
 
 But the place they entered was closed.
 
-Two of the Geumhwi boundary squad were already in that place. It was not the place Hwagam had punched into — Geumhwi had sent Hwagam to that place. By controlling the direction of the stepping-back, they had made Hwagam go not where Hwagam wanted but where Geumhwi meant to send them.
+But inside, two other boundary squad members waited. Even the direction of the retreat had been a passage Geumhwi chose.
 
 The advance leader realized it.
 
 “They are building a boundary.”
 
-Geumhwi did not block Hwagam. It decided where Hwagam could go and where it could not. Narrowing the passages, restricting the directions, in the end shrinking the very space in which Hwagam could move.
+Geumhwi narrowed the passages and the directions, shrinking the space in which Hwagam could move.
 
 The advance leader ordered again.
 
@@ -5111,21 +4727,19 @@ They did not block.
 
 One of the boundary squad said.
 
-In that moment, the Geumhwi boundary squad moved to predetermined positions. The six directions Hwagam had scattered into — where those directions finally met, Geumhwi knew. Hwagam had not scattered. They had scattered into the six directions Geumhwi had predicted. At the meeting point, Geumhwi was there.
+The boundary squad moved first to the point where the six directions would meet again.
 
 Six of Hwagam gathered at the same place. They had scattered, and gathered.
 
 The advance leader stopped.
 
-Then — two of the boundary squad were subdued at once.
-
-It was not the advance leader. Two of Hwagam who had been behind moved simultaneously. A direction Geumhwi had not predicted. Two of the boundary squad were taken. For the first time, Geumhwi departed from its plan.
+Two of Hwagam who had been behind moved at an angle unforeseen, and subdued two of the boundary squad at once.
 
 Through that gap, three of Hwagam punched in.
 
 Muyul saw it.
 
-“One minute.”
+“Fall back to the inner boundary.”
 
 The subordinate went rigid.
 
@@ -5133,19 +4747,19 @@ The subordinate went rigid.
 
 There was a brief engagement.
 
-Hwagam attempted a forced breakthrough. They collided directly with the Geumhwi boundary squad. Hwagam’s execution arts were specialized for subdual — neutralizing an opponent fast and arresting them. One of the Geumhwi boundary squad was taken. Subdued.
+Hwagam's forced breakthrough subdued one of the boundary squad.
 
 But the taken squad member did not resist.
 
-Being taken, he shifted position. Not taken — he had drawn Hwagam in along the direction of the taking. While Hwagam concentrated on subduing him, the other squad members closed Hwagam’s line of retreat.
+As the captured squad member shifted his body to draw Hwagam in, the other squad members closed off the retreat.
 
 A gun fired. One round. A warning. Fired upward.
 
 A window broke. One in the structure’s outer wall. Fragments fell.
 
-One of Hwagam was struck by a fragment. Near the eye. He put a hand to his face. The hand was red. It was not severe — the fragment had grazed. He had not lost his sight. But the feeling of something caught in his field of vision persisted.
+A fragment grazed one of Hwagam's brow. Blood came to his hand, but his sight remained. No new scar was left.
 
-It was Seoan. The youngest of the Hwagam enforcement detail.
+It was Seoan.
 
 “Are you all right?”
 
@@ -5155,13 +4769,11 @@ Another of Hwagam asked.
 
 Seoan said. He lowered his hand. He kept his place.
 
-One of the Geumhwi boundary squad was scratched on the arm. That was all. No one died. No one was badly hurt. A fragment grazed Seoan’s brow as well. No new scar was left.
-
-Not one of the Geumhwi boundary squad used a lethal weapon. Neither did Hwagam. Every house had the same rule — killing without authorization was forbidden. There was no order to kill. Subdue, isolate, neutralize, arrest. That was all.
+One of the boundary squad had his arm scratched too. Neither side had orders to kill; both attempted only subdual and arrest, and no one was gravely hurt.
 
 The advance leader took in the situation.
 
-All twelve of Hwagam were inside a controlled space. They could move — and there was nowhere to move. It was not that Geumhwi had sealed the whole space. They had known in advance every direction Hwagam would try, and stood at the end of each.
+The twelve could move—but wherever they turned, Geumhwi already stood there first.
 
 “Is this the Geumhwi way?”
 
@@ -5189,7 +4801,7 @@ Muyul looked at the subordinate.
 
 “Kangwi recorded it yesterday.”
 
-The subordinate heard it. Yesterday. Hwagam had entered today, and Kangwi had recorded this yesterday. That Hwagam would come, from which direction it would come — Kangwi had known in advance.
+Today's entry, Kangwi had recorded yesterday.
 
 “Two minutes.”
 
@@ -5205,9 +4817,7 @@ The subordinate stopped.
 
 “We are recording.”
 
-Muyul looked at the boundary. Hwagam was inside the controlled space. He did not execute. There were as yet no grounds for execution. He did not block. There was no reason to block. He was simply recording what Hwagam did.
-
-Once he knew what Hwagam meant to do, that became grounds for execution. Until then, it was recording.
+Muyul watched Hwagam inside the controlled space. Until an intent not yet revealed became grounds for execution, there was only recording.
 
 “Keep recording.”
 
@@ -5235,13 +4845,9 @@ That person listened to the sounds outside.
 
 They said it low. Dohee looked at them. Faster than whom, faster than what — Dohee did not ask.
 
-Hangyeol closed his hand. He might have to fight. Until now, Hangyeol had run. This time there was nowhere to run. ARIA was inside. He had to protect ARIA.
+Hangyeol closed his hand. With nowhere to run, ARIA was inside.
 
-But the sounds outside did not come closer.
-
-The engagement was not coming toward the Echo Core. It was happening elsewhere. Someone over there was holding Hwagam. Keeping them from reaching the Echo Core.
-
-Hangyeol did not know who it was. Thinking it fortunate — he also thought it strange.
+But the engagement stayed held elsewhere, and did not come closer to the Core.
 
 -----
 
@@ -5271,7 +4877,7 @@ ARIA traced the grain of the mark with her fingertips.
 
 “It’s a record.”
 
-The moment ARIA said it — a sound came from the wall. A vibration. Something seemed to move inside the structure. Beginning from the part ARIA’s hand touched, the three kinds of characters trembled at once. It was not light. It was movement. The carved things seemed to shift slightly in their places.
+As ARIA spoke, the three kinds of markings trembled together, starting from where her hand touched. Not light—the movement of the carved things themselves.
 
 Everyone looked that way at once.
 
@@ -5281,9 +4887,7 @@ ARIA did not take her hand away.
 
 Dohee looked at the wall again.
 
-Not script but record. Not written but remained. Something happened, and it was carved here.
-
-Dohee thought of the Logbook. It was in the pack. The first sentence of the second page, read and not understood. That Logbook and this wall — could be the same thing.
+Not a written sentence but a record an event had left behind. Dohee thought of the second page of the Logbook in her pack.
 
 Dohee had the thought, and did not yet say it.
 
@@ -5291,7 +4895,7 @@ Dohee had the thought, and did not yet say it.
 
 The engagement ended.
 
-The Hwagam advance unit withdrew. Having confirmed they could not get out of the controlled space, they stopped forcing it. Geumhwi did not pursue. Did not take them. It recorded Hwagam withdrawing.
+Having confirmed there was no way out, the Hwagam advance unit stopped forcing it. Geumhwi did not pursue.
 
 The advance leader said, last:
 
@@ -5301,9 +4905,7 @@ The advance leader said, last:
 
 Hwagam left.
 
-The Geumhwi boundary squad kept their places. They had not blocked, not taken, not killed. They had recorded everything Hwagam had tried to do. That was all Geumhwi had done.
-
-And it had been enough.
+The boundary squad held their places and recorded what Hwagam had tried.
 
 Muyul started to close the records.
 
@@ -5315,7 +4917,7 @@ A sound heard for the first time. A sound like stone moving. It seemed to come f
 
 Muyul raised his head.
 
-There was no agitation in the expression. Only the verdict of lateness. Geumhwi’s time was the time of events, and the event had already passed.
+In the expression remained only the verdict of an event already past, confirmed.
 
 “Too late, then.”
 
@@ -5327,7 +4929,7 @@ There was no agitation in the expression. Only the verdict of lateness. Geumhwi�
 
 The sound came first.
 
-From the wall ARIA’s hand touched. A vibration. It could be felt through the soles of the feet. The floor seemed to move. It was not moving — the structure itself was responding.
+The vibration from the wall ARIA touched rose up through the soles of their feet. The structure itself was responding.
 
 Hangyeol moved in front of ARIA.
 
@@ -5345,11 +4947,11 @@ ARIA said. She said it as if certain. But hearing it, Hangyeol could not tell �
 
 The vibration grew.
 
-From somewhere inside the structure came the sound of stone moving. Not loud. The sound of something changing its place. The sound of a thing long fixed moving for the first time.
+From inside came the sound of a long-fixed stone changing its place.
 
 And one part of the wall changed.
 
-The wall did not vanish. A part of the wall became different. A space opened, leading inward. It was not newly made — what had been there from the start had opened. A place that had been closed had opened.
+As part of the wall shifted, a passage that had been there from the start came into view.
 
 Dohee saw it.
 
@@ -5357,7 +4959,7 @@ Dohee saw it.
 
 ARIA stopped.
 
-After the wall responded, ARIA took her hand away. Took it away, and did not step back. She looked at the opened space. The newly opened side.
+ARIA took her hand away, and without stepping back, looked at the opened space.
 
 She said nothing.
 
@@ -5369,7 +4971,7 @@ Hangyeol stood beside her.
 
 “Do you think you know?”
 
-ARIA waited for the words rising within her. Ordinarily, what came out would have been *I don’t know*, or *I think I know*, or *I just know*. One of the three. This time was different.
+ARIA waited for the words rising within her.
 
 “I’m scared.”
 
@@ -5393,15 +4995,13 @@ ARIA looked at him.
 
 “Because we can check together.”
 
-Hangyeol looked toward the opened space. Whatever it was, it seemed they had to go in. This was not the place to stop. Even if ARIA was scared, even if the direction wavered — what could be done now had to be done.
+Hangyeol looked at the opened space.
 
 “Do we go in?”
 
 ARIA looked at the opened space.
 
-She was scared. There was something she half knew and could not know. That she could be wrong — she felt it for the first time.
-
-Still, she nodded.
+ARIA nodded, fear held inside her.
 
 “Yes.”
 
@@ -5409,21 +5009,17 @@ Still, she nodded.
 
 Dohee took out the Logbook.
 
-It was now. It was this place. She had read the first sentence of the second page and not understood it. Had closed it without understanding. And had come to this place.
+She had to read it again, here, in this place.
 
 She opened it.
 
-The second page. Its first sentence. One she had read once. One she had not understood.
+The first sentence of the second page came into view.
 
 She read it again.
 
 *We leave records. Not in order to remember. Because it repeats.*
 
-Dohee read it.
-
-Repetition. Not memory — repetition. Not recording in order to remember, but recording because it repeats. Dohee looked at it for a long time.
-
-What was it that repeats. That this question repeats. That this situation repeats. That this place repeats. That it has been recorded many times — that the same thing has happened many times.
+Not memory—repetition. Which of them recurred—the question, the situation, the place—she could not tell.
 
 She looked at the next sentence.
 
@@ -5431,19 +5027,13 @@ She looked at the next sentence.
 
 Dohee stopped.
 
-When you come next. The one who comes next. This Logbook had been written for someone who would come next. Dohee was that next person.
-
-Before her, too, this place had been here. This structure had been here. This Logbook had been here. And someone came. And recorded. And Dohee came.
-
-It was repetition.
+The Logbook had been written toward whoever came next. Now, in that place, stood Dohee.
 
 Dohee did not close the Logbook.
 
 -----
 
-That person was beside Dohee.
-
-They did not look at the Logbook with her. They looked at the structure’s interior. Looked at the opened space. Looked long.
+That person looked long, not at the Logbook, but at the opened space.
 
 Dohee said:
 
@@ -5457,25 +5047,19 @@ The person’s gaze rested on the open space.
 
 “This time too.”
 
-Dohee heard it. This time too. That there had been times other than this one. That at this same place, before, the same words had been said.
+*This time too.* There had been other times.
 
 “Have you come here before?”
 
 That person did not answer.
 
-Dohee looked at the Logbook. *If you see this when you come next, that is the proof that the repetition has occurred.*
-
-If that person had come before — they would have seen this Logbook. Or they would have been the one who left it.
-
-Dohee did not say it. Did not ask. Not now.
+Dohee retraced the Logbook's sentence, but did not ask whether that person had read it, or left it.
 
 “What happens next?”
 
 That person looked at the opened space.
 
 “I don’t know.”
-
-Dohee heard it.
 
 “Do you think this time will be different?”
 
@@ -5501,23 +5085,19 @@ Muyul looked that way. The structure’s outer wall had become different. The pl
 
 Eidos came.
 
-It was Tiko. He came from far off and said nothing. He looked at the structure. Looked long. It was observing.
+Tiko observed the structure long, without a word.
 
-Altair came.
-
-It was Claire. The moment Claire arrived she took out the calculator. She tried to quantify the change in the structure’s outer wall. No figures came out. Claire stopped.
+Claire, who had been examining the outer wall, came toward Muyul too. She had tried to calculate the change; when no figures came out, she stopped.
 
 From the Eidos direction, one more came.
 
-It was Min Siwoo. He held the Observer’s lens. He looked at the structure. Looked from far off. Did not go near. Wanting to go near, and not going.
+Min Siwoo, holding the Observer's lens, looked at the structure from a distance.
 
-He raised the lens. The cracked one. The one that could not be seen through.
-
-But this time, for a moment, something seemed to come into view. The structure’s interior. He could not be certain. It might have been the eye’s illusion. He held it up anyway.
+Through the cracked lens, the interior seemed to flicker into view for a moment, but he could not be certain.
 
 Four camps stood before the same structure. None could enter.
 
-Muyul maintained the boundary. There were no grounds for execution. What the structure was could not yet be known. Not knowing, he did not execute.
+With no grounds for execution, Muyul held only the boundary.
 
 Tiko stood beside Muyul.
 
@@ -5533,21 +5113,19 @@ Tiko looked at the structure.
 
 “Then it isn’t observation either.”
 
-Muyul looked at Tiko. Eidos admitting that observation was impossible — it was the first time Muyul had heard such words.
-
-Tiko had not said it to Muyul. He had simply said it.
+Words admitting that Eidos could not observe. Tiko said them looking at the structure, not at Muyul.
 
 -----
 
 Inside the Echo Core, the wall moved.
 
-It was not that a door opened. What had not originally been a door — began to look like one.
+The wall that had not been a door began to look like a passage.
 
 ARIA walked toward it.
 
-Hangyeol followed. Whatever it was. Wherever it led.
+Hangyeol followed without knowing the destination.
 
-Dohee put the Logbook in the pack. There was still no answer. One more question had formed. That was enough.
+Dohee put the Logbook back in the pack, carrying a new question instead of an answer.
 
 That person went ahead.
 
@@ -5555,9 +5133,8 @@ The four moved. Four sets of footsteps gathered into one direction. It was not t
 
 -----
 
------
+In the records hall, Kangwi laid a hand on the status board.
 
-*Opening: Kangwi placed his hand on the board*
-*Closing: the Echo Core responded*
+A new entry came in. Echo Core responded.
 
 -----

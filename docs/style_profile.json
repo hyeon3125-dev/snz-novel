@@ -1,0 +1,21 @@
+{
+  "schema": "scalar.style-profile.v1",
+  "language": "ko",
+  "patterns": [
+    {"id": "negative-ji-anatta", "label": "지 않았다", "literal": "지 않았다"},
+    {"id": "correction-not-but", "label": "가 아니라", "literal": "가 아니라"},
+    {"id": "negative-instead", "label": "않았다. 대신", "literal": "않았다. 대신"},
+    {"id": "hangyeol-heard-it", "label": "한결이 그것을 들었다", "literal": "한결이 그것을 들었다"},
+    {"id": "hangyeol-looked-aria", "label": "한결이 ARIA를 봤다", "literal": "한결이 ARIA를 봤다"},
+    {"id": "aria-said", "label": "ARIA가 말했다", "literal": "ARIA가 말했다"},
+    {"id": "record", "label": "기록", "literal": "기록"},
+    {"id": "confirmed", "label": "확인", "literal": "확인"},
+    {"id": "saw", "label": "봤다", "literal": "봤다"},
+    {"id": "heard", "label": "들었다", "literal": "들었다"},
+    {"id": "was-thing", "label": "것이었다", "literal": "것이었다"},
+    {"id": "left-behind", "label": "남겼다", "literal": "남겼다"},
+    {"id": "hangyeol-topic", "label": "한결은", "literal": "한결은"},
+    {"id": "hangyeol-subject", "label": "한결이", "literal": "한결이"},
+    {"id": "aria-subject", "label": "ARIA가", "literal": "ARIA가"}
+  ]
+}

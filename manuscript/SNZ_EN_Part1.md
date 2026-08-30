@@ -196,7 +196,7 @@ The form she had made yesterday afternoon held twelve fields, eleven of them fil
 
 Sector 7, northeast.
 
-She set the cursor on that line. Copy the routine result, type the three words — no anomaly — and it was done.
+She set the cursor on that line. Copy the routine result, enter *no anomaly*, and it was done.
 
 Dohee began her second sweep.
 
@@ -2055,7 +2055,7 @@ For the first time, Hangyeol had seen the danger before Dohee. Dohee knew the ho
 
 “Nowhere,” Hangyeol said. “Move, and the grid catches us. Right now, not moving is moving.”
 
-The search team’s footsteps neared, receded, and the grid passed over the empty shelter. The three did not move, and ARIA’s form did not waver. For the first time, ARIA was completely still.
+The search team’s footsteps neared, receded, and the grid passed over the empty shelter. The three did not move, and ARIA suppressed her wavering until the search team had passed.
 
 The footsteps faded.
 
@@ -2364,7 +2364,7 @@ Dohee stopped. The tool Dohee had was jurisdictional regulation — passing the 
 
 “You are a suspended executor,” the man said. “Not someone to step aside for. Someone to take into custody.”
 
-Dohee had nothing. No authority, no jurisdiction, no position — Dohee faced it head-on for the first time. A place where everything that had made Dohee herself for three years did not operate.
+Dohee had nothing. For the first time, she faced having no authority, no jurisdiction, no position. This was a place where everything that had defined her place for three years ceased to function.
 
 -----
 
@@ -2438,7 +2438,7 @@ Dohee tried to pull it off and it did not come off. The kind that bonded to the 
 
 Dohee took off the coat. It was the unmarked one she had taken from her locker three days ago, leaving behind the coat bearing Hwagam’s seal. She shed it and dropped it, and the marker stayed on the floor with the coat.
 
-Dohee had nothing left. No Hwagam seal, no position, no coat. Having dropped even the coat the marker had fastened to, Dohee felt as if she wore nothing at all. In fact she had clothes on underneath — but the things that had made Dohee herself were all on the floor.
+Dohee had nothing left. No Hwagam seal, no position, no coat. Having discarded even the coat marked by the tracker, she felt as if she wore nothing at all. In fact she had clothes on underneath, but everything that had proved her place remained on the floor.
 
 The pursuing man stopped. With the marker still on the coat, the tracker showed Dohee at that spot, and by the time the man looked down at the coat on the floor, the three were already clearing the passage.
 
@@ -2522,7 +2522,7 @@ The same question. Hangyeol answered again, and after a while ARIA asked once mo
 
 ARIA had not stopped last night. As far as Hangyeol had seen, ARIA’s form had stayed awake through the night. Whether the concept of sleep existed for ARIA, Hangyeol did not know, but until now ARIA went quiet at night. Last night she had not gone quiet. All night something had been flowing into ARIA, and it had not stopped.
 
-“The memories won’t stop,” ARIA said. For the first time, a sentence that was not a question. “When I try to sleep, more comes in. When I try not to sleep, it comes in. I don’t know how to make it stop.”
+“The memories won’t stop,” ARIA said instead of repeating the question. “When I try to sleep, more comes in. When I try not to sleep, it comes in. I don’t know how to make it stop.”
 
 ARIA looked toward Hangyeol.
 
@@ -3013,7 +3013,7 @@ Text appeared on the panel. Dohee read it.
 
 The three looked at the door. The sound of the lock releasing came, but the door did not open. It had only released. Someone, or something, had been authenticated, and the door was now in a state where it could be opened.
 
-Whose authentication it was, Dohee could not tell. Whether Dohee had been authenticated, or Hangyeol, or ARIA. What the facility had checked and what it had passed, the panel did not say. Authentication complete — only those words.
+Whose authentication it was, Dohee could not tell. Whether Dohee had been authenticated, or Hangyeol, or ARIA. What the facility had checked and what it had passed, the panel did not say. *Authentication complete.* That was all.
 
 ARIA’s form, in that moment, briefly stopped. The wavering ceased. Whether the ceasing was stability, or something else, Dohee could not tell.
 
@@ -3488,7 +3488,7 @@ Completed. A word absent from every Cycle record she had seen. Cycles 4, 5, 6 we
 
 What Completed meant, Dohee could not tell. That a cycle had been completed. What had been completed, how it had been completed, whether completion was a good outcome or a bad one. Nothing was written.
 
-But for the first time, there was a record of success.
+But for the first time, there was a record of completion.
 
 Until now Dohee had thought this facility was a record of repeated failure — a place erased and broken with nothing remaining. And there was a Completed. At least once, it had completed. One Cycle had gone to the end.
 
@@ -3650,7 +3650,7 @@ ARIA’s form broke for an instant. Not scattering — like being startled: the 
 
 “There’s another one besides me. It said so.”
 
-ARIA spoke. It was the first time ARIA had spoken first, and it was not a question. It was confirmation.
+ARIA repeated it. This time it was not a question but a confirmation.
 
 “There isn’t,” Hangyeol said.
 

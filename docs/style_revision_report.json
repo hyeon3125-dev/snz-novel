@@ -1,0 +1,334 @@
+{
+  "addressSignals": [],
+  "bodyCharacters": 281996,
+  "candidateCounts": {
+    "adjacent-repetition": 25
+  },
+  "candidates": [
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.733
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.686
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part4.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.679
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.642
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.619
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.612
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part3.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.611
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.606
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part3.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.6
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.596
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.571
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.564
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.561
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.553
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.55
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part4.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.55
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part3.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.545
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.537
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.533
+    },
+    {
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "kind": "adjacent-repetition",
+      "similarity": 0.513
+    }
+  ],
+  "comparison": {
+    "bodyCharacters": [
+      301841,
+      281996
+    ],
+    "dialogueLineRatio": [
+      0.295567,
+      0.301678
+    ],
+    "inputChanged": true,
+    "patterns": {
+      "aria-said": [
+        162,
+        153
+      ],
+      "aria-subject": [
+        780,
+        733
+      ],
+      "confirmed": [
+        257,
+        227
+      ],
+      "correction-not-but": [
+        52,
+        50
+      ],
+      "hangyeol-heard-it": [
+        40,
+        17
+      ],
+      "hangyeol-looked-aria": [
+        46,
+        41
+      ],
+      "hangyeol-subject": [
+        619,
+        555
+      ],
+      "hangyeol-topic": [
+        242,
+        232
+      ],
+      "heard": [
+        269,
+        208
+      ],
+      "left-behind": [
+        8,
+        12
+      ],
+      "negative-instead": [
+        1,
+        1
+      ],
+      "negative-ji-anatta": [
+        853,
+        694
+      ],
+      "record": [
+        909,
+        800
+      ],
+      "saw": [
+        1091,
+        971
+      ],
+      "was-thing": [
+        583,
+        464
+      ]
+    }
+  },
+  "dialogueLineRatio": 0.301678,
+  "files": [
+    {
+      "bodyCharacters": 81927,
+      "dialogueLines": 553,
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part1.md",
+      "paragraphs": 1687,
+      "sentences": 3889,
+      "sha256": "73ef8067e99bb1cbe083ddcd5f2a296b9c5e9ea663f06012d9e2902c378dd3c0"
+    },
+    {
+      "bodyCharacters": 63438,
+      "dialogueLines": 824,
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part2.md",
+      "paragraphs": 2282,
+      "sentences": 3814,
+      "sha256": "e77a1abc44357590afc1a1f62bdb7613f18f9608250be0a11f492790d3e95fac"
+    },
+    {
+      "bodyCharacters": 82657,
+      "dialogueLines": 872,
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part3.md",
+      "paragraphs": 3030,
+      "sentences": 5792,
+      "sha256": "2a90370ed2af4e4fa352c052592fefc51d4c29e18bac45d40a0c54ce32e7f0c6"
+    },
+    {
+      "bodyCharacters": 35101,
+      "dialogueLines": 343,
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part4.md",
+      "paragraphs": 1304,
+      "sentences": 2200,
+      "sha256": "57f146bdc2ed58dae12505d66d77c78a437f838cffe9f2c02cb763c72fc96a30"
+    },
+    {
+      "bodyCharacters": 18873,
+      "dialogueLines": 86,
+      "file": "/Users/iseunghyeon/repos/snz-novel/manuscript/SNZ_KO_Part5.md",
+      "paragraphs": 542,
+      "sentences": 1006,
+      "sha256": "48a8b807161e066ec57624f0a055233c5d7c4b58bceeaaf75677dacf9ca52d2e"
+    }
+  ],
+  "inputSha256": "e7f4a2adee29546198d36ea2f5cb7bd37505cd9c05bf8a1a89d9915f72bf5b8b",
+  "limitations": "Untagged dialogue cannot be attributed to a speaker. Signals are editing candidates, not literary approval or author imitation.",
+  "paragraphLengths": {
+    "count": 8845,
+    "mean": 31.886,
+    "median": 17,
+    "p90": 81
+  },
+  "patterns": [
+    {
+      "count": 694,
+      "id": "negative-ji-anatta",
+      "label": "지 않았다",
+      "literal": "지 않았다"
+    },
+    {
+      "count": 50,
+      "id": "correction-not-but",
+      "label": "가 아니라",
+      "literal": "가 아니라"
+    },
+    {
+      "count": 1,
+      "id": "negative-instead",
+      "label": "않았다. 대신",
+      "literal": "않았다. 대신"
+    },
+    {
+      "count": 17,
+      "id": "hangyeol-heard-it",
+      "label": "한결이 그것을 들었다",
+      "literal": "한결이 그것을 들었다"
+    },
+    {
+      "count": 41,
+      "id": "hangyeol-looked-aria",
+      "label": "한결이 ARIA를 봤다",
+      "literal": "한결이 ARIA를 봤다"
+    },
+    {
+      "count": 153,
+      "id": "aria-said",
+      "label": "ARIA가 말했다",
+      "literal": "ARIA가 말했다"
+    },
+    {
+      "count": 800,
+      "id": "record",
+      "label": "기록",
+      "literal": "기록"
+    },
+    {
+      "count": 227,
+      "id": "confirmed",
+      "label": "확인",
+      "literal": "확인"
+    },
+    {
+      "count": 971,
+      "id": "saw",
+      "label": "봤다",
+      "literal": "봤다"
+    },
+    {
+      "count": 208,
+      "id": "heard",
+      "label": "들었다",
+      "literal": "들었다"
+    },
+    {
+      "count": 464,
+      "id": "was-thing",
+      "label": "것이었다",
+      "literal": "것이었다"
+    },
+    {
+      "count": 12,
+      "id": "left-behind",
+      "label": "남겼다",
+      "literal": "남겼다"
+    },
+    {
+      "count": 232,
+      "id": "hangyeol-topic",
+      "label": "한결은",
+      "literal": "한결은"
+    },
+    {
+      "count": 555,
+      "id": "hangyeol-subject",
+      "label": "한결이",
+      "literal": "한결이"
+    },
+    {
+      "count": 733,
+      "id": "aria-subject",
+      "label": "ARIA가",
+      "literal": "ARIA가"
+    }
+  ],
+  "profileSha256": "8dcd9cc3772cab27c6a7a030e77eed1c9fbcfc2f9476074c3c5784d7cd2f3faf",
+  "reportOnly": true,
+  "schema": "scalar.prose-audit.v1",
+  "sentenceLengths": {
+    "count": 16701,
+    "mean": 15.967,
+    "median": 13,
+    "p90": 30
+  }
+}
